@@ -14,9 +14,10 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
 ## Procedure
 
 1. **Calendar sweep.** For each `gcal_*` MCP, call `gcal_list_events` for the target date (00:00 → 23:59 local). Merge into a single timeline; tag each event with the owning account slug. Collapse duplicate events that appear on multiple calendars (same title + time).
-1b. **Fathom recordings.** Call `mcp__fathom__list_meetings` for meetings in the last 24h. Then **filter to only recordings the user was invited to or attended**: cross-reference each recording's title against the calendar events from step 1 (case-insensitive title match), and also include any recording where `recorded_by.email` is the user's email. Discard recordings that match neither criterion — those are team members' meetings the user wasn't part of. For each surviving recording, classify into two tiers:
-   - **Attended** — `recorded_by.email` is the user's own email, or the user was the recorder. Mark with ★.
-   - **Missed (invited but not present)** — title matches a calendar event the user was invited to, but someone else recorded it. These are **higher priority to review** — surface them first, marked with ⚠️.
+1b. **Fathom recordings.** Call `mcp__fathom__list_meetings` for meetings in the last 24h. Cross-reference each recording's title against the calendar events from step 1 (case-insensitive title match). Discard recordings with no matching calendar event — those are team members' meetings the user wasn't part of. For recordings that do match, use the user's `responseStatus` on the matched calendar event to classify into two tiers:
+   - **⚠️ Missed** — `responseStatus` is `tentative` or `needsAction` (uncertain attendance). Surface these **first**; they are the highest priority to review since the user may not know what was discussed.
+   - **★ Attended** — `responseStatus` is `accepted`. Surface below missed ones.
+   - **Declined** — `responseStatus` is `declined`. Omit entirely — the user opted out intentionally.
    Note title, recorded-by, and a `fathom:<meeting-id>` reference the user can pass to `/capture-meeting`.
 2. **Priority mail.** For each `gmail_*` MCP, `gmail_search_messages` with `is:unread newer_than:2d (is:important OR is:starred OR label:^iim)`. Cap at 5 per account. Capture subject, sender, account slug.
 3. **Slack attention.** For each `slack_*` MCP, search for mentions of the user in the last 24h and list unread DMs. Cap at 5 per workspace.
