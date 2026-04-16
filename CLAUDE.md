@@ -73,6 +73,16 @@ _No Asana workspaces configured yet. Run `./bootstrap/lib/add-asana.sh personal|
 - **Auto-push during nightly triage** is opt-in: if you've set that preference, notes tagged `#asana/*` push without confirmation in scheduled runs.
 - Still confirm before creating Asana tasks for notes without clear tags, or for bulk operations (>5 tasks at once).
 
+### Task link format
+
+Whenever referencing an Asana task by name in a note body or skill output, format it as a markdown link:
+
+```
+[Task Name](https://app.asana.com/0/0/<gid>)
+```
+
+Apply this everywhere a task is mentioned inline — daily-brief overdue lists, daily-review summaries, what-am-i-missing output, weekly-review shipped/started lists, interaction note commitment lines, and any note body that names a task. The GID comes from `asana_gid` frontmatter or the MCP response.
+
 ## 6. Writing assistant guidance
 
 - **Drafting:** match brichards's voice — direct, terse, no filler.
