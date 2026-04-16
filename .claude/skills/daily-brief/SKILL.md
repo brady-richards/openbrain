@@ -31,7 +31,9 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
    - **Overdue in Asana**
    - **People past cadence** (link with `[[wikilinks]]`)
    - **New faces** — unknown humans seen in today's activity, one line each with source context. Omit the section if empty.
-   - A single-line **Focus suggestion** based on the above
+   - A **Focus suggestion** (see below) based on the above
+
+   **Focus suggestion carry-forward:** Before writing the Focus suggestion, read the previous day's daily note (`+ Atlas/Daily/<yesterday>.md`) and extract its Focus suggestion text. For each item mentioned there, check whether it is still unresolved (task still open in Asana, mail/Slack thread still unanswered, etc.). Carry unresolved items forward explicitly, prefixed with `↩` so it's clear they rolled over. New urgent items from today's data come after. Keep the Focus suggestion to 3–5 lines max.
 8. **Update the Today link** in both `Home.md` and `README.md`. Find the line matching `**Today:** [...](<...>)` in each file and replace it with `**Today:** [<date>](<+ Atlas/Daily/<date>.md>)` where `<date>` is the target date. This keeps the GitHub-rendered links current.
 9. Never touch any other section of the daily note. Only the `## Morning brief` section and the Today links in `Home.md`/`README.md` are managed by this skill.
 
