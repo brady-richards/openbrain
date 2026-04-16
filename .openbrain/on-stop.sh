@@ -39,7 +39,7 @@ regen_moc_index() {
         | while IFS= read -r -d '' f; do
             local base
             base="$(basename "$f" .md)"
-            printf -- '- [[%s]]\n' "$base"
+            printf -- '- [%s](<+ Spaces/%s.md>)\n' "$base" "$base"
           done
     else
       printf '*No MOCs yet. Create your first one in `+ Spaces/` using the `MOC` template.*\n'

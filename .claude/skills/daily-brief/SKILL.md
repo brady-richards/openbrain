@@ -32,7 +32,8 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
    - **People past cadence** (link with `[[wikilinks]]`)
    - **New faces** — unknown humans seen in today's activity, one line each with source context. Omit the section if empty.
    - A single-line **Focus suggestion** based on the above
-8. Never touch any other section of the daily note. Only the `## Morning brief` section is managed by this skill.
+8. **Update the Today link** in both `Home.md` and `README.md`. Find the line matching `**Today:** [...](<...>)` in each file and replace it with `**Today:** [<date>](<+ Atlas/Daily/<date>.md>)` where `<date>` is the target date. This keeps the GitHub-rendered links current.
+9. Never touch any other section of the daily note. Only the `## Morning brief` section and the Today links in `Home.md`/`README.md` are managed by this skill.
 
 ## Output shape
 
