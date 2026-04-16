@@ -14,11 +14,11 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
 ## Procedure
 
 1. **Calendar sweep.** For each `gcal_*` MCP, call `gcal_list_events` for the target date (00:00 → 23:59 local). Merge into a single timeline; tag each event with the owning account slug. Collapse duplicate events that appear on multiple calendars (same title + time).
-1b. **Fathom recordings.** Call `mcp__fathom__list_meetings` for meetings in the last 24h. Cross-reference each recording's title against the calendar events from step 1 (case-insensitive title match). Discard recordings with no matching calendar event — those are team members' meetings the user wasn't part of. For recordings that do match, use the user's `responseStatus` on the matched calendar event to classify into two tiers:
-   - **⚠️ Missed** — `responseStatus` is `tentative` or `needsAction` (uncertain attendance). Surface these **first**; they are the highest priority to review since the user may not know what was discussed.
-   - **★ Attended** — `responseStatus` is `accepted`. Surface below missed ones.
-   - **Declined** — `responseStatus` is `declined`. Omit entirely — the user opted out intentionally.
-   Note title, recorded-by, and a `fathom:<meeting-id>` reference the user can pass to `/capture-meeting`.
+1b. **Fathom recordings.** Call `mcp__fathom__list_meetings` for meetings in the last 24h. Cross-reference each recording's title against the calendar events from step 1 (case-insensitive title match). Discard recordings with no matching calendar event — those are team members' meetings the user wasn't part of. For recordings that do match, use the user's `responseStatus` on the matched calendar event to determine treatment:
+   - **Declined** — omit entirely. The user opted out intentionally.
+   - **⚠️ Missed** (`tentative` or `needsAction`) — the user may not know what was discussed. Fetch the recording summary (`include_summary: true`) and surface it at the top of the Recordings section so the user can catch up.
+   - **★ Attended** (`accepted`) — the user was there. Fetch action items (`include_action_items: true`), filter to those assigned to the user, and surface them as a checklist. No need to repeat the summary.
+   Surface missed recordings before attended ones.
 2. **Priority mail.** For each `gmail_*` MCP, `gmail_search_messages` with `is:unread newer_than:2d (is:important OR is:starred OR label:^iim)`. Cap at 5 per account. Capture subject, sender, account slug.
 3. **Slack attention.** For each `slack_*` MCP, search for mentions of the user in the last 24h and list unread DMs. Cap at 5 per workspace.
 4. **Overdue tasks.** For both `asana_personal` and `asana_work`, `asana_get_my_tasks` filtered to `completed_since=now` and due date < today.
