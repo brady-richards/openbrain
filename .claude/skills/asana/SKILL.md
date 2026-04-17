@@ -60,7 +60,7 @@ Format as a **single unified table** with **Personal on the left** and **Work on
 - Show project name in parentheses if available.
 - If **External due date** is set and differs from `due_on`, show it as `ext: <date>` after the task name.
 - If **Fathom Link** is set, append a `[fathom↗](<url>)` link after the task name.
-- If **Status (Global)** or **State** is set, show as a badge after the task name (e.g. `· In Progress`).
+- If **Status (Global)** or **State** is set, show as a badge after the task name (e.g. `· In Progress`). **"In Progress" means Brady is actively working on it** — show the badge but don't treat these as surprise overdue items.
 - If **Hours Remaining** is set and > 0, show as `· Xh left`.
 - When one column has more tasks than the other in a date group, leave the shorter column's cells empty.
 - Omit date groups that have no tasks.
