@@ -17,8 +17,18 @@ Quick view of upcoming Asana tasks with interactive completion. Pure chat skill 
 
 For both workspaces in parallel:
 
-- **Work** (`asana_work`, workspace `1205801040312777`): `asana_search_tasks` with `assignee.any: me`, `due_on.before: <today + $1 days>`, `completed: false`, `sort_by: due_on`, `opt_fields: name,due_on,due_at,projects.name,permalink_url`.
+- **Work** (`asana_work`, workspace `1205801040312777`): `asana_search_tasks` with `assignee.any: me`, `due_on.before: <today + $1 days>`, `completed: false`, `sort_by: due_on`, `opt_fields: name,due_on,due_at,projects.name,permalink_url,custom_fields.gid,custom_fields.name,custom_fields.display_value`.
 - **Personal** (`asana_personal`): same query.
+
+Custom field GIDs for the work workspace:
+- `1207543199556043` — Status (Global) (enum)
+- `1213297635072824` — Gmail Thread Id (text)
+- `1213390228368672` — Hours Remaining (number)
+- `1213504813625904` — External due date (date)
+- `1211397212267647` — Fathom Meeting Title (text)
+- `1211397376866871` — Fathom Link (text)
+- `1212969581024580` — State (enum)
+- `1213014460079617` — Responsible Unit (enum)
 
 Also fetch **overdue** tasks (due_on < today, not completed) in the same calls — tasks with past due dates naturally fall within the `due_on.before` window.
 
@@ -48,6 +58,10 @@ Format as a **single unified table** with **Personal on the left** and **Work on
 - Date groups appear as **bold label rows** with an emoji prefix: 🔴 for **Overdue**, 📅 for all other date groups. This adds color to make date headers visually distinct from task rows.
 - **Numbering order:** first pass numbers all Personal tasks sequentially across all date groups (1, 2, 3, …), then second pass numbers all Work tasks continuing from where Personal left off. Within each workspace, numbers follow date order.
 - Show project name in parentheses if available.
+- If **External due date** is set and differs from `due_on`, show it as `ext: <date>` after the task name.
+- If **Fathom Link** is set, append a `[fathom↗](<url>)` link after the task name.
+- If **Status (Global)** or **State** is set, show as a badge after the task name (e.g. `· In Progress`).
+- If **Hours Remaining** is set and > 0, show as `· Xh left`.
 - When one column has more tasks than the other in a date group, leave the shorter column's cells empty.
 - Omit date groups that have no tasks.
 - If no tasks at all, say so and stop.
