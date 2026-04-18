@@ -6,7 +6,7 @@ slack: [dhan]
 phones: []
 relationship: []
 cadence: asneeded
-last_contact: 2026-04-13
+last_contact: 2026-04-17
 created: 2026-04-13
 tags: [person, needs-review, stub]
 workspace: work
@@ -23,6 +23,9 @@ workspace: work
 - gcal-brady-doromind-com · 2026-04-09 · Engineering Retrospective, Monthly Fika
 - gcal-brady-doromind-com · 2026-04-13 · Eng Huddle (13:30–14:30, optional, declined)
 - slack-doromind-slack-com · 2026-04-13 · #ceo: asked about SignalFire quarterly update step 8 (value from IB account closure)
+- gcal-brady-doromind-com · 2026-04-14 · BM + Dhanica Daily Stand-Up
+- gcal-brady-doromind-com · 2026-04-16 · BM + Dhanica Daily Stand-Up
+- slack-doromind-slack-com · 2026-04-17 · Asana DM: Dhanica mentioned Brady in Disability Benefits Statement task (NYSIF autopay closing out)
 
 ## Open commitments
 ### Mine to them

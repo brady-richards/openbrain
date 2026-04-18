@@ -6,7 +6,7 @@ slack: [mimi]
 phones: []
 relationship: []
 cadence: asneeded
-last_contact: 2026-04-13
+last_contact: 2026-04-17
 created: 2026-04-13
 tags: [person, needs-review, stub]
 workspace: work
@@ -25,10 +25,14 @@ workspace: work
 - fathom · 2026-04-13 · "Brady + Mimi" — 26 min 1:1 · `fathom:137482386`
 - gmail-brady-doromind-com · 2026-04-13 · "Re: My latest book -- on technology" — forwarded/discussed in thread
 - slack-doromind-slack-com · 2026-04-13 · #ceo: "Got 5 to talk about the open brain stuff?"; group DMs with Brady, Jon, Minna
+- gcal-brady-doromind-com · 2026-04-14 · Kate // Mimi // Brady, Milestones Jam
+- gcal-brady-doromind-com · 2026-04-16 · Milestones Jam (recurring)
+- fathom · 2026-04-17 · "Mimi + Brady" — 35 min 1:1, recorded by Brady · `fathom:139050479`
+- gmail-brady-doromind-com · 2026-04-17 · Fathom recap email for "Mimi + Brady"
 
 ## Open commitments
 ### Mine to them
--
+- OKR narrative feedback (Update Q2 narrative, Align OKRs, Restructure milestones, Update consultant doc) — expected Sat/Sun Apr 18–19
 ### Theirs to me
 -
 

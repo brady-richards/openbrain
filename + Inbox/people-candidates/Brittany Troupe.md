@@ -6,7 +6,7 @@ slack: [brittany]
 phones: []
 relationship: []
 cadence: asneeded
-last_contact: 2026-04-13
+last_contact: 2026-04-16
 created: 2026-04-13
 tags: [person, needs-review, stub]
 workspace: work
@@ -22,6 +22,9 @@ workspace: work
 - fathom · 2026-04-09 · "Andrew, Gale with Brittany" — 24 min external meeting, recorded by Brittany · `fathom:136794582`
 - gmail-brady-doromind-com · 2026-04-13 · "Re: Follow Up" — email exchange
 - slack-doromind-slack-com · 2026-04-13 · DM: "Sounds good. Hopefully won't come to that. Thanks again for trying to get this fixed."
+- gcal-brady-doromind-com · 2026-04-14 · Debrief Session (JB Family), Connect Product Huddle
+- gcal-brady-doromind-com · 2026-04-16 · Clinical NP Care Team Huddle
+- fathom · 2026-04-16 · "Suzanne with Brittany" — 48 min external · `fathom:138734601`
 
 ## Open commitments
 ### Mine to them

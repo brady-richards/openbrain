@@ -6,7 +6,7 @@ slack: []
 phones: []
 relationship: []
 cadence: asneeded
-last_contact: 2026-04-13
+last_contact: 2026-04-17
 created: 2026-04-13
 tags: [person, needs-review, stub]
 workspace: work
@@ -23,6 +23,10 @@ workspace: work
 - gcal-brady-doromind-com · 2026-04-09 · Engineering Retrospective, Monthly Fika, Firm Health: Growth
 - gmail-brady-doromind-com · 2026-04-13 · "Re: Doro Mind app" (x2 emails in thread)
 - slack-doromind-slack-com · 2026-04-13 · #team-eng: shared Chat UX unification starting doc
+- gcal-brady-doromind-com · 2026-04-14 · Connect Product Huddle
+- gcal-brady-doromind-com · 2026-04-15 · Co-locate/Co-labor Day
+- gmail-brady-doromind-com · 2026-04-17 · "Re: Doro Mind app" (x2 more); GitHub PR notifications (Email message composer PR #2383)
+- gmail-brady-doromind-com · 2026-04-17 · Forwarded "Invitation: AI Strategy Demo by Jon" calendar event
 
 ## Open commitments
 ### Mine to them

@@ -6,7 +6,7 @@ slack: [minna]
 phones: []
 relationship: []
 cadence: asneeded
-last_contact: 2026-04-13
+last_contact: 2026-04-17
 created: 2026-04-13
 tags: [person, needs-review, stub]
 workspace: work
@@ -25,6 +25,10 @@ workspace: work
 - fathom · 2026-04-13 · "Minna + BM" — 30 min · `fathom:137424269`
 - gmail-brady-doromind-com · 2026-04-13 · "Re: Checking in", "Fwd: Register Now!", calendar invites
 - slack-doromind-slack-com · 2026-04-13 · payroll ETA question in group DM; #milestones threads
+- gcal-brady-doromind-com · 2026-04-14 · Kate // Mimi // Brady, Milestones Jam, Debrief Session (JB Family)
+- gcal-brady-doromind-com · 2026-04-16 · Milestones Jam (recurring)
+- fathom · 2026-04-17 · "Amigo Intro (Mimi & Minna)" — 39 min, 7 participants, external · `fathom:139091945`
+- gmail-brady-doromind-com · 2026-04-17 · "Fwd: estimated costs of core services"
 
 ## Open commitments
 ### Mine to them
