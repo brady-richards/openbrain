@@ -33,8 +33,7 @@ Run the CLAUDE.md §4 inbox triage workflow across all sources.
    - **Interactive (default):** show each proposed draft and ask for approval before saving. Shape: "Draft this reply to [sender] re: [subject]? [Yes / Skip / Edit intent]"
    - **Scheduled:** auto-draft without confirmation (drafts are not sent, so this is safe — the user reviews and sends from Gmail/Slack).
 
-   **Parallelization:** fan out all `gmail_read_email` / thread-read calls in one block, then fan out all `gmail_draft_email` / `slack_send_message_draft` calls in the next block.
-
+   **Parallelization:** fan out all `read_email` / thread-read calls in one block, then fan out all `draft_email` / `slack_send_message_draft` calls in the next block.
 5. **People detection pass.** From senders/recipients of the Gmail sweep and counterparties of the Slack sweep, match identifiers against `+ Atlas/People/*.md` (`emails`, `slack`, `title`, `aliases`). Apply `/people-sync`'s noise filters (step 4) and its Bucket C staging threshold (step 7) verbatim — `/people-sync` is the single source of truth for these rules. Note that `/process-inbox` does not read calendar, so the "calendar event where the user is also an attendee" branch of the threshold is simply unavailable here; a Gmail thread where the unknown human directly replied to the user (or vice versa) counts as the Gmail equivalent of a direct meeting for threshold purposes.
    - In **interactive mode**: surface qualifying unknowns in a "People candidates" section — do not auto-stage.
    - In **scheduled mode**: stage a stub at `+ Inbox/people-candidates/<Full Name>.md` using `/people-sync`'s stub format (step 10), appending evidence if the stub already exists.
@@ -43,8 +42,8 @@ Run the CLAUDE.md §4 inbox triage workflow across all sources.
 6. **Interactive vs. scheduled.**
    - **Interactive (default):** propose all moves/actions, wait for approval.
    - **Scheduled (`$1 == "scheduled"`):** act without confirmation when classification is unambiguous. Auto-push notes tagged `#asana/*` to the matching Asana MCP (per saved feedback `feedback_triage_auto_push.md`). Leave ambiguous items in `+ Inbox/` with `#needs-review` prepended.
-6. When moving a note, update backlinks as CLAUDE.md §4 requires.
-7. **Co-located resources.** When moving a note out of `+ Inbox/`, check whether a matching subfolder exists at `+ Inbox/.resources/<note title>/` (Obsidian Web Clipper and Local Images Plus store images there). If it does, move the contents to `+ Extras/Attachments/<note title>/` and update all image embed paths inside the note (`![[+ Inbox/.resources/…]]` → `![[+ Extras/Attachments/…]]`). Do NOT keep images in `.resources/` dotfolders outside of `+ Inbox/` — Obsidian's wikilink resolver does not index dotfolders, so `![[…]]` embeds will break.
+7. When moving a note, update backlinks as CLAUDE.md §4 requires.
+8. **Co-located resources.** When moving a note out of `+ Inbox/`, check whether a matching subfolder exists at `+ Inbox/.resources/<note title>/` (Obsidian Web Clipper and Local Images Plus store images there). If it does, move the contents to `+ Extras/Attachments/<note title>/` and update all image embed paths inside the note (`![[+ Inbox/.resources/…]]` → `![[+ Extras/Attachments/…]]`). Do NOT keep images in `.resources/` dotfolders outside of `+ Inbox/` — Obsidian's wikilink resolver does not index dotfolders, so `![[…]]` embeds will break.
 
 ## Output
 

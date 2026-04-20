@@ -13,7 +13,7 @@ description: Assemble a briefing for a meeting or 1:1 — pulls the person note,
 
 1. **Resolve subject.**
    - If `$1` matches a `+ Atlas/People/*.md` file (by title or alias in frontmatter), use that person.
-   - Else if `$1` looks like a calendar event id, fetch it via the right `google_*` MCP's `calendar_get_event` and extract attendees.
+   - Else if `$1` looks like a calendar event id, fetch it via the right `google_*` MCP (`calendar_get_event`) and extract attendees.
    - Else fuzzy-search `calendar_list_events` across all `google_*` MCPs for the next 7 days matching `$1`; pick the best match and extract attendees.
 > **Parallelization:** step 1 (subject resolution) must run first because it decides which person notes to load. Once the subject is resolved, **steps 2–6 are all independent** — the person note read, interaction grep, project MOC reads, and `google_*` / `slack_*` thread fetches should be issued together in a single tool-use block.
 
