@@ -6,7 +6,7 @@ created: 2026-04-13
 
 # brichards's OpenBrain
 
-**Today:** [2026-04-18](<+ Atlas/Daily/2026-04-18.md>)
+**Today:** [2026-04-20](<+ Atlas/Daily/2026-04-20.md>)
 
 The front door. This file's MOC index auto-regenerates on every Claude Code
 session end.
