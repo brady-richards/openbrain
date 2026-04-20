@@ -246,7 +246,8 @@ Skills live in `.claude/skills/<name>/SKILL.md` (vault-local, portable with the 
 | `/people-audit` | Cadence health report + regenerate `+ Spaces/People.md` grouping. |
 | `/people-sync` | Discovery pass across Gmail/Calendar/Slack — auto-updates `last_contact` on known people, stages unknowns in `+ Inbox/people-candidates/`, proposes alias merges. |
 | `/weekly-review` | Monday synthesis → `+ Atlas/Weekly Reviews/<ISO-week>.md`. |
-| `/sync-template` | Pull latest changes from upstream openbrain-template, diff against vault, interactively apply improvements. |
+| `/push-openbrain-template` | Genericize vault improvements, open a PR against the upstream openbrain-template repo. |
+| `/pull-openbrain-template` | Pull latest template changes into the vault, interactively apply improvements. |
 | `/asana` | Quick view of tasks due in the next 7 days across configured workspaces, with interactive check-off. |
 
 Skills are markdown procedures only — they describe which MCP tools to call and which files to read/write. They do not execute code; Claude reads the SKILL.md and performs the steps.

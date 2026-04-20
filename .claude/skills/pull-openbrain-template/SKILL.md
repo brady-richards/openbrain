@@ -1,11 +1,11 @@
 ---
-name: sync-template
+name: pull-openbrain-template
 description: Pull the latest changes from the upstream openbrain-template repo, diff against this vault's infrastructure, and interactively apply each change with user approval.
 ---
 
-# /sync-template
+# /pull-openbrain-template
 
-Pull improvements from the upstream [openbrain-template](https://github.com/davidianstyle/openbrain-template) repo into this vault. The inverse of `/genericize`: that skill pushes vault improvements upstream; this skill pulls template improvements downstream.
+Pull improvements from the upstream [openbrain-template](https://github.com/davidianstyle/openbrain-template) repo into this vault. The inverse of `/push-openbrain-template`: that skill pushes vault improvements upstream; this skill pulls template improvements downstream.
 
 The template repo must be cloned locally — by default at `~/Code/openbrain-template`. Set the `OPENBRAIN_TEMPLATE_DIR` environment variable to override.
 
@@ -16,7 +16,7 @@ The template repo must be cloned locally — by default at `~/Code/openbrain-tem
 
 ## Scope: what's comparable
 
-Same in-scope paths as `/genericize`, but in the reverse direction (template → vault):
+Same in-scope paths as `/push-openbrain-template`, but in the reverse direction (template → vault):
 
 | Template path | Vault path | Notes |
 |---|---|---|
@@ -53,7 +53,7 @@ If the template directory exists, pull the latest changes; otherwise clone it:
 
 ```bash
 if [ -d "$TEMPLATE/.git" ]; then
-  cd "$TEMPLATE" && git pull --rebase --autostash
+  cd "$TEMPLATE" && git checkout main && git pull --rebase --autostash
 else
   git clone git@github.com:davidianstyle/openbrain-template.git "$TEMPLATE"
 fi
@@ -86,7 +86,7 @@ For each candidate, read both versions. Classify each hunk:
 - **(P) Personal in vault**: the vault version has the user's specific data (account slugs, names, gids) where the template has placeholders. The vault version is correct for this vault — keep it. → **skip**.
 - **(G) Generic placeholder**: the template uses `{{PLACEHOLDER}}` or `<slug>` where the vault has resolved values. The vault values are correct. → **skip**.
 - **(N) Noise**: whitespace, formatting nits, generated timestamps. → **skip**.
-- **(V) Vault-ahead**: the vault has an improvement the template doesn't — this is a `/genericize` candidate, not a sync-template candidate. → **flag** for future `/genericize` run.
+- **(V) Vault-ahead**: the vault has an improvement the template doesn't — this is a `/push-openbrain-template` candidate, not a pull candidate. → **flag** for future `/push-openbrain-template` run.
 
 ### 4. De-genericize template content
 
@@ -104,6 +104,8 @@ When applying template content to the vault, reverse the genericization:
 | `{{BOOTSTRAP_DATE}}` | Keep the vault's existing date |
 | `~/OpenBrain` | The vault's actual path |
 | `$HOME/...` (generic) | The vault's absolute paths (if the vault uses them) |
+| `mcp__google_<slug>__*` | Vault's concrete MCP names |
+| `mcp__slack_<workspace_slug>__*` | Vault's concrete Slack MCP names |
 | `<slug>` pattern references | Keep vault's concrete slugs where they exist |
 
 **Important:** Never blindly replace the vault's resolved routing tables or identity sections with template placeholders. Only port the *structural/procedural* improvements around them.
@@ -151,7 +153,7 @@ Output to the user:
 - **Applied**: list of files changed in the vault, one line each, with a summary of what was pulled in.
 - **Skipped (personal/placeholder)**: files where the diff was entirely resolved-vs-generic and nothing needed porting.
 - **Skipped (user declined)**: files the user chose to skip.
-- **Vault-ahead (genericize candidates)**: files where the vault has improvements the template doesn't — suggest running `/genericize` to port them upstream.
+- **Vault-ahead (push candidates)**: files where the vault has improvements the template doesn't — suggest running `/push-openbrain-template` to port them upstream.
 - **Template-only files not added**: new files in the template that weren't added to the vault (with a note on why, or ask if the user wants them).
 
 ## Notes
