@@ -74,6 +74,7 @@ HAS_ASANA_PERSONAL=false; [[ -n "${ASANA_PAT_PERSONAL:-}" ]] && HAS_ASANA_PERSON
 HAS_ASANA_WORK=false;     [[ -n "${ASANA_PAT_WORK:-}" ]]     && HAS_ASANA_WORK=true
 HAS_FATHOM=false;         [[ -n "${FATHOM_API_KEY:-}" ]]     && HAS_FATHOM=true
 HAS_REMINDERS=false;      command -v npx >/dev/null 2>&1      && HAS_REMINDERS=true
+HAS_MESSAGES=false;       command -v npx >/dev/null 2>&1      && HAS_MESSAGES=true
 
 cat >"$PLAN" <<EOF
 {
@@ -83,7 +84,8 @@ cat >"$PLAN" <<EOF
   "has_asana_personal": $HAS_ASANA_PERSONAL,
   "has_asana_work": $HAS_ASANA_WORK,
   "has_fathom": $HAS_FATHOM,
-  "has_reminders": $HAS_REMINDERS
+  "has_reminders": $HAS_REMINDERS,
+  "has_messages": $HAS_MESSAGES
 }
 EOF
 
@@ -99,6 +101,7 @@ print(f"  Asana personal: {plan['has_asana_personal']}")
 print(f"  Asana work:     {plan['has_asana_work']}")
 print(f"  Fathom:         {plan['has_fathom']}")
 print(f"  Reminders:      {plan['has_reminders']}")
+print(f"  Messages:       {plan['has_messages']}")
 PY
 
 # -----------------------------------------------------------------------------
@@ -132,7 +135,7 @@ managed_prefixes = ("asana_", "gmail_", "gcal_", "gmeet_", "gdrive_", "slack_")
 for k in list(servers.keys()):
     v = servers[k]
     cmd = v.get("command", "") if isinstance(v, dict) else ""
-    if k in ("fathom", "reminders") or k.startswith(managed_prefixes):
+    if k in ("fathom", "reminders", "messages") or k.startswith(managed_prefixes):
         if "openbrain" in cmd:
             del servers[k]
 
@@ -157,6 +160,9 @@ if plan["has_fathom"]:
 
 if plan["has_reminders"]:
     stdio("reminders", "reminders-mcp.sh")
+
+if plan["has_messages"]:
+    stdio("messages", "messages-mcp.sh")
 
 claude_path.write_text(json.dumps(data, indent=2))
 
