@@ -12,7 +12,7 @@ OpenBrain is a portable template for a [Linking Your Thinking](https://www.linki
 
 Built for people who want Claude to act on their calendar, email, tasks, and notes the way a human chief of staff would — proactively, with context, and without constant re-briefing.
 
-**Today:** [2026-04-21](<+ Atlas/Daily/2026-04-21.md>)
+**Today:** [2026-04-22](<+ Atlas/Daily/2026-04-22.md>)
 
 ---
 
