@@ -27,7 +27,8 @@ CLAUDE_JSON="$HOME/.claude.json"
 # -----------------------------------------------------------------------------
 mkdir -p "$LIB_DIR"
 chmod 755 "$LIB_DIR"
-for f in "$REPO_ROOT/.openbrain/lib/"*.sh; do
+for f in "$REPO_ROOT/.openbrain/lib/"*.sh "$REPO_ROOT/.openbrain/lib/"*.js "$REPO_ROOT/.openbrain/lib/package.json"; do
+  [[ -f "$f" ]] || continue
   dest="$LIB_DIR/$(basename "$f")"
   if ! cmp -s "$f" "$dest" 2>/dev/null; then
     cp "$f" "$dest"
