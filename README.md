@@ -124,6 +124,8 @@ Each script is idempotent — safe to re-run.
 | `/people-sync` | Discovery pass across Gmail/Calendar/Slack to find unknown people |
 | `/weekly-review` | Monday synthesis |
 | `/asana` | Quick view of upcoming Asana tasks with interactive check-off |
+| `/pull-openbrain-template` | Pull latest template changes into the vault interactively |
+| `/push-openbrain-template` | Genericize vault improvements and open a PR against the template repo |
 
 Skills are markdown procedures — Claude reads the SKILL.md and performs the steps. No code execution.
 

@@ -185,6 +185,7 @@ Re-run the incremental add script from the vault root:
 ./bootstrap/lib/add-google-account.sh <email>      # adds one Google account (Gmail+Cal+Meet+Drive)
 ./bootstrap/lib/add-slack-workspace.sh <subdomain> # adds one Slack workspace
 ./bootstrap/lib/add-asana.sh personal|work         # adds Asana PAT + registers MCP
+./bootstrap/lib/add-fathom.sh                      # adds Fathom API key + registers MCP
 ```
 
 Each script is idempotent — safe to re-run.
@@ -222,10 +223,12 @@ When matching a name or address to an existing person note:
 
 ### Interaction linking contract
 
-When an interaction note is created (via `/capture-meeting` or `/log-note`):
+When an interaction note is created (via `/capture-meeting`, `/log-interaction`, or auto-logged by `/people-sync` and `/process-inbox`; note that `/log-note` does **not** trigger this contract):
 - The interaction's `people:` frontmatter array lists `[[wikilinks]]` to each participant's person note.
 - Each linked person note gets its `last_contact:` updated to the interaction date, and a new bullet under its `## Threads` section pointing back to the interaction note.
 - Commitments extracted from the interaction land under `## Open commitments` (theirs / mine) in each linked person note.
+
+**Auto-logged interactions.** `/people-sync` and `/process-inbox` automatically create lightweight interaction notes for direct email threads and Slack DMs/mentions involving known people (those with notes in `+ Atlas/People/`). These auto-logged notes have an auto-extracted summary and leave Decisions/Commitments/Follow-ups sections empty. Mailing lists, Google Groups, CC-only threads, bot addresses, and observer-only threads are excluded. Deduplication is by `source:` frontmatter — one interaction note per thread, and richer notes from `/capture-meeting` or `/log-interaction` always take precedence.
 
 ## 13. Chief of Staff skills
 
@@ -248,7 +251,7 @@ Skills live in `.claude/skills/<name>/SKILL.md` (vault-local, portable with the 
 | `/log-place` | Create a place note at `+ Atlas/Places/`. |
 | `/log-organization` | Create an organization note with key people and places at `+ Atlas/Organizations/`. |
 | `/log-quote` | Save a quote with attribution and source link at `+ Atlas/Quotes/`. |
-| `/follow-up-draft` | Draft a reply/nudge for the right account. Saves as draft, never sends. |
+| `/follow-up-draft` | Draft a reply/nudge for the right account. Saves as draft, never sends. Also invoked in batch by `/daily-brief` and `/process-inbox` for actionable "Needs a reply" items. |
 | `/what-am-i-missing` | Surface overdue tasks, stale commitments, cadence misses, unanswered mail. |
 | `/people-audit` | Cadence health report + regenerate `+ Spaces/People.md` grouping. |
 | `/people-sync` | Discovery pass across Gmail/Calendar/Slack — auto-updates `last_contact` on known people, stages unknowns in `+ Inbox/people-candidates/`, proposes alias merges. |
@@ -263,6 +266,10 @@ Skills are markdown procedures only — they describe which MCP tools to call an
 
 - **Slack write operations:** The local `slack_*` MCPs support `conversations_add_message` when `SLACK_MCP_ADD_MESSAGE_TOOL=true` is set in the launcher (already set in the bundled `slack-mcp.sh`). Use this tool for sending messages — do not fall back to the deprecated `mcp__claude_ai_Slack__*` remote connector. Always confirm the `conversations_add_message` tool is available before attempting to send.
 - **Before recommending any Asana task, Slack message, or Google Doc edit**, verify the target still exists (the state may have changed since the last session).
+
+## 15. Deployment
+
+- When deploying scripts or config files, always verify the target runtime path (e.g., `~/.config/openbrain/`) matches where you expect to run them from, not just the repo directory. The repo contains templates and tracked copies (`.openbrain/`); the live runtime copies live under `~/.config/openbrain/` (mode 755 for scripts, mode 600 for secrets).
 
 ---
 
