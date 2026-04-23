@@ -15,22 +15,21 @@ Quick view of upcoming Asana tasks with interactive completion. Pure chat skill 
 
 ### 1. Fetch upcoming tasks
 
-For both workspaces in parallel:
+**Issue both calls in a single tool-use block so they run in parallel.** The two workspaces may use different tools (paid plans support full search; free-tier rejects `asana_search_tasks` with 402 Payment Required), but both calls are independent and must not be sequential.
 
-- **Work** (`asana_work`, workspace `1205801040312777`): `asana_search_tasks` with `assignee.any: me`, `due_on.before: <today + $1 days>`, `completed: false`, `sort_by: due_on`, `opt_fields: name,due_on,due_at,projects.name,permalink_url,custom_fields.gid,custom_fields.name,custom_fields.display_value`.
-- **Personal** (`asana_personal`): same query.
+- **Paid workspace** (`mcp__asana_<slug>__asana_search_tasks`):
+  - `assignee_any: me`
+  - `completed: false`
+  - `due_on_before: <today + $1 days>` (inclusive upper bound as YYYY-MM-DD)
+  - `sort_by: due_date` *(must be `due_date`, NOT `due_on` — the API rejects `due_on` as a sort key with Bad Request)*
+  - `sort_ascending: true`
+  - `opt_fields: name,due_on,projects.name,permalink_url`
+- **Free-tier workspace** (`mcp__asana_<slug>__asana_get_my_tasks`):
+  - `completed_since: now` (returns incomplete tasks only)
+  - `opt_fields: name,due_on,due_at,projects.name,permalink_url`
+  - Client-side filter: keep tasks where `due_on` is non-null AND `due_on <= today + $1 days`. Sort ascending by `due_on`.
 
-Custom field GIDs for the work workspace:
-- `1207543199556043` — Status (Global) (enum)
-- `1213297635072824` — Gmail Thread Id (text)
-- `1213390228368672` — Hours Remaining (number)
-- `1213504813625904` — External due date (date)
-- `1211397212267647` — Fathom Meeting Title (text)
-- `1211397376866871` — Fathom Link (text)
-- `1212969581024580` — State (enum)
-- `1213014460079617` — Responsible Unit (enum)
-
-Also fetch **overdue** tasks (due_on < today, not completed) in the same calls — tasks with past due dates naturally fall within the `due_on.before` window.
+**Overdue** tasks (due_on < today, not completed) fall naturally inside the `due_on <= today + $1 days` window and will appear in both result sets without a separate query.
 
 ### 2. Display the list
 
@@ -58,16 +57,6 @@ Format as a **single unified table** with **Personal on the left** and **Work on
 - Date groups appear as **bold label rows** with an emoji prefix: 🔴 for **Overdue**, 📅 for all other date groups. This adds color to make date headers visually distinct from task rows.
 - **Numbering order:** first pass numbers all Personal tasks sequentially across all date groups (1, 2, 3, …), then second pass numbers all Work tasks continuing from where Personal left off. Within each workspace, numbers follow date order.
 - Show project name in parentheses if available.
-- If **External due date** is set and differs from `due_on`, show it as `ext: <date>` after the task name.
-- If **Fathom Link** is set, append a `[fathom↗](<url>)` link after the task name.
-- **Status (Global)** drives display and filtering — apply these rules before rendering:
-  - **In Progress** — show `· 🔄` badge; don't emphasize as overdue surprise
-  - **To Do** — normal treatment
-  - **Scheduled** — suppress entirely until due date arrives; omit from the list if due date is in the future
-  - **Blocked** — show `· ⏸ Blocked`; frame as "check in" not "you're late"
-  - **Done** — exclude from list entirely even if `completed` flag not yet set
-  - **Backlog** — show at bottom of date group or omit; never in 🔴 Overdue section
-- If **Hours Remaining** is set and > 0, show as `· Xh left`.
 - When one column has more tasks than the other in a date group, leave the shorter column's cells empty.
 - Omit date groups that have no tasks.
 - If no tasks at all, say so and stop.
@@ -96,4 +85,5 @@ For all selected tasks:
 - This is a **read + interactive update** skill. No vault files are created or modified.
 - Cap at 25 tasks per workspace to keep the list actionable.
 - Tasks without a due date are excluded (this skill is specifically for deadline-driven work).
-- The personal Asana workspace (`Chang Family`, gid `1206125211799168`) is on a free plan — `asana_search_tasks` returns 402. Use `asana_get_my_tasks` with `completed_since: now` instead, then client-side filter to tasks with `due_on` within the window.
+- If a workspace is on a free Asana plan, `asana_search_tasks` returns 402 Payment Required. Use `asana_get_my_tasks` with `completed_since: now` instead, then client-side filter to tasks with `due_on` within the window.
+- **Never** serialize the workspace fetches. They are independent — always issue them in the same tool-use block.

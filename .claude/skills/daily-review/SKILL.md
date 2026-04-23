@@ -15,6 +15,8 @@ This skill is **interactive by design**. Ask clarifying questions with `AskUserQ
 
 ## Procedure
 
+> **Date check first.** Before loading anything, if `$1` is not supplied, resolve "today" by running `Bash: date "+%Y-%m-%d %A %H:%M %Z"`. Do **not** trust the session-injected `currentDate` field — it can lag the real clock by a day. Use the shell result as the target date.
+
 ### 1. Load the day's plan
 
 - Read `+ Atlas/Daily/<date>.md`. If missing, tell the user and stop — there's nothing to reconcile against.
@@ -28,13 +30,13 @@ This skill is **interactive by design**. Ask clarifying questions with `AskUserQ
 
 ### 2. Pull actual activity for the day
 
-Gather evidence of what actually happened, independent of what was planned:
+Gather evidence of what actually happened, independent of what was planned. **Every bullet below is independent — fan out all Asana / google / slack / git / glob calls in a single tool-use block. Do not serialize.**
 
-- **Asana churn.** For both `asana_personal` and `asana_work`:
-  - `asana_search_tasks` with `completed_on=<date>` → tasks completed today.
-  - `asana_get_my_tasks` for currently assigned, incomplete tasks (to get the live outstanding list).
-- **Calendar reality.** For each `gcal_*` MCP, `gcal_list_events` for the date. Compare to the morning brief's planned timeline — flag events that were added, moved, or canceled after the brief was written.
-- **Mail sent.** For each `gmail_*` MCP, `gmail_search_messages` with `in:sent after:<date> before:<date+1>`. Used only to confirm whether "needs a reply" items got handled.
+- **Asana churn (check completions first).** For both `asana_personal` and `asana_work`:
+  - `asana_search_tasks` with `completed_on=<date>` → tasks the user already marked complete today. These are **pre-confirmed Done** — they skip the interactive loop entirely.
+  - `asana_get_my_tasks` for currently assigned, incomplete tasks (to get the live outstanding list). Only tasks still incomplete here are candidates for the interactive check-off in step 4.
+- **Calendar reality.** For each `google_*` MCP, `google_calendar_list_events` for the date. Compare to the morning brief's planned timeline — flag events that were added, moved, or canceled after the brief was written.
+- **Mail sent.** For each `google_*` MCP, `google_gmail_search_emails` with `in:sent after:<date> before:<date+1>`. Used only to confirm whether "needs a reply" items got handled.
 - **Slack sent.** For each `slack_*` MCP, use `conversations_search_messages` scoped to the user's user for the day if available, otherwise skip — this is best-effort confirmation only.
 - **Vault activity.** `git log --since="<date> 00:00" --until="<date> 23:59" --name-only` from the repo root to see which notes were touched today. Filter out auto-commit noise.
 - **Interaction notes created today.** Glob `+ Atlas/Interactions/<date>-*.md` — these represent meetings/calls that actually happened.
@@ -52,7 +54,7 @@ Also walk `+ Atlas/Interactions/<date>-*.md` and any person notes touched today 
 
 ### 4. Interactive check-off (the main loop)
 
-For each **Outstanding** item, prompt the user one at a time using `AskUserQuestion`. Batch related items into a single question when possible (multiple small Asana tasks with similar options). Typical question shape:
+Asana tasks that were already marked complete (from step 2) go straight into the Done bucket — do not ask the user about them again. For each remaining **Outstanding** item, prompt the user one at a time using `AskUserQuestion`. Batch related items into a single question when possible (multiple small Asana tasks with similar options). Typical question shape:
 
 - Subject: the item in 1 line (task name, or "Reply to <sender> re: <subject>")
 - Options: `Done`, `Still open — keep as-is`, `Reschedule`, `Drop it`, `Other (explain)`
@@ -110,6 +112,11 @@ Only after confirmation:
   Never touch the `## Morning brief` section or any other part of the daily note — only the `## Evening review` section is managed here. Mapping from the step 3 buckets: Done → **Done today**; Outstanding → **Carried forward** or **Dropped** (based on step 4 answers); Unplanned but done → **Unplanned wins**; new commitments confirmed as Asana tasks → **New follow-ups**.
 - **Person notes.** For commitments that were resolved, tick the checkbox (`- [ ]` → `- [x]`) in the relevant `## Open commitments` section. Do not delete — the checked history is useful. Update `last_contact` only if a new interaction happened today that isn't already reflected.
 - **Interaction notes.** If a meeting produced a commitment that became an Asana task, add a line under the interaction's commitments section pointing to the new task's vault note or Asana gid.
+- **Dashboard.** Refresh the open-loops view in `Dashboard.md` at the vault root so it reflects the post-review state. Only run this when the target date is **today** — historical reruns must not retroactively rewrite the dashboard. If `Dashboard.md` is missing, log a warning and skip. Replace section bodies in place (find heading → overwrite to next H2 or EOF):
+  - `## Needs a reply / open loops` — drop items the user just confirmed as Done; keep Outstanding/Carried-forward items; add any New follow-ups that became Asana tasks today.
+  - `## Today — <Day YYYY-MM-DD>` — replace the "Pivot" line with a brief end-of-day status (e.g. `**Wrapped:** 7 done, 3 carried, 2 new`) and trim the timeline to events that have already occurred. The next morning's `/daily-brief` run will rebuild this section fully.
+  - Update the frontmatter `updated:` field to today.
+  - Never touch `## This week`, `## Top priorities`, or `## Quick links` — those are owned by `/weekly-review` and `/daily-brief`. If `Dashboard.md` is missing, log a warning and skip this step.
 
 ### 7. Final report
 
@@ -122,6 +129,7 @@ Report back in chat:
 
 ## Notes
 
+- **Asana display ordering.** Whenever this skill renders a flat list of Asana tasks (Outstanding bucket, summary, dashboard updates), group by repeat frequency and sort least-frequent → most-frequent so high-stakes items bubble to the top: **One-off → Annually → Monthly → Weekly → Daily**. **Source of truth: the Asana `recurrence.type` field — never guess from the task name.** When fetching tasks via `asana_get_my_tasks` or `asana_search_tasks`, **`recurrence` MUST be in `opt_fields`** (it's not returned by default). Mapping: `never`→One-off, `yearly`→Annually, `monthly`→Monthly, `weekly`→Weekly, `daily`→Daily. If `recurrence` is missing on a task, treat as `never` and flag with `?`. Within each group, secondary sort by `due_on` ascending. Omit empty groups. This is the default — skip it only when an explicit alternative sort is in effect (e.g. when the user asks for date-only sorting).
 - **Never** mark a task complete, create a task, or change a due date without explicit per-item confirmation (batched confirmations are fine, silent ones are not).
 - **Never** send mail or Slack messages from this skill. If the user wants to send a reply, hand off to `/follow-up-draft`.
 - Follow CLAUDE.md §5 Asana routing rules strictly: `#asana/work` → `asana_work`, `#asana/personal` → `asana_personal`, never the deprecated `claude_ai_Asana` tools.
