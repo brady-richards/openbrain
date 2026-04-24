@@ -1,7 +1,7 @@
 ---
 title: Dashboard
 tags: [dashboard]
-updated: 2026-04-23
+updated: 2026-04-24
 ---
 
 # Dashboard
@@ -10,22 +10,17 @@ updated: 2026-04-23
 
 ---
 
-## Today — Thu 2026-04-23
+## Today — Fri 2026-04-24
 
-**Focus:** EOD. Key carry-forwards for tomorrow: Q1 2026 Update still open, Clare 35-hr payroll/contract decision, Mimi SOW for Matt, and a large Asana wave (~40+ tasks) due Apr 24. Urgent replies needed: Beth (Emblem/GHI virtual card), Patrick (retreat camera), David (Gemini workshop limits).
+**Focus:** ⚡ Anthropic Quick Connect at 11:00 with Maria Howe — use it to resolve the overdue BAA. Retreat is Apr 26+: finalize strategy track agenda and SLT expectations today. 49 Asana tasks due (the wave) — run `/asana` to triage. Reply to David on workshop format before EOD.
 
-**Timeline anchors (complete):**
-- 07:00 Paloma Training
-- 08:30 🚃 Travel to WeWork
-- 10:00 BM + Dhanica Daily Stand-Up
-- 10:15 Brady + [[Mimi]] 1:1
-- 11:00 Minna + BM
-- 12:30 Keren + Brady: Licensing Task ff ups
-- 13:00 Stephanie + BM
-- 14:00 Milestones Jam
-- 15:00 Firm Health: Growth
+**Timeline anchors:**
+- 09:00 🚃 Travel to WeWork
+- 11:00 Anthropic Quick Connect · Maria Howe _(BAA — overdue task)_
+- 14:00 Chat with Brady _(personal/private)_
+- 15:00–17:00 No WCs block
 
-OOO: Kate, John, Patrick · _(gcal_brady_richards_gmail_com: unavailable — token expired)_
+_(gcal_brady_richards_gmail_com: unavailable — token expired)_
 
 ---
 
@@ -43,20 +38,18 @@ _Run `/weekly-review` or `/daily-brief` to populate this section with upcoming A
 
 ## Needs a reply / open loops
 
-- 💬 **[[Mimi]]** in #ceo (Slack): Clare payroll — 35-hr allocation and contract decision needed
-- 💬 **[[Mimi]]** in #ceo (Slack): "could you take a look at this?" — integration question, action needed
-- 💬 **Dhanica** in #ceo (Slack): Done migrating off old Claude tools? _(Asana cleanup task created)_
-- 💬 **Beth** in #-payer-experience (Slack): Emblem/GHI virtual payment card — does Waystar support?
-- 💬 **Beth** in #-payer-experience (Slack): Allied Benefits $560 payment question _(cc Minna)_
-- 💬 **Patrick** in #retreat-2026-q2 (Slack): Retreat camera borrow — needs response
-- 💬 **David** in mpdm (Slack): Gemini limitations for retreat workshop — action needed
-- ✉️ **[[Mimi]]** (doromind email): "Re: SMS campaign registration" — check if action remains
+- 💬 **David** in mpdm (Slack): Gemini limitations for retreat workshop — decision needed on format
+- 💬 **Patrick** in #retreat-2026-q2 (Slack): Retreat camera borrow — yes/no needed
+- 💬 **Mike Farry** in #grants (Slack): IPF Red Team review doc ready, due Apr 29 — review requested
+- 💬 **Jessica** (Slack DM): Offer to help with Q2 milestones doc — worth a reply
+- 💬 **Beth** in #-payer-experience (Slack): ↩ Emblem/GHI virtual payment card — Waystar support?
+- ✉️ **[[Mimi]]** (doromind email): ↩ "Re: SMS campaign registration" — confirm if still needs action
 
 ---
 
 ## People past cadence
 
-None — [[Mimi]] last contacted Apr 17 (6 days; weekly cadence not yet overdue).
+None — [[Mimi]] last contacted Apr 17 (7 days; weekly cadence overdue at 8 days — check in today).
 
 ---
 
@@ -69,8 +62,11 @@ None — [[Mimi]] last contacted Apr 17 (6 days; weekly cadence not yet overdue)
 
 ## Delegated / FYI
 
-- ✉️ SMS campaign (Dialpad) — Dhanica investigating, Mimi responded; Brady no action needed
-- ✉️ "Invite to founder-only events in NYC" (chrism@tfcinvitations.net) — sales pitch, Superhuman auto-archived
-- ✉️ guides@: Psychiatric help inquiry — Minna handling
-- ✉️ "Re: Eli" from Kendra Wilson (kendra@doromind.com) — care team thread
-- 💬 Design system launch (David · Slack), EVIDENT grant ([[Mimi]] · Slack), IPF Red Team review due Apr 29 (Mike Farry · Slack), website updates (Stephanie · Slack)
+- 💬 [[Mimi]] in #hiring-staffing: Matt good to start 5/4, SOW shared with Brady _(review when ready)_
+- 💬 Hannah in #-provider-experience-care: Consent project — Brady owns legal, Hannah driving next steps
+- 💬 Jon in #-provider-experience-care: Prioritization panel architecture thread _(FYI, no action needed)_
+- 💬 Stephanie in #feature-drops: Website content updates live _(FYI)_
+- 💬 EVIDENT grant co-winner announced ([[Mimi]] · #grants · FYI)
+- 💬 Engineering digest _(#team-eng · Cursor bot · FYI)_
+- ✉️ GitHub bot — PR #3956 Claude comment _(auto-notification)_
+- ✉️ "New: Write with Voice" from Superhuman _(marketing, skip)_
