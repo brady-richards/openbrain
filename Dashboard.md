@@ -12,20 +12,20 @@ updated: 2026-04-23
 
 ## Today — Thu 2026-04-23
 
-**Focus:** Dense meeting day. Reply to [[Mimi]]'s Slack ask before 10:00 stand-up. Keren licensing 1:1 at 12:30 is key — prep Karen's role clarification. OKR narrative revision is the top open commitment.
+**Focus:** EOD. Key carry-forwards for tomorrow: Q1 2026 Update still open, Clare 35-hr payroll/contract decision, Mimi SOW for Matt, and a large Asana wave (~40+ tasks) due Apr 24. Urgent replies needed: Beth (Emblem/GHI virtual card), Patrick (retreat camera), David (Gemini workshop limits).
 
-**Timeline anchors:**
+**Timeline anchors (complete):**
 - 07:00 Paloma Training
 - 08:30 🚃 Travel to WeWork
 - 10:00 BM + Dhanica Daily Stand-Up
 - 10:15 Brady + [[Mimi]] 1:1
 - 11:00 Minna + BM
-- 12:30 Keren + Brady: Licensing Task ff ups _(RSVP needed)_
+- 12:30 Keren + Brady: Licensing Task ff ups
 - 13:00 Stephanie + BM
 - 14:00 Milestones Jam
 - 15:00 Firm Health: Growth
 
-OOO: Kate, John, Patrick · _(gcal_brady_richards_gmail_com: unavailable)_
+OOO: Kate, John, Patrick · _(gcal_brady_richards_gmail_com: unavailable — token expired)_
 
 ---
 
@@ -43,9 +43,14 @@ _Run `/weekly-review` or `/daily-brief` to populate this section with upcoming A
 
 ## Needs a reply / open loops
 
-- 💬 **Dhanica** in #ceo (Slack): Are you done migrating off old Claude tools? Asana cleanup task created.
+- 💬 **[[Mimi]]** in #ceo (Slack): Clare payroll — 35-hr allocation and contract decision needed
 - 💬 **[[Mimi]]** in #ceo (Slack): "could you take a look at this?" — integration question, action needed
-- 💬 **Beth** in #-payer-experience (Slack): Allied Benefits $560 payment question (cc Minna)
+- 💬 **Dhanica** in #ceo (Slack): Done migrating off old Claude tools? _(Asana cleanup task created)_
+- 💬 **Beth** in #-payer-experience (Slack): Emblem/GHI virtual payment card — does Waystar support?
+- 💬 **Beth** in #-payer-experience (Slack): Allied Benefits $560 payment question _(cc Minna)_
+- 💬 **Patrick** in #retreat-2026-q2 (Slack): Retreat camera borrow — needs response
+- 💬 **David** in mpdm (Slack): Gemini limitations for retreat workshop — action needed
+- ✉️ **[[Mimi]]** (doromind email): "Re: SMS campaign registration" — check if action remains
 
 ---
 
@@ -68,4 +73,4 @@ None — [[Mimi]] last contacted Apr 17 (6 days; weekly cadence not yet overdue)
 - ✉️ "Invite to founder-only events in NYC" (chrism@tfcinvitations.net) — sales pitch, Superhuman auto-archived
 - ✉️ guides@: Psychiatric help inquiry — Minna handling
 - ✉️ "Re: Eli" from Kendra Wilson (kendra@doromind.com) — care team thread
-- 💬 Design system launch (David · Slack), EVIDENT grant (Mimi · Slack), IPF Red Team review due Apr 29 (Mike Farry · Slack), website updates (Stephanie · Slack)
+- 💬 Design system launch (David · Slack), EVIDENT grant ([[Mimi]] · Slack), IPF Red Team review due Apr 29 (Mike Farry · Slack), website updates (Stephanie · Slack)
