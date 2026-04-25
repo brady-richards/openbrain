@@ -1,11 +1,11 @@
 ---
-name: push-openbrain-template
-description: Genericize vault improvements and open a PR against the upstream openbrain-template repo — strips personal data, diffs, and creates a GitHub PR automatically after PII review.
+name: push-openbrain-claude-starter
+description: Genericize vault improvements and open a PR against the upstream openbrain-claude-starter repo — strips personal data, diffs, and creates a GitHub PR automatically after PII review.
 ---
 
-# /push-openbrain-template
+# /push-openbrain-claude-starter
 
-Push improvements from this live vault to the upstream [openbrain-template](https://github.com/davidianstyle/openbrain-template) repo by opening a pull request. The template repo must be cloned locally — by default at `~/Code/openbrain-template`. Set the `OPENBRAIN_TEMPLATE_DIR` environment variable to override.
+Push improvements from this live vault to the upstream [openbrain-claude-starter](https://github.com/davidianstyle/openbrain-claude-starter) repo by opening a pull request. The template repo must be cloned locally — by default at `~/Code/openbrain-claude-starter`. Set the `OPENBRAIN_TEMPLATE_DIR` environment variable to override.
 
 The vault is the working bench; the template is what other people clone. Anything that's a real improvement (a new skill, a bug fix in a hook, a smarter procedure, a new template field) should make it back to the template — but stripped of the user's name, accounts, orgs, memories, and any other personal data.
 
@@ -46,7 +46,7 @@ Resolve paths:
 
 ```bash
 VAULT="$(pwd)"
-TEMPLATE="${OPENBRAIN_TEMPLATE_DIR:-$HOME/Code/openbrain-template}"
+TEMPLATE="${OPENBRAIN_TEMPLATE_DIR:-$HOME/Code/openbrain-claude-starter}"
 ```
 
 ```bash
@@ -266,7 +266,7 @@ Output to the user:
 - **PR URL** — the link to the newly created pull request.
 - **Ported**: list of files changed in the template repo, one line each, with a 5–10 word summary of what was ported.
 - **Skipped (personal-only)**: list of files where the diff was 100% personal data and nothing was worth porting.
-- **Skipped (regression)**: list of files where the template was *ahead* of the vault — the user should run `/pull-openbrain-template` to pull these forward. Include a `git diff` snippet so they can see what's missing.
+- **Skipped (regression)**: list of files where the template was *ahead* of the vault — the user should run `/pull-openbrain-claude-starter` to pull these forward. Include a `git diff` snippet so they can see what's missing.
 - **Flagged for manual review**: list of files where the genericization was non-trivial and the user should look at the PR diff before merging.
 - **Vault-only files added**: list of new files added to the template repo.
 
@@ -280,6 +280,6 @@ A structured report (the items in §8) plus the PR URL.
 - The skill is **idempotent**: running it twice in a row should produce a no-op the second time, because the template will already match the genericized vault.
 - The skill **never touches secrets**: it never reads `~/.config/openbrain/.env`, and it scans every staged hunk for the patterns `xoxp-`, `0/`, `apps.googleusercontent.com`, `ASANA_PAT_`, and any 40-character-hex-looking string before allowing the commit. If found, abort and ask the user.
 - The `--dry-run` mode does steps 1–4 plus a *preview* of what step 5 would write, but skips writes, the commit, and the PR.
-- If the user asks `/push-openbrain-template all` and the diff is huge, batch the work file-by-file with a brief progress line, rather than one giant report.
+- If the user asks `/push-openbrain-claude-starter all` and the diff is huge, batch the work file-by-file with a brief progress line, rather than one giant report.
 - The template's `bootstrap/` folder has its own architecture and is **not** a port target by default — only touch it on explicit request, since the bootstrap wizard isn't mirrored in the vault.
 - This skill is itself a candidate for porting. The template version helps users keep their personal forks in sync with their own upstreams.

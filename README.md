@@ -28,7 +28,7 @@ Built for people who want Claude to act on their calendar, email, tasks, and not
 ## Install
 
 ```bash
-git clone https://github.com/davidianstyle/openbrain-template.git ~/OpenBrain
+git clone https://github.com/davidianstyle/openbrain-claude-starter.git ~/OpenBrain
 cd ~/OpenBrain
 ./bootstrap/setup.sh
 ```
@@ -119,8 +119,8 @@ Each script is idempotent — safe to re-run.
 | `/people-audit` | Cadence health report + regenerate People MOC |
 | `/people-sync` | Discovery pass across Gmail/Calendar/Slack to find unknown people |
 | `/weekly-review` | Monday synthesis |
-| `/push-openbrain-template` | Genericize vault improvements and open a PR against the template repo |
-| `/pull-openbrain-template` | Pull latest template changes into the vault interactively |
+| `/push-openbrain-claude-starter` | Genericize vault improvements and open a PR against the template repo |
+| `/pull-openbrain-claude-starter` | Pull latest template changes into the vault interactively |
 | `/asana` | Quick view of upcoming Asana tasks with interactive check-off |
 
 Skills are markdown procedures — Claude reads the SKILL.md and performs the steps. No code execution.
