@@ -1,7 +1,7 @@
 ---
 title: Dashboard
 tags: [dashboard]
-updated: 2026-04-24
+updated: 2026-04-27
 ---
 
 # Dashboard
@@ -10,15 +10,14 @@ updated: 2026-04-24
 
 ---
 
-## Today — Fri 2026-04-24
+## Today — Mon 2026-04-27
 
-**Focus:** ⚡ Anthropic Quick Connect at 11:00 with Maria Howe — use it to resolve the overdue BAA. Retreat is Apr 26+: finalize strategy track agenda and SLT expectations today. 49 Asana tasks due (the wave) — run `/asana` to triage. Reply to David on workshop format before EOD.
+**Focus:** 🏕️ Retreat travel day. Drive to JFK at 14:35 — arrive Yorktown Heights for team dinner at 17:30. **Retreat-critical:** Strategy track agenda (overdue, Effort 8) — finalize notes during transit. You're presenting slides 1–5 at tomorrow's kickoff; Mimi joins on slide 5.
 
 **Timeline anchors:**
-- 09:00 🚃 Travel to WeWork
-- 11:00 Anthropic Quick Connect · Maria Howe _(BAA — overdue task)_
-- 14:00 Chat with Brady _(personal/private)_
-- 15:00–17:00 No WCs block
+- [12:35–14:35] 🚌 Travel
+- [14:35–15:20] 🚗 Drive to JFK
+- [17:30–18:30] Doro Team Dinner Out · 334 Underhill Ave, Yorktown Heights
 
 _(gcal_brady_richards_gmail_com: unavailable — token expired)_
 
@@ -32,24 +31,33 @@ _Run `/weekly-review` to populate this section with this week's meetings and per
 
 ## Top priorities
 
-_Run `/weekly-review` or `/daily-brief` to populate this section with upcoming Asana tasks grouped by workspace._
+_Stub from `/daily-brief` — run `/weekly-review` for full synthesis._
+
+**Overdue (One-off):**
+- [Claude BAA](https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1214268063465311) · Apr 24
+- [Design retreat strategy track agenda](https://app.asana.com/1/1205801040312777/task/1214205060774077) · Apr 24 · Effort 8 ⚠️
+- [Email Dr. Laitman re: requested items](https://app.asana.com/1/1205801040312777/task/1214242123300833) · Apr 24
+
+**Due this week:**
+- [Lindsey Schupp](https://app.asana.com/1/1205801040312777/task/1213723086487055) — send offer + contract · Apr 27 · 📧 draft in Superhuman
+- [Jacob comp offer](https://app.asana.com/1/1205801040312777/task/1213994849506246) — Jake meeting Tue Apr 28 10pm ET
+- [Incorporate PC](https://app.asana.com/1/1205801040312777/task/1213963512905175) · Apr 27
+- [Talk to Rob about grant $10K](https://app.asana.com/1/1205801040312777/task/1210861746268460) · Apr 28
 
 ---
 
 ## Needs a reply / open loops
 
-- 💬 **David** in mpdm (Slack): Gemini limitations for retreat workshop — decision needed on format
-- 💬 **Patrick** in #retreat-2026-q2 (Slack): Retreat camera borrow — yes/no needed
-- 💬 **Mike Farry** in #grants (Slack): IPF Red Team review doc ready, due Apr 29 — review requested
-- 💬 **Jessica** (Slack DM): Offer to help with Q2 milestones doc — worth a reply
-- 💬 **Beth** in #-payer-experience (Slack): ↩ Emblem/GHI virtual payment card — Waystar support?
-- ✉️ **[[Mimi]]** (doromind email): ↩ "Re: SMS campaign registration" — confirm if still needs action
+- ✉️ **Nicole Bynum** (brady@doromind.com): "Working with Doro Mind under Dr Laitman's care" (Apr 26) — patient/family inquiry, unmatched in vault
+- 📱 **Robert Laitman** (SMS, Apr 26): "It was fun see you tomorrow / I believe same as last year" — Laurel House follow-up; also has open Asana grant task
+- 📱 **Matt Whitman** (SMS, Apr 26): sports banter re: Sixers — casual, low urgency
+- 📱 **Sara Guryan / Clare Jibb / Mike Roseman** (SMS): unanswered burst patterns from last 3 days — content not retrieved
 
 ---
 
 ## People past cadence
 
-None — [[Mimi]] last contacted Apr 17 (7 days; weekly cadence overdue at 8 days — check in today).
+- [[Mimi]] — weekly, last_contact Apr 17 (10 days overdue) — retreat planning meeting Apr 26 not yet logged; update via `/log-interaction`
 
 ---
 
@@ -62,11 +70,11 @@ None — [[Mimi]] last contacted Apr 17 (7 days; weekly cadence overdue at 8 day
 
 ## Delegated / FYI
 
-- 💬 [[Mimi]] in #hiring-staffing: Matt good to start 5/4, SOW shared with Brady _(review when ready)_
-- 💬 Hannah in #-provider-experience-care: Consent project — Brady owns legal, Hannah driving next steps
-- 💬 Jon in #-provider-experience-care: Prioritization panel architecture thread _(FYI, no action needed)_
-- 💬 Stephanie in #feature-drops: Website content updates live _(FYI)_
-- 💬 EVIDENT grant co-winner announced ([[Mimi]] · #grants · FYI)
-- 💬 Engineering digest _(#team-eng · Cursor bot · FYI)_
-- ✉️ GitHub bot — PR #3956 Claude comment _(auto-notification)_
-- ✉️ "New: Write with Voice" from Superhuman _(marketing, skip)_
+- 💬 Dhan in #ceo: internet down tonight, joining retreat call on mobile data _(FYI)_
+- 💬 Minna in #retreat-2026-q2: skipping dinner, arriving Tue 9am for kickoff _(FYI)_
+- 💬 Jon in #-provider-experience-care: Prioritization panel architecture thread _(FYI — no action from Brady)_
+- 💬 Hannah in #-provider-experience-care: Consent project — Brady owns legal, Hannah driving next meeting _(FYI)_
+- 💬 David in #ai: OpenBrain Gemini CLI port shared _(FYI)_
+- 💬 Mimi in #marketing: No MEGA refund yet on credit card _(FYI)_
+- 💬 guides@ × 2 — Robert Laitman's son enrollment requests _(FYI — care team handles)_
+- ✉️ GitHub claude[bot] — PR #3956 notification _(automated)_
