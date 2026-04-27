@@ -15,15 +15,45 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
 
 > **Date check first.** Before any other work, if `$1` is not supplied, resolve "today" by running `Bash: date "+%Y-%m-%d %A %H:%M %Z"`. Do **not** trust the session-injected `currentDate` field — it can lag the real clock by a day. Use the shell result as the target date for everything below.
 
-> **Parallelization:** steps 1–6 are all independent read-only gathers. Fan out **every** MCP call — all `google_*` accounts, all `slack_*` workspaces, all configured Asana workspaces, and Fathom — in a single tool-use block. Do not serialize across accounts or across steps.
+> **Parallelization:** steps 1–6 are all independent read-only gathers. Fan out **every** MCP call — all `google_*` accounts, all `slack_*` workspaces, all configured Asana workspaces, Fathom, and Messages — in a single tool-use block. Do not serialize across accounts or across steps. Step 1c (missed-meeting Fathom summaries) is a second-wave fanout — it depends on knowing which meetings to look up from step 1, so kick it off immediately after step 1 results are in hand. Step 4b writes happen after all reads complete.
 
-1. **Calendar sweep.** For each `google_*` MCP, call `google_calendar_list_events` for the target date (00:00 → 23:59 local). Merge into a single timeline; tag each event with the owning account slug. Collapse duplicate events that appear on multiple calendars (same title + time).
-1b. **Fathom recordings.** Call `mcp__fathom__list_meetings` for meetings in the last 24h. For each, note title, participants, and whether a summary is available. Surface under a **Recent recordings** section in the brief — title, attendees, and a `fathom:<meeting-id>` reference the user can pass to `/capture-meeting` if they haven't already processed it.
+1. **Calendar sweep.** For each `google_*` MCP, call `google_calendar_list_events` for the target date (00:00 → 23:59 local). Merge into a single timeline; tag each event with the owning account slug. Collapse duplicate events that appear on multiple calendars (same title + time). For each attendee entry, capture `self`, `responseStatus`, and event start/end times — needed for step 1c.
+
+1b. **Fathom recordings.** Call `mcp__fathom__fathom_list_meetings` for meetings in the last 24h. For each, note title, participants, and whether a summary is available. Surface under a **Recent recordings** section in the brief — title, attendees, and a `fathom:<meeting-id>` reference the user can pass to `/capture-meeting` if they haven't already processed it.
+
+1c. **Missed-meeting Fathom summaries.** From the calendar sweep (step 1), identify events that have already ended on the target date (and the preceding day if the brief runs before 10:00 local) where Brady was an invited attendee (`self: true`) but `responseStatus` is `declined`, `tentative`, or `needsAction`. For each such event, search Fathom (`mcp__fathom__fathom_search_meetings` by title or time window, or scan the list from step 1b) for a matching recording. If a recording exists and a summary is available, fetch it via `mcp__fathom__fathom_get_summary`. Surface under a **Missed meetings** section — meeting title, time, organizer, attendees, and the Fathom summary (truncated to 3–5 bullets). Omit the section if no matches.
+
 2. **Priority mail.** For each `google_*` MCP, `google_gmail_search_emails` with `is:unread newer_than:2d (is:important OR is:starred OR label:^iim)`. Capture subject, sender, account slug.
-3. **Slack attention.** For each `slack_*` MCP, search for mentions of the user in the last 24h and list unread DMs. Cap at 10 per workspace.
-4. **Overdue tasks.** For each configured Asana workspace (`asana_personal`, `asana_work`), `asana_get_my_tasks` with `completed_since=now`, `opt_fields=name,due_on,due_at,completed,assignee_section.name,projects.name,permalink_url,recurrence`, and post-filter to due date < today. The `recurrence` field is mandatory — see "Asana display ordering" below for why.
+
+3. **Slack attention.** For each `slack_*` MCP, search for mentions of the user in the last 24h and list unread DMs.
+
+3b. **Unanswered SMS.** Call `mcp__messages__double_texts` for the past 3 days to surface conversations where someone texted Brady without receiving a reply. Exclude: automated/system messages (OTP codes, delivery notifications, appointment reminders), group chats with > 10 members, contacts that appear to be services or bots (no saved name, or name looks like a business/short code). Cap at 10. For each remaining candidate, note the sender name, the last unanswered message (truncated to 80 chars), and days since last received.
+
+4. **Overdue tasks.** For each configured Asana workspace (`asana_personal`, `asana_work`), `asana_get_my_tasks` with `completed_since=now`, `opt_fields=name,due_on,due_at,completed,assignee_section.name,projects.name,permalink_url,recurrence,custom_fields`, and post-filter to due date < today. The `recurrence` field is mandatory — see "Asana display ordering" below for why.
+
+4b. **Effort field grooming.** Fetch all assigned incomplete tasks from each configured Asana workspace: `asana_get_my_tasks` with `completed_since=now` and `opt_fields=name,notes,due_on,projects.name,permalink_url,custom_fields,gid`. Identify tasks where the `Effort` custom field is absent or null. Cap at 10 tasks per run (prefer tasks by due date ascending — soonest first). For each such task:
+   1. Fetch full task details via `asana_get_task` with `opt_fields=name,notes,due_on,projects.name,custom_fields,dependencies,permalink_url` to get description and context.
+   2. Estimate a Fibonacci effort score (1, 2, 3, 5, 8, 13, 21) based on scope, description clarity, ambiguity, and dependencies. A one-liner with no description is usually a 1–3; a task with multiple dependencies or vague scope is 8+. Document reasoning in one sentence.
+   3. Draft 2–5 questions whose answers would make the task immediately actionable (examples: who owns a decision, what is the definition of done, are there blockers, which system/account does this apply to, etc.).
+   4. Post the estimate + questions as a task comment via `asana_create_task_story` with body:
+      ```
+      🤖 Effort estimate (auto-draft): **X**
+      Reasoning: <one sentence>
+
+      Questions to make this actionable:
+      - <question 1>
+      - <question 2>
+      ...
+      ```
+   5. Do **not** update the Effort custom field value itself — the comment is a draft for Brady to review. Brady sets the field after reviewing the comment.
+   6. **Email next step.** If the task name, notes, or questions suggest the immediate next action is sending an email (e.g. "email X about Y", "follow up with", "send proposal", "reach out"), draft that email via `mcp__superhuman__create_or_update_draft`. Use the correct account (brady@doromind.com for work tasks). Subject from context; body should be concise and match Brady's voice (see CLAUDE.md §6). Include a note in the Asana comment: `📧 Draft email saved in Superhuman — review before sending.`
+
+   **Parallelization:** fan out all `asana_get_task` reads in one block, then fan out all `asana_create_task_story` writes and `mcp__superhuman__create_or_update_draft` calls in the next block after reads complete.
+
 5. **Stale relationships.** Grep `+ Atlas/People/*.md` for notes whose `last_contact` is older than their `cadence` allows (weekly: > 7d, monthly: > 30d, quarterly: > 90d, asneeded: never stale). Cap at 5.
+
 6. **People detection pass.** From the calendar attendees + priority mail senders/recipients + Slack counterparties gathered in steps 1–3, check each identifier against `+ Atlas/People/*.md` frontmatter (`emails`, `slack`, `title`, `aliases`). Unknown humans (after filtering no-reply/bots/resources per `/people-sync` rules) become a **New faces** candidate list — do not stage stubs from this skill; just surface them. Recommend `/people-sync` if the list is non-empty.
+
 6b. **Draft replies for actionable threads.** After steps 1–6, draft responses for "Needs a reply" items where the user is the next actor. Skip:
    - Items classified as `Delegated / FYI` (care team, ops auto-alerts)
    - Observer-only threads
@@ -43,13 +73,18 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
 7. **Compose the daily note.** If `+ Atlas/Daily/<date>.md` does not exist, scaffold from `+ Extras/Templates/Daily.md`. If a `## Morning brief` section already exists in the note, **replace its body in place** (find the `## Morning brief` heading and overwrite everything up to the next H2 or EOF). Otherwise insert a new `## Morning brief` section near the top. Contents:
    - **Today's calendar** (merged timeline, grouped bullet list, `[HH:MM–HH:MM] Title · account-slug · other attendees if any`)
    - **Recent recordings** (Fathom meetings from last 24h not yet captured as interaction notes — title, attendees, `fathom:<id>` ref; omit section if empty)
+   - **Missed meetings** (from step 1c — meetings Brady was invited to but didn't attend, with Fathom summaries if available; omit section if empty)
    - **Needs a reply** (mail + slack, grouped by account/workspace)
+   - **Unanswered SMS** (from step 3b — sender, truncated message, days waiting; omit section if empty)
    - **Drafted replies** — list of drafts saved in step 6b. One bullet per draft: `- ✉️ [[Person]] — Re: Subject · gmail draft <draft-id> · <account>` (or `💬` for Slack). Include a footer: `_(Review and send from Gmail / Slack. Drafts are not sent automatically.)_`. Omit the section if no drafts were generated (all items were delegated/FYI).
    - **Overdue in Asana**
+   - **Effort comments posted** (from step 4b — one bullet per task: `- [Task Name](<permalink>) — estimated **X**, comment posted`)
    - **People past cadence** (link with `[[wikilinks]]`)
    - **New faces** — unknown humans seen in today's activity, one line each with source context. Omit the section if empty.
    - A single-line **Focus suggestion** based on the above
+
 8. Never touch any other section of the daily note. Only the `## Morning brief` section is managed by this skill.
+
 9. **Refresh `Dashboard.md` at the vault root.** This skill is the primary owner of the dashboard and rebuilds it on every run, since it already has all the data in hand. Only run this step when the target date is **today** — historical reruns must not retroactively rewrite the dashboard. Procedure:
    - For each H2 section in `Dashboard.md` listed below, **replace the body in place** (find the heading and overwrite everything up to the next H2 or EOF). Do not create the file from scratch — if `Dashboard.md` is missing, log a warning and skip step 9. Never touch `## Quick links` (static) or sections owned by `/daily-review` and `/weekly-review` (see below).
    - **Owned by `/daily-brief`** (rebuild every run):
@@ -63,7 +98,7 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
 
 ## Output shape
 
-Create or refresh the `## Morning brief` section in `+ Atlas/Daily/<date>.md`, plus the dashboard sections owned by this skill in `Dashboard.md` (see step 9). Report a short summary of what was (re)generated to the user in chat — including the dashboard refresh status.
+Create or refresh the `## Morning brief` section in `+ Atlas/Daily/<date>.md`, plus the dashboard sections owned by this skill in `Dashboard.md` (see step 9). Report a short summary of what was (re)generated to the user in chat — including the dashboard refresh status, count of effort comments posted, missed meetings found, and unanswered SMS surfaced.
 
 ## Asana scope note
 
@@ -75,7 +110,7 @@ Whenever this skill renders a flat list of Asana tasks (in the `Overdue in Asana
 
 **Source of truth: the Asana `recurrence.type` field. Never guess from the task name.** Heuristics are unreliable — task titles rarely encode their repeat cadence.
 
-**Required opt_fields.** When this skill issues `asana_get_my_tasks` (step 4) or any task fetch that will feed into a display list, **`recurrence` MUST be in `opt_fields`**. Standard fetches don't return it. The recommended opt_fields string for this skill: `name,due_on,due_at,completed,assignee_section.name,projects.name,permalink_url,recurrence`.
+**Required opt_fields.** When this skill issues `asana_get_my_tasks` (step 4) or any task fetch that will feed into a display list, **`recurrence` and `custom_fields` MUST be in `opt_fields`**. Standard fetches don't return them. The recommended opt_fields string for this skill: `name,due_on,due_at,completed,assignee_section.name,projects.name,permalink_url,recurrence,custom_fields`.
 
 **`recurrence.type` → display group mapping:**
 
@@ -94,6 +129,7 @@ Within each group, secondary sort by `due_on` ascending. Omit empty groups. Rend
 ## Notes
 
 - **Idempotent by design.** Running `/daily-brief` twice on the same date replaces the section rather than duplicating it. The section header stays `## Morning brief` (the name reflects content intent, not the time of day the skill was invoked).
+- **Effort comments are not idempotent.** Step 4b posts a comment to Asana; re-running will post a second comment on the same task if Effort is still unset. Check for an existing `🤖 Effort estimate` comment before posting to avoid duplicates — if one exists, skip that task.
 - Never **send** any email or Slack message — this skill creates drafts only (step 6b). Drafts are not sent; the user reviews and sends from the native client.
 - If a given MCP server fails, note it in the brief (`_(google_<slug>: unavailable)_`) and continue.
 - Respect the `#workspace/personal` vs `#workspace/work` split only if the user asks for a single-workspace brief (e.g. `/daily-brief work` → skip all `workspace=personal` sources). Without a flag, include everything.
