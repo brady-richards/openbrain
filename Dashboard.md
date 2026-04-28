@@ -1,7 +1,7 @@
 ---
 title: Dashboard
 tags: [dashboard]
-updated: 2026-04-27
+updated: 2026-04-28
 ---
 
 # Dashboard
@@ -10,16 +10,14 @@ updated: 2026-04-27
 
 ---
 
-## Today — Mon 2026-04-27
+## Today — Tue 2026-04-28
 
-**Focus:** 🏕️ Retreat travel day. Drive to JFK at 14:35 — arrive Yorktown Heights for team dinner at 17:30. **Retreat-critical:** Strategy track agenda (overdue, Effort 8) — finalize notes during transit. You're presenting slides 1–5 at tomorrow's kickoff; Mimi joins on slide 5.
+**Focus:** 🏕️ Retreat Day 2. Founders' Kick-off 9–11am, then Track 2 strategy sessions (11:30am–6pm). Jake/Jacob Feldman call at 10pm — Jacob comp offer due today. D&O reply drafted in Superhuman (Danny Burke / Newfront).
 
 **Timeline anchors:**
-- [12:35–14:35] 🚌 Travel
-- [14:35–15:20] 🚗 Drive to JFK
-- [17:30–18:30] Doro Team Dinner Out · 334 Underhill Ave, Yorktown Heights
-
-_(gcal_brady_richards_gmail_com: unavailable — token expired)_
+- [09:00–11:00] Founders' Kick-off & Care coordination · all-hands
+- [11:30–18:00] Track 2: Strategy — Decrease Cost to Serve & Catalyst
+- [22:00–22:30] Doro Mind <> Jake (Jacob Feldman) · comp offer due
 
 ---
 
@@ -34,30 +32,39 @@ _Run `/weekly-review` to populate this section with this week's meetings and per
 _Stub from `/daily-brief` — run `/weekly-review` for full synthesis._
 
 **Overdue (One-off):**
-- [Claude BAA](https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1214268063465311) · Apr 24
-- [Design retreat strategy track agenda](https://app.asana.com/1/1205801040312777/task/1214205060774077) · Apr 24 · Effort 8 ⚠️
-- [Email Dr. Laitman re: requested items](https://app.asana.com/1/1205801040312777/task/1214242123300833) · Apr 24
+- [Email Dr. Laitman re: requested items](https://app.asana.com/1/1205801040312777/task/1214242123300833) · Apr 27
+- [Debug Tier 3 revenue](https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214204223676067) · Apr 27
+- [Matthew Montanez](https://app.asana.com/1/1205801040312777/project/1207358508153084/task/1214245753222527) — hiring funnel · Apr 27
+- [Send welcome package — Kate Douglas](https://app.asana.com/1/1205801040312777/project/1213917275125462/task/1213917912898002) · Apr 27
+- ~~[Design retreat strategy track agenda](https://app.asana.com/1/1205801040312777/task/1214205060774077)~~ · ✅ done — mark complete
+
+**Due today (4/28):**
+- [Jacob comp offer](https://app.asana.com/1/1205801040312777/task/1213994849506246) — Jake meeting 10pm tonight
+- [Claude BAA](https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1214268063465311)
+- [CA Professional Corporation](https://app.asana.com/1/1205801040312777/project/1213901277128451/task/1213901277128451)
+- [D&O Insurance](https://app.asana.com/1/1205801040312777/project/1205896396814580/task/1213269356406376) · 📧 draft saved
 
 **Due this week:**
-- [Lindsey Schupp](https://app.asana.com/1/1205801040312777/task/1213723086487055) — send offer + contract · Apr 27 · 📧 draft in Superhuman
-- [Jacob comp offer](https://app.asana.com/1/1205801040312777/task/1213994849506246) — Jake meeting Tue Apr 28 10pm ET
-- [Incorporate PC](https://app.asana.com/1/1205801040312777/task/1213963512905175) · Apr 27
-- [Talk to Rob about grant $10K](https://app.asana.com/1/1205801040312777/task/1210861746268460) · Apr 28
+- 4/30 — [Monthly Financial Statements (GAAP)](https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1213809703315970) · Monthly
+- 4/30 — [Annual Financial Package](https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1213809703315990) · Annually
+- 5/1 — [Review Heather's classification](https://app.asana.com/1/1205801040312777/project/1213818661314260/task/1213822072572420)
+- 5/1 — [Re-issue older grants](https://app.asana.com/1/1205801040312777/project/1205896396814580/task/1213821506335890)
+- 5/1 — [IPF 2026-05 Attachment 8 (CA)](https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1213906566608134)
 
 ---
 
 ## Needs a reply / open loops
 
-- ✉️ **Nicole Bynum** (brady@doromind.com): "Working with Doro Mind under Dr Laitman's care" (Apr 26) — patient/family inquiry, unmatched in vault
-- 📱 **Robert Laitman** (SMS, Apr 26): "It was fun see you tomorrow / I believe same as last year" — Laurel House follow-up; also has open Asana grant task
-- 📱 **Matt Whitman** (SMS, Apr 26): sports banter re: Sixers — casual, low urgency
-- 📱 **Sara Guryan / Clare Jibb / Mike Roseman** (SMS): unanswered burst patterns from last 3 days — content not retrieved
+- ✉️ **Danny Burke (Newfront)** — D&O Insurance Quote · asking for intro call Tue/Wed · 📧 draft saved in Superhuman (suggested Friday May 1)
+- ✉️ **Nicole Bynum** (Apr 26): "Working with Doro Mind under Dr Laitman's care" — patient/family inquiry, unmatched in vault
+- 📱 **Robert Laitman** (SMS, Apr 26): Laurel House follow-up; open Asana grant task ($10K) overdue
+- 📱 **Matt Whitman** (SMS, Apr 26): sports banter re: Sixers — low urgency
 
 ---
 
 ## People past cadence
 
-- [[Mimi]] — weekly, last_contact Apr 17 (10 days overdue) — retreat planning meeting Apr 26 not yet logged; update via `/log-interaction`
+- [[Mimi]] — weekly, last_contact Apr 17 — *at retreat together; will resolve today*
 
 ---
 
@@ -70,11 +77,9 @@ _Stub from `/daily-brief` — run `/weekly-review` for full synthesis._
 
 ## Delegated / FYI
 
-- 💬 Dhan in #ceo: internet down tonight, joining retreat call on mobile data _(FYI)_
-- 💬 Minna in #retreat-2026-q2: skipping dinner, arriving Tue 9am for kickoff _(FYI)_
-- 💬 Jon in #-provider-experience-care: Prioritization panel architecture thread _(FYI — no action from Brady)_
-- 💬 Hannah in #-provider-experience-care: Consent project — Brady owns legal, Hannah driving next meeting _(FYI)_
-- 💬 David in #ai: OpenBrain Gemini CLI port shared _(FYI)_
-- 💬 Mimi in #marketing: No MEGA refund yet on credit card _(FYI)_
-- 💬 guides@ × 2 — Robert Laitman's son enrollment requests _(FYI — care team handles)_
-- ✉️ GitHub claude[bot] — PR #3956 notification _(automated)_
+- 💬 Jon in #-provider-experience-care: clinical message classification / auto-flagging system _(FYI — no action from Brady)_
+- 💬 Hannah in #-provider-experience-care: consent project — Brady owns legal, Hannah driving _(FYI — may need follow-up post-retreat)_
+- 💬 Mimi in #retreat-2026-q2: car parking coordination _(FYI)_
+- 📅 SemperVirens Payer Buyer Intelligence session 12–1pm — Brady declined (OOO); Mimi may attend _(FYI — relevant to payer strategy)_
+- 📅 Catalyst Check-in 1–1:45pm — Brady declined (OOO); Mimi attending _(FYI)_
+- ✉️ GitHub claude[bot] — PR #3956 notifications × 5 _(automated)_
