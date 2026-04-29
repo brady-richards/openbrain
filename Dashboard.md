@@ -83,9 +83,10 @@ _Stub from `/daily-brief` — run `/weekly-review` for full synthesis._
 
 ## Delegated / FYI
 
-- 💬 Jon in #-provider-experience-care: clinical message classification / auto-flagging system _(FYI — no action from Brady)_
-- 💬 Hannah in #-provider-experience-care: consent project — Brady owns legal, Hannah driving _(FYI — may need follow-up post-retreat)_
-- 💬 Mimi in #retreat-2026-q2: car parking coordination _(FYI)_
-- 📅 SemperVirens Payer Buyer Intelligence session 12–1pm — Brady declined (OOO); Mimi may attend _(FYI — relevant to payer strategy)_
-- 📅 Catalyst Check-in 1–1:45pm — Brady declined (OOO); Mimi attending _(FYI)_
-- ✉️ GitHub claude[bot] — PR #3956 notifications × 5 _(automated)_
+- 💬 Jon in #team-eng: accidentally merged PR 4163 (coarse phi auditing), rolling back _(FYI — Jon handling)_
+- 💬 Keren in #-member-experience: member asking how to change card on file _(FYI — care team handling; David Chang email is the internal thread)_
+- 💬 Jon in #-provider-experience-care: clinical message classification / auto-flagging _(FYI — no action from Brady)_
+- 💬 Hannah in #-provider-experience-care: consent project — Brady owns legal, Hannah driving _(FYI — follow up post-retreat)_
+- ✉️ guides@doromind.com → Fwd: changing the card on file × 2 _(automated FYI)_
+- ✉️ GitHub claude[bot] — PR #3956 notifications × multiple _(automated)_
+- ✉️ SimpleMDM — Device enrolled notification _(automated)_
