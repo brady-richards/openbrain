@@ -257,6 +257,7 @@ Skills live in `.claude/skills/<name>/SKILL.md` (vault-local, portable with the 
 | `/people-sync` | Discovery pass across Gmail/Calendar/Slack — auto-updates `last_contact` on known people, stages unknowns in `+ Inbox/people-candidates/`, proposes alias merges. |
 | `/weekly-review` | Monday synthesis → `+ Atlas/Weekly Reviews/<ISO-week>.md`. |
 | `/asana` | Quick view of tasks due in the next 7 days across configured workspaces, with interactive check-off. |
+| `/hire` | Execute the offer process for a new hire — gathers context from Gmail/Slack/Asana, sets up the Drive folder, copies and fills the contract template, records equity, and creates the Asana onboarding task. |
 | `/pull-openbrain-template` | Pull latest changes from the upstream openbrain-template repo into this vault, interactively applying improvements. |
 | `/push-openbrain-template` | Genericize vault improvements and open a PR against the upstream openbrain-template repo. |
 
