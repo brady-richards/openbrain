@@ -1,7 +1,7 @@
 ---
 title: Dashboard
 tags: [dashboard]
-updated: 2026-04-28
+updated: 2026-04-29
 ---
 
 # Dashboard
@@ -10,14 +10,17 @@ updated: 2026-04-28
 
 ---
 
-## Today — Tue 2026-04-28
+## Today — Wed 2026-04-29
 
-**Focus:** 🏕️ Retreat Day 2. Founders' Kick-off 9–11am, then Track 2 strategy sessions (11:30am–6pm). Jake/Jacob Feldman call at 10pm — Jacob comp offer due today. D&O reply drafted in Superhuman (Danny Burke / Newfront).
+**Focus:** 🏕️ Retreat Day 3. Track Updates & OpenBrain share-out 9–11am, then full-day Track 2 strategy (11:30am–6pm) with Underscore investor check-in at 1:30pm inside that window. City Spark Welcome Drinks 5–7pm at City Light Capital, Midtown — leave Track 2 by ~4:45pm. Before sessions: reply to Dhanica on ORI task (due tomorrow) and triage David Chang card-on-file email.
 
 **Timeline anchors:**
-- [09:00–11:00] Founders' Kick-off & Care coordination · all-hands
-- [11:30–18:00] Track 2: Strategy — Decrease Cost to Serve & Catalyst
-- [22:00–22:30] Doro Mind <> Jake (Jacob Feldman) · comp offer due
+- [09:00–09:30] 🚃 Travel to WeWork
+- [09:00–11:00] Track Updates & Open Brain share out · Mimi, Everyone
+- [09:45–10:00] Eric + Mimi x Dhanica | #Life Update
+- [11:30–18:00] Track 2: Strategy — Decrease Cost to Serve & Catalyst · Kate, Beth, Jessica, Mimi, Hannah, Stephanie, Minna, Patrick
+- [13:30–14:30] Doro Mind: Underscore Touchpoint · brian/lily/kate @underscore.vc
+- [17:00–19:00] City Spark Welcome Drinks @ City Light Capital, 150 E 52nd St Fl 24, NYC
 
 ---
 
@@ -55,16 +58,19 @@ _Stub from `/daily-brief` — run `/weekly-review` for full synthesis._
 
 ## Needs a reply / open loops
 
-- ✉️ **Danny Burke (Newfront)** — D&O Insurance Quote · asking for intro call Tue/Wed · 📧 draft saved in Superhuman (suggested Friday May 1)
-- ✉️ **Nicole Bynum** (Apr 26): "Working with Doro Mind under Dr Laitman's care" — patient/family inquiry, unmatched in vault
-- 📱 **Robert Laitman** (SMS, Apr 26): Laurel House follow-up; open Asana grant task ($10K) overdue
-- 📱 **Matt Whitman** (SMS, Apr 26): sports banter re: Sixers — low urgency
+- ✉️ **David Chang** — Re: changing the card on file (Apr 29) · brady@doromind.com
+- ✉️ **Magdiel Matos** (Assured) — Re: [External] Application questions document (Apr 27) · brady@doromind.com
+- ✉️ **Ryan Dunn** (Qapita Venture) — Re: Brady, next steps (Apr 27) · brady@doromind.com
+- 💬 **Dhanica** in #ceo — ORI task check-in, due tomorrow (Apr 30) · Slack
+- 📱 **Robert Laitman** (SMS, ~3d): 3 consecutive unanswered — Laurel House follow-up
+- 📱 **Matt Whitman** (SMS, ~3d): 5 consecutive unanswered — low urgency
+- 📱 **Clare Jibb** (SMS, ~3d): 4 consecutive unanswered
 
 ---
 
 ## People past cadence
 
-- [[Mimi]] — weekly, last_contact Apr 17 — *at retreat together; will resolve today*
+- [[Mimi]] — weekly, last_contact Apr 17 (12 days) — *at retreat together; update last_contact after today*
 
 ---
 
