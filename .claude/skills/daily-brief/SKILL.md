@@ -25,6 +25,19 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
 
 2. **Priority mail.** For each `google_*` MCP, `google_gmail_search_emails` with `is:unread newer_than:2d (is:important OR is:starred OR label:^iim)`. Capture subject, sender, account slug.
 
+2b. **Sent-email commitment scan.** For each `google_*` MCP, search sent mail: `in:sent newer_than:2d`. For each result, read the message body and look for language where Brady made a commitment or promised a next action — phrases like "I'll", "I will", "let me", "I'll send", "I'll follow up", "I'll get back", "I'll check", "I'll connect", "I'll introduce", "will have this to you", "I'll loop you in", "I'll look into", "sending over shortly", "I'll make sure", "will do", etc. Extract each distinct commitment as a short snippet (≤ 100 chars) plus its thread subject and counterparty.
+
+   After step 4 data is in hand, cross-reference each extracted commitment against the open Asana task list: do a loose keyword match on the counterparty name and action verb. A commitment is **tracked** if a matching incomplete Asana task exists (same person + similar action). A commitment is **dangling** if no matching task is found.
+
+   Surface dangling commitments in a **Dangling commitments** section of the brief (and in the dashboard `## Needs a reply / open loops` section). For each:
+   - Email subject + counterparty
+   - The commitment snippet
+   - A `[→ create Asana task]` hint so Brady can act on it
+
+   Omit the section if every commitment found is already tracked. Cap at 10 per run. Skip automated/templated emails (Asana digests, GitHub notifications, commercial threads).
+
+   **Parallelization:** the `in:sent` searches run in the initial step 1–6 fanout. The cross-reference against Asana happens in a second wave after step 4 completes — no extra API calls needed.
+
 3. **Slack attention.** For each `slack_*` MCP, search for mentions of the user in the last 24h and list unread DMs.
 
 3b. **Unanswered SMS.** Call `mcp__messages__double_texts` for the past 3 days to surface conversations where someone texted Brady without receiving a reply. Exclude: automated/system messages (OTP codes, delivery notifications, appointment reminders), group chats with > 10 members, contacts that appear to be services or bots (no saved name, or name looks like a business/short code). Cap at 10. For each remaining candidate, note the sender name, the last unanswered message (truncated to 80 chars), and days since last received.
