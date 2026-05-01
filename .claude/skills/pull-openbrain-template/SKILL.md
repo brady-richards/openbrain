@@ -7,7 +7,7 @@ description: Pull the latest changes from the upstream openbrain-claude-starter 
 
 Pull improvements from the upstream [openbrain-claude-starter](https://github.com/davidianstyle/openbrain-claude-starter) repo into this vault. The inverse of `/push-openbrain-claude-starter`: that skill pushes vault improvements upstream; this skill pulls template improvements downstream.
 
-The template repo must be cloned locally — by default at `~/Code/openbrain-claude-starter`. Set the `OPENBRAIN_TEMPLATE_DIR` environment variable to override.
+The template repo must be cloned locally — by default at `~/Code/openbrain-claude-starter` (or `$HOME/openbrain-claude-starter` if you keep projects in `$HOME`; **`OPENBRAIN_TEMPLATE_DIR`** always wins).
 
 ## Inputs
 

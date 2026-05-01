@@ -5,7 +5,7 @@ description: Genericize vault improvements and open a PR against the upstream op
 
 # /push-openbrain-claude-starter
 
-Push improvements from this live vault to the upstream [openbrain-claude-starter](https://github.com/davidianstyle/openbrain-claude-starter) repo by opening a pull request. The template repo must be cloned locally — by default at `~/Code/openbrain-claude-starter`. Set the `OPENBRAIN_TEMPLATE_DIR` environment variable to override.
+Push improvements from this live vault to the upstream [openbrain-claude-starter](https://github.com/davidianstyle/openbrain-claude-starter) repo by opening a pull request. Clone the template locally — default path `~/Code/openbrain-claude-starter`; override with **`OPENBRAIN_TEMPLATE_DIR`** if yours differs.
 
 The vault is the working bench; the template is what other people clone. Anything that's a real improvement (a new skill, a bug fix in a hook, a smarter procedure, a new template field) should make it back to the template — but stripped of the user's name, accounts, orgs, memories, and any other personal data.
 

@@ -10,7 +10,6 @@
 #   6. Loops through each supported service and asks "add an account? [y/N]"
 #   7. Runs register-mcps.sh to wire ~/.claude.json
 #   8. Runs validate.sh to sanity-check the install
-#   9. Prints next steps
 #
 # Re-runnable: the script is defensive. Re-running won't clobber existing
 # secrets — you'll get prompts only for missing or explicitly re-entered values.
@@ -45,18 +44,28 @@ if ! yes_no "Continue?" y; then
 fi
 
 # -----------------------------------------------------------------------------
-# Step 1: prereqs
+# Step 1: prereqs (auto-installs missing dependencies)
 # -----------------------------------------------------------------------------
-step "1/9 · Checking prerequisites"
+step "1/9 · Checking & installing prerequisites"
+ensure_git
+ok "git: $(command -v git)"
 ensure_python3
 ok "python3: $PYTHON_BIN"
 ensure_node
 ok "node: $(command -v node) ($(node --version))"
-ensure_gh
 ensure_claude_cli
+ok "claude: $(command -v claude)"
+ensure_gh
+ok "gh: $(command -v gh)"
 
-command -v git >/dev/null || die "git not found — install Xcode command-line tools"
-ok "git: $(command -v git)"
+# If asdf is active, ensure .tool-versions exists so node/python resolve in this dir
+if command -v asdf >/dev/null 2>&1 && [[ ! -f "$REPO_ROOT/.tool-versions" ]]; then
+  NODE_VER="$(node --version 2>/dev/null | sed 's/^v//')"
+  if [[ -n "$NODE_VER" ]]; then
+    echo "nodejs $NODE_VER" > "$REPO_ROOT/.tool-versions"
+    ok "created .tool-versions (nodejs $NODE_VER) for asdf compatibility"
+  fi
+fi
 
 # -----------------------------------------------------------------------------
 # Step 2: user profile
@@ -104,8 +113,7 @@ created: $BOOTSTRAP_DATE
 
 # ${USER_NAME}'s OpenBrain
 
-The front door. This file's MOC index auto-regenerates on every Claude Code
-session end.
+The front door. Edit the MOC index below as you add new Maps of Content.
 
 ## Top MOCs
 
@@ -164,7 +172,7 @@ if yes_no "Wire up Google accounts (Gmail + Calendar + Meet + Drive)?" y; then
 fi
 
 # Slack
-if yes_no "Wire up Slack workspaces?" n; then
+if yes_no "Wire up Slack workspaces?" y; then
   while true; do
     sub="$(prompt 'Slack workspace subdomain (e.g. acme → acme.slack.com, blank to finish)')"
     [[ -z "$sub" ]] && break
@@ -173,15 +181,15 @@ if yes_no "Wire up Slack workspaces?" n; then
 fi
 
 # Asana
-if yes_no "Wire up Asana (personal)?" n; then
+if yes_no "Wire up Asana (personal)?" y; then
   "$HERE/lib/add-asana.sh" personal || warn "failed to add personal Asana"
 fi
-if yes_no "Wire up Asana (work)?" n; then
+if yes_no "Wire up Asana (work)?" y; then
   "$HERE/lib/add-asana.sh" work || warn "failed to add work Asana"
 fi
 
 # Fathom
-if yes_no "Wire up Fathom?" n; then
+if yes_no "Wire up Fathom?" y; then
   "$HERE/lib/add-fathom.sh" || warn "failed to add Fathom"
 fi
 
@@ -209,29 +217,71 @@ else
 fi
 
 # -----------------------------------------------------------------------------
-# Step 8: wire Claude Code Stop + SessionStart hooks
+# Step 8: auto-commit/auto-pull hooks (opt-in)
 # -----------------------------------------------------------------------------
-step "8/9 · Wiring Claude Code Stop + SessionStart hooks"
-CLAUDE_SETTINGS="$REPO_ROOT/.claude/settings.json"
-mkdir -p "$(dirname "$CLAUDE_SETTINGS")"
-"$PYTHON_BIN" - "$CLAUDE_SETTINGS" "$REPO_ROOT" <<'PY'
-import json, os
+step "8/9 · Auto git sync hooks"
+cat <<EOF
+OpenBrain can auto-commit and push your vault when Claude Code stops, and
+auto-pull when it starts. This keeps your vault in sync across devices
+without manual git commands.
+
+  • SessionStart hook — git pull --rebase (fail-soft)
+  • Stop hook — regenerate Home.md MOC index, auto-commit, push
+
+EOF
+if yes_no "Enable auto git sync hooks?" n; then
+  # Ensure a git remote is configured for push/pull to work
+  if ! git -C "$REPO_ROOT" rev-parse --abbrev-ref --symbolic-full-name @{u} >/dev/null 2>&1; then
+    cat <<EOF
+
+Auto sync needs a git remote to push to. Let's set one up.
+
+You can create a new private repo on GitHub, or use an existing one.
+
+EOF
+    if command -v gh >/dev/null 2>&1; then
+      REPO_NAME="$(prompt 'GitHub repo name (e.g. my-brain)' 'my-brain')"
+      info "Creating private repo and pushing..."
+      gh repo create "$REPO_NAME" --private --source="$REPO_ROOT" --push 2>&1 && ok "remote created: $REPO_NAME" \
+        || warn "repo creation failed — you can set up a remote manually later"
+    else
+      REMOTE_URL="$(prompt 'Git remote URL (e.g. git@github.com:you/my-brain.git, blank to skip)')"
+      if [[ -n "$REMOTE_URL" ]]; then
+        git -C "$REPO_ROOT" remote add origin "$REMOTE_URL" 2>/dev/null \
+          || git -C "$REPO_ROOT" remote set-url origin "$REMOTE_URL"
+        git -C "$REPO_ROOT" push -u origin main 2>&1 && ok "pushed to $REMOTE_URL" \
+          || warn "push failed — check your remote URL and credentials"
+      else
+        warn "no remote configured — auto sync hooks will commit locally but won't push"
+      fi
+    fi
+  else
+    ok "git remote already configured"
+  fi
+
+  SETTINGS_FILE="$REPO_ROOT/.claude/settings.json"
+  mkdir -p "$(dirname "$SETTINGS_FILE")"
+  "$PYTHON_BIN" - "$SETTINGS_FILE" "$REPO_ROOT" <<'PY'
+import json, sys
 from pathlib import Path
-settings_path = Path(os.sys.argv[1])
-repo_root = os.sys.argv[2]
+
+settings_path = Path(sys.argv[1])
+repo_root = sys.argv[2]
+
 data = {}
 if settings_path.exists():
     try:
         data = json.loads(settings_path.read_text())
     except Exception:
         pass
+
 hooks = data.setdefault("hooks", {})
 hooks["SessionStart"] = [{
     "hooks": [{
         "type": "command",
         "command": f"{repo_root}/.openbrain/on-start.sh",
         "timeout": 30,
-        "statusMessage": "OpenBrain: pulling latest",
+        "statusMessage": "OpenBrain: pulling latest"
     }]
 }]
 hooks["Stop"] = [{
@@ -239,13 +289,16 @@ hooks["Stop"] = [{
         "type": "command",
         "command": f"{repo_root}/.openbrain/on-stop.sh",
         "timeout": 120,
-        "statusMessage": "OpenBrain: syncing to git",
+        "statusMessage": "OpenBrain: syncing to git"
     }]
 }]
+
 settings_path.write_text(json.dumps(data, indent=2) + "\n")
-print(f"[openbrain] wrote {settings_path}")
 PY
-ok "Claude Code hooks wired in .claude/settings.json"
+  ok "auto git sync hooks enabled in .claude/settings.json"
+else
+  ok "skipped — you can enable them later by re-running setup or editing .claude/settings.json"
+fi
 
 # -----------------------------------------------------------------------------
 # Step 9: validate
@@ -261,7 +314,7 @@ cat <<EOF
 Next steps:
 
   1. ${_C_BOLD}Restart Claude Code${_C_RESET} in this vault directory so it picks up
-     the new MCP servers and Stop/SessionStart hooks.
+     the new MCP servers.
 
   2. Inside a fresh Claude Code session, run:
        ${_C_CYAN}/mcp${_C_RESET}               # verify every server shows "ready"
@@ -281,9 +334,6 @@ Next steps:
        ${_C_CYAN}./bootstrap/lib/add-google-account.sh jane@newdomain.com${_C_RESET}
        ${_C_CYAN}./bootstrap/lib/add-slack-workspace.sh newteam${_C_RESET}
        ${_C_CYAN}./bootstrap/lib/add-asana.sh personal${_C_RESET}
-
-  5. (Optional) Push this vault to a private git remote for cross-device sync:
-       ${_C_CYAN}gh repo create my-vault --private --source=. --push${_C_RESET}
 
 See README.md and bootstrap/README.md for troubleshooting.
 EOF
