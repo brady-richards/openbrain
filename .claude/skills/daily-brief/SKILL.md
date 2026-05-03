@@ -23,7 +23,7 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
 
 1c. **Missed-meeting Fathom summaries.** From the calendar sweep (step 1), identify events that have already ended on the target date (and the preceding day if the brief runs before 10:00 local) where **you** were an invited attendee (`self: true`) but `responseStatus` is `declined`, `tentative`, or `needsAction`. For each such event, search Fathom (`mcp__fathom__fathom_search_meetings` by title or time window, or scan the list from step 1b) for a matching recording. If a recording exists and a summary is available, fetch it via `mcp__fathom__fathom_get_summary`. Surface under a **Missed meetings** section — meeting title, time, organizer, attendees, and the Fathom summary (truncated to 3–5 bullets). Omit the section if no matches.
 
-2. **Priority mail.** For each `google_*` MCP, `google_gmail_search_emails` with `is:unread newer_than:2d (is:important OR is:starred OR label:^iim)`. Capture subject, sender, account slug. Cap at **5** items **per account** in the prose you write into the brief and dashboard — still execute the query fully; summarize the strongest signals.
+2. **Priority mail.** For each `google_*` MCP, `google_gmail_search_emails` with `is:unread newer_than:2d (is:important OR is:starred OR label:^iim)`. Capture subject, sender, account slug. Cap at **10** items **per account** in the prose you write into the brief and dashboard — still execute the query fully; summarize the strongest signals. Skip: delegated/FYI items (to or from guides@doromind.com, not explicitly To:/CC: me, don't mention me)
 
 2b. **Sent-email commitment scan.** For each `google_*` MCP, search sent mail: `in:sent newer_than:2d`. For each result, read the message body and look for language where **you** made a commitment or promised a next action — phrases like "I'll", "I will", "let me", "I'll send", "I'll follow up", "I'll get back", "I'll check", "I'll connect", "I'll introduce", "will have this to you", "I'll loop you in", "I'll look into", "sending over shortly", "I'll make sure", "will do", etc. Extract each distinct commitment as a short snippet (≤ 100 chars) plus its thread subject and counterparty.
 
@@ -53,7 +53,6 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
    4. Post the estimate + questions as a task comment via `asana_create_task_story` with body:
 
       ```
-      🤖 Effort estimate (auto-draft): **X**
       Reasoning: <one sentence>
 
       Questions to make this actionable:
