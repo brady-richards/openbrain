@@ -48,21 +48,20 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
 4b. **Effort field grooming.** Fetch all assigned incomplete tasks from each configured Asana workspace: `asana_get_my_tasks` with `completed_since=now` and `opt_fields=name,notes,due_on,projects.name,permalink_url,custom_fields,gid`. Identify tasks where the `Effort` custom field is absent or null. Cap at 10 tasks per run (prefer tasks by due date ascending — soonest first). For each such task:
 
    1. Fetch full task details via `asana_get_task` with `opt_fields=name,notes,due_on,projects.name,custom_fields,dependencies,permalink_url` to get description and context.
-   2. Estimate a Fibonacci effort score (1, 2, 3, 5, 8, 13, 21) based on scope, description clarity, ambiguity, and dependencies. A one-liner with no description is usually a 1–3; a task with multiple dependencies or vague scope is 8+. Document reasoning in one sentence.
-   3. Draft 2–5 questions whose answers would make the task immediately actionable (examples: who owns a decision, what is the definition of done, are there blockers, which system/account does this apply to, etc.).
-   4. Post the estimate + questions as a task comment via `asana_create_task_story` with body:
-
-      ```
+   2. If there is no estimate on the task, estimate a Fibonacci effort score (1, 2, 3, 5, 8, 13, 21) based on scope, description clarity, ambiguity, and dependencies. A one-liner with no description is usually a 1–3; a task with multiple dependencies or vague scope is 8+. Document reasoning in one sentence. Set the estimate and post a task comment via `asana_create_task_story` with body:
+     ```
       Reasoning: <one sentence>
+      ```
+   3. If the task is not immediately actionable, draft up to 5 questions whose answers would make the task immediately actionable (examples: who owns a decision, what is the definition of done, are there blockers, which system/account does this apply to, etc.). Post any questions as a task comment via `asana_create_task_story` with body:
 
+     ```
       Questions to make this actionable:
       - <question 1>
       - <question 2>
       ...
       ```
 
-   5. Do **not** update the Effort custom field value itself — the comment is a draft for you to review; you set the field after reviewing.
-   6. **Email next step.** If the task name, notes, or questions suggest the immediate next action is sending an email (e.g. "email X about Y", "follow up with", "send proposal", "reach out"), draft that email via `mcp__superhuman__create_or_update_draft`. Use the correct work account where applicable. Subject from context; body should be concise and match your voice (see CLAUDE.md §6). Include a note in the Asana comment: `📧 Draft email saved in Superhuman — review before sending.`
+   5. **Email next step.** If the task name, notes, or questions suggest the immediate next action is sending an email (e.g. "email X about Y", "follow up with", "send proposal", "reach out"), draft that email via `mcp__superhuman__create_or_update_draft`. Use the correct work account where applicable. Subject from context; body should be concise and match your voice (see CLAUDE.md §6). Include a note in the Asana comment: `📧 Draft email saved in Superhuman — review before sending.`
 
    **Parallelization:** fan out all `asana_get_task` reads in one block, then fan out all `asana_create_task_story` writes and `mcp__superhuman__create_or_update_draft` calls in the next block after reads complete.
 
