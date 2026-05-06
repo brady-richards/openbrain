@@ -141,9 +141,12 @@ For each gmail_* MCP:
 
 For each gmail_* MCP:
 
-1. Call search_emails with in:sent after:<period_start>. Capture all IDs.
+1. Call search_emails for two cohorts:
+    - **Brady-direct outbound:** `from:brady@doromind.com after:<period_start>` (and similarly for personal addresses).
+    - **Shared-alias outbound where Brady is the author:** `(from:finance@doromind.com OR from:guides@doromind.com) "Brady" after:<period_start>`. The `"Brady"` token catches messages with Brady's signature or where he's introduced himself; pure forwards from automated senders (Stripe, SendGrid, 1Password, Mailchimp, Slack, Visible, etc.) should not match unless they happen to mention Brady. Read each match to confirm Brady actually wrote it (his voice, his sign-off); if the body shows `'X' via Doro Mind Finance` framing or is clearly an automated forward, mark `potential_work=N` with reason `automated forward via shared alias`.
+    - Skip a plain `in:sent` query — it returns the entire shared-mailbox forward stream as Brady's outbox, which is noise.
 2. For EACH id: call read_email(id). You may not classify before this call.
-3. Scan the body for commitment language. Set `potential_work=Y` if a self-promise is present; `N` otherwise (e.g. "question, no commitment", "FYI to recipient").
+3. Scan the body for commitment language. Set `potential_work=Y` if a self-promise is present; `N` otherwise (e.g. "question, no commitment", "FYI to recipient", "automated forward via shared alias").
 4. If later messages exist in the thread, call read_email on them to fill `acknowledged` and `done`.
 5. Write the row regardless of `potential_work` value.
 
