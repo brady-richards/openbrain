@@ -188,12 +188,16 @@ After the user answers:
         - `"1207543199556043": "1207543199556046"` → set `Status (Global)` to `Backlog`.
         - `"1213297635072824": "<gmail thread id>"` → set `Gmail Thread Id` (only when `source_mcp` starts with `gmail_`; omit the key entirely otherwise).
 2. For each selected `definite_duplicate` item, **don't** create a new task. Either: (a) leave alone, or (b) post a story/comment on the existing task with the new Slack/email URL as a "fresh activity" pointer. Default to (a) unless the user explicitly opts in.
-3. After creation, update `refined.csv` rows in place: set `asana_gid` to the new task gid and rewrite `asana_match_reason` to `pushed to Asana <gid>`.
+3. After creation, update `refined.csv` rows in place:
+    - **Pushed rows** (selected probable_new_work / possible_duplicate, including all collapsed peers): set `asana_gid` to the new task gid and rewrite `asana_match_reason` to `pushed to Asana <gid>` (preserving "(collapsed into ...)" hint for non-survivor rows).
+    - **Declined rows** (probable_new_work / possible_duplicate the user did NOT select): prepend `asana_match_reason` with `user declined; original reason: ` so it's clear the row was surfaced and dismissed, not missed.
+    - **Definite duplicates** (already-tracked, not pushed): leave `asana_gid` as the matched task's gid (it was set during Step 6 matching). No reason update needed.
 
 Report back:
 
 - Count of pushed tasks, with links.
-- Count of skipped (definite duplicates left in place; probable items the user declined).
+- Count of declined items (user-skipped probable_new_work).
+- Count of definite duplicates left in place.
 
 ## Verification
 
