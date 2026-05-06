@@ -17,25 +17,27 @@ This skill is thoroughness-bound, not call-bound. Expect 50–300+ tool calls pe
 
 ### Justification
 
-The goal is to find all potential work across all channels (Slack, email, messages), capture it, and refine it. Primary goal: capture work. Secondary goal: don't duplicate work already  tracked in Asana.
+The goal is to find all potential work across all channels (Slack, email, messages). To avoid losing work to over-eager filtering, **every fetched message is recorded as a row in the CSV**. The work-vs-noise judgment moves into the `potential_work` / `potential_work_reason` columns: rows that previously would have been dropped (FYI senders, automated, addressed to someone else, no commitment language) are now written with `potential_work=N` and a reason. Refinement (`/refine-work`) is responsible for filtering down to actionable rows.
 
 ### Definitions
 
-“Work” means "something I need to do." Both business and personal requests count.
+“Work” means "something I need to do." Both business and personal requests count. These definitions drive the `potential_work` Y/N decision for each row — they no longer drive whether the row is written at all.
 
-The “time period” is from the previous working day to today
+The “time period” is from the previous working day to today.
 
-- Inbound work: A request directed at me. Look for "can you...", "please...", "we need you...", or messages ending with a question mark.
-    - In a group of ≤5: any ask is potential work unless it specifically names someone else.
-    - In a group of >5: only include if the message @mentions me by handle, or addresses me by name in the text. A general question to the group does not qualify. If unsure, exclude.
-- Outbound work: A commitment from me. Look for "I'll", "I will", "let me", "I'll send", "I'll follow up", "I'll get back", "I'll check", "I'll connect", "I'll introduce", "will have this to you", "I'll loop you in", "I'll look into", "sending over shortly", "I'll make sure", "will do".
-    - Sending someone a question or request is NOT a commitment. Outbound rows require a self-promise; threads waiting on the other person's reply are excluded.
+- **Inbound work** (`direction=inbound`, `potential_work=Y`): A request directed at me. Look for "can you...", "please...", "we need you...", or messages ending with a question mark.
+    - In a group of ≤5: any ask qualifies unless it specifically names someone else.
+    - In a group of >5: only qualifies if the message @mentions me by handle, or addresses me by name in the text. A general question to the group does not qualify.
+- **Outbound work** (`direction=outbound`, `potential_work=Y`): A commitment from me. Look for "I'll", "I will", "let me", "I'll send", "I'll follow up", "I'll get back", "I'll check", "I'll connect", "I'll introduce", "will have this to you", "I'll loop you in", "I'll look into", "sending over shortly", "I'll make sure", "will do".
+    - A question I sent is NOT a commitment.
+- **Not work** (`potential_work=N`): everything else — FYI/announcements, automated/system senders (1Password, Stripe, DocuSign, SimpleMDM, LinkedIn invites, shipping, marketing, OTP codes, delivery notifications), CC-only or list traffic where I'm not addressed, group asks naming someone else, my own questions/requests without commitment language, observer-only threads. Set `potential_work=N` and put the rule that fired into `potential_work_reason`.
 
  ## Forbidden patterns
 
-- Do NOT write "did not read every body", "subjects only", "may resolve differently", "possible follow-through pending", or any equivalent caveat. If you can't verify a row, drop it.
+- Do NOT drop a fetched message because it looks like noise. Write the row with `potential_work=N` and a reason instead.
 - Do NOT classify from subject lines. Subjects are routing data, not content.
 - Do NOT use search-result snippets as your body source — they are truncated and may contain garbage bytes.
+- Do NOT write hedging caveats ("may resolve differently", "possible follow-through pending") into reason fields. State the rule that fired.
 
  ## Output: CSV row contract
 
@@ -75,7 +77,7 @@ Process each channel in 10-candidate batches:
 3. Write rows for the batch to the CSV.
 4. Pull the next 10.
 
-Do not pre-filter by subject or sender display name before reading bodies. The only pre-read filters are exact-sender exclusions (e.g., guides@doromind.com, *-noreply@*, OTP/system senders).
+Do not pre-filter by subject or sender display name before reading bodies. Every fetched message becomes a row — exclusions go into `potential_work=N` with a reason, not into a skip list.
 
 #### Capture per channel
 
@@ -86,9 +88,9 @@ For each slack_* MCP:
 1. Call slack_conversations_unreads with limit: 200. (limit caps channels scanned, not messages — small limits silently miss DMs.)
 2. Call slack_my_mentions with hours covering the time period.
 3. For each candidate message, call slack_conversations_replies on its thread to fetch (a) the full message text and (b) any subsequent message from me.
-4. Apply the inbound definition (group size, addressed-to-me).
+4. Apply the inbound definition to set `potential_work` (Y/N + reason): group size, @mention, addressed-by-name. Group asks naming someone else → `N`.
 5. Read later messages in the thread to fill `acknowledged` and `done`.
-6. Write the row.
+6. Write the row regardless of `potential_work` value.
 
 ##### Slack — outbound
 
@@ -96,9 +98,9 @@ For each slack_* MCP:
 
 1. Call slack_conversations_search_messages with from:@me (or workspace equivalent) over the time period.
 2. For EACH result, call slack_conversations_replies to fetch the full message and the rest of the thread.
-3. From the body, identify commitment language. Subject/preview text does not qualify.
-4. Determine fulfillment by reading any later messages from me in the thread.
-5. Write the row.
+3. From the body, identify commitment language. Subject/preview text does not qualify. Set `potential_work=Y` if a self-promise is present, else `N` (e.g. "question, no commitment").
+4. Read later messages from me to fill `acknowledged` and `done`.
+5. Write the row regardless of `potential_work` value.
 
 ##### Email — inbound
 
@@ -107,10 +109,9 @@ For each gmail_* MCP:
 1. Call search_emails with is:unread (is:important OR is:starred) after:<period_start>. Capture all IDs.
 2. For EACH id: call read_email(id). You may not classify before this call.
 3. From the body, extract: To/Cc list, the literal ask, whether I'm the addressee.
-4. Apply exclusion rules: sender is guides@doromind.com (FYI); I'm neither To nor Cc and not mentioned in body; sender is automated (1Password, Stripe, DocuSign, SimpleMDM, LinkedIn
-invitations, shipping notifications, marketing).
-5. If a subsequent message in the thread is from me, call read_email on it and decide fulfillment. Record in fulfillment_check.
-  6. Write the row.
+4. Set `potential_work` Y/N + reason. `N` reasons include: sender is guides@doromind.com (FYI); I'm neither To nor Cc and not mentioned in body; sender is automated (1Password, Stripe, DocuSign, SimpleMDM, LinkedIn invitations, shipping, marketing); no actionable ask.
+5. If a subsequent message in the thread is from me, call read_email on it and use it to fill `acknowledged` and `done`.
+6. Write the row regardless of `potential_work` value.
 
 ##### Email — outbound
 
@@ -118,24 +119,26 @@ For each gmail_* MCP:
 
 1. Call search_emails with in:sent after:<period_start>. Capture all IDs.
 2. For EACH id: call read_email(id). You may not classify before this call.
-3. Scan the body for commitment language. A question I sent is NOT a commitment.
-4. If later messages exist in the thread (from me or others), call read_email on them to determine fulfillment.
-5. Write the row.
+3. Scan the body for commitment language. Set `potential_work=Y` if a self-promise is present; `N` otherwise (e.g. "question, no commitment", "FYI to recipient").
+4. If later messages exist in the thread, call read_email on them to fill `acknowledged` and `done`.
+5. Write the row regardless of `potential_work` value.
 
 ##### Messages — inbound
 
-1. Use search_messages with received_only: true
+1. Use search_messages with received_only: true.
 2. date_to is exclusive — pass today + 1 to include today's messages.
 3. For EACH candidate (search previews are truncated and contain garbage bytes), call get_conversation(contact, date_from, date_to) before classifying. Read at minimum the candidate message and the next message from me.
-4. Exclude: automated/system senders (OTP codes, delivery notifications, appointment reminders), service short-codes, contacts with no saved name that look like businesses.  5. Apply the inbound definition.
-6. Write the row.
+4. Set `potential_work` Y/N + reason. `N` reasons include: automated/system senders (OTP codes, delivery notifications, appointment reminders), service short-codes, business contacts with no saved name, no ask directed at me. Apply the inbound definition for `Y`.
+5. Read later messages from me to fill `acknowledged` and `done`.
+6. Write the row regardless of `potential_work` value.
 
 #### Messages — outbound
 
 1. Use search_messages with sent_only: true and the date_to + 1 rule.
 2. For EACH candidate, call get_conversation to read the full message and any subsequent reply.
-3. Scan body for commitment language. Unanswered messages without commitment language are NOT outbound work — drop them.
-4. Write the row.
+3. Scan body for commitment language. Set `potential_work=Y` if a self-promise is present; `N` otherwise (e.g. "unanswered question, no commitment").
+4. Read later messages to fill `acknowledged` and `done`.
+5. Write the row regardless of `potential_work` value.
 
 ### Verification
 
