@@ -133,6 +133,68 @@ Within each bucket, sort by `received` date descending (newest first).
 
 Write `data/refined.csv` with 19 columns: 15 from `current.csv` + 4 new (`bucket`, `asana_gid`, `asana_match_reason`, `next_action`).
 
+### Step 9 — Interactive Asana push
+
+After `refined.csv` is written, surface the candidate work to Brady via `AskUserQuestion` and let him pick which items to push to Asana.
+
+Constraints of `AskUserQuestion`:
+- Max 4 questions per call.
+- Each question takes 2–4 options.
+- No native pre-select / default-checked support — only labels, descriptions, and a multiSelect flag.
+- `header` (chip/tag, max 12 chars) is the natural place to surface the **bucket category**.
+
+Layout:
+
+- One question per non-empty bucket among `probable_new_work`, `possible_duplicate`, `definite_duplicate`. Use `multiSelect: true`.
+- `header` = bucket name in short form: `Probable new`, `Possible dupe`, `Def. dupe`.
+- If a bucket has more than 4 items, split into multiple questions with the same header (e.g., `Probable new (1 of 2)`).
+- If a bucket has only 1 item, you cannot ask about it alone (min 2 options) — pair it with the next bucket's items in a single question and put the bucket label inside the option label.
+
+Option label format (now that the bucket is in the pane header):
+
+```
+For <actor>: <next_action>
+```
+
+- `<actor>` = the row's `counterparty`. For self-commitments (outbound), use the recipient's name ("For Magdiel: ...").
+- `<next_action>` = the rewritten action verb from Step 7.
+
+Option description:
+
+```
+<one-line context>. <source_url>
+```
+
+For `definite_duplicate` rows, also include the matched Asana gid in the description: `Already in Asana <gid>`.
+
+Recommendation hint:
+
+- For `probable_new_work` and `possible_duplicate`, the user almost always wants to push — those are the bucket's reason for being. Don't add "(Recommended)" labels — the bucket header already implies the recommendation.
+- For `definite_duplicate`, the default is **don't** push (the work is already tracked). Show them anyway for completeness so Brady can override if the existing Asana task is wrong/stale.
+
+After the user answers:
+
+1. For each selected `probable_new_work` / `possible_duplicate` item, **two-call sequence**: `asana_create_task` then `asana_update_task`. The create tool does NOT accept a `custom_fields` parameter — custom fields must be set via a follow-up update.
+
+    **Call 1 — `asana_create_task`:**
+    - `name`: from `next_action`.
+    - `notes`: include the source `summary`, all collapsed source URLs from `asana_match_reason`, and the receiving date(s).
+    - `assignee`: `me`.
+    - `project_id`: **`1208193100268936`** ("Founders Backlog"). Always.
+    - `due_on`: omit / leave null. New work lands in the backlog without a due date; Brady triages later.
+
+    **Call 2 — `asana_update_task` on the gid returned by Call 1:**
+    - `custom_fields`: a map keyed by custom_field gid, with values that are enum_option gids (for enum fields) or strings/numbers/dates (for text/number/date fields).
+        - `"1207543199556043": "1207543199556046"` → set `Status (Global)` to `Backlog`.
+        - `"1213297635072824": "<gmail thread id>"` → set `Gmail Thread Id` (only when `source_mcp` starts with `gmail_`; omit the key entirely otherwise).
+2. For each selected `definite_duplicate` item, **don't** create a new task. Either: (a) leave alone, or (b) post a story/comment on the existing task with the new Slack/email URL as a "fresh activity" pointer. Default to (a) unless the user explicitly opts in.
+3. After creation, update `refined.csv` rows in place: set `asana_gid` to the new task gid and rewrite `asana_match_reason` to `pushed to Asana <gid>`.
+
+Report back:
+
+- Count of pushed tasks, with links.
+- Count of skipped (definite duplicates left in place; probable items the user declined).
+
 ## Verification
 
 Before completing:
