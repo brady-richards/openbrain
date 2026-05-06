@@ -59,8 +59,8 @@ source_url | received | source_mcp | forum | thread | direction | work_or_person
 - `counterparty`: the other human (or list, comma-separated) — name preferred, email/handle if no name.
 - `summary`: ≤20 words, declarative, no hedging. Captures the ask or commitment.
 - `potential_work` / `potential_work_reason`: `Y` or `N`, plus ≤15-word reason. `Y` means it represents an ask directed at me or a self-commitment. `N` means it doesn't (FYI, automated, addressed to someone else, etc.).
-- `acknowledged` / `acknowledged_reason`: `Y` or `N`, plus ≤15-word reason. `Y` means I've replied / reacted / otherwise indicated I saw it. Determined by reading later messages from me in the thread.
-- `done` / `done_reason`: `Y` or `N`, plus ≤15-word reason. `Y` means the work is fulfilled (answer sent, commitment delivered, ask resolved). Read the rest of the thread to decide.
+- `acknowledged` / `acknowledged_reason`: `Y` or `N`, plus ≤15-word reason. `Y` if I've replied in the thread, OR reacted on Slack with a positive emoji (👍 `:thumbsup:` / `:+1:`, ❤️ `:heart:`, ✅ `:white_check_mark:`, `:eyes:`, `:ok:`, or any "yes"-shaped emoji), OR sent a tapback on iMessage that reads as affirmative (Liked, Loved, "Yes" — Disliked / "?" / Laughed do NOT count as ack). For email, only a reply counts (no reactions to inspect). Cite the signal in the reason ("👍 react from me 14:02", "I replied 09:11", "Loved tapback").
+- `done` / `done_reason`: `Y` or `N`, plus ≤15-word reason. `Y` means the work is fulfilled — answer sent, commitment delivered, ask resolved. On Slack, a later message in the thread (from me or the counterparty) saying "done", "shipped", "fixed", "merged", "resolved", "thanks!", "got it, all set", or equivalent counts as fulfillment. Reactions alone do NOT count as done — only ack. Cite the message/text in the reason.
 
 Rules:
 - Every row must come from a body fetched via `read_email` / `get_conversation` / `slack_conversations_replies`. Subjects and search snippets do not qualify as evidence.
@@ -87,9 +87,9 @@ For each slack_* MCP:
 
 1. Call slack_conversations_unreads with limit: 200. (limit caps channels scanned, not messages — small limits silently miss DMs.)
 2. Call slack_my_mentions with hours covering the time period.
-3. For each candidate message, call slack_conversations_replies on its thread to fetch (a) the full message text and (b) any subsequent message from me.
+3. For each candidate message, call slack_conversations_replies on its thread to fetch the full message text, any subsequent messages, AND the reactions array on the original message.
 4. Apply the inbound definition to set `potential_work` (Y/N + reason): group size, @mention, addressed-by-name. Group asks naming someone else → `N`.
-5. Read later messages in the thread to fill `acknowledged` and `done`.
+5. Fill `acknowledged`: `Y` if I posted a reply in the thread OR my user id appears in any positive reaction (👍/❤️/✅/eyes/ok/yes-shaped). Fill `done`: `Y` if a later thread message (mine or counterparty's) signals fulfillment ("done", "shipped", "fixed", "merged", "resolved", "thanks!", etc.). Reactions alone are not done.
 6. Write the row regardless of `potential_work` value.
 
 ##### Slack — outbound
@@ -99,7 +99,7 @@ For each slack_* MCP:
 1. Call slack_conversations_search_messages with from:@me (or workspace equivalent) over the time period.
 2. For EACH result, call slack_conversations_replies to fetch the full message and the rest of the thread.
 3. From the body, identify commitment language. Subject/preview text does not qualify. Set `potential_work=Y` if a self-promise is present, else `N` (e.g. "question, no commitment").
-4. Read later messages from me to fill `acknowledged` and `done`.
+4. Fill `acknowledged` from later thread messages from me OR my reaction on the original. Fill `done` only from later messages signalling fulfillment.
 5. Write the row regardless of `potential_work` value.
 
 ##### Email — inbound
@@ -127,9 +127,9 @@ For each gmail_* MCP:
 
 1. Use search_messages with received_only: true.
 2. date_to is exclusive — pass today + 1 to include today's messages.
-3. For EACH candidate (search previews are truncated and contain garbage bytes), call get_conversation(contact, date_from, date_to) before classifying. Read at minimum the candidate message and the next message from me.
+3. For EACH candidate (search previews are truncated and contain garbage bytes), call get_conversation(contact, date_from, date_to) before classifying. Read at minimum the candidate message and the next message from me. Use `get_reactions` on the candidate message to capture tapbacks.
 4. Set `potential_work` Y/N + reason. `N` reasons include: automated/system senders (OTP codes, delivery notifications, appointment reminders), service short-codes, business contacts with no saved name, no ask directed at me. Apply the inbound definition for `Y`.
-5. Read later messages from me to fill `acknowledged` and `done`.
+5. Fill `acknowledged` from later iMessages from me in the thread OR an affirmative tapback (Liked/Loved/Yes) on the candidate message. Disliked, "?", or Laughed do NOT ack. Fill `done` only from later messages signalling fulfillment.
 6. Write the row regardless of `potential_work` value.
 
 #### Messages — outbound
