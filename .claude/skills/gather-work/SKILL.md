@@ -1,6 +1,6 @@
 ---
 name: gather-work
-description: Phase 1 of /orient. Sweep Slack, email, and Messages for potential work over the previous-working-day window and write it to .claude/skills/gather-work/data/current.csv. Stub — to be fleshed out.
+description: Phase 1 of /orient. Sweep Slack, email, and Messages for potential work over the previous-working-day window and write it to data/current.csv. Stub — to be fleshed out.
 ---
 
 # /gather-work
@@ -41,7 +41,7 @@ The “time period” is from the previous working day to today.
 
  ## Output: CSV row contract
 
-Write all captured work to `.claude/skills/gather-work/data/current.csv` (path relative to the vault root). Create the `data/` directory if it doesn't exist. If `current.csv` already exists, append rows to it; otherwise create it with the header line below as the first row. Do not rewrite or dedupe existing rows in this phase — refinement is `/refine-work`'s job.
+Write all captured work to `data/current.csv` (path relative to the vault root). Create the `data/` directory if it doesn't exist. If `current.csv` already exists, append rows to it; otherwise create it with the header line below as the first row. Do not rewrite or dedupe existing rows in this phase — refinement is `/refine-work`'s job.
 
 Columns, in this order:
 
