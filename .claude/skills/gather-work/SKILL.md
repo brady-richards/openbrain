@@ -115,7 +115,7 @@ For each gmail_* MCP:
 
    **brady.richards@gmail.com — exclusion filter (append to query):**
    ```
-   -from:reply@timetopet.com -from:"NYT Cooking" -from:Wirecutter -(from:USPSInformeddelivery@email.informeddelivery.usps.com OR subject:"You have deliveries" OR from:usps.com OR from:wework@packagex.app OR from:TrackingUpdates@fedex.com OR from:auto-confirm@amazon.com OR from:shipment-tracking@amazon.com OR from:order-update@amazon.com OR subject:"You have a delivery" OR from:members.ebay.com OR from:ebay@ebay.com) -from:linkedin.com -(to:announcements@pptc.org OR from:Pptc@wildapricot.org) -from:rentcafe.com -from:outofpocket.health
+   -from:reply@timetopet.com -from:"NYT Cooking" -from:Wirecutter -(from:USPSInformeddelivery@email.informeddelivery.usps.com OR subject:"You have deliveries" OR from:usps.com OR from:wework@packagex.app OR from:TrackingUpdates@fedex.com OR from:auto-confirm@amazon.com OR from:shipment-tracking@amazon.com OR from:order-update@amazon.com OR subject:"You have a delivery" OR from:members.ebay.com OR from:ebay@ebay.com) -from:linkedin.com -(to:announcements@pptc.org OR from:Pptc@wildapricot.org) -from:rentcafe.com -from:outofpocket.health -from:zillow.com
    ```
 
    **brady@doromind.com:** scope to `is:unread (is:important OR is:starred) after:<period_start>` (work mailbox is already triaged tightly).
