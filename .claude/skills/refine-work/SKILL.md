@@ -80,11 +80,13 @@ Heuristics:
 
 Pull all Asana tasks assigned to Brady. **Use `mcp__asana_work__asana_get_my_tasks`, not `asana_search_tasks`.** The search endpoint's `assignee_any: me` filter is unreliable in the current MCP — observed returning workspace-wide tasks (only ~28% actually assigned to Brady). `get_my_tasks` is reliable.
 
-Call with `opt_fields` covering everything subsequent steps need:
+Call with `opt_fields` covering everything subsequent steps need. **Be explicit about custom-field value subfields** — passing bare `custom_fields` does NOT reliably include `number_value`, `text_value`, `enum_value`, etc. (observed: `get_my_tasks` returned only `gid` and `name` for each custom field when `opt_fields` listed `custom_fields` alone). Always enumerate the value subfields you need:
 
 ```
-gid,name,notes,permalink_url,assignee.gid,assignee.name,created_by.name,created_at,modified_at,due_on,completed,completed_at,projects.gid,projects.name,tags.name,parent.name,custom_fields,dependencies,memberships.project.name,memberships.section.name
+gid,name,notes,permalink_url,assignee.gid,assignee.name,created_by.name,created_at,modified_at,due_on,completed,completed_at,projects.gid,projects.name,tags.name,parent.name,custom_fields.gid,custom_fields.name,custom_fields.number_value,custom_fields.text_value,custom_fields.enum_value.gid,custom_fields.enum_value.name,custom_fields.display_value,dependencies,memberships.project.name,memberships.section.name
 ```
+
+This guarantees Step 6 (Asana matching by Gmail Thread Id) sees `text_value` and Step 10 (effort estimation) sees `number_value`.
 
 Plus the workspace gid (`1205801040312777` for doromind).
 
