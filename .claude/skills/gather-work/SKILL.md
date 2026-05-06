@@ -68,7 +68,12 @@ source_url | received | source_mcp | forum | thread | direction | work_or_person
 - `done` / `done_reason`: `Y` or `N`, plus ≤15-word reason. `Y` means the work is fulfilled — answer sent, commitment delivered, ask resolved. On Slack: a `:done:` reaction on the message counts as fulfillment, AND a later thread message (from me or the counterparty) saying "done", "shipped", "fixed", "merged", "resolved", "thanks!", "got it, all set", or equivalent counts. Other reactions (👍/❤️/etc.) do NOT count as done — only as ack. Cite the signal in the reason ("`:done:` react from me", "counterparty said 'shipped' 15:40").
 
 Rules:
-- Every row's classification must come from message text actually read. **Slack `slack_my_mentions` returns full message text — that text counts as a body read; no need to re-fetch replies just to confirm content. But you DO still need replies for reactions and thread fulfillment context.** For Gmail, `search_emails` returns only headers, so `read_email` is required for any body-based judgment. For iMessage, `search_messages` truncates — `get_conversation` is required.
+- Every row's classification must come from message text actually read.
+- **Idempotency: if `current.csv` already contains a row for a given `source_url`, skip it — don't re-fetch.** The classification work was done on the previous run. Refreshing reactions/thread state for already-captured messages is `/refine-work`'s concern, not this skill's.
+- **First-time fetches per channel:**
+    - Slack `slack_my_mentions` returns full message text inline — that body is enough to classify the parent message. Still call `slack_conversations_replies` to capture reactions on the parent and thread fulfillment, but do not re-fetch just for body text you already have.
+    - Gmail `search_emails` returns headers only → `read_email` is required for first-time classification.
+    - iMessage `search_messages` truncates body → `get_conversation` is required for first-time classification (and to capture tapbacks via `get_reactions`).
 - Reasons must cite what was read (e.g. "I replied 14:02 with answer", "no later message from me in thread", "thread continues without my reply").
 - **If `potential_work=N`, leave `acknowledged`, `acknowledged_reason`, `done`, and `done_reason` blank.** Those columns are only meaningful for items that represent actual work; spending fields on "is the FYI broadcast acknowledged" is noise. Only fill them when `potential_work=Y`.
 - Rows missing `summary`, `potential_work`, or `potential_work_reason` are invalid. For `potential_work=Y` rows, `acknowledged` / `done` (Y/N) and their reasons are also required.
