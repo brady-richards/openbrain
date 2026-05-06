@@ -39,7 +39,7 @@ Three-phase pipeline that turns raw signals (Slack, email, Messages) into an ori
 4. **Phase 3 — orient.** Spawn a subagent:
    - `subagent_type`: `general-purpose`
    - `description`: "Produce orientation"
-   - `prompt`: "Run the `/set-orientation` skill for $DATE. Input is `+ Inbox/orient/$DATE/refined.csv`. Output goes to `+ Inbox/orient/$DATE/orientation.md`. Return the orientation summary."
+   - `prompt`: "Run the `/brief-me` skill for $DATE. Input is `+ Inbox/orient/$DATE/refined.csv`. Output goes to `+ Inbox/orient/$DATE/orientation.md`. Return the orientation summary."
    Wait for completion.
 
 5. **Report.** Echo the path to `orientation.md` and a one-paragraph summary drawn from the phase 3 subagent's return value. Do not re-summarize from the CSV — trust the phase 3 output.
@@ -48,4 +48,4 @@ Three-phase pipeline that turns raw signals (Slack, email, Messages) into an ori
 
 - If any phase's subagent returns an error, stop and surface it. Do not proceed to the next phase with stale or partial input.
 - Phases are sequential by design — phase 2 needs phase 1's output, phase 3 needs phase 2's. Do not parallelize.
-- The CSV files are durable hand-offs. If phase 3 fails, the user can re-run `/set-orientation` directly on the existing `refined.csv` without redoing the gather.
+- The CSV files are durable hand-offs. If phase 3 fails, the user can re-run `/brief-me` directly on the existing `refined.csv` without redoing the gather.

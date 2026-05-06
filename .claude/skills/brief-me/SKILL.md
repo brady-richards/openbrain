@@ -1,9 +1,9 @@
 ---
-name: set-orientation
+name: brief-me
 description: Phase 3 of /orient. Read refined.csv and produce orientation.md — a short note that frames the day. Stub — to be fleshed out.
 ---
 
-# /set-orientation
+# /brief-me
 
 Stub. Phase 3 of the `/orient` pipeline.
 
