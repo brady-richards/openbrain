@@ -69,11 +69,14 @@ source_url | received | source_mcp | forum | thread | direction | work_or_person
 
 Rules:
 - Every row's classification must come from message text actually read.
-- **Idempotency: if `current.csv` already contains a row for a given `source_url`, skip it — don't re-fetch.** The classification work was done on the previous run. Refreshing reactions/thread state for already-captured messages is `/refine-work`'s concern, not this skill's.
+- **Refetch rule: only refetch a known `source_url` if doing so could give new information that updates `acknowledged` or `done`.** Bodies and classifications don't change; reactions and later replies do.
+    - **Gmail:** never refetch a known URL. Bodies are immutable, there are no reactions, and thread fulfillment lives in *later* messages — which become their own rows on this run.
+    - **iMessage:** refetch (`get_conversation` + `get_reactions`) if tapbacks or later replies could flip ack/done — i.e. when the existing row is `potential_work=Y` and `done=N`.
+    - **Slack:** refetch (`slack_conversations_replies` for reactions and thread state) only when the existing row is `potential_work=Y` and `done=N`. If `done=Y` already, no future state matters. If `potential_work=N`, ack/done aren't tracked.
 - **First-time fetches per channel:**
-    - Slack `slack_my_mentions` returns full message text inline — that body is enough to classify the parent message. Still call `slack_conversations_replies` to capture reactions on the parent and thread fulfillment, but do not re-fetch just for body text you already have.
+    - Slack `slack_my_mentions` returns full message text inline — that body is enough to classify the parent. Still call `slack_conversations_replies` to capture reactions on the parent and thread fulfillment, but do not re-fetch just for body text you already have.
     - Gmail `search_emails` returns headers only → `read_email` is required for first-time classification.
-    - iMessage `search_messages` truncates body → `get_conversation` is required for first-time classification (and to capture tapbacks via `get_reactions`).
+    - iMessage `search_messages` truncates body → `get_conversation` is required for first-time classification (and `get_reactions` for tapbacks).
 - Reasons must cite what was read (e.g. "I replied 14:02 with answer", "no later message from me in thread", "thread continues without my reply").
 - **If `potential_work=N`, leave `acknowledged`, `acknowledged_reason`, `done`, and `done_reason` blank.** Those columns are only meaningful for items that represent actual work; spending fields on "is the FYI broadcast acknowledged" is noise. Only fill them when `potential_work=Y`.
 - Rows missing `summary`, `potential_work`, or `potential_work_reason` are invalid. For `potential_work=Y` rows, `acknowledged` / `done` (Y/N) and their reasons are also required.
