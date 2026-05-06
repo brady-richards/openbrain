@@ -44,17 +44,27 @@ Write all captured work to `.claude/skills/gather-work/data/current.csv` (path r
 Columns, in this order:
 
 ```
-source_mcp | direction | work_or_personal | counterparty | source_url | body_quote | fulfillment_check | summary
+source_url | received | source_mcp | forum | thread | direction | work_or_personal | counterparty | summary | potential_work | potential_work_reason | acknowledged | acknowledged_reason | done | done_reason
 ```
 
-- body_quote: ≤25 words copied verbatim from the message body containing the ask or commitment. For inbound, the question/request itself. For outbound, the "I'll..." phrase. Subjects do not qualify. If you cannot supply a body_quote from a body you have read, you must not write the row.
-- fulfillment_check: one of:
-    - "no later message from me in thread"
-    - "later message from me does not fulfill: < ≤15-word reason >"
-    - “excluded, fulfilled: < ≤15-word reason >"
-- summary: ≤20 words, declarative, no hedging.
+- `source_url`: deep link to the original message (Gmail permalink, Slack archive URL, `messages://` or equivalent). Required.
+- `received`: ISO-8601 date the message arrived (or was sent, for outbound).
+- `source_mcp`: the MCP server slug that produced the row (e.g. `gmail_brady_doromind_com`, `slack_doromind_slack_com`, `messages`).
+- `forum`: where it happened — Slack channel name, Slack DM counterparty, email To/Cc list, or "iMessage 1:1" / "iMessage group".
+- `thread`: stable thread identifier (Gmail threadId, Slack thread_ts, Messages chat guid). Empty if the message has no thread.
+- `direction`: `inbound` or `outbound`.
+- `work_or_personal`: `work` or `personal`.
+- `counterparty`: the other human (or list, comma-separated) — name preferred, email/handle if no name.
+- `summary`: ≤20 words, declarative, no hedging. Captures the ask or commitment.
+- `potential_work` / `potential_work_reason`: `Y` or `N`, plus ≤15-word reason. `Y` means it represents an ask directed at me or a self-commitment. `N` means it doesn't (FYI, automated, addressed to someone else, etc.).
+- `acknowledged` / `acknowledged_reason`: `Y` or `N`, plus ≤15-word reason. `Y` means I've replied / reacted / otherwise indicated I saw it. Determined by reading later messages from me in the thread.
+- `done` / `done_reason`: `Y` or `N`, plus ≤15-word reason. `Y` means the work is fulfilled (answer sent, commitment delivered, ask resolved). Read the rest of the thread to decide.
 
- Rows missing body_quote or fulfillment_check are invalid.
+Rules:
+- Every row must come from a body fetched via `read_email` / `get_conversation` / `slack_conversations_replies`. Subjects and search snippets do not qualify as evidence.
+- Reasons must cite what was read (e.g. "I replied 14:02 with answer", "no later message from me in thread", "thread continues without my reply").
+- Rows missing `summary`, `potential_work_reason`, `acknowledged_reason`, or `done_reason` are invalid.
+- Quote any field containing `,`, `|`, `"`, or newlines per RFC 4180 (use `,` as the delimiter — the `|` above is just for readability in this doc). Actual file is comma-separated.
 
  ## Execution shape
 
@@ -77,8 +87,8 @@ For each slack_* MCP:
 2. Call slack_my_mentions with hours covering the time period.
 3. For each candidate message, call slack_conversations_replies on its thread to fetch (a) the full message text and (b) any subsequent message from me.
 4. Apply the inbound definition (group size, addressed-to-me).
-5. Determine fulfillment from the thread.
-6. Write the row using the body of the message you just fetched as body_quote.
+5. Read later messages in the thread to fill `acknowledged` and `done`.
+6. Write the row.
 
 ##### Slack — outbound
 
@@ -131,12 +141,12 @@ For each gmail_* MCP:
 
 Before considering the run complete, verify:
 
-- Every row has a non-empty body_quote drawn from a body fetched via read_email / get_conversation / slack_conversations_replies.
-- Every row has a fulfillment_check.
-- Total read_email calls ≥ total email candidates considered (including excluded).
-- Total get_conversation calls ≥ total message candidates considered.
-- No row's summary contains "may", "possibly", "likely", or "appears to".
-- No row's body_quote is identical to its subject line.
+- Every row's `summary` and three `*_reason` fields are non-empty and grounded in a body fetched via `read_email` / `get_conversation` / `slack_conversations_replies`.
+- Every row has `Y`/`N` (not blank, not other values) in `potential_work`, `acknowledged`, `done`.
+- Every row has a non-empty `source_url` and `received` date.
+- Total `read_email` calls ≥ total email candidates considered (including excluded).
+- Total `get_conversation` calls ≥ total message candidates considered.
+- No row's `summary` contains "may", "possibly", "likely", or "appears to".
 
 If any check fails, fix the underlying gap. Do not annotate the gap.
 
