@@ -78,16 +78,23 @@ Heuristics:
 
 ### Step 5 — Fetch Asana state
 
-Pull all Asana tasks where Brady is `assignee` OR `created_by`, across configured workspaces. Include:
+Pull all Asana tasks assigned to Brady. **Use `mcp__asana_work__asana_get_my_tasks`, not `asana_search_tasks`.** The search endpoint's `assignee_any: me` filter is unreliable in the current MCP — observed returning workspace-wide tasks (only ~28% actually assigned to Brady). `get_my_tasks` is reliable.
 
-- `gid`, `name`, `notes`, `permalink_url`
-- `assignee`, `created_by`, `created_at`, `modified_at`, `due_on`, `completed`, `completed_at`
-- `projects`, `tags`, `parent` (for subtask context)
-- **All custom fields** — include the full custom_fields array so we can match on Gmail thread ID, Slack permalink, etc.
+Call with `opt_fields` covering everything subsequent steps need:
+
+```
+gid,name,notes,permalink_url,assignee.gid,assignee.name,created_by.name,created_at,modified_at,due_on,completed,completed_at,projects.gid,projects.name,tags.name,parent.name,custom_fields,dependencies,memberships.project.name,memberships.section.name
+```
+
+Plus the workspace gid (`1205801040312777` for doromind).
+
+For tasks-created-by-Brady that aren't assigned to him (rare but possible), it's acceptable to skip — the Asana API doesn't have a clean way to fetch "all tasks I created" in one call, and most created-by-not-assigned-to-me tasks are not Brady's queue.
+
+**Hard precheck before any write action:** filter the fetched list to `assignee.gid == "1205800804694561"` (Brady's user gid). Any subsequent step that creates or updates tasks/stories MUST iterate only over this filtered list. Never trust the upstream filter — apply your own.
 
 Cache the fetch in memory for the run. Re-running this fetch within a single skill invocation is wasteful — pull once, hold the list.
 
-**Discover the thread-link custom field on first run.** Look for a custom field named like `Gmail Thread ID`, `Email Thread`, `Source Thread`, or similar. If found, record its `gid` for the matching step. If no such field exists, fall back to scanning task `notes` for thread IDs and permalinks.
+**Discover the thread-link custom field on first run.** Look for a custom field named like `Gmail Thread ID`, `Email Thread`, `Source Thread`, or similar. If found, record its `gid` for the matching step. If no such field exists, fall back to scanning task `notes` for thread IDs and permalinks. (Currently: `Gmail Thread Id` at gid `1213297635072824`.)
 
 ### Step 6 — Match candidates to Asana tasks
 
