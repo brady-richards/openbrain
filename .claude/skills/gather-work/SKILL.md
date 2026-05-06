@@ -52,7 +52,12 @@ source_url | received | source_mcp | forum | thread | direction | work_or_person
 - `source_url`: deep link to the original message (Gmail permalink, Slack archive URL, `messages://` or equivalent). Required.
 - `received`: ISO-8601 date the message arrived (or was sent, for outbound).
 - `source_mcp`: the MCP server slug that produced the row (e.g. `gmail_brady_doromind_com`, `slack_doromind_slack_com`, `messages`).
-- `forum`: where it happened — Slack channel name, Slack DM counterparty, email To/Cc list, or "iMessage 1:1" / "iMessage group".
+- `forum`: where it happened.
+    - **Email inbound:** the receiving mailbox — the Brady-owned address the message landed in (the Gmail account being searched). For cc/bcc deliveries, still use the receiving mailbox, not the To: header.
+    - **Email outbound:** the From: address (the address Brady sent from).
+    - **Slack channel:** channel name (e.g. `proj-licensing`).
+    - **Slack DM/MPIM:** the counterparty's resolved Slack handle or display name (call `slack_users_search` to map user IDs to names — never write the raw `U…` user ID or `D…` channel ID).
+    - **iMessage:** `iMessage 1:1` or `iMessage group: <name>`.
 - `thread`: stable thread identifier (Gmail threadId, Slack thread_ts, Messages chat guid). Empty if the message has no thread.
 - `direction`: `inbound` or `outbound`.
 - `work_or_personal`: `work` or `personal`.
