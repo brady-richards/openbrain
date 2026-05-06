@@ -131,6 +131,8 @@ For each gmail_* MCP:
    **brady@doromind.com:** scope to `is:unread (is:important OR is:starred) after:<period_start>` (work mailbox is already triaged tightly).
 
    **bradyandpaloma@gmail.com:** `after:<period_start>` (no exclusion filter yet; tune as patterns emerge).
+
+   **Shared-alias inbound** (run as a separate cohort, still on the brady@doromind.com MCP since Brady has read access): `(to:finance@doromind.com OR to:guides@doromind.com) after:<period_start>`. Don't apply `is:unread (is:important OR is:starred)` — Gmail's importance/star flags are per-mailbox and don't get applied to alias deliveries from Brady's vantage. The date scope alone keeps volume manageable (tens of messages per day, not hundreds). Set `forum` to the alias the message was delivered to (e.g. `finance@doromind.com`). These rows may duplicate brady@-direct inbound when an external sender CCs both — `/refine-work` is responsible for dedup; this sweep just captures the alias delivery as its own row.
 2. For EACH id: call read_email(id). You may not classify before this call.
 3. From the body, extract: To/Cc list, the literal ask, whether I'm the addressee.
 4. Set `potential_work` Y/N + reason. `N` reasons include: sender is guides@doromind.com (FYI); I'm neither To nor Cc and not mentioned in body; sender is automated (1Password, Stripe, DocuSign, SimpleMDM, LinkedIn invitations, shipping, marketing); no actionable ask.
