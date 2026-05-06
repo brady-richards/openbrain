@@ -199,6 +199,77 @@ Report back:
 - Count of declined items (user-skipped probable_new_work).
 - Count of definite duplicates left in place.
 
+### Step 10 — Fibonacci effort + focusing questions
+
+This step grooms Brady's open Asana queue so each task has an effort estimate and is immediately actionable. Run against **all incomplete tasks assigned to Brady** in the work workspace — both the existing tasks we fetched in Step 5 AND any tasks just created in Step 9.
+
+**Pass 10a — Estimate effort on tasks missing it.**
+
+The `Effort` custom field has gid `1214179053266044` (number, integer). Identify tasks where this field is absent or its `number_value` is null.
+
+For each such task:
+
+1. If full task details aren't already cached from Step 5, fetch via `asana_get_task` with `opt_fields=name,notes,due_on,projects.name,custom_fields,dependencies,permalink_url` to get description, dependency list, and project context.
+2. Estimate a Fibonacci score from `{1, 2, 3, 5, 8, 13, 21}` based on:
+    - **Scope** — how much work is in the task body / notes.
+    - **Description clarity** — sparse one-liners with no notes are usually 1–3; rich scope docs trend higher.
+    - **Ambiguity** — vague language ("figure out", "explore", "see if") trends higher.
+    - **Dependencies** — `dependencies` list non-empty, or notes describe blockers, trends 8+.
+    - Anchors: a copy-paste fix or single-message reply ≈ 1; a half-day investigation ≈ 5; a multi-day cross-team coordination ≈ 13; week-plus initiatives ≈ 21.
+3. Set the `Effort` custom field via `asana_update_task` with `custom_fields: {"1214179053266044": <number>}`.
+4. Post a task comment via `asana_create_task_story` with body:
+    ```
+    :bot: Effort explanation: <one sentence>
+    ```
+    The sentence should cite the signals that drove the score ("One-line task with clear single action"; "Multi-team coordination with two open dependencies and 5/8 deadline"; etc.).
+
+**Pass 10b — Focusing questions for tasks that aren't immediately actionable.**
+
+For every incomplete task (including those that already had an effort score), check if it's *immediately actionable*: i.e., a clear next physical action that Brady could start without further clarification. Examples of NOT immediately actionable:
+
+- Vague verb ("figure out", "explore", "look into", "review") with no concrete artifact.
+- Definition of done is unclear.
+- Owner of an underlying decision isn't named.
+- The system/account/context isn't specified.
+- Has unresolved dependencies that need to be unblocked first.
+
+If not immediately actionable, draft **up to 5** focusing questions whose answers would make it actionable. Common shapes: "Who owns the decision on X?", "What's the definition of done?", "Is this blocked by Y?", "Which Stripe / Rippling / Asana account is this in?", "What format does the deliverable take — doc, deck, code?"
+
+Post via `asana_create_task_story`:
+```
+Questions to make this actionable:
+- <question 1>
+- <question 2>
+- ...
+```
+
+If the task IS immediately actionable, do nothing for pass 10b.
+
+**Skip rules:**
+
+- Don't re-estimate or re-question tasks where Brady has already commented (look for stories authored by Brady's user gid). Idempotency on re-run.
+- Don't post duplicate `:bot: Effort explanation:` or `Questions to make this actionable:` comments — if the task already has a story whose text starts with either of those literal strings, skip the post.
+
+**Custom-field-not-enabled — surface, don't skip silently.**
+
+Brady's standing convention: any task assigned to him should have `Effort` available. If `asana_update_task` returns `Bad Request` because the field isn't enabled on the task's project, that's a configuration gap to fix, not a graceful-degradation case.
+
+When this happens:
+
+- Do NOT post the `:bot: Effort explanation:` story for that task (the explanation would be misleading without a real value set).
+- Still run Pass 10b (focusing questions) on the task — that path doesn't depend on the custom field.
+- Log the gid + project name + the effort estimate you would have applied (in the audit JSON) so Brady can apply it after enabling the field.
+
+**At the end of Step 10, report the unique list of projects that lack `Effort`** so Brady can enable the field via the Asana UI (Project → Customize → Add field → Effort). The MCP toolkit does not currently include a `create_project_custom_field_setting` action, so this is a manual one-time fix per project.
+
+After Brady enables the field on those projects, re-running `/refine-work` will pick up the missing estimates (idempotent skip rules ensure existing estimates aren't overwritten).
+
+**Report back:**
+
+- Count of effort estimates set, broken down by Fibonacci value.
+- Count of focusing-question comments posted.
+- Sample of 3–5 task names + the effort/questions you assigned, so Brady can sanity-check.
+
 ## Verification
 
 Before completing:
