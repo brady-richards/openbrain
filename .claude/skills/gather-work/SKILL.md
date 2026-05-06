@@ -156,7 +156,7 @@ For each gmail_* MCP:
 
 1. Use search_messages with received_only: true.
 2. date_to is exclusive — pass today + 1 to include today's messages.
-3. For EACH candidate (search previews are truncated and contain garbage bytes), call get_conversation(contact, date_from, date_to) before classifying. Read at minimum the candidate message and the next message from me. Use `get_reactions` on the candidate message to capture tapbacks.
+3. For EACH candidate (search previews are truncated and contain garbage bytes), call get_conversation(contact, date_from, date_to) before classifying. Read at minimum the candidate message and the next message from me. Call `get_reactions` on the **counterparty's handle (phone/email), not their name** — name-based lookup misses results that handle-based lookup catches. To detect if Brady tapped back an incoming message, look at the counterparty's `top_reactors` entry: `received: N` means N of the counterparty's messages received tapbacks (in a 1:1, those came from Brady). Querying Brady's own handle returns 0 — the tool indexes tapbacks only against the counterparty.
 4. Set `potential_work` Y/N + reason. `N` reasons include: automated/system senders (OTP codes, delivery notifications, appointment reminders), service short-codes, business contacts with no saved name, no ask directed at me. Apply the inbound definition for `Y`.
 5. Fill `acknowledged` from later iMessages from me in the thread OR an affirmative tapback (Liked/Loved/Yes) on the candidate message. Disliked, "?", or Laughed do NOT ack. Fill `done` only from later messages signalling fulfillment.
 6. Write the row regardless of `potential_work` value.
