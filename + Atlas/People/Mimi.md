@@ -7,7 +7,7 @@ phones: []
 birthday:
 relationship: [work]
 cadence: weekly
-last_contact: 2026-04-17
+last_contact: 2026-05-12
 created: 2026-04-20
 tags: [person]
 ---
@@ -34,6 +34,8 @@ Co-CEO at Doro Mind. Brady's co-founder and leadership partner. Owns growth, pay
 - Provide feedback on OKR narrative revisions (was due Sat/Sun Apr 18–19)
 
 ## Threads
+- 2026-05-11 · [[2026-05-11-welcome-aboard-orientation]] (email) — Matthew Montanez onboarding thread; Mimi chiming in on orientation logistics
+- 2026-05-11 · [[2026-05-11-healthworx-accelerator-stage-2]] (email) — Highmark Healthworx Accelerator Stage 2 update, Brady + Mimi coordinating reply to Colin Toolan
 
 ## Related people
 

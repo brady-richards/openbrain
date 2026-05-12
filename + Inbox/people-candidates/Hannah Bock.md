@@ -6,7 +6,7 @@ slack: [hannah]
 phones: []
 relationship: []
 cadence: asneeded
-last_contact: 2026-04-16
+last_contact: 2026-05-07
 created: 2026-04-13
 tags: [person, needs-review, stub]
 workspace: work
