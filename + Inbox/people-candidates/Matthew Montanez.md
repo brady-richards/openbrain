@@ -21,6 +21,7 @@ workspace: work
 - gmail:brady-doromind-com · 2026-05-11 · "Re: Welcome aboard/orientation" — direct thread with Brady + Mimi (mpmontanez@gmail.com)
 - fathom · 2026-05-11 · "Kick off with Matt" (Mimi + Stephanie + Matt; recorded by Stephanie)
 - gmail:brady-doromind-com · 2026-05-11 · Matt also has matt@doromind.com address (Fathom invite)
+- gmail:brady-doromind-com · 2026-05-11 · "Welcome aboard/orientation" thread continuation
 
 ## Open commitments
 ### Mine to them

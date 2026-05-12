@@ -25,6 +25,7 @@ workspace: work
 - gcal-brady-doromind-com · 2026-04-13 · Kate/Brady/Minna
 - gcal-brady-doromind-com · 2026-04-14 · Prospect X Scrum, SemperVirens Accelerator
 - fathom · 2026-04-16 · "Stephanie Greer and Hannah Bottigheimer" — 29 min external, recorded by Stephanie · `fathom:138765960`
+- gmail:brady-doromind-com · 2026-05-11 · "Potential Admission" thread
 
 ## Open commitments
 ### Mine to them
