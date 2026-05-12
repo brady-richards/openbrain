@@ -1,85 +1,66 @@
 ---
 name: refine-work
-description: TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.
+description: Phase 2 of the orientation workflow. Deduplicate potential work from data/stuff.db, match against Asana tasks in data/asana.csv, and interactively push new items to Asana. Use this after /gather-work to triage incoming requests and commitments.
 ---
 
 # Refine Work
 
 ## Overview
 
-[TODO: 1-2 sentences explaining what this skill enables]
+This skill triages "potential work" identified in `data/stuff.db`. It groups related messages (collapsing), matches them against existing Asana tasks (deduplication), rewrites summaries into actionable "next actions", and lets the user choose which items to push to Asana.
 
-## Structuring This Skill
+## Inputs
+- `data/stuff.db`: SQLite database containing classified messages.
+- `data/asana.csv`: Snapshot of Asana tasks.
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+## Procedure
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: CSV-Processor skill with "Workflow Decision Tree" → "Ingestion" → "Cleaning" → "Analysis"
-- Structure: ## Overview → ## Workflow Decision Tree → ## Step 1 → ## Step 2...
+### 1. Schema Preparation
+Ensure the `stuff` table has these columns:
+```sql
+ALTER TABLE stuff ADD COLUMN bucket TEXT;
+ALTER TABLE stuff ADD COLUMN asana_gid TEXT;
+ALTER TABLE stuff ADD COLUMN asana_match_reason TEXT;
+ALTER TABLE stuff ADD COLUMN next_action TEXT;
+```
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" → "Merge PDFs" → "Split PDFs" → "Extract Text"
-- Structure: ## Overview → ## Quick Start → ## Task Category 1 → ## Task Category 2...
+### 2. Initial Bucketing
+- `potential_work = 'N'` -> `bucket = 'dropped'`
+- `done = 'Y'` -> `bucket = 'done'`
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" → "Colors" → "Typography" → "Features"
-- Structure: ## Overview → ## Guidelines → ## Specifications → ## Usage...
+### 3. Collapsing & Linking
+Group surviving rows to avoid duplicate triaging:
+- **Thread Collapsing**: Group by `thread` (Gmail `threadId` or Slack `thread_ts`). Earliest inbound ask wins as survivor.
+- **Cross-Medium Linking**: Detect related work across Slack/Email (e.g., forwarded email to Slack). Match by keyword overlap (e.g., "Pam Levin superbill") or same counterparty + close timestamps (~24h).
+- **Non-survivors**: Set `bucket = 'collapsed'` and `asana_match_reason = 'collapsed into <survivor_url>'`.
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" → numbered capability list
-- Structure: ## Overview → ## Core Capabilities → ### 1. Feature → ### 2. Feature...
+### 4. Asana Matching
+Use `data/asana.csv` to build lookup indexes (`by_thread`, `by_url`).
+Match survivors:
+1. **Definite Match**: `thread` matches `Gmail Thread Id` OR `url` is in `Source URLs`/`notes`. Set `bucket = 'definite_duplicate'`.
+2. **Possible Match**: Semantic similarity (Subject/Counterparty/Topic). Set `bucket = 'possible_duplicate'`.
+3. **No Match**: Set `bucket = 'probable_new_work'`.
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+### 5. Rewrite Next Actions
+Rewrite summaries into imperative "next actions" (≤15 words).
+- *Format*: Verb + Object + Context.
+- *Example*: "Coordinate w/ Minna on PL superbill response (Mimi asked)"
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+### 6. Interactive Push (Ask User)
+Surface items to the user via `ask_user`:
+- Use `multiSelect: true`.
+- Header: `Probable new`, `Possible dupe`, or `Def. dupe`.
+- Option Label: `For <counterparty>: <next_action>`
 
-## [TODO: Replace with the first main section based on chosen structure]
+### 7. Asana Implementation
+For selected items, create/update in Asana:
+- **Project**: `1208193100268936` (Founders Backlog).
+- **Custom Fields**:
+    - Status (Global) [`1207543199556043`]: `1207543199556046` (Backlog)
+    - Gmail Thread Id [`1213297635072824`]: `<thread_id>`
+- **Effort Estimation**: Estimate Fibonacci score (1, 2, 3, 5, 8, 13, 21) based on scope/ambiguity. Set in Effort field [`1214179053266044`] and post a `:bot: Effort explanation:` story.
 
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
-
-## Resources
-
-This skill includes example resource directories that demonstrate how to organize different types of bundled resources:
-
-### scripts/
-Executable code that can be run directly to perform specific operations.
-
-**Examples from other skills:**
-- PDF skill: fill_fillable_fields.cjs, extract_form_field_info.cjs - utilities for PDF manipulation
-- CSV skill: normalize_schema.cjs, merge_datasets.cjs - utilities for tabular data manipulation
-
-**Appropriate for:** Node.cjs scripts (cjs), shell scripts, or any executable code that performs automation, data processing, or specific operations.
-
-**Note:** Scripts may be executed without loading into context, but can still be read by Gemini CLI for patching or environment adjustments.
-
-### references/
-Documentation and reference material intended to be loaded into context to inform Gemini CLI's process and thinking.
-
-**Examples from other skills:**
-- Product management: communication.md, context_building.md - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
-
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Gemini CLI should reference while working.
-
-### assets/
-Files not intended to be loaded into context, but rather used within the output Gemini CLI produces.
-
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
-
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
-
----
-
-**Any unneeded directories can be deleted.** Not every skill requires all three types of resources.
+## Verification
+- Every `potential_work = 'Y'` row should have a `bucket`.
+- All survivors (`bucket != 'collapsed'`) should have a `next_action`.
+- Report collapse ratio: `count(survivors) / count(total_rows)`.
