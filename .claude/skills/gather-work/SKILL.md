@@ -1,185 +1,161 @@
 ---
 name: gather-work
-description: Phase 1 of /orient. Sweep Slack, email, and Messages for potential work over the previous-working-day window and write it to data/current.csv. Stub — to be fleshed out.
+description: Phase 1 of /orient. Read unclassified rows from data/stuff.db and fill in summary + work/ack/done classification columns. Stub — to be fleshed out.
 ---
 
 # /gather-work
 
-
 ## Procedure
 
-## Gather potential work
-
+## Classify potential work
 
 ### Tool budget
 
-This skill is thoroughness-bound, not call-bound. Expect 50–300+ tool calls per run. Do NOT optimize for fewer calls. The only acceptable reason to skip a per-item read is that the item was excluded by an earlier rule (e.g., sender is guides@doromind.com). Terseness applies to your prose, not your tool use.
+This skill is thoroughness-bound, not call-bound. Expect one read + one update per unclassified row, batched. Do NOT optimize for fewer calls. The only acceptable reason to skip a row is that all classification columns are already populated (see "Refetch rule" below).
 
 ### Justification
 
-The goal is to find all potential work across all channels (Slack, email, messages). To avoid losing work to over-eager filtering, **every fetched message is recorded as a row in the CSV**. The work-vs-noise judgment moves into the `potential_work` / `potential_work_reason` columns: rows that previously would have been dropped (FYI senders, automated, addressed to someone else, no commitment language) are now written with `potential_work=N` and a reason. Refinement (`/refine-work`) is responsible for filtering down to actionable rows.
+Messages from Slack, email, and iMessage are ingested into `data/stuff.db` by an upstream process. This skill does not pull from those sources. Its job is to read each row's `body` and fill the classification columns (`summary`, `potential_work`, `potential_work_reason`, `acknowledged`, `acknowledged_reason`, `done`, `done_reason`) by applying the rules below.
+
+To avoid losing work to over-eager filtering, **every row gets classified** — rows that would have been dropped (FYI senders, automated, addressed to someone else, no commitment language) are written with `potential_work=N` and a reason. Refinement (`/refine-work`) is responsible for filtering down to actionable rows.
 
 ### Definitions
 
-“Work” means "something I need to do." Both business and personal requests count. These definitions drive the `potential_work` Y/N decision for each row — they no longer drive whether the row is written at all.
+"Work" means "something I need to do." Both business and personal requests count. These definitions drive the `potential_work` Y/N decision for each row.
 
-The “time period” is from the previous working day to today.
+The "time period" — the slice of rows to classify — is from the previous working day to today, inferred from the `received` column.
 
 - **Inbound work** (`direction=inbound`, `potential_work=Y`): A request directed at me. Look for "can you...", "please...", "we need you...", or messages ending with a question mark.
-    - In a group of ≤5: any ask qualifies unless it specifically names someone else.
-    - In a group of >5: only qualifies if the message @mentions me by handle, or addresses me by name in the text. A general question to the group does not qualify.
+    - In a group of ≤5 (forum is a small DM/MPIM/group thread): any ask qualifies unless it specifically names someone else.
+    - In a group of >5 (channel, large group chat, mailing list): only qualifies if the message @mentions me by handle, or addresses me by name in the body.
 - **Outbound work** (`direction=outbound`, `potential_work=Y`): A commitment from me. Look for "I'll", "I will", "let me", "I'll send", "I'll follow up", "I'll get back", "I'll check", "I'll connect", "I'll introduce", "will have this to you", "I'll loop you in", "I'll look into", "sending over shortly", "I'll make sure", "will do".
     - A question I sent is NOT a commitment.
 - **Not work** (`potential_work=N`): everything else — FYI/announcements, automated/system senders (1Password, Stripe, DocuSign, SimpleMDM, LinkedIn invites, shipping, marketing, OTP codes, delivery notifications), CC-only or list traffic where I'm not addressed, group asks naming someone else, my own questions/requests without commitment language, observer-only threads. Set `potential_work=N` and put the rule that fired into `potential_work_reason`.
 
- ## Forbidden patterns
+## Forbidden patterns
 
-- Do NOT drop a fetched message because it looks like noise. Write the row with `potential_work=N` and a reason instead.
-- Do NOT classify from subject lines. Subjects are routing data, not content.
-- Do NOT use search-result snippets as your body source — they are truncated and may contain garbage bytes.
+- Do NOT skip a row because the body looks like noise. Update it with `potential_work=N` and a reason.
+- Do NOT classify from `forum` or `counterparty` alone — those are routing data, not content. Read the `body`.
 - Do NOT write hedging caveats ("may resolve differently", "possible follow-through pending") into reason fields. State the rule that fired.
 
- ## Output: CSV row contract
+## Database contract
 
-Write all captured work to `data/current.csv` (path relative to the vault root). Create the `data/` directory if it doesn't exist. If `current.csv` already exists, append rows to it; otherwise create it with the header line below as the first row. Do not rewrite or dedupe existing rows in this phase — refinement is `/refine-work`'s job.
+The database lives at `data/stuff.db` (path relative to the vault root) and contains one table:
 
-Columns, in this order:
-
+```sql
+CREATE TABLE stuff (
+  url TEXT NOT NULL PRIMARY KEY,
+  received TEXT,
+  source TEXT,
+  forum TEXT,
+  thread TEXT,
+  direction TEXT,
+  work_or_personal TEXT,
+  counterparty TEXT,
+  body TEXT,
+  summary TEXT,
+  potential_work TEXT,
+  potential_work_reason TEXT,
+  acknowledged TEXT,
+  acknowledged_reason TEXT,
+  done TEXT,
+  done_reason TEXT
+);
 ```
-source_url | received | source_mcp | forum | thread | direction | work_or_personal | counterparty | summary | potential_work | potential_work_reason | acknowledged | acknowledged_reason | done | done_reason
-```
 
-- `source_url`: deep link to the original message (Gmail permalink, Slack archive URL, `messages://` or equivalent). Required.
-- `received`: ISO-8601 date the message arrived (or was sent, for outbound).
-- `source_mcp`: the MCP server slug that produced the row (e.g. `gmail_brady_doromind_com`, `slack_doromind_slack_com`, `messages`).
-- `forum`: where it happened.
-    - **Email inbound:** the receiving mailbox — the Brady-owned address the message landed in (the Gmail account being searched). For cc/bcc deliveries, still use the receiving mailbox, not the To: header.
-    - **Email outbound:** the From: address (the address Brady sent from).
-    - **Slack channel:** channel name (e.g. `proj-licensing`).
-    - **Slack DM/MPIM:** the counterparty's resolved Slack handle or display name (call `slack_users_search` to map user IDs to names — never write the raw `U…` user ID or `D…` channel ID).
-    - **iMessage:** `iMessage 1:1` or `iMessage group: <name>`.
-- `thread`: stable thread identifier (Gmail threadId, Slack thread_ts, Messages chat guid). Empty if the message has no thread.
-- `direction`: `inbound` or `outbound`.
-- `work_or_personal`: `work` or `personal`.
-- `counterparty`: the other human (or list, comma-separated) — name preferred, email/handle if no name.
-- `summary`: ≤20 words, declarative, no hedging. Captures the ask or commitment.
-- `potential_work` / `potential_work_reason`: `Y` or `N`, plus ≤15-word reason. `Y` means it represents an ask directed at me or a self-commitment. `N` means it doesn't (FYI, automated, addressed to someone else, etc.).
-- `acknowledged` / `acknowledged_reason`: `Y` or `N`, plus ≤15-word reason. `Y` if I've replied in the thread, OR reacted on Slack with a positive emoji (👍 `:thumbsup:` / `:+1:`, ❤️ `:heart:`, ✅ `:white_check_mark:`, `:eyes:`, `:ok:`, or any "yes"-shaped emoji), OR sent a tapback on iMessage that reads as affirmative (Liked, Loved, "Yes" — Disliked / "?" / Laughed do NOT count as ack). For email, only a reply counts (no reactions to inspect). Cite the signal in the reason ("👍 react from me 14:02", "I replied 09:11", "Loved tapback").
-- `done` / `done_reason`: `Y` or `N`, plus ≤15-word reason. `Y` means the work is fulfilled — answer sent, commitment delivered, ask resolved. On Slack: a `:done:` reaction on the message counts as fulfillment, AND a later thread message (from me or the counterparty) saying "done", "shipped", "fixed", "merged", "resolved", "thanks!", "got it, all set", or equivalent counts. Other reactions (👍/❤️/etc.) do NOT count as done — only as ack. Cite the signal in the reason ("`:done:` react from me", "counterparty said 'shipped' 15:40").
+Columns `url`, `received`, `source`, `forum`, `thread`, `direction`, `work_or_personal`, `counterparty`, and `body` are populated by the upstream ingestion process. **Do not modify them.** This skill only writes to:
+
+- `summary`: ≤140 characters, declarative, no hedging. Captures the ask, commitment, or — for `potential_work=N` — what the message actually is. If the body is shorter than 140 characters and already declarative, copy it verbatim.
+- `potential_work` / `potential_work_reason`: `Y` or `N`, plus ≤15-word reason. `Y` means the body represents an ask directed at me or a self-commitment from me. `N` means it doesn't (FYI, automated, addressed to someone else, etc.).
+- `acknowledged` / `acknowledged_reason`: `Y` or `N`, plus ≤15-word reason. Only meaningful when `potential_work=Y`. `Y` if the thread shows I've acknowledged — replied in-thread, reacted on Slack with a positive emoji (👍 `:thumbsup:` / `:+1:`, ❤️ `:heart:`, ✅ `:white_check_mark:`, `:eyes:`, `:ok:`, or any "yes"-shaped emoji), or sent an affirmative tapback on iMessage (Liked, Loved, "Yes" — Disliked / "?" / Laughed do NOT count). Cite the signal in the reason ("👍 react from me 14:02", "I replied 09:11", "Loved tapback").
+- `done` / `done_reason`: `Y` or `N`, plus ≤15-word reason. Only meaningful when `potential_work=Y`. `Y` if the work is fulfilled — answer sent, commitment delivered, ask resolved. On Slack: a `:done:` reaction on the message counts as fulfillment, AND a later thread message saying "done", "shipped", "fixed", "merged", "resolved", "thanks!", "got it, all set", or equivalent counts. Other reactions (👍/❤️/etc.) do NOT count as done — only as ack. Cite the signal in the reason.
+
+Acknowledgement and done signals must come from later rows in `stuff` that are in the same conversation as the row being classified — see "What counts as a follow-up" under the Reclassification rule for what qualifies per source. If no qualifying follow-up row exists yet, set `acknowledged=N` / `done=N` with reason "no later message in conversation".
 
 Rules:
-- Every row's classification must come from message text actually read.
-- **Refetch rule: only refetch a known `source_url` if doing so could give new information that affects classification, `acknowledged`, or `done`.**
-    - **Gmail:** never refetch a known URL. Bodies are immutable, there are no reactions, and thread fulfillment lives in *later* messages — which become their own rows on this run.
-    - **Slack:** refetch known URLs. Bodies can be edited (same `ts`/URL), reactions can be added (including `:done:`), and thread replies can arrive — any of these can change classification, ack, or done. Use `slack_conversations_replies` to pull current state; if the message's `edited.ts` is unchanged AND no new reactions or later replies, leave the existing row as-is. Otherwise, update it in place.
-    - **iMessage:** refetch known URLs via `get_conversation` + `get_reactions`. Tapbacks and later messages can change ack/done, and edits/unsends can change the body.
-    - These per-row refetches are expensive on re-runs. That's fine — this skill is thoroughness-bound, not call-bound.
-- **First-time fetches per channel:**
-    - Slack `slack_my_mentions` returns full message text inline — that body is enough to classify the parent. Still call `slack_conversations_replies` to capture reactions on the parent and thread fulfillment, but do not re-fetch just for body text you already have.
-    - Gmail `search_emails` returns headers only → `read_email` is required for first-time classification.
-    - iMessage `search_messages` truncates body → `get_conversation` is required for first-time classification (and `get_reactions` for tapbacks).
+- Every row's classification must come from the `body` actually read.
+- **Reclassification rule:** `summary` and `potential_work` / `potential_work_reason` come from the row's own `body` and never change once set — bodies are immutable across all sources. `acknowledged` and `done`, however, depend on later messages in the same conversation and may flip from `N` to `Y` as the conversation continues. Re-evaluate ack/done on any `potential_work=Y` row when a newer row exists in `stuff` that is plausibly in reply to it (see "What counts as a follow-up" below) whose `received` is later than the last time this row was classified. For Slack, reactions on the original message can also change ack/done if the ingester refreshes the row's `body` (or stores reaction metadata in a related row); refresh accordingly. Gmail rows have no reactions, so only later same-thread rows matter. Select unprocessed rows with: any of (`summary`, `potential_work`) NULL/empty, OR `potential_work='Y'` with at least one qualifying follow-up row received after this row's last update.
+
+- **What counts as a follow-up** (for ack/done evaluation) depends on the source:
+    - **Email:** same `thread` only. Gmail threadIds are reliable; same-`forum` (mailbox) is far too broad.
+    - **Slack thread reply:** same `thread`. Most ack/done signals live here.
+    - **Slack top-level reply in channel/DM:** same `forum` AND empty/different `thread`, from the counterparty (or me, for outbound rows), received within ~24h of the original. Slack users often reply un-threaded, especially in 1:1 DMs.
+    - **iMessage:** same `forum` from the counterparty (or me, for outbound). iMessage has no real thread concept beyond the conversation itself, so `thread` is usually empty and `forum` (the chat) is the conversation.
 - Reasons must cite what was read (e.g. "I replied 14:02 with answer", "no later message from me in thread", "thread continues without my reply").
-- **If `potential_work=N`, leave `acknowledged`, `acknowledged_reason`, `done`, and `done_reason` blank.** Those columns are only meaningful for items that represent actual work; spending fields on "is the FYI broadcast acknowledged" is noise. Only fill them when `potential_work=Y`.
-- Rows missing `summary`, `potential_work`, or `potential_work_reason` are invalid. For `potential_work=Y` rows, `acknowledged` / `done` (Y/N) and their reasons are also required.
-- Quote any field containing `,`, `|`, `"`, or newlines per RFC 4180 (use `,` as the delimiter — the `|` above is just for readability in this doc). Actual file is comma-separated.
+- **If `potential_work=N`, write `acknowledged`, `acknowledged_reason`, `done`, and `done_reason` as empty strings.** Those columns are only meaningful for actual work; spending fields on "is the FYI broadcast acknowledged" is noise.
+- Rows missing `summary`, `potential_work`, or `potential_work_reason` after this skill runs are invalid. For `potential_work=Y` rows, `acknowledged` / `done` (Y/N) and their reasons are also required.
 
- ## Execution shape
+## Execution shape
 
-Process each channel in 10-candidate batches:
+Process in batches of 50 rows:
 
-1. Pull a batch of 10 IDs from the search.
-2. Fire all required read_* / get_conversation / slack_conversations_replies calls for the batch in parallel.
-3. Write rows for the batch to the CSV.
-4. Pull the next 10.
+1. Pick up two cohorts:
+   - **Unclassified:** `SELECT … FROM stuff WHERE summary IS NULL OR summary = '' OR potential_work IS NULL OR potential_work = '' ORDER BY received DESC LIMIT 50;`
+   - **Ack/done refresh:** `potential_work='Y'` rows that have a newer same-thread row in `stuff` than they did last classification. The `body`-derived `summary` and `potential_work` stay; only `acknowledged*` / `done*` get rewritten.
+2. For each row, read the `body` and apply the rules below to derive the classification fields.
+3. For each row needing follow-up context (any `potential_work=Y` candidate), pull later same-conversation rows per the "What counts as a follow-up" rules above. Roughly:
+   - Email: `WHERE thread = ? AND received > ?`
+   - Slack: `WHERE (thread = ? OR (forum = ? AND received BETWEEN ? AND datetime(?, '+1 day'))) AND received > ?`
+   - iMessage: `WHERE forum = ? AND received > ?`
+   Order ascending by `received` and read the first one or two from the counterparty (or me, for outbound) to derive `acknowledged` and `done`.
+4. `UPDATE stuff SET summary = ?, potential_work = ?, potential_work_reason = ?, acknowledged = ?, acknowledged_reason = ?, done = ?, done_reason = ? WHERE url = ?` — one statement per row, run inside a single transaction per batch.
+5. Pull the next batch.
 
-Do not pre-filter by subject or sender display name before reading bodies. Every fetched message becomes a row — exclusions go into `potential_work=N` with a reason, not into a skip list.
+Do not pre-filter by `forum` or `counterparty` before reading bodies. Every row in the unclassified set gets updated — exclusions go into `potential_work=N` with a reason.
 
-#### Capture per channel
+#### Per-source classification notes
 
-##### Slack — inbound
+##### Slack (source starts with `slack_`)
 
-For each slack_* MCP:
+1. Determine group size from `forum`: a channel name (`forum` not a person handle) implies >5; a 1:1 DM implies 2; an MPIM may be inferred from the `counterparty` list length. When in doubt, treat as >5 and require @mention or by-name addressing.
+2. For inbound rows, apply the inbound definition. Group asks naming someone else → `N`.
+3. For outbound rows, scan body for commitment language (see Definitions). Questions are not commitments.
+4. For ack/done, look at later same-thread rows in `stuff`. The `body` column for Slack rows preserves reaction metadata if the ingestion process recorded it; if reactions are not in the body, fall back to looking for explicit ack/done text in later thread messages.
 
-1. Call slack_conversations_unreads with limit: 200. (limit caps channels scanned, not messages — small limits silently miss DMs.)
-2. Call slack_my_mentions with hours covering the time period.
-3. For each candidate message, call slack_conversations_replies on its thread to fetch the full message text, any subsequent messages, AND the reactions array on the original message.
-4. Apply the inbound definition to set `potential_work` (Y/N + reason): group size, @mention, addressed-by-name. Group asks naming someone else → `N`.
-5. Fill `acknowledged`: `Y` if I posted a reply in the thread OR my user id appears in any positive reaction (👍/❤️/✅/eyes/ok/yes-shaped). Fill `done`: `Y` if the message has a `:done:` reaction OR a later thread message (mine or counterparty's) signals fulfillment ("done", "shipped", "fixed", "merged", "resolved", "thanks!", etc.). Other reactions are not done.
-6. Write the row regardless of `potential_work` value.
+##### Email (source starts with `gmail_`)
 
-##### Slack — outbound
+1. From the `body`, extract: To/Cc list (often present in quoted headers when the body is a reply chain), the literal ask, whether I'm the addressee.
+2. Set `potential_work` Y/N + reason. `N` reasons include: sender is `guides@doromind.com` (FYI per memory rule); I'm neither To nor Cc and not mentioned in body; sender is automated (1Password, Stripe, DocuSign, SimpleMDM, LinkedIn invitations, shipping, marketing, calendar invites without an embedded ask); no actionable ask.
+3. For outbound rows, scan the most recent message segment of the body (the un-quoted top portion) for commitment language. `N` reasons include: question with no commitment, FYI to recipient, automated forward via shared alias.
+4. For ack/done on inbound rows, look for a later same-thread row with `direction=outbound` (my reply). For outbound rows, look for a later same-thread row from the counterparty signaling fulfillment.
 
-For each slack_* MCP:
+##### iMessage (source = `messages`)
 
-1. Call slack_conversations_search_messages with from:@me (or workspace equivalent) over the time period.
-2. For EACH result, call slack_conversations_replies to fetch the full message and the rest of the thread.
-3. From the body, identify commitment language. Subject/preview text does not qualify. Set `potential_work=Y` if a self-promise is present, else `N` (e.g. "question, no commitment").
-4. Fill `acknowledged` from later thread messages from me OR my reaction on the original. Fill `done` only from later messages signalling fulfillment.
-5. Write the row regardless of `potential_work` value.
-
-##### Email — inbound
-
-For each gmail_* MCP:
-
-1. Call search_emails with `after:<period_start>` and the per-account exclusion filter below. Capture all IDs. The exclusion filter is a noise pre-filter, not a content classifier — anything it lets through still gets read and recorded.
-
-   **brady.richards@gmail.com — exclusion filter (append to query):**
-   ```
-   -from:reply@timetopet.com -from:"NYT Cooking" -from:Wirecutter -(from:USPSInformeddelivery@email.informeddelivery.usps.com OR subject:"You have deliveries" OR from:usps.com OR from:wework@packagex.app OR from:TrackingUpdates@fedex.com OR from:auto-confirm@amazon.com OR from:shipment-tracking@amazon.com OR from:order-update@amazon.com OR subject:"You have a delivery" OR from:members.ebay.com OR from:ebay@ebay.com) -from:linkedin.com -(to:announcements@pptc.org OR from:Pptc@wildapricot.org) -from:rentcafe.com -from:outofpocket.health -from:zillow.com -from:email.monarch.com -from:googlealerts-noreply@google.com -from:noreply-photos@google.com -from:schwab.com -from:simplehuman.com -from:marsello.com -from:clearme.com -from:jetblue.com -from:donotreply.dep.nj.gov -from:heidrick.com
-   ```
-
-   **brady@doromind.com:** scope to `(is:important OR is:starred) after:<period_start>` (work mailbox is already triaged tightly).
-
-   **bradyandpaloma@gmail.com:** `after:<period_start>` (no exclusion filter yet; tune as patterns emerge).
-
-   **Shared-alias inbound** (run as a separate cohort, still on the brady@doromind.com MCP since Brady has read access): `(to:finance@doromind.com OR to:guides@doromind.com) after:<period_start>`. Don't apply `is:unread (is:important OR is:starred)` — Gmail's importance/star flags are per-mailbox and don't get applied to alias deliveries from Brady's vantage. The date scope alone keeps volume manageable (tens of messages per day, not hundreds). Set `forum` to the alias the message was delivered to (e.g. `finance@doromind.com`). These rows may duplicate brady@-direct inbound when an external sender CCs both — `/refine-work` is responsible for dedup; this sweep just captures the alias delivery as its own row.
-2. For EACH id: call read_email(id). You may not classify before this call.
-3. From the body, extract: To/Cc list, the literal ask, whether I'm the addressee.
-4. Set `potential_work` Y/N + reason. `N` reasons include: sender is guides@doromind.com (FYI); I'm neither To nor Cc and not mentioned in body; sender is automated (1Password, Stripe, DocuSign, SimpleMDM, LinkedIn invitations, shipping, marketing); no actionable ask.
-5. If a subsequent message in the thread is from me, call read_email on it and use it to fill `acknowledged` and `done`.
-6. Write the row regardless of `potential_work` value.
-
-##### Email — outbound
-
-For each gmail_* MCP:
-
-1. Call search_emails for two cohorts:
-    - **Brady-direct outbound:** `from:brady@doromind.com after:<period_start>` (and similarly for personal addresses).
-    - **Shared-alias outbound where Brady is the author:** `(from:finance@doromind.com OR from:guides@doromind.com) "Brady" -"via Doro Mind Finance" -"via Doro Guides" after:<period_start>`. The `"Brady"` token catches Brady's voice/sign-off; the negative `via` filters strip Google-Groups-wrapped inbound deliveries to those alias mailboxes (those are not outbound — Gmail only surfaces them in `in:sent` because the user has send-on-behalf access). Read each match to confirm Brady actually wrote it.
-    - Skip a plain `in:sent` query — it returns the Google-Groups-wrapped inbound stream (`'Stripe' via Doro Mind Finance`, `'1Password' via Doro Mind Finance`, etc.) as if it were Brady's outbox. Those messages are inbound to the shared alias, often duplicate the brady@-direct inbound row (when the external sender CCs both addresses), and should not be re-captured here. If you want shared-alias inbound coverage, run a separate inbound sweep against those mailboxes.
-2. For EACH id: call read_email(id). You may not classify before this call.
-3. Scan the body for commitment language. Set `potential_work=Y` if a self-promise is present; `N` otherwise (e.g. "question, no commitment", "FYI to recipient", "automated forward via shared alias").
-4. If later messages exist in the thread, call read_email on them to fill `acknowledged` and `done`.
-5. Write the row regardless of `potential_work` value.
-
-##### Messages — inbound
-
-1. Use search_messages with received_only: true.
-2. date_to is exclusive — pass today + 1 to include today's messages.
-3. For EACH candidate (search previews are truncated and contain garbage bytes), call get_conversation(contact, date_from, date_to) before classifying. Read at minimum the candidate message and the next message from me. Call `get_reactions` on the **counterparty's handle (phone/email), not their name** — name-based lookup misses results that handle-based lookup catches. To detect if Brady tapped back an incoming message, look at the counterparty's `top_reactors` entry: `received: N` means N of the counterparty's messages received tapbacks (in a 1:1, those came from Brady). Querying Brady's own handle returns 0 — the tool indexes tapbacks only against the counterparty.
-4. **Freshness caveat:** the messages MCP reads `chat.db` on disk and lags real-time. Tapbacks added in the last few minutes — or sometimes hours — may be invisible to `get_reactions`. If a row is `acknowledged=N` for a message that's a recent (today) inbound, treat that ack determination as provisional. Don't rely on this skill to detect "I just liked that text two minutes ago."
-4. Set `potential_work` Y/N + reason. `N` reasons include: automated/system senders (OTP codes, delivery notifications, appointment reminders), service short-codes, business contacts with no saved name, no ask directed at me. Apply the inbound definition for `Y`.
-5. Fill `acknowledged` from later iMessages from me in the thread OR an affirmative tapback (Liked/Loved/Yes) on the candidate message. Disliked, "?", or Laughed do NOT ack. Fill `done` only from later messages signalling fulfillment.
-6. Write the row regardless of `potential_work` value.
-
-#### Messages — outbound
-
-1. Use search_messages with sent_only: true and the date_to + 1 rule.
-2. For EACH candidate, call get_conversation to read the full message and any subsequent reply.
-3. Scan body for commitment language. Set `potential_work=Y` if a self-promise is present; `N` otherwise (e.g. "unanswered question, no commitment").
-4. Read later messages to fill `acknowledged` and `done`.
-5. Write the row regardless of `potential_work` value.
+1. Determine group size from `forum`: `iMessage 1:1` = 2, `iMessage group: <name>` = >2 (treat ≤5 as small unless the group has a known large membership).
+2. Apply inbound/outbound definitions normally.
+3. For ack/done, look at later same-thread rows. Tapback metadata, if recorded by the ingestion process, will appear in the `body` of a synthetic later row or as a marker in the candidate row's body — follow whatever convention the ingester uses; if there is no signal, set ack/done to `N` with reason "no later message in thread".
 
 ### Verification
 
-Before considering the run complete, verify:
+Before considering the run complete, verify with SQL:
 
-- Every row's `summary` and three `*_reason` fields are non-empty and grounded in a body fetched via `read_email` / `get_conversation` / `slack_conversations_replies`.
-- Every row has `Y`/`N` (not blank, not other values) in `potential_work`, `acknowledged`, `done`.
-- Every row has a non-empty `source_url` and `received` date.
-- Total `read_email` calls ≥ total email candidates considered (including excluded).
-- Total `get_conversation` calls ≥ total message candidates considered.
-- No row's `summary` contains "may", "possibly", "likely", or "appears to".
+```sql
+-- All targeted rows have summary + classification
+SELECT COUNT(*) FROM stuff
+WHERE (summary IS NULL OR summary = ''
+       OR potential_work IS NULL OR potential_work = ''
+       OR potential_work_reason IS NULL OR potential_work_reason = '')
+  AND received >= '<period_start>';
+-- Expected: 0
+
+-- Every potential_work=Y row has ack/done
+SELECT COUNT(*) FROM stuff
+WHERE potential_work = 'Y'
+  AND (acknowledged NOT IN ('Y','N') OR done NOT IN ('Y','N')
+       OR acknowledged_reason IS NULL OR acknowledged_reason = ''
+       OR done_reason IS NULL OR done_reason = '')
+  AND received >= '<period_start>';
+-- Expected: 0
+
+-- No hedging language in summaries
+SELECT url FROM stuff
+WHERE summary LIKE '%may %' OR summary LIKE '%possibly%'
+   OR summary LIKE '%likely%' OR summary LIKE '%appears to%';
+-- Expected: 0 rows
+
+-- Summary length cap
+SELECT url, length(summary) FROM stuff WHERE length(summary) > 140;
+-- Expected: 0 rows
+```
 
 If any check fails, fix the underlying gap. Do not annotate the gap.
-

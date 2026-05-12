@@ -1,0 +1,867 @@
+workspace_gid,workspace_name,category,gid,name,resource_subtype,completed,completed_at,due_on,permalink_url,assignee_name,assigned_by_name,assignee_section,modified_at,created_at,projects,sections,tags,notes,Effort,Dept/Team,Email,email,External due date,Fathom Link,Fathom Meeting Title,Geographic,Geography,Gmail Thread Id,Hours Remaining,members,Partner Stage,Priority (custom),Prospects reached,Referred contacts,Referrer,Responsible Unit,Risk (1206697121362510),Risk (1208194005440633),Role,Source,Source URLs,Stage,State,Status (Global),Type,Workstream (1205847959825609),Workstream (1208194005440610)
+1205801040312777,doromind.com,inbox,1214616714911904,@Brady Is there a task for getting our next round of board approvals done? I won…,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214616714911904,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.285Z,2026-05-07T17:20:06.637Z,,,slack,"From Mimi in #C08EU2RMU6P
+https://slack.com/archives/C08EU2RMU6P/p1778164606759749
+
+@Brady Is there a task for getting our next round of board approvals done? I wonder if it's worth doing something like what we did for Corbin where we pay Colleen out for her hours vs bother with the grant given how short...",,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213422294315440,Accrual -> cash bridge,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1210790210220910/task/1213422294315440,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.861Z,2026-02-24T15:49:06.342Z,Financial Model,Longer Term,,,8,,,,,,,,,,2.0,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213402983318287,Add $100/person/month social budget,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1205896396814582/task/1213402983318287,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.762Z,2026-02-28T02:23:19.166Z,Policies,(no section),,"https://fathom.video/share/6ywAcgMF12xcs2zAeF_ErxNq8Pk7BtLr?timestamp=1696.9999
+
+Add to policy and financial models
+
+
+",2,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213880434698407,Add cohorting to growth dashboards,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213880434698407,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:57:57.155Z,2026-03-30T20:00:52.267Z,,,,Meeting: https://fathom.video/calls/619291618,5,,,,,https://fathom.video/calls/619291618,Mimi / Brady,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1205896396814577,Add SCA revenue,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1210790210220910/task/1205896396814577,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:55:36.562Z,2025-09-28T12:46:41.268Z,Financial Model,Longer Term,,,3,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214619298530335,Add Tier 3 packaging/criteria to next week’s Milestone Jam agenda,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214619298530335,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.768Z,2026-05-07T18:56:28.257Z,,,fathom,Meeting: https://fathom.video/calls/665356510?timestamp=0.0,,,,,,https://fathom.video/calls/665356510?timestamp=0.0,Milestones Jam,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213995127542637,Align w/ care team on adult privacy process; then draft and circulate how-to,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213995127542637,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:40:13.317Z,2026-04-09T15:05:14.751Z,,,fathom,Meeting: https://fathom.video/calls/629607935?timestamp=291.9999,5,,,,,https://fathom.video/calls/629607935?timestamp=291.9999,Brady + Mimi,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214398929999118,Announce tech support availability to NPs/Guides; share contact,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214398929999118,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.171Z,2026-04-29T16:04:52.360Z,,,fathom,Meeting: https://fathom.video/calls/653810611?timestamp=533.9999,1,,,,,https://fathom.video/calls/653810611?timestamp=533.9999,Track 2: Strategy: Decrease Cost to Serve & Catalyst,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213809703315996,Annual Budget & Business Plan,default_task,false,,2026-12-15,https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1213809703315996,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-06T16:33:58.670Z,2026-03-26T13:40:51.746Z,Finances Backlog,Untitled section,,"Prepare next fiscal year budget and business plan:
+
+Requirements:
+- Monthly breakdown
+- Align with company strategy
+- Submit for Board approval BEFORE fiscal year-end
+
+Subtasks:
+    Draft budget
+    Build monthly model
+    Internal review
+    Revise
+    Submit to Board
+    Track approval
+",8,,,,,,,,,,,,,,,,,Doro,,,,,,,Finance Close & Investor Reporting,Scheduled,,,
+1205801040312777,doromind.com,inbox,1213809703315990,Annual Financial Package,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1213809703315990,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-08T20:54:16.569Z,2026-03-26T13:39:35.559Z,Finances Backlog,Untitled section,,"Prepare annual financial statements:
+
+Deliverables:
+- Balance Sheet (year-end)
+- Income Statement (full year)
+- Cash Flow Statement (full year)
+- Statement of Stockholders’ Equity
+
+Requirements:
+- GAAP compliant
+- Include consolidated + consolidating if subsidiaries exist
+
+Subtasks:
+    Finalize year-end close
+    Prepare all statements
+    Equity rollforward
+    Consolidation (if applicable)
+    Review
+    Send to investors
+
+Deadline: Within 120 days after fiscal year-end",5,,,,,,,,,,,,,,,,,Doro,,,,,,,Finance Close & Investor Reporting,To Do,,,
+1205801040312777,doromind.com,inbox,1213390214003373,Assets vs. cash balance reconciliation,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1210790210220910/task/1213390214003373,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:17.242Z,2026-02-24T15:50:38.260Z,Financial Model,Jan 2026 Closing Tasks,,"https://doromind.slack.com/team/U05P11T4ACR ""Total Assets"" from Pilot should be the ""Ending Cash Balance"" right? past numbers are a bit off
+
+Brady  [9:33 AM]
+About how much off?
+
+Dhanica  [9:35 AM]
+Varying but way off on most cases
+$444,184.61 -> $ 418,086
+$322,274.64 -> $ 322,263
+$225,841.48 -> $ 233,742
+$80,271.61
+Brady  [9:38 AM]
+That's not way off
+
+Dhanica  [9:39 AM]
+$1,121,695.52 -> $ 1,062,205
+$988,534.33 -> $ 903,491
+$836,805.55 -> $ 779,263
+$661,571.80 -> $ 632,619
+$494,022.35 -> $ 447,640
+$344,125.66 -> $ 308,309
+$576,830.43 -> $ 575,488
+$444,184.61 -> $ 418,086
+$322,274.64 -> $ 322,263
+$225,841.48 -> $ 233,742",5,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1208908514751368,Bedford Road Medical (Friendly PC),default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1208908514751368,Brady Richards,Brady Richards,Recently assigned,2026-05-11T07:22:26.064Z,2024-12-05T04:17:05.884Z,Doro Backlog,All,,"Holding task for structuring work related to the friendly PC, and credentialing (maybe it should just all live in https://app.asana.com/0/1207656528762491/1207657485974518?)
+
+Completed
+    NY PC EIN
+    NY PC NPI Type 2
+    Medicaid-NY group & individual enrollment
+
+In Progress
+    Acquiring resource to complete licensing of MD & 2 NPs for NJ
+
+2025-Q1 Targets
+    NJ licensing & friendly PC setup
+    CAQH exploration
+    Healthfirst group & individual enrollment
+    Highmark group & individual enrollment
+
+Future (2025-H2?)
+    Medicare group & individual enrollment
+    PCOR (Medicare) enrollment for NY PC
+",13,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1208357884413045,Bedford Road Medical (Friendly PC) › DBA for Doro Medical,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1208357884413045,Brady Richards,Brady Richards,Recently assigned,2026-05-11T07:22:25.041Z,2024-09-20T19:43:37.319Z,Doro Backlog; Cooley Coordination,Untitled section; All,,"Now that we're getting our friendly PC off the ground and identifiers assigned, could we get that DBA in?
+
+Here's Cooley's take on DBAs for the PC generally: 
+
+On the DBA, New York requires the DBA to meet the same naming restrictions as the original name, so “Doro” could not be used as part of a DBA. See NYSED “Please be aware that assumed names and dbas must still meet the same naming requirements as original names.”
+
+Telehealth clients that provide services through a “friendly PC” arrangement generally license the MSO’s name to the PC(s). The MSO’s name is used by the PC as the publicly facing brand. The NY PC’s official name is “Bedford Road Medical”, however,  we could use the Doro MSO’s name in publicly facing material through the license granted by the MSO under the management services agreement or another type of licensing agreement. This concept is baked into the Management Agreement we will send.
+
+For example, telehealth company Hims also uses a friendly PC model. The clinical services are provided by their PCs, which do not use the “Hims” name. Instead, the PCs include the following: You Health of Alaska, P.C., You Health of California P.C., P.A., You Health of Hawaii, P.C., You Health of Kansas, P.A., You Health of Nebraska, P.C., You Health Williams of Nevada, P.C., You Health of New Jersey, P.C., and You Health of Texas, P.A. To the public, the PCs are all part of the same “Hims” umbrella. The PCs’ names are generally only included in the terms of use and other legal documents.
+
+
+And then the NYSED rules:
+
+5. Unless otherwise authorized by law, your application will be rejected if your entity name does not contain the profession being practiced. Regulations of the Commissioner of Education, https://urldefense.com/v3/__https:/www.op.nysed.gov/title8/regulations-commissioner-education/part-59*psc__;Iw!!OPvj_Mo!_zGULyJ8rhSEbEkMVz5cveyfPtMBF7HChCPjYjrTTZ6Ub0SLMKmPCYZ51s4kgCmpJum8LMNfPsC4Olk$.
+ 
+7. Your application will be rejected if you do not submit an explanation for words used in your entity name that are: initials, foreign words, surnames, abbreviations or words not commonly used in connection with the profession(s) being practiced (https://urldefense.com/v3/__http:/public.leginfo.state.ny.us/LAWSSEAF.cgi?QUERYTYPE=LAWS*&QUERYDATA=$$BSC1503$$@TXBSC01503*&LIST=LAW*&BROWSER=EXPLORER*&TOKEN=27738319*&TARGET=VIEW__;KysrKys!!OPvj_Mo!_zGULyJ8rhSEbEkMVz5cveyfPtMBF7HChCPjYjrTTZ6Ub0SLMKmPCYZ51s4kgCmpJum8LMNfMwheFmU$; https://urldefense.com/v3/__https:/www.op.nysed.gov/title8/regulations-commissioner-education/part-59*psc__;Iw!!OPvj_Mo!_zGULyJ8rhSEbEkMVz5cveyfPtMBF7HChCPjYjrTTZ6Ub0SLMKmPCYZ51s4kgCmpJum8LMNfPsC4Olk$; https://urldefense.com/v3/__https:/www.op.nysed.gov/title8/rules-board-regents/part-29__;!!OPvj_Mo!_zGULyJ8rhSEbEkMVz5cveyfPtMBF7HChCPjYjrTTZ6Ub0SLMKmPCYZ51s4kgCmpJum8LMNfKf3srB8$). […]
+ 
+14. Your application will be rejected if the name of the entity includes a term that does not meet the requirements set forth in https://urldefense.com/v3/__https:/www.counsel.nysed.gov/pamphlet9/__;!!OPvj_Mo!_zGULyJ8rhSEbEkMVz5cveyfPtMBF7HChCPjYjrTTZ6Ub0SLMKmPCYZ51s4kgCmpJum8LMNff4pMbPw$.
+ 
+15. Your application will be rejected if the following terms are used in the name of the entity:
+Misleading Words That Are Not Allowed in the Name of an Entity
+Cure
+Healing
+International
+Management Co.
+National
+Network
+Partners
+Spa
+Solution
+*Center
+*Clinic
+*Hospital
+
+*as per Article 28 of the Public Health Law
+*Exception for the use in the profession of Veterinary Medicine
+
+Please note: This list is not all inclusive, contact the Professional Corporations Unit with questions 
+                 
+    Your application will be rejected if the name includes terms that fall under https://urldefense.com/v3/__http:/public.leginfo.state.ny.us/LAWSSEAF.cgi?QUERYTYPE=LAWS*&QUERYDATA=$$PBH2801$$@TXPBH02801*&LIST=LAW*&BROWSER=EXPLORER*&TOKEN=28419842*&TARGET=VIEW__;KysrKys!!OPvj_Mo!_zGULyJ8rhSEbEkMVz5cveyfPtMBF7HChCPjYjrTTZ6Ub0SLMKmPCYZ51s4kgCmpJum8LMNfyGQP-O4$ of the Public Health Law.
+     
+    Your application will be rejected if the name includes terms that indicate professional superiority (https://urldefense.com/v3/__https:/www.op.nysed.gov/title8/rules-board-regents/part-29__;!!OPvj_Mo!_zGULyJ8rhSEbEkMVz5cveyfPtMBF7HChCPjYjrTTZ6Ub0SLMKmPCYZ51s4kgCmpJum8LMNfKf3srB8$).
+    
+    Claims of Superiority Not Allowed in the Name of an Entity
+    Advanced
+    Best
+    Exceptional
+    Expert
+    Outstanding
+    Premier
+    Special
+    Super
+    Ultimate
+    
+    Please note: This list is not all inclusive, contact the Professional Corporations Unit with questions.
+
+",5,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,Care Team,
+1205801040312777,doromind.com,inbox,1208343292109716,Bedford Road Medical (Friendly PC) › Employment structure for clinicians › Set up Rippling to run payroll for multiple EINs,default_task,false,,2026-05-08,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1208343292109716,Brady Richards,Brady Richards,Recently assigned,2026-05-11T07:22:23.731Z,2024-09-18T14:47:19.806Z,Doro Backlog; Bill through BRM,All; Untitled section,,"Mon Sep 23, 2024 - Met with Ciara and and PEO rep to clarify that we'll move forward with multiple EINs and are OK with the consequence that we cannot move forward with the PEO.
+
+Mon Sep 30, 2024 - Scheduled time with Justin Wikoff (Rippling Technical Account Consultant) for tomorrow (Oct 1) to configure account.
+
+Fri 10/18, 2024 - Got instructions from Justin, aiming to configure after team retreat.",8,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1210345920642609,Bedford Road Medical (Friendly PC) › Employment structure for clinicians › Set up Rippling to run payroll for multiple EINs › Send Beth a note RE: Multiple EINs,default_task,false,,2026-05-08,https://app.asana.com/1/1205801040312777/project/1213589133652402/task/1210345920642609,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-08T15:18:15.979Z,2025-05-21T18:38:54.324Z,Bill through BRM,Untitled section,,,1,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1213522911097670,Bedford Road Medical (Friendly PC) › Management Services Agreement (MSA) › Re-assess management fee,default_task,false,,2026-09-05,https://app.asana.com/1/1205801040312777/task/1213522911097670,Brady Richards,Brady Richards,Recently assigned,2026-05-07T19:58:07.432Z,2026-03-03T15:12:01.460Z,,,,We should periodically re-assess this; $10k/month for now.,3,,,,,,,,,,,,,,,,,,,,,,,,,Scheduled,,,
+1205801040312777,doromind.com,inbox,1213445600425010,"Bedford Road Medical P.C., IRS, EFTPS Enrollment Confirmation",default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1213445600425010,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.380Z,2026-02-26T03:08:34.502Z,Founders Backlog; Bill through BRM,All; Untitled section,,"Bedford Road Medical P.C., IRS, EFTPS Enrollment Confirmation,
+02-06-2026.pdf
+<https://drive.google.com/file/d/177Jjs4ItVZxS6yX1RFMkIFqJds9ytYyt/view?usp=sharing>
+Receiver Name: Bedford Road Medical P.C.
+Date of Mail: 02/06/2026
+
+Title: EFTPS Enrollment Confirmation – IRS Letter 5144
+Summary: The IRS (U.S. Department of the Treasury) confirms enrollment in
+the Electronic Federal Tax Payment System (EFTPS) for employment tax
+payments. An EFTPS Inquiry PIN and Enrollment Number are provided to
+establish online access and monitor payments; the PIN cannot be used to
+make payments. The practice remains responsible for timely payroll tax
+filings and payments to avoid penalties.
+
+-- 
+You received this message because you are subscribed to the Google Groups ""mail-handling"" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to mail-handling+unsubscribe@doromind.com.
+To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/mail-handling/CAKn6ZehoOvfmYxSojSGMWgvRZdhaZC3NMQdrinPKUgC7u1bXQA%40mail.gmail.com.
+For more options, visit https://groups.google.com/a/doromind.com/d/optout.
+",2,,,,,,,,,19c915e40753495e19c915e40753495e,1.0,,,,,,,,,,,,https://mail.google.com/mail/u/0/#inbox/19c915e40753495e19c915e40753495e,,,To Do,,,
+1205801040312777,doromind.com,inbox,1209168563852302,BPO Strategy,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1209168563852302,Brady Richards,Brady Richards,Recently assigned,2026-04-23T23:05:15.723Z,2025-01-16T19:27:10.400Z,Founders Backlog,All,,"Figure out what our BPO strategy is, and explain it to the team. ",8,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1209715917420368,BPO Strategy › Explore partnership with Access Healthcare,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1209715917420368,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:46:41.155Z,2025-03-19T16:17:09.053Z,Founders Backlog,All,,"This is where Matthew is, and where Athena / Devoted are.
+
+High level take away: 10 is the suggested team size for a given kind of work (single SOP, single shift). Nurses in the Philipines are $2,200-4,200 / FTE / month, on US time, depending on fluency. That works out to about a $500K commitment to get started.",8,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213901277128451,CA Professional Corporation,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1208260574168878/task/1213901277128451,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.474Z,2026-04-01T22:46:12.143Z,Growth Backlog; Open California,Market Expansion; Untitled section,,"Talk to Alexis about getting the CA PC stood up
+Talk to Alexis about the captive PC contract form",5,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213963512905175,CA Professional Corporation › Incorporate PC,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1213963512905175,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.046Z,2026-04-06T13:17:48.317Z,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214306535711684,California Withholding Tax Notice,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214306535711684,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.525Z,2026-04-27T15:07:18.635Z,Founders Backlog,All,email,"https://mail.google.com/mail/#inbox/19dc169f07ab6445
+
+From: dhanica@doromind.com
+To: mail-handling@doromind.com
+
+Doro Mind Inc., Franchise Tax Board, Withholding Tax Notice Requirements, 04-14-2026.pdf  Receiver Name: Doro Mind Inc. Date of Mail: 04/14/2026 Summary: The California Franchise Tax Board issued a notice (DLN 2609448195Z, Entity ID 20260161751/000) regarding withholding tax obligations for entities doing business in California. The notice outlines requirements to withhold 7% on payments to nonresidents exceeding $1,500 annually and details exceptions and backup withholding rules. The recipient must review obligations and ensure compliance to avoid penalties and interest. -- You received this message because you are subscribed to the Google Groups ""Mail Handling"" group. To unsubscribe from this group and stop receiving emails from it, send an email to mail-handling+unsubscribe@doromind.com. To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/mail-handling/CAKn6ZegjCbjgZMJxRfgQB%2BR9BOV7Gkjas-q7zeifk%3D_tYyiUcQ%40mail.gmail.com. For more options, visit https://groups.google.com/a/doromind.com/d/optout.",1,,,,,,,,,19dc169f07ab6445,,,,,,,,,,,,,https://mail.google.com/mail/u/0/#inbox/19dc169f07ab6445,,,To Do,,,
+1205801040312777,doromind.com,inbox,1205896396814586,Call Ben,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1205896396814586,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:17.590Z,2026-02-26T14:12:47.319Z,,,,,1,,,,,,,,,,0.5,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214501127546118,Check w/ Kate re: licensing transition,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214501127546118,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.734Z,2026-05-04T15:17:24.906Z,,,fathom,Meeting: https://fathom.video/calls/658446461?timestamp=413.9999,2,,,,,https://fathom.video/calls/658446461?timestamp=413.9999,Brady + Mimi,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214268063465311,Claude BAA,default_task,false,,2026-05-08,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1214268063465311,Brady Richards,David Chang,Recently assigned,2026-05-08T04:47:06.457Z,2026-04-24T18:33:01.136Z,Doro Backlog,All,,"Short summary of next steps: 
+    Get an org API key. We use that to authenticate instead of Claude Teams
+    Maria sets up zero data retention (ZDR)
+    We sign a BAA
+
+Gist of the conversation is was that they want this to be easier, and are working to make it easier. Right now there are some parts of their system which are easy to cover with a BAA, and parts that take more manual work on their side, which are the ones that need an enterprise account to get BAA coverage. Maria hinted that that might change quite soon, but didn't give a date. 
+
+What was in vs out was a bit hard to follow. Maria said she'd send it in a follow-up email. What was clear was that Claude Cowork and Claude Code UI were hard, while API and CLI Claude Code, authenticated with an API key, were easy. ",3,,,,,,,,,19dcfb97d36af0a8,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1209846554160353,Clean up Google Drive personnel folders,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1209846554160353,Brady Richards,Dhanica Urbano,Recently assigned,2026-04-23T23:11:58.311Z,2025-03-31T14:45:47.767Z,Doro Backlog,All,,"So, my understanding is that we have set of folders for people:
+    https://drive.google.com/open?id=1oQRqX4bAt_HvDkOd_hUC8YbJK1t_f1d-&usp=drive_fs: private, holds employment contracts.
+    Minna has some for the NPs/Laitman.
+    We sort of keep some documents in Rippling.
+",3,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213480323564192,Clean up IP/license policy (open source software),default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1205896396814580/task/1213480323564192,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.810Z,2026-03-01T13:44:52.941Z,Post-Close Seed; Policies,(no section),,"We set up a draft policy and some tools to make it reasonable to follow the policy. Need to finalize policy, roll out tools to team.
+
+https://docs.google.com/document/d/1WWz94ZKJXY-EXBNaXkk5BlSlWqRr-lWJfdWVga7fsEU/edit?tab=t.0",5,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213736990107169,Collect hypotheses/metrics/pause criteria from team in Growth Strategy doc,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213736990107169,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:39:01.792Z,2026-03-19T19:01:02.658Z,,,,"Meeting: Milestones Jam
+Link: https://fathom.video/calls/605399123?timestamp=2872.9999",3,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214587058836554,Compile contracted NP minimum hours; share w/ Kate,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214587058836554,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.804Z,2026-05-06T19:15:58.981Z,,,fathom,Meeting: https://fathom.video/calls/661579463?timestamp=649.9999,3,,,,,https://fathom.video/calls/661579463?timestamp=649.9999,Brady / Kate,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213881593771030,Confirm CT enrollment status; update Stephanie,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213881593771030,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:38:15.627Z,2026-03-30T16:52:49.788Z,,,,Meeting: https://fathom.video/calls/616690446,2,,,,,https://fathom.video/calls/616690446,Prospect X Scrum,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213887828758858,Confirm w/ Assured license/CAQH/CME/BLS tracking capabilities,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213887828758858,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:37:31.746Z,2026-03-31T18:59:23.336Z,,,,Meeting: https://fathom.video/calls/618885103,2,,,,,https://fathom.video/calls/618885103,Milestones Jam,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1208333601447713,Consider forming a clinical board,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1208333601447713,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:39:52.463Z,2024-09-17T14:57:37.037Z,Founders Backlog,All,,With an eye toward Series A. ,5,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214587362892767,Coordinate PL Superbill response w/ Kate and Minna,default_task,false,,2026-05-11,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214587362892767,Brady Richards,Brady Richards,Recently assigned,2026-05-11T04:06:56.983Z,2026-05-06T19:20:37.549Z,Founders Backlog,All,,"Pam Levin escalated on her son Sam's SuperBills — Medicare's 12-month reimbursement deadline starts expiring 6/4/26. ~$10K of Jun/Jul/Aug 2025 SuperBills need to reach her by 5/8/26 to give her time to submit. Mimi escalated in #ceo while traveling and asked Brady to coordinate w/ Minna on the response. Brady forwarded the email to Minna+Kate and opened a Slack mpdm to start a quick-and-crisp response.
+
+Sources (received 2026-05-06):
+- Slack ceo (Mimi escalation): https://doromind.slack.com/archives/C08EU2RMU6P/p1778079863257759
+- Slack mpdm kickoff: https://doromind.slack.com/archives/C0B20U0LX1Q/p1778080715565479
+- Email forward to Minna+Kate: https://mail.google.com/mail/u/0/#all/19dfdd9f87551360
+- Email follow-ups in same thread: https://mail.google.com/mail/u/0/#all/19dfddbf508cc7a6 / https://mail.google.com/mail/u/0/#all/19dfde0c2c3725f1
+
+Original ask from Pam (excerpted in forwarded email): SuperBills for June/July/August 2025 due by 5/8/26 so Medicare reimbursement isn't lost.",3,,,,,,,,,19dfd2a78d1682eb,,,,,,,,,,,,,https://mail.google.com/mail/u/0/#inbox/19dfd2a78d1682eb,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1214242927298664,Coordinate w/ Minna + Hannah re: Hannah office space,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214242927298664,Brady Richards,Brady Richards,Recently assigned,2026-05-07T01:48:49.102Z,2026-04-23T21:58:43.153Z,Founders Backlog,All,fathom,Meeting: https://fathom.video/calls/646541871?timestamp=0.9999,2,,,,,https://fathom.video/calls/646541871?timestamp=0.9999,BM + Dhanica | Daily Stand-Up,,,,,,,,,,,,,,,,https://fathom.video/calls/646541871?timestamp=0.9999,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213219521358652,Correct Patrick's options in Carta,default_task,false,,2026-05-11,https://app.asana.com/1/1205801040312777/project/1213818661314260/task/1213219521358652,Brady Richards,Brady Richards,Recently assigned,2026-05-11T04:06:56.914Z,2026-02-10T18:16:15.677Z,Employees,Untitled section,Pinky,,2,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1213734599377336,Create a prospect conversion dashboard,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1213734599377336,Brady Richards,Brady Richards,Recently assigned,2026-04-23T23:11:44.337Z,2026-03-19T15:27:36.040Z,Doro Backlog,All,,"Basic idea is to take all the prospects which match a given set of criteria, set a reference event, and be able to examine where they are over time afterward.",8,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213820504230408,Create licensing/geo grid; set waitlist cutoff; open waitlists for AZ/WA,default_task,false,,2026-05-08,https://app.asana.com/1/1205801040312777/task/1213820504230408,Brady Richards,Brady Richards,Recently assigned,2026-05-08T15:18:15.618Z,2026-03-26T15:50:56.649Z,,,,Meeting: https://fathom.video/calls/613638079,5,,,,,https://fathom.video/calls/613638079,Brady + Mimi,,,,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1214496620106594,Create Slack channel Geo-New York,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214496620106594,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.203Z,2026-05-04T14:03:37.461Z,,,fathom,Meeting: https://fathom.video/calls/658511583?timestamp=2136.9999,1,,,,,https://fathom.video/calls/658511583?timestamp=2136.9999,Doro Mind Onboarding Welcome,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213269356406379,Cyber Security Assessment,default_task,false,,2026-11-09,https://app.asana.com/1/1205801040312777/project/1205896396814580/task/1213269356406379,Brady Richards,Brady Richards,Recently assigned,2026-04-24T18:58:15.127Z,2026-02-13T17:43:25.435Z,Post-Close Seed,(no section),,"Within 270 days of this Agreement (November 9, 2026), the Company shall use commercially reasonable efforts to (a) identify its confidential business information, trade secrets, and personal data (“Protected Data”) and the related systems and applications (“Systems”); (b) restrict access to Protected Data and Systems to those with a need to know; (c) conduct a commercially reasonable risk assessment of potential risks, vulnerabilities, and threats to Protected Data and Systems; (d) implement and maintain commercially reasonable safeguards to protect the security, confidentiality, integrity, and availability of all Protected Data and Systems; and (e) provide applicable employees, agents, and contractors with privacy and security training as reasonably necessary. We are happy to put you in contact with our cybersecurity and data experts for this analysis.",13,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213269356406376,D&O Insurance,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1205896396814580/task/1213269356406376,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:17.033Z,2026-02-13T17:43:23.490Z,Post-Close Seed,(no section),Do 👀,"The Company shall, within 45 days following the closing, use commercially reasonable efforts to obtain Directors and Officers liability insurance in the amount of no less than $3M and on terms and conditions approved by Board. Let us know if you’d like us to put you in contact with brokers that have been referred to us by other Companies so you can get the process started.
+
+Company
+Type
+Contact
+Email
+Newfront
+Insurance Broker
+Tom Whitenight
+tom.whitenight@newfront.com
+Lockton
+Insurance Broker
+Tom Byrne
+tbyrne@lockton.com
+Sparx
+Technology Company in Insurance Space
+Ricky Pati
+rp@usesparx.com
+IMA
+Insurance Broker
+Patrick Datz
+patrick.datz@imacorp.com
+IMA
+Insurance Broker
+Rachel Nixon
+rachel.nixon@imacorp.com
+
+
+",3,,,,2026-03-27T00:00:00.000Z,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1209029125999863,David PFML parental pay,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1209029125999863,Brady Richards,Mimi Liu,Recently assigned,2026-05-08T20:54:16.663Z,2024-12-24T21:09:59.196Z,Founders Backlog,All,Do 👀,"https://info.shelterpoint.com/paid-family-medical-leave/ma/benefits
+
+Awaiting MA PFML payment to David so we can reconcile via Rippling.
+
+Approval was for $1031.51 per week x 7 (1 week waiting period)
+
+Next steps:
+Call MA PFML to clarify if they paid 7 or 8 weeks to finalize how much to adjust payroll by.
+Huddle with Brady to figure out how to adjust payroll or clarify with Rippling support/SignalFire HR support",3,,,,,,,,,,2.0,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214204855520375,Debug Laitman/Rob supervision classification w/ Danica; update Tier 3 COGS,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1214204855520375,Brady Richards,Brady Richards,Recently assigned,2026-04-24T13:38:46.622Z,2026-04-22T21:37:09.216Z,,,fathom,Meeting: https://fathom.video/calls/647671602?timestamp=951.9999,3,,,,,https://fathom.video/calls/647671602?timestamp=951.9999,Revisit Strategy Tracks,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214204253522196,Debug Tier 3 cost w/ Danica,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1214204253522196,Brady Richards,Brady Richards,Recently assigned,2026-05-09T18:01:48.594Z,2026-04-23T16:31:32.851Z,,,fathom,Meeting: https://fathom.video/calls/647671602?timestamp=951.9999,3,,,,,https://fathom.video/calls/647671602?timestamp=951.9999,Revisit Strategy Tracks,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214204223676067,Debug Tier 3 revenue,default_task,false,,2026-05-08,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214204223676067,Brady Richards,Mimi Liu,Recently assigned,2026-05-08T04:47:06.499Z,2026-04-22T21:37:06.823Z,Founders Backlog,All,fathom,Meeting: https://fathom.video/calls/647671602?timestamp=951.9999,3,,,,,https://fathom.video/calls/647671602?timestamp=951.9999,Revisit Strategy Tracks,,,,,,,,,,,,,,,,https://fathom.video/calls/647671602?timestamp=951.9999,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1213910207906306,Define stage counts + conversion metrics; then prioritize conversion points for deeper insight,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213910207906306,Brady Richards,Brady Richards,Recently assigned,2026-05-09T18:03:19.941Z,2026-04-02T16:50:03.136Z,,,fathom,Meeting: https://fathom.video/calls/622215665?timestamp=419.9999,5,,,,,https://fathom.video/calls/622215665?timestamp=419.9999,Growth Goals and Dashboards,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214064154358419,Doro Mind books — March 2026,default_task,false,,2026-05-08,https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1214064154358419,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-08T04:47:06.366Z,2026-04-14T16:44:24.736Z,Finances Backlog,Untitled section,,"Hi Brady and Mimi,
+We've prepared a draft of your March 2026 books and published a set of draft reports to the Pilot Portal. At your convenience, please complete the following:
+    Answer a few questions https://app.pilot.com/c/6d073855/tasks/questions.
+    Share categorization and service period feedback on a few transactions https://app.pilot.com/c/6d073855/tasks/transaction-requests.
+    Review the new vendors we categorized this period https://app.pilot.com/c/6d073855/tasks/vendor-review.
+    Review your draft financials https://app.pilot.com/c/6d073855/books/financial-statements/profit-loss.
+Once we've addressed all open questions, we'll share finalized financials for your review and sign-off.
+Thanks,
+Beth
+
+https://scribehow.com/viewer/Update_financial_actuals_for_month_close___mU4_f3STP-pJ7gHN18SjQ",3,,,,,,,,,,,,,,,,,,,,,,,,Doro Mind Books,In Progress,,,
+1205801040312777,doromind.com,inbox,1206614708576339,Draft Employment Framework › Benefits for 2026,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1206614708576339,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.091Z,2024-02-15T16:59:24.446Z,Doro Backlog; Employees,All; Untitled section,Do 👀,"This task is to articulate our benefits, most notably health insurance. We'll probably want this as we grow into employing clinicians full time.
+
+Right now, it seems like entering a PEO or ASO arrangement with someone like Rippling will be the most straightforward way to get this off the ground. 
+
+Various notes are https://docs.google.com/document/d/1yO_tBR_FVodiZ-zHoGY0CkbKu_aCC3Y5KOBo9pruhBw/edit",13,,,,,,,,,,,,,1. High,,,,,,,,,,,,To Do,,"People, Build",
+1205801040312777,doromind.com,inbox,1213877293143945,Draft growth data backlog for Mimi review,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213877293143945,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:51:25.471Z,2026-03-30T20:00:54.425Z,,,,Meeting: https://fathom.video/calls/619291618,3,,,,,https://fathom.video/calls/619291618,Mimi / Brady,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213885003623274,Draft pressure-test plan for caregiver bundle economics; share w/ Mimi,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213885003623274,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:38:15.048Z,2026-03-31T14:42:21.329Z,,,,Meeting: https://fathom.video/calls/618884816,5,,,,,https://fathom.video/calls/618884816,Brady + Mimi,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1208333125270980,Elevator pitch for Co-CEOs,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1208333125270980,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:39:48.776Z,2024-09-17T15:09:00.654Z,Founders Backlog,All,,Important for Company / Series A / SignalFire.,8,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214546019084343,Email Alexis re: CA PC/supervision timeline; ask if backup needed for Jun 1,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214546019084343,Brady Richards,Brady Richards,Recently assigned,2026-05-09T01:23:40.711Z,2026-05-05T14:51:52.750Z,,,fathom,Meeting: https://fathom.video/calls/660355230?timestamp=451.9999,1,,,,,https://fathom.video/calls/660355230?timestamp=451.9999,Brady + Mimi,,,19df99fe8d80a317,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214403496512724,"Email Brian & Lily pre-read for board mtg (topics, plan vs actuals, AI/data/finance insights); then send 1–2 strategic Qs",default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214403496512724,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.458Z,2026-04-29T18:34:05.978Z,,,fathom,Meeting: https://fathom.video/calls/653810607?timestamp=2857.9999,2,,,,,https://fathom.video/calls/653810607?timestamp=2857.9999,Doro Mind: Underscore Touchpoint,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214242123300833,Email Dr. Laitman re: requested items; reference Keren's list,default_task,false,,2026-05-08,https://app.asana.com/1/1205801040312777/task/1214242123300833,Brady Richards,Brady Richards,Recently assigned,2026-05-08T04:47:06.366Z,2026-04-23T21:06:47.466Z,,,fathom,Meeting: https://fathom.video/calls/648645943?timestamp=5.9999,1,,,,,https://fathom.video/calls/648645943?timestamp=5.9999,Keren + Brady : Licensing Task ff ups,,,,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1214583864042020,Email Pam re: Medicare/superbill; CC Kate + Minna; PCC Heather + Brittany; note ownership change + EOW update,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214583864042020,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.253Z,2026-05-06T17:11:41.756Z,,,fathom,Meeting: https://fathom.video/calls/664235980?timestamp=1374.9999,2,,,,,https://fathom.video/calls/664235980?timestamp=1374.9999,Superbill touch base,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213888030028701,Email Rob re: half-in panel risk and next steps,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213888030028701,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:37:37.793Z,2026-03-31T18:58:52.801Z,,,,Meeting: https://fathom.video/calls/618885103,2,,,,,https://fathom.video/calls/618885103,Milestones Jam,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214450187035938,Email Stephanie re: retreat wrap-up notes; then Brady to pull Fathom recordings,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214450187035938,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.492Z,2026-05-01T14:35:35.511Z,,,fathom,Meeting: https://fathom.video/calls/658446467?timestamp=270.9999,2,,,,,https://fathom.video/calls/658446467?timestamp=270.9999,Retreat debrief,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213391104993513,Employment agreement for Mimi,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1205896396814580/task/1213391104993513,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:17.673Z,2026-02-25T23:54:34.081Z,Post-Close Seed,(no section),,,2,,,,,,,,,19cb4988f7ee737a,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214269779556150,Enroll for BHT2026,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214269779556150,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.332Z,2026-04-24T19:46:20.242Z,Founders Backlog,All,email,"https://mail.google.com/mail/#inbox/19dabaeaaa41656c
+
+From: Behavioral Health Tech <hello@behavioralhealthtech.com>
+To: Brady Richards <brady@doromind.com>
+
+*Scholarship Application Received*
+
+Hi Brady,
+
+Thank you for your application for the Scholarship Program at the 2026 Behavioral Health Tech Conference!
+
+We've received your application and it will be reviewed by a team member. Applications are reviewed on Fridays, on a weekly basis. 
+
+Please do not hesitate to reach out with any questions you may have.
+
+Thank you for your interest,
+
+The Behavioral Health Tech Team",1,,,,,,,,,19dabaeaaa41656c,,,,,,,,,,,,,https://mail.google.com/mail/u/0/#inbox/19dabaeaaa41656c,,,To Do,,,
+1205801040312777,doromind.com,inbox,1211210431584544,Figure out an approach for mail to Bedford Road,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1211210431584544,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:39:16.652Z,2025-09-02T14:17:31.187Z,Doro Backlog,All,,"We get at least some email at Dr Laitman's office at Bedford Road. So far, the only way I get those is to see Rob in person, as I did last Friday. We should:
+    Try to get things sent to the Albany address
+    Set up a process to get the mail from Bedford Road to Albany
+",3,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1212667342689706,Figure out Asana for onboarding,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1212667342689706,Brady Richards,Brady Richards,Recently assigned,2026-04-24T01:34:48.000Z,2026-01-05T21:39:35.507Z,Doro Backlog,All,,"We've been moving away from Asana for the clinicians, but we still use it for onboarding. Need to either move onboarding somewhere else, or move people out of Asana when they're done onboarding.",3,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214242927485349,Find a different way for Dr Laitman to report time,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214242927485349,Brady Richards,Brady Richards,Recently assigned,2026-05-07T01:48:47.957Z,2026-04-23T21:58:35.316Z,Founders Backlog,All,fathom,Meeting: https://fathom.video/calls/646542740?timestamp=1036.9999,3,,,,,https://fathom.video/calls/646542740?timestamp=1036.9999,Brady + Mimi,,,,,,,,,,,,,,,,https://fathom.video/calls/646542740?timestamp=1036.9999,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1212006987061045,Fix cohort analysis; then integrate into Lightdash,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208260574168878/task/1212006987061045,Brady Richards,Mimi Liu,Recently assigned,2026-04-24T23:18:00.775Z,2025-11-20T17:18:51.945Z,Growth Backlog,Data,Fathom,"From meeting: Prospect X Scrum (https://fathom.video/calls/480334158)
+Meeting time: 2025-11-20T16:45:00Z
+Assigned to: Brady Richards
+Task recording: https://fathom.video/calls/480334158?timestamp=1511.9999",8,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1208260574168863,Follow up on Team Daniel /Laitman/Doro Mind/Clozapine/AOT/4Winds › Westchester Mental Health,default_task,false,,2026-07-01,https://app.asana.com/1/1205801040312777/project/1207106012329656/task/1208260574168863,Brady Richards,Mimi Liu,Recently assigned,2026-04-24T18:51:01.254Z,2024-09-09T16:14:28.747Z,Prospect Referral Funnel,Backlog,,"https://app.asana.com/0/0/1206077727195371 - Westchester Mental Health Commission
+
+https://www.linkedin.com/in/michael-orth-1b4842179
+914-995-5225
+mailto:mmo6@westchestercountyny.gov
+
+I (Minna) spoke to Michael at the Team Daniel picnic & shared our strong interest in connecting with families in the Westchester area.  He said he also used to be responsible for Putnam county & new all the adjacent county contacts too.
+
+Sounds like a great person to connect with a clear ask on introductions in the area",3,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214309736505044,Fwd: My FAMLI+ Employer: Annual Total Employees set by FAMLI: Confirmation,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214309736505044,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.691Z,2026-04-27T16:27:19.347Z,Founders Backlog,All,email,"https://mail.google.com/mail/#inbox/19d78405b819f79f
+
+From: Mimi Liu <mimi@doromind.com>
+To: Brady Richards <brady@doromind.com>, Dhanica Urbano <dhanica@doromind.com>
+
+---------- Forwarded message ---------
+
+[chain history truncated]",1,,,,,,,,,19d78405b819f79f,,,,,,,,,,,,,https://mail.google.com/mail/u/0/#inbox/19d78405b819f79f,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214204320567104,Fwd: Office 10 Daily Rental Opening – Available End of April,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214204320567104,Brady Richards,Brady Richards,Recently assigned,2026-05-07T01:49:44.524Z,2026-04-22T15:13:19.131Z,Founders Backlog,All,email,"https://mail.google.com/mail/#inbox/19db5bdf229e3ecb
+
+From: Dhanica Urbano <dhanica@doromind.com>
+To: Mimi Liu <mimi@doromind.com>, Brady Richards <brady@doromind.com>, Minna Chan <minna@doromind.com>, Keren Toledo <keren@doromind.com>
+
+This is the actual offer they made for the office we usually book for
+Hannah.
+
+[chain history truncated]",1,,,,,,,,,19db5bdf229e3ecb,,,,,,,,,,,,,https://mail.google.com/mail/u/0/#inbox/19db5bdf229e3ecb,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214392647709623,Gather documents for small business certification renewal,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214392647709623,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.424Z,2026-04-29T13:29:41.809Z,,,slack,"From Mike Farry in #grants
+https://slack.com/archives/C07TE8XEPAT/p1777403140935609
+
+I just did a pass and this should be pretty straightforward to address. Here's a quick list:
+
+• We'll need Mimi or Brady to sign the small business cert: <https://drive.google.com/file/d/1b9He6VKO0XROItF6PBboT3cGscU9OIjF/view?usp=drive_link>
+• We'll need a recent W-9, not sure where to find that
+• A balance sheet similar to: <https://drive.google.com/drive/u/1/folders/12cnFCujro6uPHeOXIeZLbXUtdAX3h3CX> <@U05P11T4ACR>, I think you might have done this last time?
+• Current and pending support statements, one each for me, Stephanie, Brady, Mimi, and Rob. I've added drafts to this folder: <https://drive.google.com/drive/u/1/folders/1BheKiet_egUOqKvWC09QA3jATfeMYY6r>
+• Documentation of training on human subjects protection. A year ago, they had an external vendor providing an online training course. Now, they say they don't provide training and leave it up to each institution, but they make their old content available and ask us to submit a certification signed by an institution official. If we're OK with it, I recommend that we have each key person read the old training content and certify completion, and then have one of the CEOs sign. I have my PHRP completion certificate from last time, but we'll need it for everyone else above.",3,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214496620788126,Grant Courtney access to go/policies; then set up auto-redirect for go.doromind.com,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214496620788126,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.835Z,2026-05-04T14:03:41.391Z,,,fathom,Meeting: https://fathom.video/calls/658511583?timestamp=2136.9999,2,,,,,https://fathom.video/calls/658511583?timestamp=2136.9999,Doro Mind Onboarding Welcome,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214243004725179,Hannah stipend,default_task,false,,2026-06-01,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214243004725179,Brady Richards,Brady Richards,Recently assigned,2026-05-07T14:18:22.766Z,2026-04-23T21:59:59.482Z,Founders Backlog,All,,"$2,250",1,,,,,,,,,,,,,,,,,,,,,,,,,Scheduled,,,
+1205801040312777,doromind.com,inbox,1214243202167034,Hannah stipend,default_task,false,,2026-07-01,https://app.asana.com/1/1205801040312777/task/1214243202167034,Brady Richards,Brady Richards,Recently assigned,2026-04-24T01:25:16.560Z,2026-04-23T22:09:16.760Z,,,fathom,Meeting: https://fathom.video/calls/644043334?timestamp=77.9999,3,,,,,https://fathom.video/calls/644043334?timestamp=77.9999,AI Jam,,,,,,,,,,,,,,,,,,,Scheduled,,,
+1205801040312777,doromind.com,inbox,1214076583201909,How do we shift from activities to experiments?,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1213986131452648/task/1214076583201909,Brady Richards,Mimi Liu,Recently assigned,2026-05-08T20:54:17.770Z,2026-04-16T16:16:37.059Z,Retro 26.04 (Growth),Action Items,fathom,"    Establish health of the prospect funnel metrics
+    Establish experiment infrastructure
+",8,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213422294315434,How was Shayna and John's salary classified?,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1210790210220910/task/1213422294315434,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:17.082Z,2026-02-24T15:48:48.663Z,Financial Model,Jan 2026 Closing Tasks,,,1,,,,,,,,,19c97e0fa1608bb2,0.5,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213911482155439,Integrate NP on-call escalations into on-call tool; then roll out to NPs,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213911482155439,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:36:06.101Z,2026-04-02T19:04:20.093Z,,,fathom,Meeting: https://fathom.video/calls/622216442?timestamp=549.9999,8,,,,,https://fathom.video/calls/622216442?timestamp=549.9999,Milestones Jam,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214349981685883,Intro to Jamie from PLM,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214349981685883,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.522Z,2026-04-28T14:10:12.943Z,Founders Backlog,All,,,1,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1208642818529545,Introduce having many conversations via threads,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1207761695017655/task/1208642818529545,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:39:39.991Z,2024-10-28T22:00:43.779Z,iOS & Android app experience,Milestones,,"The default Sendbird UI Kit in Flutter doesn't support threads (on their Q4 roadmap).
+
+We need to reimplement the chat functionality to introduce thread functionality if we don't want to wait. https://app.asana.com/0/profile/1205800805645689 has done so in feature/advanced-chat .",3,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213808500824579,Jacob Feldman,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1207358508153084/task/1213808500824579,Brady Richards,Mimi Liu,Recently assigned,2026-05-08T02:42:16.212Z,2026-03-26T14:15:41.463Z,Hiring Funnel; Open California,All; Untitled section,,"Apr 3 - Jacob, Brady, Mimi met. Jacob wants to move forward.
+
+Next steps - paperwork. Compensation - Give offer with larger equity component.",,,,j1feldma@gmail.com,,,,CA,,,,,,,,,3 Moms,,,,MD,,,Offer,,Blocked,,,
+1205801040312777,doromind.com,inbox,1213994849506246,Jacob Feldman › Jacob comp offer,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1213994849506246,Brady Richards,Mimi Liu,Recently assigned,2026-05-08T20:54:16.715Z,2026-04-09T15:01:17.716Z,,,fathom,"Email Jacob re: 1h/mo MVP, $150 + 0.1% equity; cash/equity mix revisitable",2,,,,,,,,,19d975ba5eea9636,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214062876516019,Kendra W shift to F/T hrs,default_task,false,,2026-05-08,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1214062876516019,Brady Richards,Minna C,Recently assigned,2026-05-08T19:29:31.105Z,2026-04-14T18:24:02.269Z,Doro Backlog,All,,"Kendra increased her weekly hours to F/T status with a total of 32hrs/week starting end of April. Here's the agreed to office/online hours:
+M: 11am-5pm (6hrs)
+T: 11am-5pm (6hrs)
+W: 11am-6pm (7hrs)
+R: 10am-5pm (7hrs)
+F: 11am-5pm (6hrs)
+Total hrs: 32hrs
+
+Related to the shift to F/T hours there are 2 open employment related items:
+    Thatch enrollment
+        Shared and referred back to our https://docs.google.com/document/d/1VajOUFLqK19wYSK1OQDiEFgJqEqbs4AJydFRIYkkNqg/edit?tab=t.0#bookmark=id.pu52kq7oiacd
+    Potential shift from hourly to salary
+",5,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,Care Team,
+1205801040312777,doromind.com,inbox,1211470084657544,Learn about HARP,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1211470084657544,Brady Richards,Brady Richards,Recently assigned,2026-04-23T23:11:54.748Z,2025-09-25T17:14:08.113Z,Doro Backlog,All,,,3,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214150887576059,Log Healthfirst clinical + billing ops in Mina transition plan,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1214150887576059,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:35:33.897Z,2026-04-21T14:04:40.206Z,,,fathom,Meeting: https://fathom.video/calls/641505922?timestamp=757.9999,2,,,,,https://fathom.video/calls/641505922?timestamp=757.9999,Brady + Mimi,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213561234210591,Look into Forms 3921 and 3922,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1213561234210591,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:17.452Z,2026-03-05T20:52:57.262Z,,,,"Now that we've got our TCC, let's see if we need to file any of these",2,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213734491514594,Make a dashboard to value the current funnel,default_task,false,,2026-05-08,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1213734491514594,Brady Richards,Brady Richards,Recently assigned,2026-05-08T15:18:15.739Z,2026-03-19T15:27:36.013Z,Doro Backlog,All,,"With help from https://app.asana.com/1/1205801040312777/profile/1206673598426643, define a rubric for approximating the value of the prospect funnel in a given number of days. ",8,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1206077727195328,Maria Roehmholdt,default_task,false,,2026-07-01,https://app.asana.com/1/1205801040312777/project/1207358508153084/task/1206077727195328,Brady Richards,Brady Richards,Recently assigned,2026-04-24T14:21:20.583Z,2024-02-07T21:31:10.213Z,Hiring Funnel,All,,"https://www.linkedin.com/in/maria-roehmholdt-33a11373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+3yrs at Stellar Health working with payers and ACOs on VBC offerings & arrangements
+6yrs at https://www.healthscape.com/
+
+First conversation with Maria on Tue 2/27/24 was almost entirely spent on Maria's questions about Doro Mind. Looking forward to learning more about Maria in our next conversation. Really like her passion for our mission. Next conversation is Thu 3/7.
+
+Shared Q1 update with Maria. Reconnected Tue 5/21.
+
+Next steps:
+    Maria will reach back out during leave (EDD 7/3). Expect early Q4.
+    Maria might consider bandwidth to consult in next month - light engagement then.
+    Consulting - would need to run by Stellar
+
+Mimi and Maria connected 12/17. She'd just listened to the 3 moms podcast. Newly reporting to Chad from Hopitals athena sales. Excited to learn from him.
+
+Next steps:
+    Check in late Q1.
+",2,,,,,,,IL,,,,,,,,,Minna,,,,Business Dev,,,Awareness,,Backlog,,People,
+1205801040312777,doromind.com,inbox,1213033862484610,Mina Hsiang,default_task,false,,2026-05-13,https://app.asana.com/1/1205801040312777/project/1207358508153084/task/1213033862484610,Brady Richards,Mimi Liu,Recently assigned,2026-05-11T14:34:40.090Z,2026-01-30T23:54:52.999Z,Hiring Funnel,All,,"https://en.wikipedia.org/wiki/Mina_Hsiang
+
+Mina will join as an advisor, starting with new market development for Catalyst in CA.
+
+Typical advisor terms (200 hrs for 1 yr no cliff equity structure)
+
+https://drive.google.com/file/d/1YgJT0T73mY1Mg-3axV4B3xRTkJiW60bJ/view?authuser=0&usp=docs_web
+
+Waiting on contract? Get this squared away in April ahead of early May board meeting.",,,,minahsiang@gmail.com,,,,MA,,19c91779f3ee564d,,,,,,,Mimi,,,,Advisor,,,Offer,,Blocked,,,
+1205801040312777,doromind.com,inbox,1213809703315970,Monthly Financial Statements (GAAP),default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1213809703315970,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-08T20:54:16.904Z,2026-03-26T13:28:06.945Z,Finances Backlog,Untitled section,,"Prepare and distribute monthly financial statements:
+
+Deliverables:
+- Income Statement (monthly)
+- Cash Flow Statement (monthly)
+- Balance Sheet (end of month)
+
+Requirements:
+- Prepared in accordance with GAAP
+- If subsidiaries exist → include BOTH:
+  - Consolidated financials
+  - Consolidating financials
+
+Send to: Major Investors
+Deadline: Within 30 days after month-end",3,,,,,,,,,,,,,,,,,Doro,,,,,,,Finance Close & Investor Reporting,To Do,,,
+1205801040312777,doromind.com,inbox,1213736932818740,Move GTM/segmentation context into Growth Strategy doc,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213736932818740,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:39:04.125Z,2026-03-19T19:01:01.700Z,,,,"Meeting: Milestones Jam
+Link: https://fathom.video/calls/605399123?timestamp=1482.9999",2,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214654860829731,Note on the family-facing experience at Doro Mind,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214654860829731,Brady Richards,Brady Richards,Recently assigned,2026-05-09T09:58:22.685Z,2026-05-09T09:58:20.961Z,Founders Backlog,All,email; hello,"https://mail.google.com/mail/#inbox/19e0c2bea0a707cd
+
+From: David Balinga <hi@davidbalinga.com>
+To: hello@doromind.com
+
+Hi,
+
+I work on UX specifically for cognitively and emotionally stretched users.
+Families navigating serious mental illness, schizophrenia, bipolar
+disorder, are one of the most cognitively and emotionally loaded user
+populations there is. They arrive at products like Doro Mind mid-crisis,
+often sleep-deprived, guilt-ridden, and making decisions they’ve never had
+to make before.
+
+That user state makes the family-facing experience one of the hardest
+design problems in mental health tech, because standard UX patterns assume
+a user with working executive function. Families in this situation often
+don’t have it, and the gap usually shows up as silent dropoff rather than
+complaints.
+
+If reducing friction in the family-facing experience is something the team
+is thinking about, I’d be happy to put together a longer async writeup on
+what I notice across the product.
+
+David / davidbalinga.com
+ 
+ ----
+Secured by Paubox - HITRUST certified
+https://www.paubox.com
+----",,,,,,,,,,19e0c2bea0a707cd,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1212584292665584,ORI Institutional Assurance & Annual Report › Confirm Research Misconduct Policy Status,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1212584292665584,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-08T20:54:16.992Z,2025-12-24T19:44:32.009Z,,,,"(Critical compliance requirement)
+Subtasks:
+    Determine whether Doro Mind has a formal research misconduct policy
+    Answer the policy question in the ORI form:
+        If YES → Upload policy and procedures
+        If NO and qualifies as small institution (≤50 employees) → Upload Small Institution Statement
+    Verify uploaded document meets ORI requirements
+",2,,,,2026-04-30T00:00:00.000Z,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1212584290409503,ORI Institutional Assurance & Annual Report › Prepare to Submit the ORI Annual Report,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1212584290409503,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-08T20:54:17.137Z,2025-12-24T19:42:33.239Z,,,,"Deadline: April 30, 2026
+Window opens: January 1, 2026
+Subtasks:
+    Confirm calendar year covered = Jan 1–Dec 31, 2025
+    Identify the responsible Institutional Official (IO)
+    Confirm IO has active ORI system access
+    Calendar internal deadlines (recommended: submit by April 15, 2026)
+",5,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213509825923252,"Partnerships: NAMI, etc.",default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208260574168878/task/1213509825923252,Brady Richards,Mimi Liu,Recently assigned,2026-04-23T23:11:42.435Z,2026-03-03T12:47:40.471Z,Growth Backlog,Partnerships,Discuss,"Revenue ROI Thesis: 
+Targeted ICP populations should result in higher quality referrals.
+
+Association may increase trust in Doro Brand translating to easier conversions.
+
+Measurement Plan (26Q1): 
+
+
+Notes: 
+
+
+Next Steps:",5,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213509825923251,PR / earned media,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1208260574168878/task/1213509825923251,Brady Richards,Mimi Liu,Recently assigned,2026-04-23T12:39:09.242Z,2026-03-03T12:47:40.448Z,Growth Backlog,Media + Events,,"Revenue ROI Thesis: 
+Potentially not worth the cost right now??
+
+Measurement Plan (26Q1): 
+
+
+Notes: 
+
+
+Next Steps:",13,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213391445374113,Professional Liability Insurance Renewal Notice & Invoice,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1213391445374113,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.948Z,2026-02-24T23:06:10.435Z,Doro Backlog,All,,"[Bedford Road Medical P.C., CM&F Group, MedPro Group, Insurance Renewal Notice, 01-20-2026.pdf](https://drive.google.com/file/d/1wLm7UjkMf-gPjysFjC05YNe26pLDQcP-/view?usp=sharing)  
+Receiver Name: Bedford Road Medical P.C.  
+Date of Mail: 01/20/2026  
+Title: Professional Liability Insurance Renewal Notice & Invoice  
+Summary: CM&F Group / MedPro Group notice regarding renewal of professional liability insurance policy #L62929 with renewal due by 04/22/2026. Estimated renewal premium is $11,450.00, reflecting a $1,314 (13%) increase from the prior term; payment must be received by the renewal date to avoid lapse of coverage. Online renewal is available, and policy changes are ",2,,,,2026-04-22T00:00:00.000Z,,,,,19c05c81795b79d019c05c81795b79d0,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214557488287333,Provide a computer › Confirm that SimpleMDM deploy works,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214557488287333,Brady Richards,Keren Policarpio,Recently assigned,2026-05-08T21:01:11.871Z,2026-05-05T21:04:53.208Z,,,,"Since it's often a bit of time between using our automated deployment, double check that it still seems to be working. 
+
+(Right now, these are only pitched for https://app.asana.com/0/profile/1205800805645689 to do them).
+    vm 
+    ""password"" → Safari → https://go.doromind.com/enroll → Install the profile
+    After a bit, Baseline should kick off; check that it seems to go OK
+    vm -d
+",1,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214707082818951,Publish board slides to Underscore/SignalFire,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1214707082818951,Brady Richards,Brady Richards,Recently assigned,2026-05-11T14:33:28.120Z,2026-05-11T14:31:54.986Z,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1213809703315981,Quarterly Balance Sheet (GAAP),default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1213809703315981,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-06T16:29:55.847Z,2026-03-26T13:35:04.029Z,Finances Backlog,Untitled section,,"Prepare unaudited balance sheet as of quarter-end.
+
+Requirements:
+- GAAP compliant
+- Include consolidated + consolidating if subsidiaries exist
+
+Subtasks:
+    Validate quarter close
+    Generate balance sheet
+    Consolidation check
+    Internal review
+    Send to investors
+
+Deadline: Within 45 days after quarter-end",3,,,,,,,,,,,,,,,,,Doro,,,,,,,Finance Close & Investor Reporting,Scheduled,,,
+1205801040312777,doromind.com,inbox,1213809703315987,Quarterly Cap Table / Carta Update,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1213809703315987,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-06T16:20:12.681Z,2026-03-26T13:37:42.660Z,Finances Backlog,Untitled section,,"Provide cap table sufficient for Major Investors to calculate ownership.
+
+Options:
+- Updated cap table export OR
+- Confirm Carta access is up to date
+
+Subtasks:
+    Update equity records
+    Sync Carta
+    Validate ownership %
+    Share access / export
+    Confirm delivery
+
+Deadline: Within 45 days after quarter-end",2,,,,,,,,,,,,,,,,,Doro,,,,,,,Finance Close & Investor Reporting,Scheduled,,,
+1205801040312777,doromind.com,inbox,1212699156866514,Re-establish Chase account for Bedford Road Medical,default_task,false,,2026-05-08,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1212699156866514,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-08T15:18:15.821Z,2026-01-07T18:15:24.591Z,Founders Backlog; Bill through BRM,All; Untitled section,,,3,,,,,,,,,,0.3,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1214500853849496,Re-evaluate repriced grants cash bridge; update Mimi,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214500853849496,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.358Z,2026-05-04T15:17:18.844Z,,,fathom,Meeting: https://fathom.video/calls/658446461?timestamp=413.9999,5,,,,,https://fathom.video/calls/658446461?timestamp=413.9999,Brady + Mimi,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213821506335890,Re-issue older grants,default_task,false,,2026-05-11,https://app.asana.com/1/1205801040312777/project/1205896396814580/task/1213821506335890,Brady Richards,Brady Richards,Recently assigned,2026-05-11T04:06:56.903Z,2026-03-26T17:01:10.779Z,Post-Close Seed,(no section),,"Basically, there were a few grants that we committed to but didn't issue before we signed our term sheet. This makes issuing the options complicated, so we're working through it with counsel.",8,,,,,,,,,19cb4988f7ee737a,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1213402983318283,Reconcile ~$6k personal-card travel; create reimbursement spreadsheet › Check Pilot re: Mimi's personal-card travel categorization,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1213402983318283,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.145Z,2026-02-28T02:23:18.879Z,,,,https://fathom.video/share/6ywAcgMF12xcs2zAeF_ErxNq8Pk7BtLr?timestamp=1469.9999,1,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213911482180761,Research CT collaborative practice agreement; then contact CT MD to set up,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213911482180761,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:36:00.227Z,2026-04-02T19:04:48.775Z,,,fathom,Meeting: https://fathom.video/calls/622216442?timestamp=549.9999,5,,,,,https://fathom.video/calls/622216442?timestamp=549.9999,Milestones Jam,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213911434262906,Research CT Medicaid prescribing registries; then document steps,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213911434262906,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:36:03.503Z,2026-04-02T19:04:40.714Z,,,fathom,Meeting: https://fathom.video/calls/622216442?timestamp=549.9999,5,,,,,https://fathom.video/calls/622216442?timestamp=549.9999,Milestones Jam,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213647785858368,Review CA prescribing paperwork; finalize Amy–John contract,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1213647785858368,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.232Z,2026-03-12T18:42:08.071Z,,,,"Meeting: Milestones Jam
+Link: https://fathom.video/calls/596797439?timestamp=589.9999",3,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213802525181199,Review Miguel's Feb/Mar Rippling payroll; correct over/underpayments,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1213818661314260/task/1213802525181199,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.430Z,2026-03-24T23:23:31.934Z,Employees,Untitled section,fathom,Meeting: https://fathom.video/calls/610256805,3,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213876409287438,Review Mimi's tier 2 payer model; prep questions for Mar 31 AM,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213876409287438,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:40:53.868Z,2026-03-30T20:00:56.770Z,,,,Meeting: https://fathom.video/calls/619291618,3,,,,,https://fathom.video/calls/619291618,Mimi / Brady,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214209677755685,Review Pilot's Capital Efficiency Index 2026,default_task,false,,2026-05-08,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1214209677755685,Brady Richards,Mimi Liu,Recently assigned,2026-05-08T04:47:06.432Z,2026-04-23T00:35:25.271Z,Doro Backlog,All,,"Review Pilot's Capital Efficiency Index for benchmarking context.
+
+Source: https://cdn.prod.website-files.com/60a5136f2c6c8e4fb3a130d9/699f51e9cbcc643fa004771a_Capital%20Efficiency%20Index%20-%20Pilot%202026.pdf
+
+Google Drive copy: https://drive.google.com/file/d/1LIujcxFq7Zwaoc5igzxI0qBLRPzXUi4F/view?usp=drivesdk",2,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1213832307935989,Review quarterly update + DRI sheet; add missing Asana projects/tasks,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213832307935989,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:39:11.329Z,2026-03-27T15:30:45.450Z,,,,Meeting: https://fathom.video/calls/615762516,3,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214089567618727,Revise Q2 plan: add Catalyst; clarify service-design hypothesis; share w/ team,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1214089567618727,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:32:51.499Z,2026-04-16T19:04:58.704Z,,,fathom,Meeting: https://fathom.video/calls/638626662?timestamp=263.9999,8,,,,,https://fathom.video/calls/638626662?timestamp=263.9999,Milestones Jam,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1209057271988399,"Revisit patient eligibility criteria, approach and strategy",default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1209057271988399,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:39:30.241Z,2024-12-30T08:39:23.572Z,Doro Backlog; Policies,All; (no section),,"From https://fathom.video/calls/202294299?tab=summary&timestamp=557.0 conversation:
+
+Tension between Dr. Laban's strict approach (clozapine-focused) vs. Doro Mind's broader ""meet you where you are"" philosophy.
+
+Potential trade-offs: higher access rates but increased churn and lower conversion with stricter approach.",8,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1211030145295008,Rollup vs. projection product line modeling,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1210790210220910/task/1211030145295008,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.186Z,2025-08-12T13:51:43.244Z,Financial Model,Longer Term,,,8,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214500830467117,Run board mtg; prep options approval; send CARTA checklist; coordinate w/ Mike,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214500830467117,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.908Z,2026-05-04T15:17:21.818Z,,,fathom,Meeting: https://fathom.video/calls/658446461?timestamp=413.9999,5,,,,,https://fathom.video/calls/658446461?timestamp=413.9999,Brady + Mimi,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214619298690903,Schedule Claire FT conversion huddle w/ Minna + Kate; align Rippling/payroll plan,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214619298690903,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.595Z,2026-05-07T18:56:22.253Z,,,fathom,Meeting: https://fathom.video/calls/665356510?timestamp=0.0,,,,,,https://fathom.video/calls/665356510?timestamp=0.0,Milestones Jam,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213743877869037,Schedule follow-up w/ Rob re: notes-to-system integration; draft pain points/solutions,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1213743877869037,Brady Richards,Mimi Liu,Recently assigned,2026-05-08T20:54:17.720Z,2026-03-20T14:21:20.554Z,Founders Backlog,All,Fathom,"From meeting: Rob + Ann + Doro Mind  (https://fathom.video/calls/606761995)
+Meeting time: 2026-03-20T12:30:00Z
+Assigned to: Mimi Liu
+Task recording: https://fathom.video/calls/606761995?timestamp=5438.625446
+
+Work torwards following up virtually week of 4/13 and/or 4/20, in person week of 4/27 (retreat).
+Meeting with Jessica and Jon to hand off.",3,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213886149144483,Schedule huddle w/ Stephanie re: Concierge data flow; then run spike,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213886149144483,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:37:40.721Z,2026-03-31T16:16:20.497Z,,,,Meeting: https://fathom.video/calls/618884817,5,,,,,https://fathom.video/calls/618884817,Prospect X Scrum,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213997633441114,Schedule licensing operational series w/ Kate; invite Hannah,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213997633441114,Brady Richards,Brady Richards,Recently assigned,2026-04-23T18:48:55.582Z,2026-04-09T19:12:08.583Z,,,fathom,Meeting: https://fathom.video/calls/629554065?timestamp=100.9999,2,,,,,https://fathom.video/calls/629554065?timestamp=100.9999,Milestones Jam,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214619103634943,Schedule Lindsay onboarding: Doro email/access next week (w/ Lisa); laptop ship after May 15,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214619103634943,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.057Z,2026-05-07T18:56:18.789Z,,,fathom,Meeting: https://fathom.video/calls/665356510?timestamp=0.0,,,,,,https://fathom.video/calls/665356510?timestamp=0.0,Milestones Jam,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213911766371542,Schedule sync w/ Patrick re: data/reporting,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213911766371542,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:35:57.094Z,2026-04-02T19:54:28.319Z,,,fathom,Meeting: https://fathom.video/calls/621838753?timestamp=229.9999,1,,,,,https://fathom.video/calls/621838753?timestamp=229.9999,Firm Health: Growth,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214377792874287,Scrub monthly OPEX to $240k/mo; share plan w/ team,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214377792874287,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.560Z,2026-04-28T19:03:00.463Z,,,fathom,Meeting: https://fathom.video/calls/651702856?timestamp=4549.9999,5,,,,,https://fathom.video/calls/651702856?timestamp=4549.9999,Track 2: Strategy: Decrease Cost to Serve & Catalyst,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213818906334371,Send Approved Budget to Investors,default_task,false,,2027-01-10,https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1213818906334371,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-07T19:55:58.149Z,2026-03-26T13:44:31.561Z,Finances Backlog,Untitled section,,"Send Board-approved annual budget to major investors.
+
+Timing:
+- As soon as practicable after approval
+
+Subtasks:
+    Confirm Board approval
+    Finalize document
+    Send to investors
+    Log distribution
+",1,,,,,,,,,,,,,,,,,Doro,,,,,,,Finance Close & Investor Reporting,Scheduled,,,
+1205801040312777,doromind.com,inbox,1214554470653849,Send Kate CT provisional licensing guidance (counsel + state links),default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214554470653849,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.093Z,2026-05-05T19:04:07.017Z,,,fathom,Meeting: https://fathom.video/calls/662454607?timestamp=0.0,3,,,,,https://fathom.video/calls/662454607?timestamp=0.0,Brady + Kate,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214557797618714,Send second welcome email,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/project/1214557487635191/task/1214557797618714,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-08T20:54:15.958Z,2026-05-05T21:22:34.002Z,Matt Montanez - Onboarding Tasks,Doro Admin,,Send an email to the new hire based on https://docs.google.com/document/d/119K5SZaJXY10bDTcXRgVB57BZfMbGD2cGlMfKwhIzMo/edit,1,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214641081871211,Share structured OKRs doc w/ Kate,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214641081871211,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.322Z,2026-05-08T14:40:47.727Z,,,fathom,Meeting: https://fathom.video/calls/665246569?timestamp=589.9999,,,,,,https://fathom.video/calls/665246569?timestamp=589.9999,Onboarding,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213402983318291,SLT retreat expectations,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1213402983318291,Brady Richards,Brady Richards,Recently assigned,2026-05-08T20:54:16.002Z,2026-02-28T02:23:19.429Z,,,,"WATCH: https://fathom.video/share/6ywAcgMF12xcs2zAeF_ErxNq8Pk7BtLr?timestamp=3758.9999
+
+Email SLT re: quarterly in-person retreats
+Request calendar holds",1,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213251762901364,State Income Tax Prep,default_task,false,,2027-01-31,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1213251762901364,Brady Richards,Brady Richards,Recently assigned,2026-05-06T16:26:01.740Z,2026-02-13T18:05:43.284Z,Doro Backlog,All,,"Starting for fiscal year 2024, we'll be filing through Pilot. Need to complete state income tax info in https://app.pilot.com before 1/31/25.",5,,,,,,,,,,,,,,,,,,,,,,,,,Scheduled,,,
+1205801040312777,doromind.com,inbox,1213270687037755,State Income Tax Prep,default_task,false,,2028-01-31,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1213270687037755,Brady Richards,Brady Richards,Recently assigned,2026-05-06T16:33:09.321Z,2026-02-13T18:30:52.828Z,Doro Backlog,All,,"Starting for fiscal year 2024, we'll be filing through Pilot. Need to complete state income tax info in https://app.pilot.com before 1/31/25.",5,,,,,,,,,,,,,,,,,,,,,,,,,Scheduled,,,
+1205801040312777,doromind.com,inbox,1214259723451951,Superhuman refund › Cancel Superhuman after Lenny trial year - 4/16/26 › Share feedback on Superhuman,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214259723451951,Brady Richards,Mimi Liu,Recently assigned,2026-05-08T20:54:16.619Z,2026-04-24T13:58:05.722Z,,,,Curious how your perspective on Superhuman has shifted over the past year.,1,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1213737552148953,Sync w/ Miguel on quiz-to-welcome-call metrics,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213737552148953,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:38:58.310Z,2026-03-19T20:09:51.019Z,,,,"Meeting: Firm Health: Growth
+Link: https://fathom.video/calls/605399203?timestamp=2799.9999",2,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1210974997389948,Track PHRP Training Completion for NIDA Key Personnel › Brady – Confirm PHRP training completed,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/task/1210974997389948,Brady Richards,Dhanica Urbano,Recently assigned,2026-04-24T12:47:14.266Z,2025-08-05T11:42:35.008Z,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1210974997389953,Track PHRP Training Completion for NIDA Key Personnel › Coordinate PHRP Training Details with Rob,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/task/1210974997389953,Brady Richards,Dhanica Urbano,Recently assigned,2026-04-24T12:42:38.968Z,2025-08-05T11:42:53.047Z,,,,"Make sure Rob receives the PHRP training link and understands he is required to complete it. Confirm registration and track completion.
+
+🔗 Training Link: https://phrptraining.com/register?code=doromind12207",1,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214622517131307,Update CNP campaign C7ULFSF privacy policy and JotForm disclosures for complianc,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214622517131307,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.136Z,2026-05-07T21:27:07.837Z,,,slack,"From Jon in #how-we-work
+https://slack.com/archives/C0741FBFJQ0/p1777660868440319
+
+the rejection reason is:
+```Upstream CNP declined sharing request for campaign C7ULFSF. Rejection Category: DISALLOWED_CONTENT, CALL_TO_ACTION. Explanation: Disallowed Content (Third Party Data Sharing). Call to Action states Jot form is used to collect opt-in, Webform requires TN; update CTA/missing disclaimer (msg frequency, msg and data rates may apply, and HELP/STOP instructions are missing from webform disclosures. IB```
+i asked Gemini to help me parse this and it says we need to:
+1. Update our privacy policy to say _""Mobile information will not be shared with third parties/affiliates for marketing/promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.""_
+2. Update the jotform where we collect phone numbers with three pieces of info: msg frequency, ""msg and data rates may apply"", and HELP/STOP instructions
+after we do those, i can resubmit.
+
+@Stephanie are you the right person to do these things?",,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214141579152755,Update email-handling PR to align w/ generic file/document schema,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1214141579152755,Brady Richards,Brady Richards,Recently assigned,2026-04-23T22:00:33.142Z,2026-04-20T18:37:47.713Z,,,fathom,Meeting: https://fathom.video/calls/641092135?timestamp=671.9999,5,,,,,https://fathom.video/calls/641092135?timestamp=671.9999,Eng Huddle,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213833336514569,Update growth strategy doc w/ 90–120–210 tracks + 150 base; add runway; fix Catalyst revenue; share w/ Mimi,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213833336514569,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:46:16.942Z,2026-03-27T17:29:29.630Z,,,,Meeting: https://fathom.video/calls/615763563,5,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213910075610828,Update growth strategy doc w/ pre-membership funnel + capacity constraints; then add to Q update in Asana,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213910075610828,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:56:21.562Z,2026-04-02T16:50:00.674Z,,,fathom,Meeting: https://fathom.video/calls/622215665?timestamp=419.9999,3,,,,,https://fathom.video/calls/622215665?timestamp=419.9999,Growth Goals and Dashboards,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1213887950117752,"Update license tracker: fill expirations, add DEA, add CT for Clare",default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213887950117752,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:37:34.823Z,2026-03-31T18:59:16.020Z,,,,Meeting: https://fathom.video/calls/618885103,2,,,,,https://fathom.video/calls/618885103,Milestones Jam,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,inbox,1214643522308618,Update option grants,default_task,false,,2026-05-18,https://app.asana.com/1/1205801040312777/project/1214620179420182/task/1214643522308618,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-09T23:10:21.712Z,2026-05-08T15:46:42.750Z,[Alex] - Offboarding,Payroll and HR,,"Check if there are options grants in https://docs.google.com/spreadsheets/d/1bI8Lo69cXOM72p1EXnWlY-EMteYT2Zzg5oUfCyFZHwc/edit?usp=drive_link. 
+
+If there are, provide Orrick with the termination date so that they can update Carta. When they’re done, double check that things look right in Carta.",,,,,,,,,,19e0e09d09ce555e,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1214619170393306,Update proposal signup go-link to billing portal; notify Stephanie,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214619170393306,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.391Z,2026-05-07T18:56:25.421Z,,,fathom,Meeting: https://fathom.video/calls/665356510?timestamp=0.0,,,,,,https://fathom.video/calls/665356510?timestamp=0.0,Milestones Jam,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214620978487881,Update Rippling: switch hourly managers to Kate; keep Fath under Minna; verify May 8,default_task,false,,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214620978487881,Brady Richards,Brady Richards,Recently assigned,2026-05-08T21:01:11.645Z,2026-05-07T20:07:27.762Z,,,fathom,Meeting: https://fathom.video/calls/665933577?timestamp=175.9999,,,,,,https://fathom.video/calls/665933577?timestamp=175.9999,Quick TB: CJ,,,,,,,,,,,,,,,,,,,To Do,,,
+1205801040312777,doromind.com,inbox,1214713001428145,You have been added to Clare Jibb APRN,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214713001428145,Brady Richards,Brady Richards,Recently assigned,2026-05-11T13:53:22.095Z,2026-05-11T13:53:20.267Z,Founders Backlog,All,email; licensing,"https://mail.google.com/mail/#inbox/19e174fc80bf6149
+
+From: ""’Google Groups’ via Licensing"" <licensing@doromind.com>
+To: licensing@doromind.com
+
+Hi licensing@doromind.com,
+bhushan.kapdekar@withassured.com added you to the Clare Jibb APRN group.
+https://groups.google.com/a/assured.health/d/forum/clare-jibb-aprn
+
+Google Groups allows you to create and participate in online forums and
+email-based groups with a rich community experience. You can also use
+your Group to share documents, pictures, calendars, invitations, and other  
+resources.
+
+If you do not wish to be a member of this group or believe this group may  
+contain spam:
+* You can unsubscribe from this group at  
+https://groups.google.com/a/assured.health/d/forum/clare-jibb-aprn/unsubscribe/AHZ7KVPA_GlJZqN_SzGQ1jqE4qbn0kjuilxtmNyC4N89-JXBpMxAdxyoky1h-vUPG1QyOwI_2d9j7qxJtFFSnhtKXyKtXPJytA  
+or by sending email to clare-jibb-aprn+unsubscribe@assured.health
+* You can report this group for abuse at  
+https://groups.google.com/a/assured.health/d/abuse/AJmrmCuBGhmOMeixegqVtkNnUY5nzXDRuBns8c9oP-boT-uV0jVwr0ciGfRuu1ZYnG8y1g0kqpzVHoWLbmKQtSFjWrw_e1uW1KDb_zeE9a3axjBRQmDbarmn8aV1Hm7QpFHn4QT4UvfE
+* You can opt out of all future Google Groups activity at  
+https://groups.google.com/a/assured.health/d/optout
+
+Visit Google Groups Help Center at  
+https://support.google.com/groups/answer/46601?hl=en.
+
+-- 
+You received this message because you are subscribed to the Google Groups ""Licensing"" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to licensing+unsubscribe@doromind.com.
+To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/9YPnRb8sLDsZawOjnF9u3A%40notifications.google.com.
+For more options, visit https://groups.google.com/a/doromind.com/d/optout.
+",,,,,,,,,,19e174fc80bf6149,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1214702604756876,You have been added to Hannah Bock-Brownstein APRN,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214702604756876,Brady Richards,Brady Richards,Recently assigned,2026-05-11T13:41:20.745Z,2026-05-11T13:24:21.208Z,Founders Backlog,All,email; licensing,"https://mail.google.com/mail/#inbox/19e17352b1795732
+
+From: ""’Google Groups’ via Licensing"" <licensing@doromind.com>
+To: licensing@doromind.com
+
+Hi licensing@doromind.com,
+harvey@withassured.com added you to the Hannah Bock-Brownstein APRN group.
+https://groups.google.com/a/withassured.com/d/forum/hannah-bock-brownstein-aprn
+
+Message from harvey@withassured.com:
+Using this to relay all emails from Hannah Bock-Browstein’s licensing email.
+
+Google Groups allows you to create and participate in online forums and
+email-based groups with a rich community experience. You can also use
+your Group to share documents, pictures, calendars, invitations, and other  
+resources.
+
+If you do not wish to be a member of this group or believe this group may  
+contain spam:
+* You can unsubscribe from this group at  
+https://groups.google.com/a/withassured.com/d/forum/hannah-bock-brownstein-aprn/unsubscribe/AHZ7KVNaWxnZKnLP3-JW1yYvo2UGCr103lSfZQRMU3dFH7TLAdDJYwbz9sNEZDyd_SWiVG2lXAfe05kxephsNlNx-nmwv4D7kw  
+or by sending email to  
+hannah-bock-brownstein-aprn+unsubscribe@withassured.com
+* You can report this group for abuse at  
+https://groups.google.com/a/withassured.com/d/abuse/AJmrmCsoUX677yGz0QHmLt-ciUSdyUXWai_JPwxqKOexZuSDMqKzs3oTIBaHX-s8BDyqM2ukq2DOKbVi8Zx1nccTwtPGK2yZXo81NEzZyfWVDLRGjWzUd7oZHDNb5_611k-jIexEmE6M
+* You can opt out of all future Google Groups activity at  
+https://groups.google.com/a/withassured.com/d/optout
+
+Visit Google Groups Help Center at  
+https://support.google.com/groups/answer/46601?hl=en.
+
+-- 
+You received this message because you are subscribed to the Google Groups ""Licensing"" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to licensing+unsubscribe@doromind.com.
+To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/rDpXkXPEKKKYhhuHswlEww%40notifications.google.com.
+For more options, visit https://groups.google.com/a/doromind.com/d/optout.
+",,,,,,,,,,19e17352b1795732,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1214704891266907,You have been added to Robert Laitman MD,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214704891266907,Brady Richards,Brady Richards,Recently assigned,2026-05-11T13:58:22.133Z,2026-05-11T13:58:20.548Z,Founders Backlog,All,email; licensing,"https://mail.google.com/mail/#inbox/19e175418817eced
+
+From: ""’Google Groups’ via Licensing"" <licensing@doromind.com>
+To: licensing@doromind.com
+
+Hi licensing@doromind.com,
+bhushan.kapdekar@withassured.com added you to the Robert Laitman MD group.
+https://groups.google.com/a/assured.health/d/forum/robert-laitman-md
+
+Google Groups allows you to create and participate in online forums and
+email-based groups with a rich community experience. You can also use
+your Group to share documents, pictures, calendars, invitations, and other  
+resources.
+
+If you do not wish to be a member of this group or believe this group may  
+contain spam:
+* You can unsubscribe from this group at  
+https://groups.google.com/a/assured.health/d/forum/robert-laitman-md/unsubscribe/AHZ7KVNvVELntrMvk5cLVLwN7pJAvccvoeykge0FPxWbqeP3jNyFDeLDm57KD4LtWROXm2m9ZoQJVofUyQEI_5F4DEYvUngqmA  
+or by sending email to robert-laitman-md+unsubscribe@assured.health
+* You can report this group for abuse at  
+https://groups.google.com/a/assured.health/d/abuse/AJmrmCueKkZcHsPg_I0fGzNMW24-cYyVhIkfrkdmLiA8tdrkq1CtrPpgUkv7g66gBpAGjgKDh9uNMC7nGYaj_eDKvyqtvx4dS9zw7UvwhzXIeqLXfrp01_gAFM7O7z_YWJiCl6VcegXS
+* You can opt out of all future Google Groups activity at  
+https://groups.google.com/a/assured.health/d/optout
+
+Visit Google Groups Help Center at  
+https://support.google.com/groups/answer/46601?hl=en.
+
+-- 
+You received this message because you are subscribed to the Google Groups ""Licensing"" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to licensing+unsubscribe@doromind.com.
+To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/v_fuymJtE-XMYZVeWEvc-g%40notifications.google.com.
+For more options, visit https://groups.google.com/a/doromind.com/d/optout.
+",,,,,,,,,,19e175418817eced,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,inbox,1214705136831355,You have been added to Shayna Feuer APRN,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214705136831355,Brady Richards,Brady Richards,Recently assigned,2026-05-11T14:00:24.642Z,2026-05-11T14:00:22.280Z,Founders Backlog,All,email; licensing,"https://mail.google.com/mail/#inbox/19e1755cf92b9b31
+
+From: ""’Google Groups’ via Licensing"" <licensing@doromind.com>
+To: licensing@doromind.com
+
+Hi licensing@doromind.com,
+bhushan.kapdekar@withassured.com added you to the Shayna Feuer APRN group.
+https://groups.google.com/a/assured.health/d/forum/shayna-feuer-aprn
+
+Google Groups allows you to create and participate in online forums and
+email-based groups with a rich community experience. You can also use
+your Group to share documents, pictures, calendars, invitations, and other  
+resources.
+
+If you do not wish to be a member of this group or believe this group may  
+contain spam:
+* You can unsubscribe from this group at  
+https://groups.google.com/a/assured.health/d/forum/shayna-feuer-aprn/unsubscribe/AHZ7KVMIe7lK3yvVHehn45_CBZqmH8MkgAKqMhPJ7akYeOjADpdY70fz_7wcY7A0bUgb0T-kUCB7nsSlSeS74lxtqAuToc81VQ  
+or by sending email to shayna-feuer-aprn+unsubscribe@assured.health
+* You can report this group for abuse at  
+https://groups.google.com/a/assured.health/d/abuse/AJmrmCtoORXLEhHaFlHrrGNvwrF-N_mrHmL97QB0KtoMHLGxNws0QshYBbc5-cvuam13xd0p8aFNLR8ukc76ASPiIX2MMv0V18JQ1kVcVqPU43wtbVy3sWs6Sz9-3tQ7P6cJhFpXkEvt
+* You can opt out of all future Google Groups activity at  
+https://groups.google.com/a/assured.health/d/optout
+
+Visit Google Groups Help Center at  
+https://support.google.com/groups/answer/46601?hl=en.
+
+-- 
+You received this message because you are subscribed to the Google Groups ""Licensing"" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to licensing+unsubscribe@doromind.com.
+To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/tTLuVTzEbOaxwsOIQ3JgfA%40notifications.google.com.
+For more options, visit https://groups.google.com/a/doromind.com/d/optout.
+",,,,,,,,,,19e1755cf92b9b31,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,closed,1213391634056075,[Duplicate] HIPAA forms for members,default_task,true,2026-05-09T18:02:14.988Z,,https://app.asana.com/1/1205801040312777/project/1205896396814580/task/1213391634056075,Brady Richards,Brady Richards,Recently assigned,2026-05-09T18:02:15.800Z,2026-02-23T19:06:59.027Z,Post-Close Seed,(no section),,,5,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,closed,1213972230179173,Confirm CT provisional licensing w/ Assured; then file for Hannah/Shana/Clare and update tracker,default_task,true,2026-05-09T18:01:15.697Z,,https://app.asana.com/1/1205801040312777/task/1213972230179173,Brady Richards,Brady Richards,Recently assigned,2026-05-09T18:01:15.791Z,2026-04-07T19:28:17.716Z,,,fathom,Meeting: https://fathom.video/calls/622216442?timestamp=549.9999,5,,,,,https://fathom.video/calls/622216442?timestamp=549.9999,Milestones Jam,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,closed,1214150937095192,Draft retreat strategy track: Cost/serve; share w/ Mimi,default_task,true,2026-05-09T18:02:53.006Z,,https://app.asana.com/1/1205801040312777/task/1214150937095192,Brady Richards,Brady Richards,Recently assigned,2026-05-09T18:02:53.121Z,2026-04-21T14:04:32.661Z,,,fathom,Meeting: https://fathom.video/calls/641505922?timestamp=757.9999,5,,,,,https://fathom.video/calls/641505922?timestamp=757.9999,Brady + Mimi,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,closed,1214521077162444,Grant Kate Rippling access to approve timesheets,default_task,true,2026-05-09T18:24:07.957Z,2026-05-05,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1214521077162444,Brady Richards,Minna C,Recently assigned,2026-05-09T19:16:25.434Z,2026-05-04T21:17:51.353Z,Doro Backlog,All,slack,"Kate will take on managing all hourly care team staff starting 5/4/26
+    Minna reviewed and approved the 5/4/26 payroll
+    5/18/26 payroll will need to be owned by Kate
+
+Guidance from Brady/Mimi was to keep people reporting/org structure as is for now (ie: Guides & NPs report to Kate, transferred from Minna)
+
+Hourly staff/contractors who require timesheets:
+    Brittany T (Guide, 80hrs/wk)
+    Caroline F (Guide, 20-25hrs/wk)
+    Clare J (NP, 32hrs/wk)
+    Erin J, (Consultant, 10-18hrs/wk)
+    Jenna DS (NP, 8hrs/wk)
+    John MacK (NP, 20hrs/wk)
+    Kendra W (Guide, 32hrs/wk)
+    Shayna F (NP, 20hrs/wk)
+",1,,,,,,,,,,,,,,,,,,,,,,,,,Done,,Care Team,
+1205801040312777,doromind.com,closed,1210058759413689,Labor regs for weekend hrs for care staff,default_task,true,2026-05-09T18:04:35.001Z,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1210058759413689,Brady Richards,Mimi Liu,Recently assigned,2026-05-09T18:04:36.356Z,2025-04-23T15:20:33.805Z,Founders Backlog,All,,"Question from Minna for Orrick. Basically, how do we need to manage weekend hours. Of particular interest are Jenna and Brittany. ",5,,,,,,,,,,,,,,,,,,,,,,,,,Done,,,
+1205801040312777,doromind.com,closed,1214521080228779,Pay Kate's hiring bonus,default_task,true,2026-05-09T21:30:46.424Z,2026-05-15,https://app.asana.com/1/1205801040312777/task/1214521080228779,Brady Richards,Brady Richards,Recently assigned,2026-05-09T21:30:46.509Z,2026-05-04T21:30:28.879Z,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,
+1205801040312777,doromind.com,closed,1213955298859304,Prepare Milestones deck: growth scenarios + breakeven drivers; present to team,default_task,true,2026-05-09T18:03:05.107Z,,https://app.asana.com/1/1205801040312777/task/1213955298859304,Brady Richards,Brady Richards,Recently assigned,2026-05-09T18:03:05.207Z,2026-04-06T19:56:25.307Z,,,fathom,Meeting: https://fathom.video/calls/625298009?timestamp=2320.9999,8,,,,,https://fathom.video/calls/625298009?timestamp=2320.9999,Growth goals,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,closed,1214651224456234,Re: Input On Your Sleep Resources,default_task,true,2026-05-09T18:27:00.381Z,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214651224456234,Brady Richards,Brady Richards,Recently assigned,2026-05-09T18:27:01.574Z,2026-05-08T21:57:20.806Z,Founders Backlog,All,email; hello,"https://mail.google.com/mail/#inbox/19e0997929617ee8
+
+From: Abby Mayfield <abby@outreach-chopra.com>
+To: hello@doromind.com
+
+Hi again, This is Abby Mayfield and I wanted to follow-up on my email from last week about adding our link (chopranocerino.com/fatigued-driving-resource/ ) to your site. I know you are very busy, but if this is something you are interested in, then I look forward to hearing back. Also, if there is someone else that I should contact, then just let me know. Thank you again for all of your help. Have a wonderful day, Abby * Abby Mayfield* PR Consultant | Chopra & Nocerino Address: 100 Quentin Roosevelt Blvd. #107 Garden City, NY 11530 [chain history truncated]",,,,,,,,,,19e0997929617ee8,,,,,,,,,,,,,,,,Done,,,
+1205801040312777,doromind.com,closed,1213806296551138,Research engineering setup,default_task,true,2026-05-09T17:59:41.522Z,,https://app.asana.com/1/1205801040312777/task/1213806296551138,Brady Richards,Brady Richards,Recently assigned,2026-05-09T17:59:41.600Z,2026-03-25T12:41:24.603Z,,,,"    Why did they end up without super-users?
+    Can we make it so that you can escape the set-up, at least for engineers? (Jon)
+    Can we put things like Privileges into the MDM store for the engineers?
+    Can we terraform SimpleMDM?
+",3,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,closed,1214652304806600,"Your receipt from Anthropic, PBC #2216-9301-2528",default_task,true,2026-05-09T18:24:22.175Z,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214652304806600,Brady Richards,Brady Richards,Recently assigned,2026-05-09T18:24:23.583Z,2026-05-08T23:44:19.474Z,Founders Backlog,All,email,"https://mail.google.com/mail/#inbox/19dfb3d7c46ae932
+
+From: ""Anthropic, PBC"" <invoice+statements@mail.anthropic.com>
+To: brady@doromind.com
+
+Anthropic, PBC  (https://www.anthropic.com/)
+
+Anthropic, PBC
+
+Receipt from Anthropic, PBC $27.22 Paid May 5, 2026 (invoice illustration [https://stripe-images.s3.amazonaws.com/emails/invoices_invoice_illustration.png]) Download invoice (https://pay.stripe.com/invoice/acct_1MExQ9BjIQrRQnux/live_YWNjdF8xTUV4UTlCaklRclJRbnV4LF9VU3JSYmdjZklTQzdQNzhjRkNPVnFDTzlxWjNZSDJSLDE2ODU3NzM5Ng0200Z1Eh0mEe/pdf?s=em) Download receipt (https://dashboard.stripe.com/receipts/invoices/CAcQARoXChVhY2N0XzFNRXhROUJqSVFyUlFudXgo9N7qzwYyBsme8K-tvTovFg5NLChhHrXRxeBXvzDymPz-dHlH_kY_TY_I25hwZaBU18EnYLgStB-yH1fj9X4/pdf?s=em) Receipt number 2216-9301-2528 Invoice number PKEWYQHK-0015 Payment method - 3954
+
+Receipt #2216-9301-2528 One-time credit purchase Qty 1 $25.00 Subtotal $25.00 Total excluding tax $25.00 Tax - New York (8.875%) $2.22 Total $27.22 Amount paid $27.22 Questions? Visit our support site (https://support.anthropic.com/).
+
+Powered by    stripe logo (https://stripe.com)  |   Learn more about Stripe Invoicing (https://stripe.com/invoicing)",,,,,,,,,,19dfb3d7c46ae932,,,,,,,,,,,,,,,,Done,,,
+1205801040312777,doromind.com,reassigned,1213667607139021,Doro Mind books — February 2026,default_task,true,2026-03-17T18:40:19.641Z,2026-03-16,https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1213667607139021,Dhanica Urbano,Dhanica Urbano,,2026-05-10T18:39:08.307Z,2026-03-16T18:29:52.889Z,Finances Backlog,Untitled section,,https://docs.google.com/spreadsheets/d/1wCO5txEcIKIbiyk4gyapQu-4PbnBZacFmmglEWMmnJw/edit?usp=drive_link,,,,,,,,,,,,,,,,,,,,,,,,,Doro Mind Books,Done,,,
+1205801040312777,doromind.com,reassigned,1213972013432582,"Email Assured re: CT bridge licenses for Hannah, Claire, Shana; if no, coordinate internal",default_task,false,,,https://app.asana.com/1/1205801040312777/task/1213972013432582,Kate Douglas,Brady Richards,,2026-05-09T18:00:57.076Z,2026-04-07T19:27:43.974Z,,,fathom,Meeting: https://fathom.video/calls/624465313?timestamp=201.9999,2,,,,,https://fathom.video/calls/624465313?timestamp=201.9999,Brady + Mimi,,,,,,,,,,,,,,,,,,,Backlog,,,
+1205801040312777,doromind.com,reassigned,1208193569125154,Healthfirst pitch › Single Case Agreements (SCA) inqury with Healthfirst,default_task,true,2025-01-10T02:21:15.207Z,2024-12-31,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1208193569125154,Mimi Liu,Stephanie Greer,,2026-05-11T11:00:09.734Z,2024-08-30T18:48:10.990Z,Doro Backlog,All,,"The possibility of SCAs was shared with two prospects on Healthfirst Medicaid.
+
+11/18/24 BR's ask re: HF's SCA process:
+
+If we find someone who shows any interest in switching, we should call Healthfirst's BH Clinical number 888-394-4327, and request a single case agreement. We should also let Nick Litos and Kaleena Colon know, so they can shepherd it from their side. You should loop me in, and I can assist with all of that; just wanted to get the process on paper so we could iron our the details.
+",,,,,,,,,,,,,,,,,,,,,,,,,,Done,,Member,
+1205801040312777,doromind.com,reassigned,1208733849282159,ID issue with Google Play account,default_task,true,2024-12-02T14:15:51.419Z,2024-12-02,https://app.asana.com/1/1205801040312777/project/1207597475431376/task/1208733849282159,Mimi Liu,Brady Richards,,2026-05-10T20:18:29.577Z,2024-11-12T15:22:39.974Z,Android port,Untitled section,,"I received the attached email from Google Play Store mentioning:
+
+Status: Restricted developer account
+Your developer profile and all apps were removed from Google Play. Your developer account is still accessible in Play Console, but you will be unable to publish any apps until you fix the following issue(s).
+
+Issue found: Your organization name or address is no longer verified
+
+Your organization name and/or address no longer match the information about your business in your Dun & Bradstreet profile, which Google uses to verify your identity. The details we hold about you in Play Console must match the information in your Dun & Bradstreet profile.
+To help keep users safe, Google removes developer profiles and apps from Google Play if we find issues with the account or the information provided. To learn more about developer verifications, visit https://notifications.google.com/g/p/ANiao5o9yG0YnIbikmY0RNa9o3dgyWHQvi-YMxPKrRoe0s3kmTGubi5M3N4U6OOYrbo3rTbtoP52WetZnF20GybGGnZmes5Bwy1P738YRkluJoWl79MOys_C0P-QVEj1uC-b5LJH7J1s_AcDn_QF58mADweauMDiDvxN74HtQZmwpW2sLUDV9bdlLJrlvTGHjbYcYxUrrWNTzht4UWDMfm1lKwGCGYV-pVCIMe996841gu1t1DHrFif7S0bCqpx0PUNZhkgA and the https://notifications.google.com/g/p/ANiao5rwGV_e0HefxbDJESEhBuwFfMhFCBwaGH19iIn5e8aDhdxSHv-3Kbpp4waiePNI-_phj19sFvd6eZqHRYTw2noJsWvBxqityMQWKpxL5h-iUa7CUE_xIAZx-4BPQ7Kg3iZBahkCjJj8fh0lbXUyQDVhX1mC78FnsdqjsG1iKkYfH-CRArGS0NdbdF9uFS2X_3y7TSKNqrvPiXwMwqIr9f-USsne1dx-LfysEygXkzDNfr-Mh3Ws5LLqyK5VfZJqI4e3.
+Issue details
+We found an issue in the following area(s):
+    Organization verification
+To fix this issue, https://notifications.google.com/g/p/ANiao5ryvatebyJSG_1uzsGPQ7koR0m-Wmcm_MSCdXW8cNobGqrSFqlumVG6-NSTnJCTldG2uLBenD8xdR8cxbNiNJ2TRb6hYt6shSRBzrRSA0Gdilllk0eOBVXKXpaPCM4QXzrRVVoN0HzLK68xBvROT8mNkPCjM9gkVrdtRjr060bmATOPqs9wthd1RS-z_9BBpetmRNB4nangn9U and follow the steps to verify your organization.
+About the https://notifications.google.com/g/p/ANiao5o9yG0YnIbikmY0RNa9o3dgyWHQvi-YMxPKrRoe0s3kmTGubi5M3N4U6OOYrbo3rTbtoP52WetZnF20GybGGnZmes5Bwy1P738YRkluJoWl79MOys_C0P-QVEj1uC-b5LJH7J1s_AcDn_QF58mADweauMDiDvxN74HtQZmwpW2sLUDV9bdlLJrlvTGHjbYcYxUrrWNTzht4UWDMfm1lKwGCGYV-pVCIMe996841gu1t1DHrFif7S0bCqpx0PUNZhkgA
+Google Play wants to provide safe and wonderful app experiences for our users and a great opportunity for all our developers to be successful.
+You must accurately provide your developer account information, including the following details:
+    Legal name and address
+    https://notifications.google.com/g/p/ANiao5rF8IctBIhaVooN6V2oNs-o_HRJSsAIeJ8JkIwnrjr8M2lWMbznSCwByjrYqCSVL92tISU4JZR0EVmz1kd7nNlSAeKwW3y5Ly5hMwjosf4rNs4c8JJnU5WE3GVwzbn0Bi9EpJXAlMPtObYZDXCKuHrxWT_NuE2jW1nLpxbAn26xqSInljuImH8RouQaWAy6co7NxTOvTTw, if registering as an organization
+Visit https://notifications.google.com/g/p/ANiao5o9yG0YnIbikmY0RNa9o3dgyWHQvi-YMxPKrRoe0s3kmTGubi5M3N4U6OOYrbo3rTbtoP52WetZnF20GybGGnZmes5Bwy1P738YRkluJoWl79MOys_C0P-QVEj1uC-b5LJH7J1s_AcDn_QF58mADweauMDiDvxN74HtQZmwpW2sLUDV9bdlLJrlvTGHjbYcYxUrrWNTzht4UWDMfm1lKwGCGYV-pVCIMe996841gu1t1DHrFif7S0bCqpx0PUNZhkgA and the https://notifications.google.com/g/p/ANiao5rwGV_e0HefxbDJESEhBuwFfMhFCBwaGH19iIn5e8aDhdxSHv-3Kbpp4waiePNI-_phj19sFvd6eZqHRYTw2noJsWvBxqityMQWKpxL5h-iUa7CUE_xIAZx-4BPQ7Kg3iZBahkCjJj8fh0lbXUyQDVhX1mC78FnsdqjsG1iKkYfH-CRArGS0NdbdF9uFS2X_3y7TSKNqrvPiXwMwqIr9f-USsne1dx-LfysEygXkzDNfr-Mh3Ws5LLqyK5VfZJqI4e3 for more information about developer verifications.
+
+Issue found: Google couldn’t verify your identity
+
+An issue was found during the verification of your identity, or you haven't completed identity verification in Play Console.
+To help keep users safe, Google removes developer profiles and apps from Google Play if we find issues with the account or the information provided. To learn more about developer verifications, visit https://notifications.google.com/g/p/ANiao5pdvvgak2_tQj3PozYkMKlzS3n9T-zqORR5TLdohJglNcJjY9I9wzs9vOZHzMz80JbM1ShujC0-cQVuSA_xw7SSV9SPvjOrBvyO3aOclc3j_52nKLCQ-B5RiT_BpOuh9wBJEgl9s5frDu9JxlJc-vgqC0gXvTvXEmafxNRhYoqQnthnGo4k5kDdjDxp8YCSRR5kjkKhblfnD6gVS26lV8HIUxoyl1xlFUEtRB95E64xZ7BotS9YqCeN1z97c1MPuSFYd5E3cH9- and the https://notifications.google.com/g/p/ANiao5rwGV_e0HefxbDJESEhBuwFfMhFCBwaGH19iIn5e8aDhdxSHv-3Kbpp4waiePNI-_phj19sFvd6eZqHRYTw2noJsWvBxqityMQWKpxL5h-iUa7CUE_xIAZx-4BPQ7Kg3iZBahkCjJj8fh0lbXUyQDVhX1mC78FnsdqjsG1iKkYfH-CRArGS0NdbdF9uFS2X_3y7TSKNqrvPiXwMwqIr9f-USsne1dx-LfysEygXkzDNfr-Mh3Ws5LLqyK5VfZJqI4e3.
+Issue details
+We found an issue in the following area(s):
+    Identity verification
+To verify your identity, go to Play Console. If you’ve already done this and your identity verification has failed, we allow a limited number of reverification attempts. If you don’t have any attempts remaining, or you’ve reviewed the https://notifications.google.com/g/p/ANiao5o9yG0YnIbikmY0RNa9o3dgyWHQvi-YMxPKrRoe0s3kmTGubi5M3N4U6OOYrbo3rTbtoP52WetZnF20GybGGnZmes5Bwy1P738YRkluJoWl79MOys_C0P-QVEj1uC-b5LJH7J1s_AcDn_QF58mADweauMDiDvxN74HtQZmwpW2sLUDV9bdlLJrlvTGHjbYcYxUrrWNTzht4UWDMfm1lKwGCGYV-pVCIMe996841gu1t1DHrFif7S0bCqpx0PUNZhkgA and disagree with our decision or feel it may have been made in error, login to https://notifications.google.com/g/p/ANiao5pMpxQt5rOMr5MwsPpMSqJkXJE684wMEmwbierWI9Q62210mSkSb1VIrYY5WeaqlASCBOrU1T-75MrnfYXUpxJ4z1Y2GgO_ihlL5IFJNFDBN5J1jIaihn4jAoqZO-oLTmFx_MHp9gDnlKKx2lfZgACwYASNJlvhMd9u8CEE4q2mwxe-9bDaXOBGSYb68ZZ2x-y7m6t0ZLzgmw to file an appeal.
+About the https://notifications.google.com/g/p/ANiao5o9yG0YnIbikmY0RNa9o3dgyWHQvi-YMxPKrRoe0s3kmTGubi5M3N4U6OOYrbo3rTbtoP52WetZnF20GybGGnZmes5Bwy1P738YRkluJoWl79MOys_C0P-QVEj1uC-b5LJH7J1s_AcDn_QF58mADweauMDiDvxN74HtQZmwpW2sLUDV9bdlLJrlvTGHjbYcYxUrrWNTzht4UWDMfm1lKwGCGYV-pVCIMe996841gu1t1DHrFif7S0bCqpx0PUNZhkgA
+Google Play wants to provide safe and wonderful app experiences for our users and a great opportunity for all our developers to be successful.
+You must accurately provide your developer account information, including the following details:
+    Legal name and address
+    Contact email address and phone number
+    Developer email address and phone number shown on Google Play where applicable
+Visit https://notifications.google.com/g/p/ANiao5pdvvgak2_tQj3PozYkMKlzS3n9T-zqORR5TLdohJglNcJjY9I9wzs9vOZHzMz80JbM1ShujC0-cQVuSA_xw7SSV9SPvjOrBvyO3aOclc3j_52nKLCQ-B5RiT_BpOuh9wBJEgl9s5frDu9JxlJc-vgqC0gXvTvXEmafxNRhYoqQnthnGo4k5kDdjDxp8YCSRR5kjkKhblfnD6gVS26lV8HIUxoyl1xlFUEtRB95E64xZ7BotS9YqCeN1z97c1MPuSFYd5E3cH9- and the https://notifications.google.com/g/p/ANiao5rwGV_e0HefxbDJESEhBuwFfMhFCBwaGH19iIn5e8aDhdxSHv-3Kbpp4waiePNI-_phj19sFvd6eZqHRYTw2noJsWvBxqityMQWKpxL5h-iUa7CUE_xIAZx-4BPQ7Kg3iZBahkCjJj8fh0lbXUyQDVhX1mC78FnsdqjsG1iKkYfH-CRArGS0NdbdF9uFS2X_3y7TSKNqrvPiXwMwqIr9f-USsne1dx-LfysEygXkzDNfr-Mh3Ws5LLqyK5VfZJqI4e3 for more information about developer verifications.
+
+
+Need to address these issues for our account to be eligible in the Google Play Store",,,,,,,,,,,,,,,,,,,,,,,,,,Done,,,
+1205801040312777,doromind.com,reassigned,1214593304689260,Sandra Clarke (Blue Cross CA COO) › Offer for Sandra Clark (advisor),default_task,false,,2026-05-14,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214593304689260,Mimi Liu,Brady Richards,,2026-05-11T13:44:42.936Z,2026-05-07T02:41:03.025Z,Founders Backlog,All,,Mimi offered Sandra 6 mo advisory engagement (0.,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,

@@ -1,0 +1,710 @@
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 4,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastTotalWebSearchRequests": 0,
+      "exampleFiles": [
+        "main.tf",
+        "exit_hooks_io.dart",
+        "settings.py",
+        "publish-homebrew-doromind-pkg.sh",
+        "widget_test.dart"
+      ],
+      "exampleFilesGeneratedAt": 1777722771441,
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 2.19595495,
+      "lastAPIDuration": 348492,
+      "lastToolDuration": 522296,
+      "lastDuration": 104314296,
+      "lastLinesAdded": 3,
+      "lastLinesRemoved": 83,
+      "lastTotalInputTokens": 421,
+      "lastTotalOutputTokens": 23064,
+      "lastTotalCacheCreationInputTokens": 190603,
+      "lastTotalCacheReadInputTokens": 3782849,
+      "lastSessionId": "ab1e3257-6350-4625-bc88-611cead9f306",
+      "lastGracefulShutdown": true,
+      "lastAPIDurationWithoutRetries": 348160,
+      "lastFpsAverage": 0.27,
+      "lastFpsLow1Pct": 269.31,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 367,
+          "outputTokens": 15,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.000442
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 54,
+          "outputTokens": 23049,
+          "cacheReadInputTokens": 3782849,
+          "cacheCreationInputTokens": 190603,
+          "webSearchRequests": 0,
+          "costUSD": 2.19551295
+        }
+      },
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 17490,
+        "frame_duration_ms_min": 0.02383399999962421,
+        "frame_duration_ms_max": 21.5282090000037,
+        "frame_duration_ms_avg": 1.1130497261276475,
+        "frame_duration_ms_p50": 0.8880629999912344,
+        "frame_duration_ms_p95": 2.269629399868427,
+        "frame_duration_ms_p99": 2.9943237499997486,
+        "pre_tool_hook_duration_ms_count": 62,
+        "pre_tool_hook_duration_ms_min": 0,
+        "pre_tool_hook_duration_ms_max": 1,
+        "pre_tool_hook_duration_ms_avg": 0.016129032258064516,
+        "pre_tool_hook_duration_ms_p50": 0,
+        "pre_tool_hook_duration_ms_p95": 0,
+        "pre_tool_hook_duration_ms_p99": 0.39000000000000057,
+        "hook_duration_ms_count": 13,
+        "hook_duration_ms_min": 0,
+        "hook_duration_ms_max": 1,
+        "hook_duration_ms_avg": 0.07692307692307693,
+        "hook_duration_ms_p50": 0,
+        "hook_duration_ms_p95": 0.3999999999999986,
+        "hook_duration_ms_p99": 0.879999999999999
+      },
+      "lastHintSessionId": "ab1e3257-6350-4625-bc88-611cead9f306",
+      "lastSessionFirstPrompt": "can you remove the keychain work from baseline (it doesn't do anything), and the part of welcometodoromind where it opens a browser window",
+      "lastSessionModified": 1777763839622
+    },
+    "/Users/brichards": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 4,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "install_files",
+        ".Brewfile",
+        "brichards.vim",
+        "Script.pm",
+        "install_files_post_git"
+      ],
+      "exampleFilesGeneratedAt": 1777822370732,
+      "lastCost": 6.038274,
+      "lastAPIDuration": 729585,
+      "lastToolDuration": 43556,
+      "lastDuration": 242235128,
+      "lastLinesAdded": 285,
+      "lastLinesRemoved": 59,
+      "lastTotalInputTokens": 11222,
+      "lastTotalOutputTokens": 36667,
+      "lastTotalCacheCreationInputTokens": 420600,
+      "lastTotalCacheReadInputTokens": 4877022,
+      "lastTotalWebSearchRequests": 0,
+      "lastSessionId": "494c65dd-d538-401b-a062-05193f32a988",
+      "lastAPIDurationWithoutRetries": 635566,
+      "lastFpsAverage": 0.11,
+      "lastFpsLow1Pct": 155.94,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 373,
+          "outputTokens": 14,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.00044300000000000003
+        },
+        "claude-opus-4-7[1m]": {
+          "inputTokens": 10849,
+          "outputTokens": 36653,
+          "cacheReadInputTokens": 4877022,
+          "cacheCreationInputTokens": 420600,
+          "webSearchRequests": 0,
+          "costUSD": 6.037831000000001
+        }
+      },
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 17907,
+        "frame_duration_ms_min": 0.03962499999033753,
+        "frame_duration_ms_max": 300.0774590075016,
+        "frame_duration_ms_avg": 1.2049372225940504,
+        "frame_duration_ms_p50": 0.707875500433147,
+        "frame_duration_ms_p95": 3.110412549925967,
+        "frame_duration_ms_p99": 14.702279820718104,
+        "pre_tool_hook_duration_ms_count": 44,
+        "pre_tool_hook_duration_ms_min": 0,
+        "pre_tool_hook_duration_ms_max": 5,
+        "pre_tool_hook_duration_ms_avg": 0.11363636363636363,
+        "pre_tool_hook_duration_ms_p50": 0,
+        "pre_tool_hook_duration_ms_p95": 0,
+        "pre_tool_hook_duration_ms_p99": 2.8500000000000014,
+        "hook_duration_ms_count": 30,
+        "hook_duration_ms_min": 0,
+        "hook_duration_ms_max": 1,
+        "hook_duration_ms_avg": 0.03333333333333333,
+        "hook_duration_ms_p50": 0,
+        "hook_duration_ms_p95": 0,
+        "hook_duration_ms_p99": 0.7100000000000009
+      },
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "c3725bda-0bae-41c9-bcee-1247bf4ce793",
+      "lastSessionFirstPrompt": "when exporting, use the classifier at ~/repos/packaging-classifier  to do best-effort rotation",
+      "lastSessionModified": 1778066059317
+    },
+    "/Users/brichards/repos/openbrain": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "superhuman": {
+          "type": "http",
+          "url": "https://mcp.mail.superhuman.com/mcp"
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "register-mcps.sh",
+        "asana-mcp.sh",
+        "env.example",
+        "fathom-mcp.sh",
+        "on-stop.sh"
+      ],
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 24.503110000000014,
+      "lastAPIDuration": 1605933,
+      "lastAPIDurationWithoutRetries": 1605186,
+      "lastToolDuration": 63188,
+      "lastDuration": 178621503,
+      "lastLinesAdded": 252,
+      "lastLinesRemoved": 230,
+      "lastTotalInputTokens": 5677,
+      "lastTotalOutputTokens": 110681,
+      "lastTotalCacheCreationInputTokens": 2204296,
+      "lastTotalCacheReadInputTokens": 15865684,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 408,
+          "outputTokens": 18,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.000498
+        },
+        "claude-opus-4-7[1m]": {
+          "inputTokens": 5269,
+          "outputTokens": 110663,
+          "cacheReadInputTokens": 15865684,
+          "cacheCreationInputTokens": 2204296,
+          "webSearchRequests": 0,
+          "costUSD": 24.502612000000013
+        }
+      },
+      "lastSessionId": "0f52bb8c-9d9f-430b-8dbf-dca795edfdea",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 31612,
+        "frame_duration_ms_min": 0.03045900000142865,
+        "frame_duration_ms_max": 59.94200000166893,
+        "frame_duration_ms_avg": 1.3349477207019647,
+        "frame_duration_ms_p50": 1.1051665022969246,
+        "frame_duration_ms_p95": 3.1339875500183547,
+        "frame_duration_ms_p99": 4.473791592987248,
+        "pre_tool_hook_duration_ms_count": 132,
+        "pre_tool_hook_duration_ms_min": 0,
+        "pre_tool_hook_duration_ms_max": 1,
+        "pre_tool_hook_duration_ms_avg": 0.045454545454545456,
+        "pre_tool_hook_duration_ms_p50": 0,
+        "pre_tool_hook_duration_ms_p95": 0,
+        "pre_tool_hook_duration_ms_p99": 1,
+        "hook_duration_ms_count": 14,
+        "hook_duration_ms_min": 0,
+        "hook_duration_ms_max": 1,
+        "hook_duration_ms_avg": 0.07142857142857142,
+        "hook_duration_ms_p50": 0,
+        "hook_duration_ms_p95": 0.34999999999999964,
+        "hook_duration_ms_p99": 0.8699999999999992
+      },
+      "lastGracefulShutdown": true,
+      "disabledMcpServers": [
+        "asana_personal",
+        "superhuman"
+      ],
+      "exampleFilesGeneratedAt": 1778262031670,
+      "lastHintSessionId": "0f52bb8c-9d9f-430b-8dbf-dca795edfdea",
+      "lastSessionFirstPrompt": "can you connect to data/stuff.db, and update the \"summary\" column with a summary of the body. The summary should be at most 140 characters? If a message is less than that, you can just    copy it. Ple",
+      "lastSessionModified": 1778341081263,
+      "lastFpsAverage": 0.79,
+      "lastFpsLow1Pct": 171.87
+    },
+    "/Users/brichards/repos/scanline": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "ScanConfiguration.m",
+        "project.pbxproj",
+        "scanline_Tests.m",
+        "Info.plist",
+        "ConfigurationTests.swift"
+      ],
+      "lastGracefulShutdown": false,
+      "exampleFilesGeneratedAt": 1777822537711,
+      "lastHintSessionId": "053825b9-9ba3-4a8c-84ff-9e1ca643e3f0",
+      "lastSessionFirstPrompt": "Can you commit these changes, with one or more commits, following these guidelines:  Each commit should focus on a single logical change, providing context and justification as needed. Don’t risk dest",
+      "lastSessionModified": 1777822539464,
+      "lastCost": 1.7015411500000002,
+      "lastAPIDuration": 568618,
+      "lastAPIDurationWithoutRetries": 568431,
+      "lastToolDuration": 12817,
+      "lastDuration": 118475737,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 742,
+      "lastTotalOutputTokens": 40292,
+      "lastTotalCacheCreationInputTokens": 107433,
+      "lastTotalCacheReadInputTokens": 2312098,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 0.14,
+      "lastFpsLow1Pct": 381.59,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 714,
+          "outputTokens": 14,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.000784
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 28,
+          "outputTokens": 40278,
+          "cacheReadInputTokens": 2312098,
+          "cacheCreationInputTokens": 107433,
+          "webSearchRequests": 0,
+          "costUSD": 1.7007571499999998
+        }
+      },
+      "lastSessionId": "053825b9-9ba3-4a8c-84ff-9e1ca643e3f0",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 11499,
+        "frame_duration_ms_min": 0.04358299996238202,
+        "frame_duration_ms_max": 96.48929199576378,
+        "frame_duration_ms_avg": 0.7075823555070648,
+        "frame_duration_ms_p50": 0.5099585000061779,
+        "frame_duration_ms_p95": 1.4713812000525637,
+        "frame_duration_ms_p99": 3.0763878600046146,
+        "pre_tool_hook_duration_ms_count": 28,
+        "pre_tool_hook_duration_ms_min": 0,
+        "pre_tool_hook_duration_ms_max": 1,
+        "pre_tool_hook_duration_ms_avg": 0.10714285714285714,
+        "pre_tool_hook_duration_ms_p50": 0,
+        "pre_tool_hook_duration_ms_p95": 1,
+        "pre_tool_hook_duration_ms_p99": 1,
+        "hook_duration_ms_count": 4,
+        "hook_duration_ms_min": 0,
+        "hook_duration_ms_max": 0,
+        "hook_duration_ms_avg": 0,
+        "hook_duration_ms_p50": 0,
+        "hook_duration_ms_p95": 0,
+        "hook_duration_ms_p99": 0
+      }
+    },
+    "/Users/brichards/repos/fathom-asana-sync": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "lastGracefulShutdown": true,
+      "lastHintSessionId": "68b19d9e-9f87-4a43-8963-0cdefa148eab",
+      "lastSessionFirstPrompt": "I don't think Mimi's tasks are getting created. When I look at the logs, I see a lot of { insertId: \"69f91ec9000f1a6e2c13174e\" labels: {6} logName: \"projects/brady-cli/logs/run.googleapis.com%2Fstderr",
+      "lastSessionModified": 1777997422612,
+      "lastCost": 0.27161495,
+      "lastAPIDuration": 29157,
+      "lastAPIDurationWithoutRetries": 29128,
+      "lastToolDuration": 196,
+      "lastDuration": 7003725,
+      "lastLinesAdded": 5,
+      "lastLinesRemoved": 2,
+      "lastTotalInputTokens": 838,
+      "lastTotalOutputTokens": 1504,
+      "lastTotalCacheCreationInputTokens": 49243,
+      "lastTotalCacheReadInputTokens": 210479,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 0.12,
+      "lastFpsLow1Pct": 342.86,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 537,
+          "outputTokens": 19,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.0006320000000000001
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 301,
+          "outputTokens": 1485,
+          "cacheReadInputTokens": 210479,
+          "cacheCreationInputTokens": 49243,
+          "webSearchRequests": 0,
+          "costUSD": 0.27098295000000006
+        }
+      },
+      "lastSessionId": "68b19d9e-9f87-4a43-8963-0cdefa148eab",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 865,
+        "frame_duration_ms_min": 0.06233399998745881,
+        "frame_duration_ms_max": 8.826708999999994,
+        "frame_duration_ms_avg": 0.6263646023103989,
+        "frame_duration_ms_p50": 0.4706669999868609,
+        "frame_duration_ms_p95": 1.3396506000048245,
+        "frame_duration_ms_p99": 2.8854932400007973,
+        "pre_tool_hook_duration_ms_count": 3,
+        "pre_tool_hook_duration_ms_min": 0,
+        "pre_tool_hook_duration_ms_max": 4,
+        "pre_tool_hook_duration_ms_avg": 1.3333333333333333,
+        "pre_tool_hook_duration_ms_p50": 0,
+        "pre_tool_hook_duration_ms_p95": 3.5999999999999996,
+        "pre_tool_hook_duration_ms_p99": 3.92,
+        "hook_duration_ms_count": 3,
+        "hook_duration_ms_min": 0,
+        "hook_duration_ms_max": 0,
+        "hook_duration_ms_avg": 0,
+        "hook_duration_ms_p50": 0,
+        "hook_duration_ms_p95": 0,
+        "hook_duration_ms_p99": 0
+      }
+    }
+  },
+  "oauthAccount": {
+    "accountUuid": "d38173e3-b0ae-4a9f-a6ea-4cf33cc57383",
+    "emailAddress": "brady@doromind.com",
+    "organizationUuid": "1413690e-726f-409c-af88-1ac8666976eb",
+    "organizationRole": "admin",
+    "workspaceRole": null,
+    "organizationName": "Brady‘s Individual Org"
+  },
+  "isQualifiedForDataSharing": false,
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "1.0.110",
+  "hasOpusPlanDefault": false,
+  "subscriptionNoticeCount": 0,
+  "hasAvailableSubscription": false,
+  "recommendedSubscription": "",
+  "s1mNonSubscriberAccessCache": {
+    "1413690e-726f-409c-af88-1ac8666976eb": {
+      "hasAccess": false,
+      "timestamp": 1764893314436
+    }
+  },
+  "changelogLastFetched": 1778341031940,
+  "lastReleaseNotesSeen": "2.1.138",
+  "feedbackSurveyState": {
+    "lastShownTime": 1764860507815
+  },
+  "hasAcknowledgedCostThreshold": true,
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "autoUpdatesProtectedForNative": true,
+  "githubRepoPaths": {
+    "brady-richards/brady-richards-nixbase": [
+      "/Users/brichards"
+    ],
+    "davidianstyle/openbrain-template": [
+      "/Users/brichards/repos/openbrain"
+    ],
+    "doromind/doro": [
+      "/Users/brichards/doro"
+    ],
+    "brady-richards/openbrain": [
+      "/Users/brichards/repos/openbrain"
+    ],
+    "brady-richards/scanline": [
+      "/Users/brichards/repos/scanline"
+    ],
+    "brady-richards/fathom-asana-sync": [
+      "/Users/brichards/repos/fathom-asana-sync"
+    ]
+  },
+  "clientDataCache": null,
+  "showSpinnerTree": false,
+  "penguinModeOrgEnabled": true,
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": true,
+  "metricsStatusCache": {
+    "enabled": true,
+    "timestamp": 1778513804310
+  },
+  "migrationVersion": 13,
+  "mcpServers": {
+    "reminders": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/reminders-mcp.sh",
+      "args": [],
+      "env": {}
+    },
+    "messages": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/messages-mcp.sh",
+      "args": [],
+      "env": {}
+    },
+    "contacts": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/contacts-mcp.sh",
+      "args": [],
+      "env": {}
+    },
+    "asana_personal": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/asana-mcp.sh",
+      "args": [
+        "personal"
+      ],
+      "env": {}
+    },
+    "asana_work": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/asana-mcp.sh",
+      "args": [
+        "work"
+      ],
+      "env": {}
+    },
+    "gmail___help": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmail-mcp.sh",
+      "args": [
+        "--help"
+      ],
+      "env": {}
+    },
+    "gcal___help": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gcal-mcp.sh",
+      "args": [
+        "--help"
+      ],
+      "env": {}
+    },
+    "gmeet___help": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmeet-mcp.sh",
+      "args": [
+        "--help"
+      ],
+      "env": {}
+    },
+    "gdrive___help": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gdrive-mcp.sh",
+      "args": [
+        "--help"
+      ],
+      "env": {}
+    },
+    "gmail_brady_and_paloma_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmail-mcp.sh",
+      "args": [
+        "brady-and-paloma-gmail-com"
+      ],
+      "env": {}
+    },
+    "gcal_brady_and_paloma_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gcal-mcp.sh",
+      "args": [
+        "brady-and-paloma-gmail-com"
+      ],
+      "env": {}
+    },
+    "gmeet_brady_and_paloma_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmeet-mcp.sh",
+      "args": [
+        "brady-and-paloma-gmail-com"
+      ],
+      "env": {}
+    },
+    "gdrive_brady_and_paloma_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gdrive-mcp.sh",
+      "args": [
+        "brady-and-paloma-gmail-com"
+      ],
+      "env": {}
+    },
+    "gmail_brady_doromind_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmail-mcp.sh",
+      "args": [
+        "brady-doromind-com"
+      ],
+      "env": {}
+    },
+    "gcal_brady_doromind_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gcal-mcp.sh",
+      "args": [
+        "brady-doromind-com"
+      ],
+      "env": {}
+    },
+    "gmeet_brady_doromind_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmeet-mcp.sh",
+      "args": [
+        "brady-doromind-com"
+      ],
+      "env": {}
+    },
+    "gdrive_brady_doromind_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gdrive-mcp.sh",
+      "args": [
+        "brady-doromind-com"
+      ],
+      "env": {}
+    },
+    "gmail_brady_richards_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmail-mcp.sh",
+      "args": [
+        "brady-richards-gmail-com"
+      ],
+      "env": {}
+    },
+    "gcal_brady_richards_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gcal-mcp.sh",
+      "args": [
+        "brady-richards-gmail-com"
+      ],
+      "env": {}
+    },
+    "gmeet_brady_richards_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmeet-mcp.sh",
+      "args": [
+        "brady-richards-gmail-com"
+      ],
+      "env": {}
+    },
+    "gdrive_brady_richards_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gdrive-mcp.sh",
+      "args": [
+        "brady-richards-gmail-com"
+      ],
+      "env": {}
+    },
+    "slack_doromind_slack_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/slack-mcp.sh",
+      "args": [
+        "doromind-slack-com"
+      ],
+      "env": {}
+    },
+    "fathom": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/fathom-mcp.sh",
+      "args": [],
+      "env": {}
+    }
+  },
+  "additionalModelOptionsCache": [],
+  "additionalModelCostsCache": {},
+  "skillUsage": {
+    "daily-brief": {
+      "usageCount": 44,
+      "lastUsedAt": 1777981620228
+    },
+    "people-sync": {
+      "usageCount": 2,
+      "lastUsedAt": 1776516584405
+    },
+    "what-am-i-missing": {
+      "usageCount": 18,
+      "lastUsedAt": 1776700754659
+    },
+    "weekly-review": {
+      "usageCount": 3,
+      "lastUsedAt": 1776648663489
+    },
+    "asana": {
+      "usageCount": 1,
+      "lastUsedAt": 1776454213320
+    },
+    "meeting-prep": {
+      "usageCount": 1,
+      "lastUsedAt": 1776650567837
+    },
+    "update-config": {
+      "usageCount": 2,
+      "lastUsedAt": 1776861573542
+    },
+    "pull-openbrain-template": {
+      "usageCount": 2,
+      "lastUsedAt": 1777475256173
+    },
+    "hire": {
+      "usageCount": 1,
+      "lastUsedAt": 1777481125373
+    },
+    "loop": {
+      "usageCount": 3,
+      "lastUsedAt": 1778041680884
+    },
+    "gather-work": {
+      "usageCount": 4,
+      "lastUsedAt": 1778513999919
+    },
+    "refine-work": {
+      "usageCount": 3,
+      "lastUsedAt": 1778514489004
+    },
+    "orient": {
+      "usageCount": 1,
+      "lastUsedAt": 1778098074539
+    }
+  },
+  "deepLinkTerminal": "Terminal",
+  "opus47LaunchSeenCount": 10,
+  "appleTerminalSetupInProgress": false,
+  "appleTerminalBackupPath": "/Users/brichards/Library/Preferences/com.apple.Terminal.plist.bak",
+  "optionAsMetaKeyInstalled": true,
+  "closedIssuesLastChecked": 1778513788940,
+  "hasResetAutoModeOptInForDefaultOffer": true,
+  "cachedExperimentFeatures": [
+    "tengu_amber_prism",
+    "tengu_ashen_kelp",
+    "tengu_ember_trail",
+    "tengu_mcp_subagent_prompt",
+    "tengu_orchid_mantis_v2",
+    "tengu_plank_river_frost",
+    "tengu_read_dedup_killswitch",
+    "tengu_tussock_oriole"
+  ],
+  "seenNotifications": {}
+}

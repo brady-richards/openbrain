@@ -1,0 +1,180 @@
+{
+  "mcpServers": {
+    "reminders": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/reminders-mcp.sh",
+      "args": [],
+      "env": {}
+    },
+    "messages": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/messages-mcp.sh",
+      "args": [],
+      "env": {}
+    },
+    "contacts": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/contacts-mcp.sh",
+      "args": [],
+      "env": {}
+    },
+    "asana_personal": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/asana-mcp.sh",
+      "args": [
+        "personal"
+      ],
+      "env": {}
+    },
+    "asana_work": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/asana-mcp.sh",
+      "args": [
+        "work"
+      ],
+      "env": {}
+    },
+    "gmail___help": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmail-mcp.sh",
+      "args": [
+        "--help"
+      ],
+      "env": {}
+    },
+    "gcal___help": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gcal-mcp.sh",
+      "args": [
+        "--help"
+      ],
+      "env": {}
+    },
+    "gmeet___help": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmeet-mcp.sh",
+      "args": [
+        "--help"
+      ],
+      "env": {}
+    },
+    "gdrive___help": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gdrive-mcp.sh",
+      "args": [
+        "--help"
+      ],
+      "env": {}
+    },
+    "gmail_brady_and_paloma_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmail-mcp.sh",
+      "args": [
+        "brady-and-paloma-gmail-com"
+      ],
+      "env": {}
+    },
+    "gcal_brady_and_paloma_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gcal-mcp.sh",
+      "args": [
+        "brady-and-paloma-gmail-com"
+      ],
+      "env": {}
+    },
+    "gmeet_brady_and_paloma_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmeet-mcp.sh",
+      "args": [
+        "brady-and-paloma-gmail-com"
+      ],
+      "env": {}
+    },
+    "gdrive_brady_and_paloma_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gdrive-mcp.sh",
+      "args": [
+        "brady-and-paloma-gmail-com"
+      ],
+      "env": {}
+    },
+    "gmail_brady_doromind_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmail-mcp.sh",
+      "args": [
+        "brady-doromind-com"
+      ],
+      "env": {}
+    },
+    "gcal_brady_doromind_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gcal-mcp.sh",
+      "args": [
+        "brady-doromind-com"
+      ],
+      "env": {}
+    },
+    "gmeet_brady_doromind_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmeet-mcp.sh",
+      "args": [
+        "brady-doromind-com"
+      ],
+      "env": {}
+    },
+    "gdrive_brady_doromind_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gdrive-mcp.sh",
+      "args": [
+        "brady-doromind-com"
+      ],
+      "env": {}
+    },
+    "gmail_brady_richards_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmail-mcp.sh",
+      "args": [
+        "brady-richards-gmail-com"
+      ],
+      "env": {}
+    },
+    "gcal_brady_richards_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gcal-mcp.sh",
+      "args": [
+        "brady-richards-gmail-com"
+      ],
+      "env": {}
+    },
+    "gmeet_brady_richards_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gmeet-mcp.sh",
+      "args": [
+        "brady-richards-gmail-com"
+      ],
+      "env": {}
+    },
+    "gdrive_brady_richards_gmail_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/gdrive-mcp.sh",
+      "args": [
+        "brady-richards-gmail-com"
+      ],
+      "env": {}
+    },
+    "slack_doromind_slack_com": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/slack-mcp.sh",
+      "args": [
+        "doromind-slack-com"
+      ],
+      "env": {}
+    },
+    "fathom": {
+      "type": "stdio",
+      "command": "/Users/brichards/.config/openbrain/lib/fathom-mcp.sh",
+      "args": [],
+      "env": {}
+    }
+  }
+}
