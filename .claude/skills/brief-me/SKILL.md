@@ -1,15 +1,16 @@
 ---
 name: brief-me
-description: Phase 3 of /orient. Produce orientation.md framing the day — new tasks, task stock/flow vs last business day, and per-meeting briefings for every meeting on today's calendar.
+description: Phase 3 of /orient. Produce orientation.md framing the day — new tasks, task stock/flow vs last business day, summaries of missed meetings since last business day, and per-meeting briefings for every meeting on today's calendar.
 ---
 
 # /brief-me
 
-Phase 3 of the `/orient` pipeline. Produces a focused orientation note that answers three questions:
+Phase 3 of the `/orient` pipeline. Produces a focused orientation note that answers four questions:
 
 1. What new work landed on me since the last business day?
 2. Is my task pile growing or shrinking (count + effort)?
-3. What do I need to know going into each meeting today?
+3. What happened in meetings I was invited to but missed since the last business day?
+4. What do I need to know going into each meeting today?
 
 ## Inputs
 
@@ -55,7 +56,45 @@ Compute:
 
 Format as a compact table — see the orientation template below.
 
-### 3. Meeting prep — every meeting today
+### 3. Missed meetings since `$LAST_BIZ`
+
+Identify meetings Brady was invited to in the `[$WINDOW_START, $NOW]` window where he did **not** attend, and summarize what happened from the Fathom transcript.
+
+**Step A — find missed invites.** From the calendar sweep used elsewhere in the pipeline (or a fresh one if running standalone): across all `google_*` MCPs, `google_calendar_list_events` for `$WINDOW_START → $NOW`. Keep events where:
+
+- `self: true` on the attendee row, AND
+- `responseStatus` is `declined`, `tentative`, or `needsAction`, AND
+- the event's end time is in the past.
+
+Also keep events where `responseStatus` is `accepted` but Brady's calendar shows a conflicting block (out-of-office, overlapping accepted meeting on a different account) — he RSVP'd yes but couldn't be in two places.
+
+Skip: solo blocks, transit buffers (🚇), DND/focus, and personal anchors (gym, school pickup, etc.).
+
+**Step B — fetch the transcript map.** Run:
+
+```bash
+python3 ~/repos/fathom-asana-sync/scripts/transcripts_gcs_map.py --interval 7d
+```
+
+Output is `meeting title<TAB>gs://bucket/path/to/archive.json` (one row per recording in the rolling 7-day window). Parse into a dict keyed by meeting title.
+
+**Step C — match invites to transcripts.** For each missed invite from Step A, find the best matching transcript by title (exact match preferred; fall back to case-insensitive substring match on the meaningful portion of the title — e.g. "Mimi <> Brady 1:1" should match "Mimi / Brady 1:1"). If no match, note the meeting under a "no transcript available" subsection.
+
+**Step D — summarize each matched transcript.** For each match, pull the JSON from GCS:
+
+```bash
+gsutil cat <gs://...> | jq '.'   # or python3 -c "import sys,json; ..."
+```
+
+The archive typically contains `meeting_title`, `attendees`, `summary`, `action_items`, and the raw `transcript` segments. Use whatever fields are present:
+
+- If `summary` is present, lift its key points (≤5 bullets).
+- If only raw `transcript` is present, produce a 5-bullet summary yourself: what was decided, what's pending, who has next steps, anything Brady would have weighed in on, and anything that affects his open tasks.
+- Always pull `action_items` if present — these become candidate follow-ups for Brady.
+
+Cap at 10 missed meetings per run. If there are more, prioritize meetings with: more attendees, longer duration, recent (closer to today), or where Brady is named in `action_items`.
+
+### 4. Meeting prep — every meeting today
 
 Across all `google_*` MCPs:
 
@@ -77,7 +116,7 @@ For every remaining event, run the `/meeting-prep` procedure inline (see `.claud
 
 **Parallelization within the meeting set:** issue all read calls (person note reads, interaction greps, Gmail/Slack searches, project MOC reads) across all meetings in a single fan-out block. Compose per-meeting briefings only after the reads complete.
 
-### 4. Assemble `orientation.md`
+### 5. Assemble `orientation.md`
 
 Write `+ Inbox/orient/$DATE/orientation.md` with this structure (omit sections that are empty):
 
@@ -107,6 +146,24 @@ _(Compared against $LAST_BIZ — $WEEKDAY)_
 
 _(M open tasks have no Effort estimate — pile is partially unmeasured.)_
 
+## Missed since $LAST_BIZ
+
+### <Meeting Title> · `<YYYY-MM-DD HH:MM>` · <duration>
+**Attendees:** [[Person A]], [[Person B]], ...
+**Why missed:** declined / tentative / no-response / accepted-but-conflicted
+**Summary**
+- <bullet 1>
+- <bullet 2>
+- ...
+**Action items**
+- <person>: <ask>
+- ...
+**Source:** `gs://...` (or `no transcript available`)
+
+---
+
+(repeat per missed meeting; omit the whole section if none)
+
 ## Today's meetings
 
 ### `HH:MM–HH:MM` <Meeting Title> · `account-slug`
@@ -135,7 +192,7 @@ _(M open tasks have no Effort estimate — pile is partially unmeasured.)_
 <single line drawing on new tasks + meeting load — what one thing matters most today>
 ```
 
-### 5. Report
+### 6. Report
 
 Echo the path to the written file and a one-paragraph summary: total new tasks, net effort delta, number of meetings prepped. Do not paste the file body back into chat.
 
