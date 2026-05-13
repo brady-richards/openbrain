@@ -1,127 +1,157 @@
----
-title: Orientation 2026-05-13
-date: 2026-05-13
-tags: [orient]
----
-
 # Orientation — 2026-05-13
 
 _(Compared against 2026-05-12 — Tuesday)_
 
 ## What landed since 2026-05-12
 
-### New tasks (12)
-- [Reply to David Chang re: app.doromind.co signup task in onboarding template](https://app.asana.com/0/0/1214380107517395) — Effort **1** · _Founders Backlog_ · created `09:01`
-- [[Duplicate] Resolve Cursor payment failure (Visa 3445)](https://app.asana.com/0/0/1214380107517397) — Effort **2** · _Founders Backlog_ · created `09:01` _(closed same day as dup)_
-- [Sign Bill Wickline NDA and send Western Alliance diligence docs (w/ Mimi)](https://app.asana.com/0/0/1214380107517399) — Effort **5** · _Founders Backlog_ · created `09:01`
-- [Configuring payment](https://app.asana.com/0/0/1214413155640217) — Effort _–_ · _Open California_ · created `10:32`
-- [Bank account for Doro Health of California](https://app.asana.com/0/0/1214413207927085) — Effort _–_ · _Open California_ · created `10:34`
-- [Test CA address works](https://app.asana.com/0/0/1214413270212693) — Effort _–_ · _Open California_ · created `10:41`
-- [Confirm CA PC filing fees/steps w/ Alexis; prep check/mailing for Jake](https://app.asana.com/0/0/1214419027895881) — Effort _–_ · _(no project)_ · created `10:58`
-- [Set up separate Doro Health CA PC bank account](https://app.asana.com/0/0/1214419027895883) — Effort _–_ · _(no project)_ · created `10:58`
-- [Make CA launch board public; share w/ Milestone Jam; ask pre-read; set June limited/July GA; start waitlist](https://app.asana.com/0/0/1214419027895885) — Effort _–_ · _(no project)_ · created `10:58` _(closed same day)_
-- [Identify and onboard additional support for NP adoption/ops](https://app.asana.com/0/0/1214428498214381) — Effort _–_ · _(no project)_ · created `13:12` _(closed same day)_
-- [Moderator's spam report for undeliverable@doromind.com](https://app.asana.com/0/0/1214441921856303) — Effort _–_ · _Founders Backlog_ · created `15:03` _(closed same day)_
-- [Ensure Launch Care plan has owners & dates; prep for Thu check-in](https://app.asana.com/0/0/1214442961125707) — Effort _–_ · _(no project)_ · created `15:50` _(closed same day)_
+### New tasks (14)
+- [Test CA address works](https://app.asana.com/0/0/1214720382541296) — Effort **–** · _Open California_ · created `10:41`
+- [Detected Potential Security Vulnerabilities in Your Application](https://app.asana.com/0/0/1214770226583887) — Effort **–** · _Founders Backlog_ · created `07:30` _(today)_
+- [Detected Potential Security Vulnerabilities in Your Application](https://app.asana.com/0/0/1214770110084083) — Effort **–** · _Founders Backlog_ · created `07:28` _(today; possible dup of above)_
+- [Confirm CA PC filing fees/steps w/ Alexis; prep check/mailing for Jake](https://app.asana.com/0/0/1214743858142653) — Effort **–** · _–_ · created `10:58`
+- [Set up separate Doro Health CA PC bank account](https://app.asana.com/0/0/1214743730041364) — Effort **–** · _–_ · created `10:58`
+- [Bank account for Doro Health of California](https://app.asana.com/0/0/1214720382541283) — Effort **–** · _Open California_ · created `10:34`
+- [Configuring payment](https://app.asana.com/0/0/1214720269568781) — Effort **–** · _Open California_ · created `10:32`
+- [Sign Bill Wickline NDA and send Western Alliance diligence docs (w/ Mimi)](https://app.asana.com/0/0/1214738505896844) — Effort **5** · _Founders Backlog_ · created `09:01` _(draft saved — see below)_
+- [Reply to David Chang re: app.doromind.co signup task in onboarding template](https://app.asana.com/0/0/1214738578860842) — Effort **1** · _Founders Backlog_ · created `09:01`
+- _(plus 5 same-day created-and-closed tasks — see Closed below)_
 
 ### Closed since 2026-05-12 (12)
-- [[Duplicate] Update Rippling: switch hourly managers to Kate; keep Beth under Minna; verify May 8](https://app.asana.com/0/0/...) — Effort **3** · completed `07:03`
-- [[Duplicate] Pause Colleen's Equity](https://app.asana.com/0/0/...) — Effort _–_ · _Founders Backlog_ · completed `07:03`
-- [Send second welcome email](https://app.asana.com/0/0/...) — Effort **1** · _Matt Montanez Onboarding_ · completed `07:04`
-- [Confirm that SimpleMDM deploy works](https://app.asana.com/0/0/...) — Effort **2** · completed `07:16`
-- [CodeMagic (Alex offboarding)](https://app.asana.com/0/0/...) — Effort **3** · _[Alex] Offboarding_ · completed `12:37`
-- [Make CA launch board public; share w/ Milestone Jam; ask pre-read; set June limited/July GA; start waitlist](https://app.asana.com/0/0/1214419027895885) — Effort _–_ · completed `12:38`
-- [[Duplicate] Resolve Cursor payment failure (Visa 3445)](https://app.asana.com/0/0/1214380107517397) — Effort **2** · _Founders Backlog_ · completed `12:40`
-- [Gather documents for small business certification renewal](https://app.asana.com/0/0/...) — Effort **3** · completed `13:10`
-- [Send welcome email (Lindsey Schupp onboarding)](https://app.asana.com/0/0/...) — Effort **1** · _Onboarding Task [Lindsey Schupp]_ · completed `14:37`
-- [Identify and onboard additional support for NP adoption/ops](https://app.asana.com/0/0/1214428498214381) — Effort _–_ · completed `14:59`
-- [Moderator's spam report for undeliverable@doromind.com](https://app.asana.com/0/0/1214441921856303) — Effort _–_ · _Founders Backlog_ · completed `15:42`
-- [Ensure Launch Care plan has owners & dates; prep for Thu check-in](https://app.asana.com/0/0/1214442961125707) — Effort _–_ · completed `16:42`
+- [Send welcome email](https://app.asana.com/0/0/1214716053792355) — Effort **1** · completed `14:37`
+- [CodeMagic](https://app.asana.com/0/0/1214643353553639) — Effort **3** · completed `12:37`
+- [[Duplicate] Pause Colleen's Equity](https://app.asana.com/0/0/1214610728816331) — Effort **–** · completed `07:03`
+- [Gather documents for small business certification renewal](https://app.asana.com/0/0/1214392647709623) — Effort **3** · completed `13:10`
+- [Send second welcome email](https://app.asana.com/0/0/1214557797618714) — Effort **1** · completed `07:04`
+- [[Duplicate] Update Rippling: switch hourly managers to Kate; keep Beth under Minna; verify May 8](https://app.asana.com/0/0/1214620978487881) — Effort **3** · completed `07:03`
+- [Ensure Launch Care plan has owners & dates; prep for Thu check-in](https://app.asana.com/0/0/1214753085556912) — Effort **–** · completed `16:42`
+- [Moderator's spam report for undeliverable@doromind.com](https://app.asana.com/0/0/1214752146831573) — Effort **–** · completed `15:42`
+- [Identify and onboard additional support for NP adoption/ops](https://app.asana.com/0/0/1214748683621241) — Effort **–** · completed `14:59`
+- [[Duplicate] Resolve Cursor payment failure (Visa 3445)](https://app.asana.com/0/0/1214738483144794) — Effort **2** · completed `12:40`
+- [Make CA launch board public; share w/ Milestone Jam; ask pre-read; set June limited/July GA; start waitlist](https://app.asana.com/0/0/1214743741069964) — Effort **–** · completed `12:38`
+- [Confirm that SimpleMDM deploy works](https://app.asana.com/0/0/1214716053829684) — Effort **2** · completed `07:16`
 
 ## Stock & flow
 
 |              | Count | Effort |
 |--------------|-------|--------|
-| Open now     | 146   | 511    |
-| Added        | +12   | +8     |
-| Completed    | −12   | −15    |
-| **Net**      | 0     | −7     |
+| Open now     | 148   | 511    |
+| Added        | +14   | +8     |
+| Completed    | -12   | -15    |
+| **Net**      | +2    | **-7** |
 
-_(7 open tasks have no Effort estimate — pile is partially unmeasured. 9 of yesterday's 12 new tasks shipped with no Effort, mostly the CA launch / open-California tranche.)_
+_(9 open tasks have no Effort estimate — pile is partially unmeasured.)_
 
-Net: count flat, effort down 7 points. Yesterday cleared more weighted work than it added, but ~75% of the 12 new tasks have no Effort, so the count is the more reliable signal here.
+## Inbox/orient note
+
+- The single `probable_new_work` row from refined.csv — **Mike Farry NIDA EIN confirmation** (Slack `#`) — is **already resolved upstream**. Mike replied to Pam Fleming at NIDA on 2026-05-12 12:59 EDT confirming "93" is the correct EIN prefix and attached a corrected W-9. No Asana task needed; surfaced here so it doesn't keep coming back.
 
 ## Missed since 2026-05-12
 
-### Doro Mind/Catalyst Check-in Meeting · `2026-05-12 16:00` · 45 min
-**Attendees:** [[Mimi]], sramsland@catalysthealthresources.com, lana@fiddleferns.com, lzprincess@comcast.net, rashcroft@sbcglobal.net, cathy.gilbert@ceghealth.com
-**Why missed:** declined (Brady RSVP'd no; Mimi attended)
+### Doro Mind/Catalyst Check-in Meeting · `2026-05-12 16:00 EDT` · 45 min
+**Attendees:** Steve Ramsland, Cathleen Gilbert, Rick Ashcroft, Lana, "lzprincess", [[Mimi]]
+**Why missed:** declined
 **Summary**
-- _Transcript exists at `gs://com-doromind-brichards/fathom-inputs/669093299_1eee621734dd1f1b.json` but the local `gsutil` session needs reauth — run `gcloud auth login` and re-fetch to pull the action items._
-- Recurring bi-weekly check-in; Mimi owns the relationship.
-**Action items:** _pending transcript fetch_
-**Source:** `gs://com-doromind-brichards/fathom-inputs/669093299_1eee621734dd1f1b.json` (auth required)
+- Cigna/EverNorth: pursuing a national contract for a unique arrangement (vs market-by-market). Rick is pulling 2026 Serif state-by-state commercial-lives data to identify target markets (NY, CA, MA, WA).
+- CA market entry needs a dual contracting strategy: counties fund high-acuity SMI/SUD; MCOs fund lower-acuity. Mimi will explore a Kaiser partnership; Cathleen working Carelon contacts (Amy Perlman, Karen Black) for market intel.
+- NY Health First contract is countersigned but post-signing process is unclear — Mimi will ping Nick; Cathleen pursuing a new MetroPlus intro.
+- Vanna Health differentiator: Doro Mind owns clinical outcomes vs Vanna's navigation-only model. Rick using this as ROI angle in Q4 Greg Harris re-engagement.
+- Data anomaly: Cigna state-by-state shows ~650k lives in NY but 0 in CA — likely an entity-name artifact, needs investigation.
+
+**Action items**
+- Cathleen Gilbert: email Mimi Megha's Cigna forms
+- Mimi Liu: email Nick (Health First) re: credentialing/next steps + external comms timing
+- Cathleen Gilbert: email Alicia (MetroPlus) re: intro/meeting
+- Rick Ashcroft: email Shira re: Doro Mind in NY
+- Steve Ramsland: email Mimi DHCS links for CA county-plan mapping
+- Cathleen Gilbert: email Rick CA/NY payer-by-county lives; request EverNorth carve-out review
+
+**Source:** `gs://com-doromind-brichards/fathom-inputs/669093299_1eee621734dd1f1b.json`
+
+### Caregiver Connections at Doro Mind · `2026-05-12 19:00 MDT` · 60 min
+**Why missed:** needsAction (no RSVP); end at 21:00 ET local, after-hours
+**Source:** `no transcript available` (no Fathom match — group meeting hosted by Brittany on Zoom)
 
 ---
 
-### Caregiver Connections at Doro Mind · `2026-05-12 21:00` · 60 min
-**Attendees:** brittany@doromind.com (host); public registrants
-**Why missed:** needsAction (no RSVP, evening external group)
-**Summary:** No Fathom transcript found in the 7-day map.
-**Source:** no transcript available
-
 ## Today's meetings
 
-### `11:30–12:00` Review of Consent & Policies — Ff up Meeting · `brady-doromind-com`
-**Attendees:** kate@doromind.com (unknown — no person note), jessica@doromind.com (unknown), hannah@doromind.com (unknown), minna@doromind.com (declined — unknown)
-**Brady's role:** optional attendee. Likely a 30-min walkthrough/decision check on consent + policy changes Hannah and Kate have been iterating on.
-**Recent context:** No interaction notes link these attendees. Stuff.db shows Kate Douglas pinging Brady about staff contact info (phone vs. preferred number) and CT temp licensure, and Jessica Romeo flagging a lab-results triage issue — both likely policy-adjacent.
-**Open commitments:** none on file.
+### `11:30–12:00` Review of Consent & Policies - Ff up Meeting · `brady-doromind-com`
+**Attendees:** Kate Slemp Douglas (accepted), Jessica Romeo (accepted), Hannah Bock (organizer, accepted), Minna Chan (declined), Keren (creator) — _Brady marked optional_; all are people-candidates (no Atlas/People notes yet)
+
+**Recent context:** Follow-up off a prior consent/policies review session run by Hannah. No related Atlas interactions; consent/policies work has been moving via Hannah's thread.
+
+**Open commitments**
+- Mine → team: none surfaced in vault
+- Theirs → me: none surfaced
+
+**Related projects**
+- _(none linked in vault)_
+
 **Recent threads**
-- 💬 _slack_ Kate Douglas: "are you good with pursuing temp CT licen…" (doromind, 5/12)
-- 💬 _slack_ Kate Douglas: "Two Qs re staff contact information — phone number…" (doromind, 5/12)
-- 💬 _slack_ Jessica Romeo: lab-results flagging triage issue (doromind, 5/12)
-**Prep:** decide whether to attend at all; if you skip, write Hannah a one-liner on which consent items you've signed off on. Read the consent doc Hannah linked before joining.
+- No directly related email/Slack thread in last 14 days under common search terms.
 
 ---
 
 ### `13:00–13:30` Mimi Liu + Omid Nasab (Banc of Cal) · `brady-doromind-com`
-**Attendees:** [[Mimi]] (declined — Brady going solo), chris.kaiser@bancofcal.com, roger.klarmann@bancofcal.com, omid.nasab@bancofcal.com — all unknown / external.
-**Brady's role:** primary. Mimi declined; you are Doro Mind in the room.
-**Recent context:** Yesterday Sooah Cho asked over email whether Western Alliance expressed interest in venture debt, and Bill Wickline (Western Alliance) sent NDA + diligence list (new Asana task: "Sign Bill Wickline NDA and send Western Alliance diligence docs", Effort 5). This Banc of Cal conversation is the parallel banking convo — keep them distinct in your head; do not cross-reference Western Alliance terms.
+**Attendees:** Chris Kaiser (Banc of Cal), Roger Klarmann (Banc of Cal, MD Originations), Omid Nasab (Banc of Cal). **Mimi declined** — Brady is solo with the bankers. Intro originated from Sooah Cho @ SignalFire.
+
+**Recent context:** Sooah Cho intro on 5/4. Roger replied 5/5 to schedule and handed off to Chris/Omid to coordinate. This is the first meeting with the venture banking team — explicit framing is comparing venture debt rates against other providers DoroMind is talking to (Western Alliance is the parallel live conversation; they had their kickoff Mon 5/11 and NDA just landed).
+
 **Open commitments**
-- Mine → them: come with current cash position + a clean ask (operating account + venture debt curiosity).
-**Related projects:** Banc of Cal is part of the broader banking RFP / debt-exploration thread Mimi has been leading; no MOC in vault yet.
+- Theirs → mine: present rates / venture debt offering for DoroMind
+- Mine → them: introduce DoroMind, expected ask, current funding posture
+
+**Related projects**
+- Fundraise / venture debt evaluation (Western Alliance running in parallel — see below)
+
 **Recent threads**
-- ✉️ Sooah Cho (gmail/doromind, 5/12) — asking about Western Alliance venture-debt interest (related signal)
-- ✉️ Bill Wickline (gmail/doromind, 5/12) — NDA + diligence list for Western Alliance (parallel track)
-**Prep:** confirm with Mimi what posture she wants (relationship-build only vs. price-checking debt). Bring the cash-position one-pager. Do not commit to anything on terms.
+- ✉️ "Re: [EXTERNAL] DoroMind & Banc of Cal" (brady-doromind-com, 2026-05-05) — Roger Klarmann confirmed Chris & Omid would coordinate scheduling.
+- _Heads up:_ Mimi is declined; Brady should be ready to carry the conversation alone. Consider whether to re-pitch or push them to send terms upfront given parallel WAB process.
 
 ---
 
 ### `14:00–14:45` Brady / Kate · `brady-doromind-com`
-**Attendees:** kate@doromind.com (unknown — no person note), [[Mimi]] (declined)
-**Brady's role:** primary 1:1 with Kate Slemp Douglas (clinical/operations lead, per Co-locate event metadata).
-**Recent context:** Multiple Kate threads in flight: (1) staff contact info policy, (2) temp CT licensure pursuit, (3) Co-CEO on-call rotation now active through 5/25 per recurring "Brady CEO On Call" event.
+**Attendees:** Kate Slemp Douglas (organizer), Mimi (declined). Recurring 1:1.
+
+**Recent context:** Kate is COO-track / people ops lead at DoroMind (candidate stub in vault). Open commitment to "share working financial model with Kate" (from Mimi note); Kate is the new hourly-staff manager per Rippling switch (closed yesterday). CT provisional licensing guidance task open. Brady/Kate Fathom transcripts exist in older interval.
+
 **Open commitments**
-- Theirs → mine: respond on temp CT licensure direction; respond on staff phone-number policy question.
-- Mine → them (from Mimi's note): "Clarify Karen's role with Mina re: licensing support" — touchpoint to discuss with Kate if relevant.
+- Mine → Kate: share working financial model; send CT provisional licensing guidance (task gid 1214554470653849); coordinate PL Superbill response w/ Kate + Minna (task gid 1214587362892767); draft corporate holiday policy + share for review (task gid 1214718129548195)
+- Theirs → mine: define EA support structure (from Mimi's 1:1 thread)
+
+**Related projects**
+- People ops / CA PC structure (multiple new CA tasks opened yesterday — bank acct, address test, filing fees with Alexis, Jake mailing)
+
 **Recent threads**
-- 💬 _slack_ Kate Douglas: temp CT licensure re-ping (5/12)
-- 💬 _slack_ Kate Douglas: staff phone-number policy Q (5/12)
-**Prep:** come with a yes/no on temp CT licensure and a one-sentence answer on the phone-number question. Use the meeting to align on Lindsey's onboarding (welcome email sent yesterday).
+- _(no priority mail surfaced under "Kate" search; running 1:1 doc is the channel)_
 
 ---
 
 ### `14:45–15:30` Shared Brain Demo + Discussion · `brady-doromind-com`
-**Attendees:** mvh@letsgetdoing.com (external — unknown), jon@doromind.com, jessica@doromind.com, david@doromind.com, [[Mimi]], stephanie@doromind.com, patrick@doromind.com
-**Brady's role:** participant. Cross-team exchange on "shared brain" applications — external party (Let's Get Doing) demoing alongside Doro Mind.
-**Recent context:** No interaction notes link these attendees. Patrick Menard pinged the channel yesterday about an AI company's business model ("80/20, $1B val in 3…") — possibly the same shared-brain space.
-**Open commitments:** none on file specific to this meeting.
+**Attendees:** Jon (accepted), Jessica Romeo (accepted), David Chang (accepted), [[Mimi]] (organizer), Stephanie Greer (accepted), Patrick Menard (accepted), mvh@letsgetdoing.com (unknown — needsAction)
+
+**Recent context:** Demo exchange on shared-brain applications between DoroMind and mvh@letsgetdoing.com. Rescheduled from 5/11 to 5/13 (Mimi sent updated invite 5/5). No prior interaction notes; unknown participant: **mvh@letsgetdoing.com** — flag for `/people-sync` to stage a candidate. "Let's Get Doing" organization is unknown to vault.
+
+**Open commitments**
+- _(none surfaced)_
+
+**Related projects**
+- AI/Shared Brain internal product work (Doro Mind side); Connect product huddle ran 5/12
+
 **Recent threads**
-- 💬 _slack_ Patrick Menard: AI co. business model question (5/12) — adjacent context
-**Prep:** be ready to demo whatever you'd call the Doro Mind "shared brain" (likely this OpenBrain + Asana pipeline, or the workbench dashboards). Decide ahead of time whether you're showing the public-facing artifact or the internal LYT vault. Bring a question for mvh@letsgetdoing.com about how they're handling permissioning.
+- ✉️ Updated invitation 2026-05-05 (Mimi) — meeting rescheduled to 5/13 2:45–3:30 ET. No body discussion in email; demo content lives elsewhere.
+
+---
+
+## Drafted replies & next-step emails
+
+- ✉️ Bill Wickline (Western Alliance) — Re: *** EXTERNAL *** Re: Portco intro? · gmail draft `r4494826894207105604` · `brady-doromind-com` _(source: task [Sign Bill Wickline NDA and send Western Alliance diligence docs (w/ Mimi)](https://app.asana.com/0/0/1214738505896844))_
+
+_(Review and send from Gmail. Drafts are not sent automatically.)_
+
+**Not drafted, surfaced for action:**
+- David Chang re: app.doromind.co signup in onboarding template (task gid 1214738578860842) — no recent inbound thread found to anchor a reply; needs a fresh outbound. Pull the original ask and draft manually, or feed `/follow-up-draft` with the thread.
 
 ## Focus suggestion
 
-The 13:00 Banc of Cal call is the highest-leverage hour today — Mimi declined, you're solo, and it's an external banking relationship that affects the Western Alliance venture-debt track Bill Wickline just opened. Spend the morning catch-up block prepping a clean cash-position one-pager and aligning with Mimi by Slack before noon. Everything else (Kate 1:1, Shared Brain demo, optional consent meeting) is internal and recoverable.
+Walk into the Banc of Cal call at 13:00 prepared to drive alone (Mimi declined) — frame DoroMind for venture debt, ask for indicative terms, and reserve room for the 14:45 Shared Brain demo where you're the host alongside the let's-get-doing guest. Everything else is operational.
