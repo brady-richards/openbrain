@@ -61,9 +61,9 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
       ...
       ```
 
-   5. **Email next step.** If the task name, notes, or questions suggest the immediate next action is sending an email (e.g. "email X about Y", "follow up with", "send proposal", "reach out"), draft that email via `mcp__superhuman__create_or_update_draft`. Use the correct work account where applicable. Subject from context; body should be concise and match your voice (see CLAUDE.md §6). Include a note in the Asana comment: `📧 Draft email saved in Superhuman — review before sending.`
+   5. **Email next step.** If the task name, notes, or questions suggest the immediate next action is sending an email (e.g. "email X about Y", "follow up with", "send proposal", "reach out"), draft that email via `google_gmail_draft_email` on the matching `google_*` MCP. Use the correct account; set `threadId` + `inReplyTo` when replying within an existing thread. Subject from context; body should be concise and match your voice (see CLAUDE.md §6). Include a note in the Asana comment: `📧 Draft email saved in Gmail — review before sending.`
 
-   **Parallelization:** fan out all `asana_get_task` reads in one block, then fan out all `asana_create_task_story` writes and `mcp__superhuman__create_or_update_draft` calls in the next block after reads complete.
+   **Parallelization:** fan out all `asana_get_task` reads in one block, then fan out all `asana_create_task_story` writes and `google_gmail_draft_email` calls in the next block after reads complete.
 
 5. **Stale relationships.** Grep `+ Atlas/People/*.md` for notes whose `last_contact` is older than their `cadence` allows (weekly: > 7d, monthly: > 30d, quarterly: > 90d, asneeded: never stale). Cap at 5.
 

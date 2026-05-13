@@ -22,27 +22,41 @@ Three-phase pipeline that turns raw signals (Slack, email, Messages) into an ori
 
 > **Why subagents.** Each phase fires 50–300+ tool calls and reads heavy bodies (email, transcripts, threads). Running them in this skill's context would bloat it past usefulness by phase 3. Spawn a subagent per phase so each starts clean.
 
-1. **Prep.** `mkdir -p "+ Inbox/orient/$DATE"`. Confirm the directory exists before spawning anything.
+1. **Preflight — fail fast on broken tools.** Before spawning any subagent, ping every external system /orient depends on with one cheap read each. Run all of these in parallel in a single tool-use block:
+   - Each `google_*` MCP: `google_calendar_list_calendars` (proves Gmail/Calendar OAuth is alive)
+   - Each `slack_*` MCP: `slack_<slug>_channels_list` with `limit: 1`
+   - `asana_work`: `asana_get_my_tasks` with `limit: 1`
+   - `fathom`: `fathom_list_teams` (if configured)
+   - `messages`: `messages_list_contacts` with `limit: 1`
 
-2. **Phase 1 — gather.** Spawn a subagent:
+   For each failure, capture the tool name and error. If **any** call errors (auth expired, MCP not connected, network), stop immediately and report to the user:
+   - Which tools failed and the error message
+   - What to do (e.g. "re-auth `gcal_brady_doromind_com` via `claude mcp` or the OAuth flow")
+   - Do **not** proceed to phase 1 — partial inputs produce a misleading orientation.
+
+   Only continue if every preflight call returned successfully.
+
+2. **Prep.** `mkdir -p "+ Inbox/orient/$DATE"`. Confirm the directory exists before spawning anything.
+
+3. **Phase 1 — gather.** Spawn a subagent:
    - `subagent_type`: `general-purpose`
    - `description`: "Gather potential work"
    - `prompt`: "Run the `/gather-work` skill for $DATE. Output goes to `+ Inbox/orient/$DATE/capture.csv`. Report the row count and any channels that returned zero results when you finish."
    Wait for completion before proceeding.
 
-3. **Phase 2 — refine.** Spawn a subagent:
+4. **Phase 2 — refine.** Spawn a subagent:
    - `subagent_type`: `general-purpose`
    - `description`: "Refine captured work"
    - `prompt`: "Run the `/refine-work` skill for $DATE. Input is `+ Inbox/orient/$DATE/capture.csv`. Output goes to `+ Inbox/orient/$DATE/refined.csv`. Report what was dropped, merged, or rewritten."
    Wait for completion.
 
-4. **Phase 3 — orient.** Spawn a subagent:
+5. **Phase 3 — orient.** Spawn a subagent:
    - `subagent_type`: `general-purpose`
    - `description`: "Produce orientation"
    - `prompt`: "Run the `/brief-me` skill for $DATE. Input is `+ Inbox/orient/$DATE/refined.csv`. Output goes to `+ Inbox/orient/$DATE/orientation.md`. Return the orientation summary."
    Wait for completion.
 
-5. **Report.** Echo the path to `orientation.md` and a one-paragraph summary drawn from the phase 3 subagent's return value. Do not re-summarize from the CSV — trust the phase 3 output.
+6. **Report.** Echo the path to `orientation.md` and a one-paragraph summary drawn from the phase 3 subagent's return value. Do not re-summarize from the CSV — trust the phase 3 output.
 
 ## Notes
 
