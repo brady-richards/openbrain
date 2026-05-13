@@ -28,6 +28,7 @@ Three-phase pipeline that turns raw signals (Slack, email, Messages) into an ori
    - `asana_work`: `asana_get_my_tasks` with `limit: 1`
    - `fathom`: `fathom_list_teams` (if configured)
    - `messages`: `messages_list_contacts` with `limit: 1`
+   - `gcloud` / `gsutil` (needed by `/brief-me` to fetch Fathom transcripts from GCS): `Bash: gcloud auth print-access-token >/dev/null 2>&1 && gsutil ls gs:// >/dev/null 2>&1` — fails if no active credentialed account or `gsutil` isn't on `PATH`. On failure, instruct the user to run `gcloud auth login` (or `gcloud auth application-default login` for ADC).
 
    For each failure, capture the tool name and error. If **any** call errors (auth expired, MCP not connected, network), stop immediately and report to the user:
    - Which tools failed and the error message
