@@ -7,6 +7,16 @@ description: Phase 1 of /orient. Read unclassified rows from data/stuff.db and f
 
 ## Procedure
 
+### Step 0 — Refresh upstream pulls
+
+Before classifying, refresh both inputs from the upstream puller. Run from the vault root:
+
+```bash
+cd ~/repos/puller && dotenv run -- ./pull.py --after 1d --sqlite ../openbrain/data/stuff.db && dotenv run -- ./asana_pull.py --since 1d --csv >! ../openbrain/data/asana.csv
+```
+
+`pull.py` appends new rows into `data/stuff.db`; `asana_pull.py` overwrites `data/asana.csv` with the latest Asana snapshot used by `/refine-work`. If either command exits non-zero, stop and surface the error — do not proceed to classification with stale data.
+
 ## Classify potential work
 
 ### Tool budget

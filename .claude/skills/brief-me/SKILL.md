@@ -116,7 +116,33 @@ For every remaining event, run the `/meeting-prep` procedure inline (see `.claud
 
 **Parallelization within the meeting set:** issue all read calls (person note reads, interaction greps, Gmail/Slack searches, project MOC reads) across all meetings in a single fan-out block. Compose per-meeting briefings only after the reads complete.
 
-### 5. Assemble `orientation.md`
+### 5. Draft replies & next-step emails
+
+Email and Slack drafting is owned by this phase (moved out of `/daily-brief`). Two sources of drafts:
+
+**A. Task next-step emails.** Walk the **open tasks** set from step 1 (not the new tasks — every open task). For each task where the name, notes, or pending questions imply the immediate next action is sending an email (e.g. "email X about Y", "follow up with", "send proposal", "reach out", "ping <name>"), draft that email via `google_gmail_draft_email` on the matching `google_*` MCP. Use the correct account; set `threadId` + `inReplyTo` when replying within an existing thread (look up via `google_gmail_search_emails` with the counterparty's address). Subject from context; body concise, matching the user's voice (CLAUDE.md §6). Post a comment on the Asana task via `asana_create_task_story`: `📧 Draft email saved in Gmail — review before sending. <gmail-draft-permalink-or-id>`.
+
+**B. Actionable inbound threads.** Sweep priority mail and Slack mentions (this skill normally doesn't, so do a focused pass here):
+
+- For each `google_*` MCP: `google_gmail_search_emails` with `is:unread newer_than:2d (is:important OR is:starred OR label:^iim)`. Cap 10 per account.
+- For each `slack_*` MCP: `slack_<slug>_my_mentions` + `slack_<slug>_conversations_unreads` with `limit: 200`. Cap 10.
+
+Skip: `guides@` FYI threads, observer-only threads, automated notifications (Asana digests, Dependabot, commercial mailing lists), and items already covered by a closed Asana task referencing the same thread ID/subject (see memory `feedback_priority_mail_asana_crossref`).
+
+For each remaining actionable item:
+
+1. **Gather context.** Read the full thread via `google_gmail_read_email` (or `slack_<slug>_conversations_replies`). Check `+ Atlas/People/` for the sender's note — pull open commitments and recent interactions.
+2. **Compose draft.** Match the user's voice. Lead with the ask or the answer. Email subject `Re: <original>`. **Email formatting:** each paragraph is a single unbroken line; only blank lines (`\n\n`) between paragraphs — never `\n` inside a paragraph. Greeting starts with "Hey [Name]," (see memory `feedback_email_greeting`).
+3. **Save draft.**
+   - Email: `google_gmail_draft_email` on the matching MCP with `threadId` + `inReplyTo` set.
+   - Slack: `mcp__claude_ai_Slack__slack_send_message_draft` with `channel_id` + `thread_ts` if replying in-thread (the one approved use of the deprecated connector — see CLAUDE.md §9).
+4. **Log vault trail.** If the sender resolved to a person note, append a bullet under its `## Threads` section: `- <date> · drafted follow-up (<channel>:<draft-id>) — <one-line gist>`. Do NOT update `last_contact` — a draft is not a touchpoint.
+
+**Parallelization:** fan out all Gmail/Slack reads in one block, then fan out all draft writes + Asana comment writes in the next block.
+
+Track drafts in a list to surface in step 6 — one entry per draft: `(channel, person-or-counterparty, subject-or-gist, draft-id, account-slug, source-task-gid-if-any)`.
+
+### 6. Assemble `orientation.md`
 
 Write `+ Inbox/orient/$DATE/orientation.md` with this structure (omit sections that are empty):
 
@@ -187,12 +213,20 @@ _(M open tasks have no Effort estimate — pile is partially unmeasured.)_
 ### `HH:MM–HH:MM` <Next Meeting> · ...
 (repeat per meeting)
 
+## Drafted replies & next-step emails
+
+- ✉️ [[Person]] — Re: Subject · gmail draft `<draft-id>` · `<account>` _(source: task [Task Name](permalink) — optional)_
+- 💬 [[Person]] — Slack draft in `#channel` · `<workspace>` — <one-line gist>
+- ...
+
+_(Review and send from Gmail / Slack. Drafts are not sent automatically.)_
+
 ## Focus suggestion
 
 <single line drawing on new tasks + meeting load — what one thing matters most today>
 ```
 
-### 6. Report
+### 7. Report
 
 Echo the path to the written file and a one-paragraph summary: total new tasks, net effort delta, number of meetings prepped. Do not paste the file body back into chat.
 

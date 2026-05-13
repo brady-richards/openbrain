@@ -61,31 +61,13 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
       ...
       ```
 
-   5. **Email next step.** If the task name, notes, or questions suggest the immediate next action is sending an email (e.g. "email X about Y", "follow up with", "send proposal", "reach out"), draft that email via `google_gmail_draft_email` on the matching `google_*` MCP. Use the correct account; set `threadId` + `inReplyTo` when replying within an existing thread. Subject from context; body should be concise and match your voice (see CLAUDE.md §6). Include a note in the Asana comment: `📧 Draft email saved in Gmail — review before sending.`
+   **Email drafting is owned by `/orient` (Phase 3 / `/brief-me`).** Do not draft emails here even if the task's next step is one — just surface the task so `/brief-me` can pick it up.
 
-   **Parallelization:** fan out all `asana_get_task` reads in one block, then fan out all `asana_create_task_story` writes and `google_gmail_draft_email` calls in the next block after reads complete.
+   **Parallelization:** fan out all `asana_get_task` reads in one block, then fan out all `asana_create_task_story` writes in the next block after reads complete.
 
 5. **Stale relationships.** Grep `+ Atlas/People/*.md` for notes whose `last_contact` is older than their `cadence` allows (weekly: > 7d, monthly: > 30d, quarterly: > 90d, asneeded: never stale). Cap at 5.
 
 6. **People detection pass.** From the calendar attendees + priority mail senders/recipients + Slack counterparties gathered in steps 1–3, check each identifier against `+ Atlas/People/*.md` frontmatter (`emails`, `slack`, `title`, `aliases`). Unknown humans (after filtering no-reply/bots/resources per `/people-sync` rules) become a **New faces** candidate list — do not stage stubs from this skill; just surface them. Recommend `/people-sync` if the list is non-empty.
-
-6b. **Draft replies for actionable threads.** After steps 1–6, draft responses for "Needs a reply" items where the user is the next actor. Skip:
-
-   - Items classified as `Delegated / FYI` (care team, ops auto-alerts)
-   - Observer-only threads
-   - Automated notifications (Asana digests, Dependabot, commercial mailing lists)
-
-   For each actionable item:
-
-   1. **Resolve account + thread.** Use the `google_*` MCP that surfaced the message (from step 2), or the `slack_*` workspace (from step 3).
-   2. **Gather context.** Read the full thread via `google_gmail_read_email` on the matching `google_*` MCP (using the message ID from step 2). Check `+ Atlas/People/` for the sender's person note — pull open commitments, recent interactions, and relationship context. For Slack, read the thread via `slack_<slug>_conversations_replies`.
-   3. **Compose draft.** Match the user's voice (see CLAUDE.md §6). Lead with the ask or the answer. For email: use `Re: <original subject>`. For Slack: no subject. **Email formatting:** write each paragraph as a single unbroken line; only use blank lines (`\n\n`) between paragraphs — never `\n` inside a paragraph (Gmail preserves hard breaks and renders a narrow column).
-   4. **Save draft.**
-      - **Email:** `google_gmail_draft_email` on the matching `google_*` MCP with `threadId` + `inReplyTo` set so it appears as an in-thread reply.
-      - **Slack:** `mcp__claude_ai_Slack__slack_send_message_draft` with `channel_id` + `thread_ts` if replying in-thread. (This is the one approved use of the deprecated connector — see CLAUDE.md §9.)
-   5. **Log vault trail.** If the sender resolved to a person note, append a bullet under its `## Threads` section: `- <date> · drafted follow-up (<channel>:<draft-id>) — <one-line gist>`. Do NOT update `last_contact` — a draft is not a touchpoint.
-
-   **Parallelization:** fan out all `google_gmail_read_email` / thread-read calls in one tool-use block, then fan out all `google_gmail_draft_email` / `slack_send_message_draft` calls in the next block.
 
 7. **Compose the daily note.** If `+ Atlas/Daily/<date>.md` does not exist, scaffold from `+ Extras/Templates/Daily.md`. If a `## Morning brief` section already exists in the note, **replace its body in place** (find the `## Morning brief` heading and overwrite everything up to the next H2 or EOF). Otherwise insert a new `## Morning brief` section near the top. Contents:
 
@@ -94,7 +76,6 @@ Assemble the user's daily briefing for today (or a date passed as `$1`). Creates
    - **Missed meetings** (from step 1c — meetings you were invited to but did not attend, with Fathom summaries if available; omit section if empty)
    - **Needs a reply** (mail + Slack, grouped by account/workspace)
    - **Unanswered SMS** (from step 3b — sender, truncated message, days waiting; omit section if empty)
-   - **Drafted replies** — list of drafts saved in step 6b. One bullet per draft: `- ✉️ [[Person]] — Re: Subject · gmail draft <draft-id> · <account>` (or `💬` for Slack). Include a footer: `_(Review and send from Gmail / Slack. Drafts are not sent automatically.)_`. Omit the section if no drafts were generated (all items were delegated/FYI).
    - **Overdue in Asana**
    - **Effort comments posted** (from step 4b — one bullet per task: `- [Task Name](<permalink>) — estimated **X**, comment posted`)
    - **People past cadence** (link with `[[wikilinks]]`)
