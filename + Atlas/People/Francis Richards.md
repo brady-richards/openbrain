@@ -1,14 +1,18 @@
 ---
-title: Francis Richards
-aliases: []
-emails: [rickarichards@gmail.com]
+title: Francis "Rick" Richards
+aliases:
+  - Rick
+emails:
+  - rickarichards@gmail.com
 slack: []
 phones: []
-relationship: []
-cadence: asneeded
+relationship:
+  - father
+cadence: weekly
 last_contact: 2026-04-19
 created: 2026-04-18
-tags: [person, needs-review, stub]
+tags:
+  - person
 workspace: personal
 ---
 

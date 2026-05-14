@@ -1,21 +1,27 @@
 ---
 title: Kate Slemp Douglas
 aliases: []
-emails: [kaslemp@gmail.com, kate@doromind.com]
+emails:
+  - kaslemp@gmail.com
+  - kate@doromind.com
 slack: []
 phones: []
-relationship: []
+relationship:
+  - report
 cadence: asneeded
 last_contact: 2026-05-12
 created: 2026-04-13
-tags: [person, needs-review, stub]
+tags:
+  - person
 workspace: work
 ---
 
 # Kate Slemp Douglas
 
 ## Context
-<!-- Auto-staged by /people-sync on 2026-04-13. Review before promoting to + Atlas/People/. -->
+As Chief Operating Operator at Doro Mind, Kate holds broad responsibility for the morale, cost, and effectiveness of our care teams. All Guides and NPs report to her. She's currently onboarding, transitioning responsibility from Minna Chan. Her key focus for the next twelve months is reducing cost to serve.
+
+She's also working on a special project to get our NPs licensed in CT and NJ.
 
 ## Evidence
 - gmail-brady-doromind-com · 2026-04-13 · "Re: Checking in" — replied to Brady's outreach

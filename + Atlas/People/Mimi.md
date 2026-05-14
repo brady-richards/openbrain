@@ -1,15 +1,19 @@
 ---
 title: Mimi
 aliases: []
-emails: [mimi@doromind.com]
+emails:
+  - mimi@doromind.com
 slack: []
 phones: []
 birthday:
-relationship: [work]
-cadence: weekly
+relationship:
+  - work
+  - peer
+cadence: every-other-day
 last_contact: 2026-05-12
 created: 2026-04-20
-tags: [person]
+tags:
+  - person
 ---
 
 # Mimi

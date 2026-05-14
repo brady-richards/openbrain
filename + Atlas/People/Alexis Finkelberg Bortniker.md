@@ -1,14 +1,17 @@
 ---
 title: Alexis Finkelberg Bortniker
 aliases: []
-emails: [abortniker@cooley.com]
+emails:
+  - abortniker@cooley.com
 slack: []
 phones: []
-relationship: []
+relationship:
+  - legal counsel
 cadence: asneeded
 last_contact: 2026-05-11
 created: 2026-05-12
-tags: [person, needs-review, stub]
+tags:
+  - person
 workspace: work
 ---
 

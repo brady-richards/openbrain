@@ -10,27 +10,27 @@ _(Compared against 2026-05-13 — Wednesday)_
 
 ## What landed since 2026-05-13
 
-### New tasks (7)
-- [Review OOO Policy/SOP](https://app.asana.com/0/0/1214775915609870) — Effort **—** · _(no project)_ · created `10:36`
-- [🟡 CA Professional Corporation (Doro Health of California)](https://app.asana.com/0/0/1214773220503132) — Effort **—** · _Product Backlog_ · created `09:07`
+### New tasks (5)
 - [🟢 Funnel valuation dashboard](https://app.asana.com/0/0/1214773220139343) — Effort **—** · _Product Backlog_ · created `09:07`
-- [Detected Potential Security Vulnerabilities in Your Application](https://app.asana.com/0/0/1214770110084083) — Effort **—** · _Founders Backlog_ · created `07:28` _(auto-closed same day; GitHub security alert)_
-- [[Duplicate] Detected Potential Security Vulnerabilities in Your Application](https://app.asana.com/0/0/1214770226583887) — Effort **—** · _Founders Backlog_ · created `07:30` _(auto-closed; dupe)_
-- [@Brady @Mimi @Dhanica I did some research and I do think we need the report for...](https://app.asana.com/0/0/1214789780964859) — Effort **—** · _(no project)_ · created `17:49` _(Slack autocapture — dupe)_
-- [@Brady @Mimi @Dhanica I did some research and I do think we need the report for...](https://app.asana.com/0/0/1214789683799855) — Effort **—** · _(no project)_ · created `17:49` _(Slack autocapture — dupe)_
+- [🟡 CA Professional Corporation (Doro Health of California)](https://app.asana.com/0/0/1214773220503132) — Effort **—** · _Product Backlog_ · created `09:07`
+- [Review OOO Policy/SOP](https://app.asana.com/0/0/1214775915609870) — Effort **—** · _no project_ · created `10:36`
+- [@Brady @Mimi @Dhanica I did some research and I do think we need the report for…](https://app.asana.com/0/0/1214789683799855) — Effort **—** · _no project_ · created `17:49`
+- [@Brady @Mimi @Dhanica I did some research and I do think we need the report for…](https://app.asana.com/0/0/1214789780964859) — Effort **—** · _no project_ · created `17:49`
+
+_(2 additional tasks were opened and closed within the same window — excluded here; counted in closed/Effort math below.)_
 
 ### Closed since 2026-05-13 (11)
-- [Re-evaluate repriced grants cash bridge; update Mimi](https://app.asana.com/0/0/1214500853849496) — Effort **5** · completed `15:09`
+- [[Duplicate] Detected Potential Security Vulnerabilities in Your Application](https://app.asana.com/0/0/1214770226583887) — Effort **—** · completed `08:26` _(intraperiod)_
 - [Publish board slides to Underscore/SignalFire](https://app.asana.com/0/0/1214707082818951) — Effort **2** · completed `10:11`
-- [Add user to Carta](https://app.asana.com/0/0/1214716290219684) — Effort **2** · _Onboarding Task [Lindsey Schupp]_ · completed `10:20`
-- [Email Alexis re: CA PC/supervision timeline; ask if backup needed for Jun 1](https://app.asana.com/0/0/1214546019084343) — Effort **1** · completed `15:11`
-- [Confirm to Rob Laitman whether anyone is joining the NAMIWalks walk](https://app.asana.com/0/0/1214715987274685) — Effort **1** · _Founders Backlog_ · completed `13:30`
-- [Reply to David Chang re: app.doromind.co signup task in onboarding template](https://app.asana.com/0/0/1214738578860842) — Effort **1** · _Founders Backlog_ · completed `13:29`
-- [Update GitHub Enterprise card-on-file before retry exhaustion](https://app.asana.com/0/0/1214710920066147) — Effort **1** · _Founders Backlog_ · completed `10:27`
-- [Raise Anthropic/Claude monthly spending limit to avoid throttling](https://app.asana.com/0/0/1214713075707302) — Effort **1** · _Founders Backlog_ · completed `10:25`
+- [Add user to Carta](https://app.asana.com/0/0/1214716290219684) — Effort **2** · completed `10:20`
+- [Raise Anthropic/Claude monthly spending limit to avoid throttling](https://app.asana.com/0/0/1214713075707302) — Effort **1** · completed `10:25`
+- [Update GitHub Enterprise card-on-file before retry exhaustion](https://app.asana.com/0/0/1214710920066147) — Effort **1** · completed `10:27`
+- [Reply to David Chang re: app.doromind.co signup task in onboarding template](https://app.asana.com/0/0/1214738578860842) — Effort **1** · completed `13:29`
+- [Confirm to Rob Laitman whether anyone is joining the NAMIWalks walk](https://app.asana.com/0/0/1214715987274685) — Effort **1** · completed `13:30`
 - [[Duplicate] Set up separate Doro Health CA PC bank account](https://app.asana.com/0/0/1214743730041364) — Effort **—** · completed `14:54`
-- [Detected Potential Security Vulnerabilities in Your Application](https://app.asana.com/0/0/1214770110084083) — Effort **—** · _Founders Backlog_ · completed `15:56`
-- [[Duplicate] Detected Potential Security Vulnerabilities in Your Application](https://app.asana.com/0/0/1214770226583887) — Effort **—** · _Founders Backlog_ · completed `08:26`
+- [Re-evaluate repriced grants cash bridge; update Mimi](https://app.asana.com/0/0/1214500853849496) — Effort **5** · completed `15:09`
+- [Email Alexis re: CA PC/supervision timeline; ask if backup needed for Jun 1](https://app.asana.com/0/0/1214546019084343) — Effort **1** · completed `15:11`
+- [Detected Potential Security Vulnerabilities in Your Application](https://app.asana.com/0/0/1214770110084083) — Effort **—** · completed `15:56` _(intraperiod)_
 
 ## Stock & flow
 
@@ -41,136 +41,103 @@ _(Compared against 2026-05-13 — Wednesday)_
 | Completed    | -11   | -14    |
 | **Net**      | -4    | -14    |
 
-_(11 open tasks have no Effort estimate — pile is partially unmeasured. All 7 new tasks landed without effort — 4 are auto-captured duplicates or Slack-mention noise, 2 are real product items.)_
+_(11 of 140 open tasks have no Effort estimate — pile is partially unmeasured. None of the 7 new tasks carry an Effort estimate yet.)_
 
 ## Missed since 2026-05-13
 
-### Co-locate/Co-labor Day · `2026-05-13 all-day` · in-person Auburndale MA
-**Attendees:** David (host), Jon, Brian, Mimi, Miguel, Kate, Engineering@
-**Why missed:** needsAction — physical event at David's house in MA; Brady is in Brooklyn
-**Summary:** No transcript expected (informal co-working day, not a meeting). Sync with David or Jon in standup if anything material came out of it.
-**Source:** _no transcript available_
-
-_(All other May 13 invites where Brady was attendee show responseStatus=accepted; assumed attended.)_
+_No missed meetings to report. Brady RSVP'd accepted to every Wednesday meeting where a Fathom transcript exists (Mimi Liu + Omid Nasab, Review of Consent & Policies, Shared Brain Demo + Discussion, Jake + Doro Mind). The Co-locate/Co-labor Day event is filtered (in-person)._
 
 ## Today's meetings
 
 ### `10:00–10:15` BM + Dhanica | Daily Stand-Up · `brady-doromind-com`
-**Attendees:** Dhanica, [[Mimi]]
-**Note:** Routine daily standup — full prep skipped per skill rules.
+**Attendees:** [[Mimi]], Dhanica (unknown — no person note)
+
+**Recent context:** Routine recurring stand-up. Yesterday Dhanica raised Athena payment-method updates for Minna/Stephanie, asked about Celonis billing, and proposed a 6 PM-onwards sync.
+
+**Open commitments**
+- Theirs → mine: Athena account payment update direction (Minna/Stephanie); Celonis charge clarification.
+- Mine → them: Confirm whether Brady can do a 6 PM-onwards meeting with Mimi.
 
 ---
 
 ### `10:15–10:45` Brady + Mimi · `brady-doromind-com`
 **Attendees:** [[Mimi]]
 
-**Recent context:** Last touch 2026-05-12. Yesterday's 1:1 was rescheduled to 14:30–14:45 (truncated). Running 1:1 doc: [link](https://docs.google.com/document/d/1nYFN1nTPGl12EqILjf5Z4GJJA7KNwD3gzqYnSgwSX_8/edit).
+**Doc:** [Brady + Mimi running notes](https://docs.google.com/document/d/1nYFN1nTPGl12EqILjf5Z4GJJA7KNwD3gzqYnSgwSX_8/edit)
+
+**Recent context:** Yesterday's Mimi threads: venture-debt call divvy this week (she offered to take one), website-down ping (Stephanie loop), Matt password reset using Gmail account, NAMICon clozapine showcase forecast, Patrick Menard's loop-in. Mimi declined Mimi + Omid Nasab (BancofCal) — Brady covered.
 
 **Open commitments**
-- Mine → Mimi: Revise OKR narrative; clarify Karen's role w/ Mina on licensing; share working financial model with Kate; confirm Medicare opt-out + group NPI w/ counsel and update Jake; close skip-level/360s comms.
-- Mimi → mine: Healthfirst rate sheet; confirm Courtney retainer + forward Anthropic emails; define EA support for Kate; Author Connect strategy clarity; Medi-Cal readiness timeline; feedback on OKR narrative revisions.
+- Theirs → mine: Healthfirst rate sheet, Courtney retainer + Anthropic emails, EA structure for Kate, Author Connect caregiver strategy, Medi-Cal readiness timeline, OKR narrative feedback.
+- Mine → them: Revise OKR narrative, clarify Karen/Mina licensing, share financial model with Kate, confirm Medicare opt-out + group NPI with counsel (update Jake), close skip-level / 360 comms.
 
-**Related projects**
-- [[+ Spaces]] — Doro Mind OKR cycle, Open California PC, fundraise (Banc of Cal / Western Alliance / JPM venture debt).
-
-**Recent threads**
-- ✉️ Mimi asked yesterday afternoon (Slack) if Brady wants to take the JPM venture debt call this week or split (from refined.csv) — answer needed.
-- ✉️ Mimi flagged the doromind.com website appeared down (Slack via Stephanie) — confirm status.
-- ✉️ Heather asked about scheduling the next retreat around the annual Laitman picnic — Mimi looped in.
-
-**Walking-in agenda**
-- Banc of Cal debrief (yesterday's Omid/Roger call) — Roger sent the bank NDA; aligning on next steps and indicative-terms ask.
-- Cooley/Medicare debrief from yesterday's 13:30 — feeds Jake call and CA PC filing.
-- Divvy up venture debt calls: Mimi or Brady takes JPM this week? Need a decision.
-- CA Professional Corporation status (new task 🟡 in Product Backlog) — own/co-own?
-- OKR narrative revision — Brady still owes the revision.
+**Likely agenda**
+- Venture debt call divvy this week.
+- 🟢 Funnel valuation dashboard + 🟡 CA PC (Doro Health of California) — both freshly opened.
+- Patrick Menard's loop-in thread.
+- Matt password reset (FYI Mimi used Gmail account).
 
 ---
 
 ### `11:00–12:00` Onboarding sync · `brady-doromind-com`
-**Attendees:** Kate Slemp Douglas, [[Mimi]]
+**Attendees:** [[Kate Slemp Douglas]], [[Mimi]]
 
-**Recent context:** Kate is running the onboarding template work (Matt Montanez orientation completed 2026-05-11; Lindsey Schupp onboarding closed yesterday w/ Carta access added). Kate is also the channel for licensing/Magdiel updates and the new psychiatrist NP pipeline (Brittany / Wendy Block / Joel thread).
+**Recent context:** Kate is COO, onboarding from Minna; focus is 12-month cost-to-serve reduction + NP licensing (CT/NJ). Lindsey Schupp's "Add user to Carta" closed yesterday. Kate sent yesterday: Magdiel updates/clarifications, and welcome to Lindsey (kickoff next week).
 
 **Open commitments**
-- Mine → Kate: Share working financial model (passed from Mimi commitment chain).
-- Kate → mine: NP license addresses update from Magdiel (per yesterday's thread); Lindsey Schupp welcome continuation.
+- Kate → Brady: None tracked.
+- Brady → Kate: Share working financial model (commitment to Mimi; touches Kate).
 
-**Related projects**
-- Onboarding template, NP licensing / Magdiel workflow, Doro Mind Drive/wiki onboarding paths.
-
-**Recent threads**
-- ✉️ Kate's "Excited to have you on board, Lindsey!" thread (yesterday) — onboarding continuity.
-- ✉️ Keren ↔ Magdiel licensing thread that Kate forwarded — RN/APRN apps can submit simultaneously; mailing/license addresses needed for all NPs.
-- ✉️ Kate's thread w/ Wendy Block / Joel scheduling (NP candidate availability windows).
-
-**Walking-in agenda**
-- Status on Lindsey Schupp full ramp (Carta done; what's blocking?).
-- NP license addresses — chase Magdiel; do we need Brady or Mimi as signer?
-- EA support structure for Kate (Mimi commitment) — surface and push for closure.
-- Onboarding template edits David Chang flagged (resolved yesterday) — quick FYI.
-
----
-
-### `13:30–14:00` Monthly Fika (100% Optional) · `brady-doromind-com`
-**Attendees:** Heather Anderson + everyone@doromind.com
-**Note:** Optional team social. Skip unless Brady wants to drop in; no prep needed.
+**Likely agenda**
+- Lindsey Schupp onboarding next steps (kickoff next week).
+- Magdiel updates Kate flagged.
+- Review OOO Policy/SOP (new Asana task on Brady's plate).
+- CA PC / Doro Health of California — Kate likely needs visibility given ops scope.
 
 ---
 
 ### `14:00–14:45` Firm Health · `brady-doromind-com`
-**Attendees:** [[Mimi]], Jon (optional, tentative), David Chang, Brittany, milestone-owners@
+**Attendees:** [[Mimi]] (organizer), David, Brittany, Jon (tentative/optional), milestone-owners@
 
-**Recent context:** Daily firm-health cadence. Yesterday Stephanie flagged she'd put "where we're at with NY/CT licensing for Rob Laitman's referral pipeline" on the Firm Health agenda for today.
+**Notes:** Routine. Stephanie flagged yesterday that NY/CT IOC clarification is going on this agenda (mom NY, IOC CT). Expect prospect-funnel discussion overlap with Milestones Jam.
 
-**Open commitments**
-- Mine → Mimi/Dhanica: Cooley/Medicare update from yesterday's 13:30 call.
-- Theirs → mine: Stephanie has the NY/CT IOC licensing item on the agenda.
+---
 
-**Walking-in agenda**
-- IOC / NY-CT licensing status (per Stephanie's commitment).
-- Karen's licensing role w/ Mina — Brady owes Mimi a clarification.
-- New website-down alert (Stephanie's flag) — has it been resolved?
-- Any blockers surfaced overnight from Slack standup that need cross-functional escalation.
+### `14:30–15:00` Monthly Fika (100% Optional) · `brady-doromind-com`
+**Attendees:** Heather Anderson (organizer) + everyone@doromind.com
+
+**Notes:** Optional org-wide social. Conflicts with start of Firm Health (Firm Health takes precedence).
 
 ---
 
 ### `15:00–15:45` Milestones Jam · `brady-doromind-com`
-**Attendees:** [[Mimi]], milestone-owners@
-**Notes doc:** [Milestones Jam doc](https://docs.google.com/document/d/1vuPPpDDmctaI1AvD6k1393Vs6Y3Kaje4s2u_uBsGk6E)
+**Attendees:** [[Mimi]] (organizer), milestone-owners@
 
-**Recent context:** Re-scoped to give more time to the prospect funnel — Mimi flagged this as a key part of this quarter's roadmap. New task `🟢 Funnel valuation dashboard` (Product Backlog) landed yesterday — possibly intended input to this jam.
+**Doc:** [Milestones Jam notes](https://docs.google.com/document/d/1vuPPpDDmctaI1AvD6k1393Vs6Y3Kaje4s2u_uBsGk6E)
 
-**Open commitments**
-- Mine: OKR narrative revision still pending; that feeds milestone definitions.
-- Mimi: Author Connect strategy clarity (caregiver/employer offering) — input to milestones.
+**Notes:** Agenda emphasizes prospect-funnel discussion — ties directly to the new 🟢 Funnel valuation dashboard task. Come with a point of view on funnel valuation + this quarter's roadmap.
 
-**Walking-in agenda**
-- Prospect funnel (the day's main reframe) — bring view on conversion stages and where Stephanie's outbound (Jacob Greenberg, Caryn Banqué, Laura Marks, Susan Bragg, Jennifer welcome calls) is plugging in.
-- 🟢 Funnel valuation dashboard — scope and owner.
-- 🟡 CA Professional Corporation — does this become a milestone or stays a working stream?
-- OKR ↔ milestone alignment — Brady still owes the OKR narrative.
+## Needs a reply (from refined.csv — probable_new_work)
 
-## Drafted replies & next-step emails
+Top inbound items where Brady is named/expected to respond:
 
-_(No new drafts created this run — refined.csv already routed actionable inbound to Asana via the Fathom/email auto-pipeline. Surfacing items that need a personal reply rather than an auto-pushed task.)_
+- 💬 **Mimi** — venture debt calls divvy ("Could we divvy up the venture debt calls this week? Want me to take this one?")
+- 💬 **Mimi** — Matt password reset FYI (used the Gmail account)
+- 💬 **Mimi** — website-down ping (Stephanie loop)
+- 💬 **Dhanica** — Celonis billing ("what do we use Celonis for?")
+- 💬 **Dhanica** — 6 PM-onwards meeting ask
+- 💬 **Stephanie** — IOC location clarification (mom NY, IOC CT) → Firm Health agenda
+- 💬 **Stephanie** — Minna/Kate/Douglas/Mimi prospect call recap
+- 💬 **Patrick Menard** — loop-in thread (Mimi/Brady/Jon/David Chang/Jessica/Stephanie)
+- 💬 **Jon** — Cursor invoices on personal card to unblock (FYI/ack)
+- 💬 **Heather Anderson** — next retreat scheduling
+- ✉️ **Roger Klarmann (BancofCal)** — standard bank NDA from yesterday's BancofCal call
+- ✉️ **Mimi Liu** — Jake + Doro Mind reschedule + NAMICon clozapine showcase
+- ✉️ **Kate Douglas** — Lindsey welcome + Magdiel updates
+- ✉️ **Pao** — Feedback Week kickoff (named in team thread)
 
-**Needs a personal reply (from refined.csv `next_action`):**
-- ✉️ **Mimi** — JPM venture debt call: take it solo or split? (decide in 10:15 1:1)
-- ✉️ **Mimi** — Confirm Brady can swing the late call on PT (already RSVP'd).
-- ✉️ **Mimi** — Matt Montanez password reset used `mpmontanez@gmail.com`; confirm or correct.
-- ✉️ **Mimi** — NAMICon clozapine showcase — Zoom capacity plan?
-- ✉️ **Dhanica** — Mimi/Brady, Celonis charge on 3437 card — what's it for? Add to vendors list.
-- ✉️ **Dhanica** — Update Minna's and Stephanie's Athena payment method? (yes/no)
-- ✉️ **Dhanica** — Confirm 6PM-onwards meeting window.
-- ✉️ **Stephanie** — IOC / NY-CT licensing — bring answer to 14:00 Firm Health.
-- ✉️ **Stephanie** — Doro website down (still down? confirm w/ Mimi).
-- ✉️ **Stephanie** — UConn Framingham residents perception thread (prospect believed Dr Laitman is overseeing).
-- ✉️ **Jon** — Cursor invoice reimbursements — ack receipt; standardize a process.
-- ✉️ **Heather Anderson** — Retreat scheduling around Laitman picnic — Mimi looped.
-- ✉️ **Roger Klarmann (Banc of Cal)** — Sign and return the bank NDA; he sent diligence list (this is the obvious next step after yesterday's call). _(source: task [Sign Bill Wickline NDA and send Western Alliance diligence docs (w/ Mimi)](https://app.asana.com/0/0/1214738505896844) — a parallel WAB equivalent already drafted yesterday.)_
-- ✉️ **Patrick Menard** — Reply to the "click-baity title" link he sent during yesterday's discussion — low priority but quick.
+_(Drafts not auto-generated this run — use `/follow-up-draft` per item to compose replies.)_
 
 ## Focus suggestion
 
-↩ Banc of Cal NDA — sign and return Roger's NDA today, then push diligence checklist (carry-forward from yesterday's WAB equivalent). The 10:15 Mimi 1:1 should close decisions on (a) who runs JPM venture debt this week, (b) CA PC ownership, and (c) the Karen/Mina licensing clarification — these three have been blocking commitments for multiple cycles. Drive the Milestones Jam at 15:00 toward the prospect funnel since Mimi pre-staged the agenda there; everything else (Firm Health, Onboarding sync) is operational reporting where you're listening more than driving.
+Land the OKR narrative revision and get the financial model into Kate's hands before the 11 AM Onboarding sync — both are blocking commitments to Mimi/Kate, and today's Milestones Jam will surface the funnel-valuation question that compounds on them.

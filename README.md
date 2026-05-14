@@ -1,175 +1,147 @@
-# OpenBrain
+---
+title: Orientation 2026-05-14
+date: 2026-05-14
+tags: [orient]
+---
 
-**A personal AI Chief of Staff in an Obsidian vault, managed by Claude Code.**
+# Orientation — 2026-05-14
 
-OpenBrain is a portable template for a [Linking Your Thinking](https://www.linkingyourthinking.com/) (LYT) knowledge base that doubles as an operating layer for [Claude Code](https://claude.com/claude-code). Clone it, run one setup script, and you get:
+_(Compared against [2026-05-13](+%20Inbox/orient/2026-05-13/orientation.md) — Wednesday)_
 
-- A fully scaffolded Obsidian vault (Inbox, Spaces, Atlas, Sources, Templates)
-- 21 pre-built Chief of Staff [skills](#skills) (daily brief, inbox triage, capture meeting, etc.)
-- Multi-account MCP wiring for Gmail, Google Calendar, Google Meet, Google Drive/Docs/Sheets, Slack, Asana, and Fathom — any number of accounts per service
-- A people data model with cadence tracking, interaction logging, and alias resolution
+## What landed since 2026-05-13
 
-Built for people who want Claude to act on their calendar, email, tasks, and notes the way a human chief of staff would — proactively, with context, and without constant re-briefing.
+### New tasks (5)
+- [🟢 Funnel valuation dashboard](https://app.asana.com/0/0/1214773220139343) — Effort **—** · _Product Backlog_ · created `09:07`
+- [🟡 CA Professional Corporation (Doro Health of California)](https://app.asana.com/0/0/1214773220503132) — Effort **—** · _Product Backlog_ · created `09:07`
+- [Review OOO Policy/SOP](https://app.asana.com/0/0/1214775915609870) — Effort **—** · _no project_ · created `10:36`
+- [@Brady @Mimi @Dhanica I did some research and I do think we need the report for…](https://app.asana.com/0/0/1214789683799855) — Effort **—** · _no project_ · created `17:49`
+- [@Brady @Mimi @Dhanica I did some research and I do think we need the report for…](https://app.asana.com/0/0/1214789780964859) — Effort **—** · _no project_ · created `17:49`
 
-**Today:** [2026-04-22](<+ Atlas/Daily/2026-04-22.md>)
+_(2 additional tasks were opened and closed within the same window — excluded here; counted in closed/Effort math below.)_
+
+### Closed since 2026-05-13 (11)
+- [[Duplicate] Detected Potential Security Vulnerabilities in Your Application](https://app.asana.com/0/0/1214770226583887) — Effort **—** · completed `08:26` _(intraperiod)_
+- [Publish board slides to Underscore/SignalFire](https://app.asana.com/0/0/1214707082818951) — Effort **2** · completed `10:11`
+- [Add user to Carta](https://app.asana.com/0/0/1214716290219684) — Effort **2** · completed `10:20`
+- [Raise Anthropic/Claude monthly spending limit to avoid throttling](https://app.asana.com/0/0/1214713075707302) — Effort **1** · completed `10:25`
+- [Update GitHub Enterprise card-on-file before retry exhaustion](https://app.asana.com/0/0/1214710920066147) — Effort **1** · completed `10:27`
+- [Reply to David Chang re: app.doromind.co signup task in onboarding template](https://app.asana.com/0/0/1214738578860842) — Effort **1** · completed `13:29`
+- [Confirm to Rob Laitman whether anyone is joining the NAMIWalks walk](https://app.asana.com/0/0/1214715987274685) — Effort **1** · completed `13:30`
+- [[Duplicate] Set up separate Doro Health CA PC bank account](https://app.asana.com/0/0/1214743730041364) — Effort **—** · completed `14:54`
+- [Re-evaluate repriced grants cash bridge; update Mimi](https://app.asana.com/0/0/1214500853849496) — Effort **5** · completed `15:09`
+- [Email Alexis re: CA PC/supervision timeline; ask if backup needed for Jun 1](https://app.asana.com/0/0/1214546019084343) — Effort **1** · completed `15:11`
+- [Detected Potential Security Vulnerabilities in Your Application](https://app.asana.com/0/0/1214770110084083) — Effort **—** · completed `15:56` _(intraperiod)_
+
+## Stock & flow
+
+|              | Count | Effort |
+|--------------|-------|--------|
+| Open now     | 140   | 487    |
+| Added        | +7    | +0     |
+| Completed    | -11   | -14    |
+| **Net**      | -4    | -14    |
+
+_(11 of 140 open tasks have no Effort estimate — pile is partially unmeasured. None of the 7 new tasks carry an Effort estimate yet.)_
+
+## Missed since 2026-05-13
+
+_No missed meetings to report. Brady RSVP'd accepted to every Wednesday meeting where a Fathom transcript exists (Mimi Liu + Omid Nasab, Review of Consent & Policies, Shared Brain Demo + Discussion, Jake + Doro Mind). The Co-locate/Co-labor Day event is filtered (in-person)._
+
+## Today's meetings
+
+### `10:00–10:15` BM + Dhanica | Daily Stand-Up · `brady-doromind-com`
+**Attendees:** [[Mimi]], Dhanica (unknown — no person note)
+
+**Recent context:** Routine recurring stand-up. Yesterday Dhanica raised Athena payment-method updates for Minna/Stephanie, asked about Celonis billing, and proposed a 6 PM-onwards sync.
+
+**Open commitments**
+- Theirs → mine: Athena account payment update direction (Minna/Stephanie); Celonis charge clarification.
+- Mine → them: Confirm whether Brady can do a 6 PM-onwards meeting with Mimi.
 
 ---
 
-## Prerequisites
+### `10:15–10:45` Brady + Mimi · `brady-doromind-com`
+**Attendees:** [[Mimi]]
 
-- **macOS** (Linux should work; untested)
-- **git** — usually `xcode-select --install`
-- **Python 3.10+** — `brew install python` (system python also works)
-- **Node.js 18+** — `brew install node` (or asdf / nvm)
-- **Claude Code** — [installation instructions](https://docs.claude.com/en/docs/claude-code/setup)
-- **Obsidian** — [download](https://obsidian.md)
-- Optional: **GitHub CLI** (`brew install gh`) if you want automated remote setup
+**Doc:** [Brady + Mimi running notes](https://docs.google.com/document/d/1nYFN1nTPGl12EqILjf5Z4GJJA7KNwD3gzqYnSgwSX_8/edit)
 
----
+**Recent context:** Yesterday's Mimi threads: venture-debt call divvy this week (she offered to take one), website-down ping (Stephanie loop), Matt password reset using Gmail account, NAMICon clozapine showcase forecast, Patrick Menard's loop-in. Mimi declined Mimi + Omid Nasab (BancofCal) — Brady covered.
 
-## Install
+**Open commitments**
+- Theirs → mine: Healthfirst rate sheet, Courtney retainer + Anthropic emails, EA structure for Kate, Author Connect caregiver strategy, Medi-Cal readiness timeline, OKR narrative feedback.
+- Mine → them: Revise OKR narrative, clarify Karen/Mina licensing, share financial model with Kate, confirm Medicare opt-out + group NPI with counsel (update Jake), close skip-level / 360 comms.
 
-```bash
-git clone https://github.com/davidianstyle/openbrain-claude-starter.git ~/OpenBrain
-cd ~/OpenBrain
-./bootstrap/setup.sh
-```
-
-The wizard will:
-
-1. Ask for your name and writing-voice blurb
-2. Customize `CLAUDE.md` with your details
-3. Create `~/.config/openbrain/` and copy launcher scripts
-4. Walk you through Google Cloud OAuth setup (one-time, 5 minutes)
-5. Loop through each service and ask which accounts to add:
-   - "Add a Google account?" → y → paste email → browser OAuth → done
-   - "Add another?" → repeat for as many as you want
-   - Same for Slack workspaces, Asana, Fathom
-6. Register every MCP server with Claude Code
-7. Link the pre-commit hook
-8. Optionally enable auto git sync hooks (commit + push on stop, pull on start)
-9. Validate the install
-
-Restart Claude Code and run `/mcp` to verify everything connected. Run `/daily-brief` as your first skill.
+**Likely agenda**
+- Venture debt call divvy this week.
+- 🟢 Funnel valuation dashboard + 🟡 CA PC (Doro Health of California) — both freshly opened.
+- Patrick Menard's loop-in thread.
+- Matt password reset (FYI Mimi used Gmail account).
 
 ---
 
-## Adding accounts later
+### `11:00–12:00` Onboarding sync · `brady-doromind-com`
+**Attendees:** [[Kate Slemp Douglas]], [[Mimi]]
 
-The wizard is not a one-shot. You can add services any time:
+**Recent context:** Kate is COO, onboarding from Minna; focus is 12-month cost-to-serve reduction + NP licensing (CT/NJ). Lindsey Schupp's "Add user to Carta" closed yesterday. Kate sent yesterday: Magdiel updates/clarifications, and welcome to Lindsey (kickoff next week).
 
-```bash
-./bootstrap/lib/add-google-account.sh jane@newdomain.com
-./bootstrap/lib/add-slack-workspace.sh newteam           # → newteam.slack.com
-./bootstrap/lib/add-asana.sh personal                    # or work
-./bootstrap/lib/add-fathom.sh
-./bootstrap/lib/register-mcps.sh                         # re-sync ~/.claude.json
-```
+**Open commitments**
+- Kate → Brady: None tracked.
+- Brady → Kate: Share working financial model (commitment to Mimi; touches Kate).
 
-Each script is idempotent — safe to re-run.
-
----
-
-## What you get
-
-### Vault layout
-
-```
-~/OpenBrain/
-├── + Inbox/                  # capture first, triage later
-├── + Spaces/                 # MOCs (Maps of Content)
-│   └── People.md             # people MOC (created on demand)
-├── + Atlas/                  # atomic notes — the actual knowledge
-│   ├── Daily/                # daily notes
-│   ├── Weekly Reviews/       # weekly synthesis
-│   ├── People/               # person notes
-│   ├── Interactions/         # meeting/call/thread notes
-│   ├── Ideas/
-│   ├── Decisions/
-│   ├── Goals/
-│   ├── Places/
-│   ├── Organizations/
-│   └── Quotes/
-├── + Sources/                # literature / reference notes
-├── + Extras/
-│   └── Templates/            # 14 note templates
-├── + Archive/                # cold storage
-├── CLAUDE.md                 # the operating manual Claude reads every session
-├── Home.md                   # front door with MOC index
-└── .claude/skills/           # 21 Chief of Staff skills
-```
-
-### Skills
-
-| Skill | Purpose |
-|---|---|
-| `/daily-brief` | Morning briefing across all your calendars, mail, Slack, tasks |
-| `/daily-review` | End-of-day reconciliation — check off tasks, push Asana updates |
-| `/process-inbox` | Triage `+ Inbox/` + Gmail + Slack; auto-push tagged tasks to Asana |
-| `/meeting-prep` | Assemble a briefing for a meeting or 1:1 |
-| `/capture-meeting` | Turn notes/transcript into an interaction note, update people |
-| `/capture-youtube` | Literature note from a YouTube video |
-| `/log-person` | Create a person note, seeded from Gmail/Slack |
-| `/log-note` | Quick-capture a thought as an atomic note |
-| `/log-interaction` | Manual touchpoint log |
-| `/log-idea` | Record an idea |
-| `/log-decision` | Record a decision with context and alternatives |
-| `/log-goal` | Create a goal with definition of done |
-| `/log-place` | Create a place note |
-| `/log-organization` | Create an organization note |
-| `/log-quote` | Save a quote |
-| `/follow-up-draft` | Draft a reply email/Slack message (never sends) |
-| `/what-am-i-missing` | Surface overdue tasks, cadence misses, unanswered mail |
-| `/people-audit` | Cadence health report + regenerate People MOC |
-| `/people-sync` | Discovery pass across Gmail/Calendar/Slack to find unknown people |
-| `/weekly-review` | Monday synthesis |
-| `/push-openbrain-claude-starter` | Genericize vault improvements and open a PR against the template repo |
-| `/pull-openbrain-claude-starter` | Pull latest template changes into the vault interactively |
-| `/asana` | Quick view of upcoming Asana tasks with interactive check-off |
-| `/pull-openbrain-template` | Pull latest template changes into the vault interactively |
-| `/push-openbrain-template` | Genericize vault improvements and open a PR against the template repo |
-
-Skills are markdown procedures — Claude reads the SKILL.md and performs the steps. No code execution.
-
-### Supported MCP servers
-
-One stdio MCP server per (service × account) pair, so routing is explicit:
-
-- **Google** (`google-mcp`) — Gmail, Calendar, Meet, Drive, Docs, Sheets, Slides — one consolidated server per Google account
-- **Slack** (`slack-mcp`) — one per workspace
-- **Asana** (`asana-mcp`) — personal + work
-- **Fathom** (`fathom-mcp`) — single instance
-
-All launched via `~/.config/openbrain/lib/*-mcp.sh` wrappers that source `~/.config/openbrain/.env`.
+**Likely agenda**
+- Lindsey Schupp onboarding next steps (kickoff next week).
+- Magdiel updates Kate flagged.
+- Review OOO Policy/SOP (new Asana task on Brady's plate).
+- CA PC / Doro Health of California — Kate likely needs visibility given ops scope.
 
 ---
 
-## Design principles
+### `14:00–14:45` Firm Health · `brady-doromind-com`
+**Attendees:** [[Mimi]] (organizer), David, Brittany, Jon (tentative/optional), milestone-owners@
 
-- **Capture first, organize later.** Everything starts in `+ Inbox/`.
-- **Atomic notes.** One idea per note. If it wants to split, split it.
-- **Links over folders.** Structure comes from `[[wikilinks]]` and MOCs.
-- **Never delete, always archive.** Move to `+ Archive/`, never `rm`.
-- **Git is the sync layer.** No Obsidian Sync. Auto git sync (commit + push on stop, pull on start) is available as an opt-in during setup.
-- **Skills are markdown procedures.** Claude reads them and performs the steps.
-- **People are first-class entities.** Every person gets a note. Interactions link back. Cadence is tracked.
-- **Multi-account by default.** Every external service is wired per-account with routing tags.
+**Notes:** Routine. Stephanie flagged yesterday that NY/CT IOC clarification is going on this agenda (mom NY, IOC CT). Expect prospect-funnel discussion overlap with Milestones Jam.
 
 ---
 
-## Troubleshooting
+### `14:30–15:00` Monthly Fika (100% Optional) · `brady-doromind-com`
+**Attendees:** Heather Anderson (organizer) + everyone@doromind.com
 
-See [`bootstrap/README.md`](bootstrap/README.md) for:
-- Re-running parts of the wizard
-- Google OAuth gotchas (admin-managed Workspace accounts, "unverified app" screens)
-- Slack workspace admin approval
-- Rotating tokens
-- Removing an account
+**Notes:** Optional org-wide social. Conflicts with start of Firm Health (Firm Health takes precedence).
 
 ---
 
-## Credits
+### `15:00–15:45` Milestones Jam · `brady-doromind-com`
+**Attendees:** [[Mimi]] (organizer), milestone-owners@
 
-Developed by [@davidianstyle](https://github.com/davidianstyle) as the portable template extracted from his personal OpenBrain vault.
+**Doc:** [Milestones Jam notes](https://docs.google.com/document/d/1vuPPpDDmctaI1AvD6k1393Vs6Y3Kaje4s2u_uBsGk6E)
 
-The underlying LYT methodology is from [Nick Milo](https://www.linkingyourthinking.com/).
+**Notes:** Agenda emphasizes prospect-funnel discussion — ties directly to the new 🟢 Funnel valuation dashboard task. Come with a point of view on funnel valuation + this quarter's roadmap.
+
+## Needs a reply (from refined.csv — probable_new_work)
+
+Top inbound items where Brady is named/expected to respond:
+
+- 💬 **Mimi** — venture debt calls divvy ("Could we divvy up the venture debt calls this week? Want me to take this one?")
+- 💬 **Mimi** — Matt password reset FYI (used the Gmail account)
+- 💬 **Mimi** — website-down ping (Stephanie loop)
+- 💬 **Dhanica** — Celonis billing ("what do we use Celonis for?")
+- 💬 **Dhanica** — 6 PM-onwards meeting ask
+- 💬 **Stephanie** — IOC location clarification (mom NY, IOC CT) → Firm Health agenda
+- 💬 **Stephanie** — Minna/Kate/Douglas/Mimi prospect call recap
+- 💬 **Patrick Menard** — loop-in thread (Mimi/Brady/Jon/David Chang/Jessica/Stephanie)
+- 💬 **Jon** — Cursor invoices on personal card to unblock (FYI/ack)
+- 💬 **Heather Anderson** — next retreat scheduling
+- ✉️ **Roger Klarmann (BancofCal)** — standard bank NDA from yesterday's BancofCal call
+- ✉️ **Mimi Liu** — Jake + Doro Mind reschedule + NAMICon clozapine showcase
+- ✉️ **Kate Douglas** — Lindsey welcome + Magdiel updates
+- ✉️ **Pao** — Feedback Week kickoff (named in team thread)
+
+_(Drafts not auto-generated this run — use `/follow-up-draft` per item to compose replies.)_
+
+## Focus suggestion
+
+Land the OKR narrative revision and get the financial model into Kate's hands before the 11 AM Onboarding sync — both are blocking commitments to Mimi/Kate, and today's Milestones Jam will surface the funnel-valuation question that compounds on them.
+
+---
+
+_About this vault → [INTRO.md](INTRO.md)_
