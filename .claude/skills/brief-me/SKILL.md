@@ -42,13 +42,17 @@ From the returned set, derive:
 
 - **New tasks** — `created_at >= $WINDOW_START`. Capture `gid`, `name`, `permalink_url`, `Effort` (from `custom_fields`), `projects[0].name`, `created_at`.
 - **Completed tasks** — `completed == true AND completed_at >= $WINDOW_START`. Same fields plus `completed_at`.
-- **Open tasks now** — `completed == false`. Used for stock counts.
+- **Open tasks now (stock universe)** — `completed == false` AND the task is in Brady's current working set, defined as:
+    - Status (Global) `In Progress`, OR
+    - Status (Global) `To Do`, OR
+    - Status (Global) `Backlog` AND `due_on` is null (this is Brady's "Inbox").
+  Tasks in `Backlog` with a due date, `On Hold`, `Blocked`, `Done`, etc. are excluded from stock — they're not part of the current pile.
 
 ### 2. Task stock & flow
 
 Compute:
 
-- **Stock (now):** count of open tasks, sum of `Effort` across open tasks (treat null Effort as 0 but report the count of null-Effort tasks separately so the user knows how stale the estimate is).
+- **Stock (now):** count of tasks in the stock universe (defined above), sum of `Effort` across them (treat null Effort as 0 but report the count of null-Effort tasks separately so the user knows how stale the estimate is). Do not include `Backlog`-with-due-date, `On Hold`, or `Blocked` tasks in the stock totals.
 - **Flow since `$LAST_BIZ`:**
     - Added: count + total effort of new tasks.
     - Completed: count + total effort of completed tasks.
@@ -149,7 +153,7 @@ Write `+ Inbox/orient/$DATE/orientation.md` with this structure (omit sections t
 ```markdown
 # Orientation — $DATE
 
-_(Compared against $LAST_BIZ — $WEEKDAY)_
+_(Compared against $LAST_BIZ — $WEEKDAY)_ · [← yesterday's orientation](+ Inbox/orient/$LAST_BIZ/orientation.md)
 
 ## What landed since $LAST_BIZ
 
@@ -224,7 +228,14 @@ _(Review and send from Gmail / Slack. Drafts are not sent automatically.)_
 ## Focus suggestion
 
 <single line drawing on new tasks + meeting load — what one thing matters most today>
+
+---
+
+[About this repo](ABOUT.md)
 ```
+
+- The "yesterday's orientation" link is omitted if `+ Inbox/orient/$LAST_BIZ/orientation.md` does not exist.
+- Paths in the header and footer are written relative to the repo root so they resolve correctly in the mirrored `README.md` (the canonical front-door view).
 
 ### 7. Report
 
