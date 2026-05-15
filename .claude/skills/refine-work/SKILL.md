@@ -243,20 +243,20 @@ For each such task:
 3. Set the `Effort` custom field via `asana_update_task` with `custom_fields: {"1214179053266044": <number>}`.
 4. Post a task comment via `asana_create_task_story` with body:
     ```
-    :bot: Effort explanation: <one sentence>
+    🤖 Effort explanation: <one sentence>
     ```
     The sentence should cite the signals that drove the score ("One-line task with clear single action"; "Multi-team coordination with two open dependencies and 5/8 deadline"; etc.).
 
 **Skip rules (idempotency):**
 
-- Skip if the task already has a story whose text starts with `:bot: Effort explanation:` (a previous run already covered this task — fetch stories via `asana_get_task` if not already cached).
+- Skip if the task already has a story whose text starts with `🤖 Effort explanation:` (a previous run already covered this task — fetch stories via `asana_get_task` if not already cached).
 - Skip if `Effort` is already set (non-empty in `asana.csv`, or non-null `number_value` on a live fetch).
 
 **Custom-field-not-enabled handling:**
 
 Brady's convention is that any task assigned to him should have `Effort` available. If `asana_update_task` returns `Bad Request` because the field isn't enabled on the task's project, that's a configuration gap.
 
-- Do NOT post the `:bot: Effort explanation:` story (would be misleading without a real value set).
+- Do NOT post the `🤖 Effort explanation:` story (would be misleading without a real value set).
 - Log the gid + project name + the effort estimate you would have applied.
 - At the end of Step 10, report the unique list of projects that lack `Effort` so Brady can enable the field via the Asana UI (Project → Customize → Add field → Effort). The MCP toolkit does not include a `create_project_custom_field_setting` action — this is a manual fix per project.
 

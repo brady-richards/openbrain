@@ -1,5 +1,202 @@
 Ctrl-T to copy previous command as a csv.
 url,received,source,forum,thread,direction,work_or_personal,counterparty,body,summary,potential_work,potential_work_reason,acknowledged,acknowledged_reason,done,done_reason
+https://mail.google.com/mail/u/0/#all/19e2bd27a86af7a8,2026-05-15T13:27:54+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2bd27a86af7a8,inbound,work,Asana,"Avatar of Brady Richards
+
+7 tasks from the past week are overdue
+
+Jump in and keep your team's work on track.
+
+doromind.com (https://app.asana.com/1/1205801040312777/home)
+
+Respond now: https://app.asana.com/1/1205801040312777/project/1205800805645693
+
+Your overdue tasks between May 8 and May 15 (https://app.asana.com/-/my_tasks)
+
+Task: Doro Mind books — March 2026: https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1214064154358419
+
+Task: Coordinate PL Superbill response w/ Kate and Minna: https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214587362892767
+
+Task: Email Pam re: Medicare/superbill; CC Kate + Minna; PCC Heather + Brittany; note ownership change + EOW update: https://app.asana.com/1/1205801040312777/project/1213888507498158/task/1214583864042020
+
+Task: Review OOO Policy/SOP: https://app.asana.com/1/1205801040312777/project/1205800805645693/task/1214775915609870
+
+Task: Kendra W shift to F/T hrs: https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1214062876516019
+
+Task: Prepare to Submit the ORI Annual Report: https://app.asana.com/1/1205801040312777/project/1214390114003644/task/1212584290409503
+
+Task: Compile contracted NP minimum hours; share w/ Kate: https://app.asana.com/1/1205801040312777/project/1213888507498158/task/1214587058836554
+
+Don't want a weekly email about overdue tasks? Change what Asana sends you (https://app.asana.com/-/confirm_change_notification_category_setting?domain=1205801040312777&key=7bdedf434063229f4105f08ddb0d6f1b¬ification_category=email%3Adigest_tasks_overdue).
+
+633 Folsom St San Francisco, CA 94107","Asana weekly digest: 7 overdue tasks from May 8-15.",N,"automated Asana digest, no direct ask","","","",""
+https://doromind.slack.com/archives/C0B1DAC93T7/p1778850572734799,2026-05-15T13:09:32.734799+00:00,slack_doromind_slack_com,#daily-news,1778850572.734799,inbound,work,"Ken Mages","DORO MIND DAILY BRIEF
+:brain: *Blind Brains, 99% AI, and the Clozapine Window*
+May 15, 2026
+While you were doom-scrolling headlines about AI taking over white-collar jobs, researchers were quietly deploying it to do something more consequential: catch schizophrenia before it dismantles a life. This week's brief has a wild neuroscience twist, a diagnostic accuracy that'll make your radiologist sweat, a clozapine call-to-action that's been 70 years in the making, and a Phase III trial gunning for the one-third of patients nothing else can reach.
+:brain:
+*Blind Brains Are Schizophrenia-Proof*
+A 70-year observation just got fresh data. Not a single person born with cortical blindness has ever developed schizophrenia. A 2026 re-analysis of nearly 500,000 Australian children confirms the pattern - zero cases among 66 congenitally blind individuals. The mechanism is elegant: schizophrenia is a ""disorder of prediction."" When no visual data enters the brain from birth, the visual cortex rewires into a language and reasoning hub, creating more stable world-models. No faulty predictions, no schizophrenia. The protection evaporates if blindness sets in after early childhood.
+*Doro Mind Connection:* This reframes the disease as a developmental wiring problem, pointing Pillar 1 toward the earliest possible intervention windows.
+<https://www.sciencealert.com/one-rare-condition-seems-to-protect-the-brain-from-schizophrenia|Read the full story →>
+:house:
+*AI Scans Brains at 99.5% Accuracy. The Hospital Can't Keep Up.*
+A new Frontiers in Psychiatry systematic review catalogued every AI approach applied to schizophrenia diagnosis via medical imaging. Single-modality models land at 75-99% accuracy. Combine structural MRI, functional MRI, and diffusion tensor imaging and accuracy tops 99.5%. The catch is brutal: performance collapses from 73% within a single clinical site to 55% across different sites. The model is brilliant in the lab. It hasn't learned how to travel.
+*Doro Mind Connection:* Pillar 1 has its tools. The gap is deployment and standardization, not scientific discovery.
+<https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1821091/full|Read the full story →>
+:pill:
+*The Clozapine Window Is Shorter Than We Thought*
+A May 2026 review in Current Opinion in Psychiatry delivered a clear verdict: clozapine works best when initiated within three years of a patient's first psychotic episode. Most psychiatrists wait far longer, if they prescribe it at all. The REMS program that had bottlenecked clozapine access is gone. The new barrier is knowledge. Clinicians remain uncertain about titration, monitoring, and side-effect management - and patients keep losing years on inferior medications while the intervention window quietly closes.
+*Doro Mind Connection:* This is the core of Pillar 2. Every month of clozapine delay costs real function. The clinical knowledge gap is a solvable distribution problem.
+<https://journals.lww.com/co-psychiatry/fulltext/2026/05000/clozapine_treatment_in_the_early_stages_of.5.aspx|Read the full story →>
+:microscope:
+*A Novel Drug Enters the Arena*
+Evenamide just launched ENIGMA-TRS 2, a Phase III global trial for treatment-resistant schizophrenia. Unlike every existing antipsychotic, evenamide ignores dopamine entirely and targets glutamate release via sodium channel blockade. 400+ patients. 12 weeks of treatment. Topline results expected Q4 2026. If it works, it becomes the first approved add-on therapy for the 15-50% of patients who respond inadequately to clozapine itself.
+*Doro Mind Connection:* Clozapine gets most treatment-resistant patients far. Evenamide might carry the rest of the way. Pillar 2 just got a second horse in the race.
+<https://www.newron.com/news-and-media/regulatory-news/newron-announces-us-initiation-its-enigma-trs-2-phase-iii-global|Read the full story →>
+:1234: *NEWSWORTHY NUMBER*
+*3*
+The number of years from first psychotic episode during which early clozapine initiation is linked to meaningfully better outcomes on negative symptoms and functioning. After year three, those gains narrow sharply. Most patients today wait five or more years before clozapine is even considered.
+kgm
+<https://kenmages.com/|KenMages.com> ","Ken Mages daily Doro Mind brief on schizophrenia research and AI.",N,"FYI broadcast to #daily-news, not addressed to me","","","",""
+https://mail.google.com/mail/u/0/#all/19e2bc0fb6b9f370,2026-05-15T13:08:44+00:00,gmail_brady_doromind_com,guides@doromind.com,19e2bc0fb6b9f370,outbound,work,guides@doromind.com,"Curious who's looking at your products and services? See who they
+are and connect while they’re still interested in your business.
+
+Stephanie Greer
+
+Alignable 
+( https://emails.alignable.com/c/bD0lMkYlM0ZfYWNjdCUzRHUxNjE1NTg1My00NjQxNjM0LWYyNTZmNTUxM2VjMzY4NDIxYjllY2QyNjclMjZjX3VwZGF0ZWQlM0RlNDAyNGEzODU2ZTM3MzYmdT0lM0MwMDU5M2UwYy1kMzhmLTRjZjEtYTBlNi1jYzdjYWE3ZGVlMTIlNDBlbWFpbHMuYWxpZ25hYmxlLmNvbSUzRQ== )
+
+You're getting noticed!
+
+Lauren Morrell from Willow Behavioral Health
+
+Stephanie,
+
+a
+
+Telehealth Provider
+just checked out your profile - See Who!
+
+See Who 
+( https://emails.alignable.com/c/bD0lMkZiaXolMkZwcm9maWxlX2luc2lnaHRzJTJGbGFuZGluZyUzRl9hY2N0JTNEdTE2MTU1ODUzLTQ2NDE2MzQtZjI1NmY1NTEzZWMzNjg0MjFiOWVjZDI2NyUyNmNfdXBkYXRlZCUzRGU0MDI0YTM4NTZlMzczNiZ1PSUzQzAwNTkzZTBjLWQzOGYtNGNmMS1hMGU2LWNjN2NhYTdkZWUxMiU0MGVtYWlscy5hbGlnbmFibGUuY29tJTNF )
+
+Help Center 
+( https://emails.alignable.com/c/bD0lMkZzdXBwb3J0JTJGZW1haWxfZm9vdGVyJTNGX2FjY3QlM0R1MTYxNTU4NTMtNDY0MTYzNC1mMjU2ZjU1MTNlYzM2ODQyMWI5ZWNkMjY3JTI2Y191cGRhdGVkJTNEZTQwMjRhMzg1NmUzNzM2JnU9JTNDMDA1OTNlMGMtZDM4Zi00Y2YxLWEwZTYtY2M3Y2FhN2RlZTEyJTQwZW1haWxzLmFsaWduYWJsZS5jb20lM0U= )
+
+|
+
+Download the iOS App 
+( https://emails.alignable.com/c/bD0lMkZyJTJGaW9zYXBwLWRlYzIwMTklM0ZfYWNjdCUzRHUxNjE1NTg1My00NjQxNjM0LWYyNTZmNTUxM2VjMzY4NDIxYjllY2QyNjclMjZjX3VwZGF0ZWQlM0RlNDAyNGEzODU2ZTM3MzYmdT0lM0MwMDU5M2UwYy1kMzhmLTRjZjEtYTBlNi1jYzdjYWE3ZGVlMTIlNDBlbWFpbHMuYWxpZ25hYmxlLmNvbSUzRQ== )
+
+You are receiving engagement with your content and profile
+
+This email was intended for guides@doromind.com.
+Unsubscribe 
+( https://emails.alignable.com/c/bD0lMkZlbWFpbF91bnN1YnNjcmliZXMlM0Z1dWlkJTNEdTE2MTU1ODUzLTQ2NDE2MzQtZjI1NmY1NTEzZWMzNjg0MjFiOWVjZDI2NyZ1PSUzQzAwNTkzZTBjLWQzOGYtNGNmMS1hMGU2LWNjN2NhYTdkZWUxMiU0MGVtYWlscy5hbGlnbmFibGUuY29tJTNF )
+
+Made with
+Love
+from Alignable.
+
+PO Box 1666, North Falmouth MA 02556","Alignable marketing email about profile views, sent to guides@.",N,"automated marketing email, guides@ FYI alias","","","",""
+messages://chat42546307063245870/r84554,2026-05-15T12:52:50.023291+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84554,inbound,personal,"Mimi Liu","What time is good?","Mimi Liu asks what time works tomorrow for a chat.",Y,"1:1 ask directed at me requiring a time response",N,"no later message from me in thread",N,"no later message from me in thread"
+https://mail.google.com/mail/u/0/#all/19e2babf65a05846,2026-05-15T12:45:34+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2babf65a05846,inbound,work,"Mala Elhassan","CS - 5/14/2026
+Coach - Mala
+
+8.30am C woke up very groggy.
+9am read her book.  Checked her emails
+Reminded her to call the orthodontist and ask what she can drink when she's
+wearing braces.  They confirmed she can drink tea and she was very happy
+about that.  10am wanted to workout. Told her I could join her later but I
+had to make a phone call. Said she would wait for me.
+
+10am team call
+
+10.45am C called me so I headed back.
+11-12 pm. Did YouTube workout together
+12-1 lunch
+1.30 pm meds
+2.30 pm went to the mall to return things she got online.
+5 pm grocery shopping
+6-7pm made dinner
+7-8.30 organized her clothes. Changed her bedding and washed sheets.
+8.30am Alarm went off for her meds. Phone was in the living room and she
+was on the other side of the house. Didn’t hear it. Had to prompt her.
+8.45 pm meds
+9.430pm went over schedule for tomorrow.
+
+Pretty good day today
+Still having 2.30 pm crash tiredness she voiced it's her cranky time. .
+Today she pulled through it since we were out and about.
+
+Very indecisive about what to wear. bought a sports bra from a store and 5
+mins after I drove off changed her mind and wanted to return it.
+Has been buying and returning a lot of clothing and shoes.
+ 
+ ----
+Secured by Paubox - HITRUST certified
+https://www.paubox.com
+----","Mala's coaching shift log for C on 5/14, no ask.",N,"FYI coaching log, no ask directed at me","","","",""
+https://mail.google.com/mail/u/0/#all/19e2b907adda9a99,2026-05-15T12:15:47+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2b907adda9a99,inbound,work,"Pending Connections","You have unaccepted connection requests. More connections means
+more recommendations.
+
+Brady Richards
+
+Alignable 
+( https://emails.alignable.com/c/bD0lMkYlM0ZfYWNjdCUzRHUxNjEzNjIxMi00NjQxNjEyLTZmMmIwM2U4Mzg5NDkyMThjYjJhMWY4ZDAlMjZjX3VwZGF0ZWQlM0RlZWI5OGQzZWJmNDVhMDAmdT0lM0NmN2YyMTA0Zi05NzBkLTRhZmEtODRlNy01Y2Q3YmJmZDg1ODElNDBlbWFpbHMuYWxpZ25hYmxlLmNvbSUzRQ== )
+
+John Wants to Connect!
+
+referral card for Mackenzie Business Alliance 
+( https://emails.alignable.com/c/bD0lMkZ2YWxsZWpvLWNhJTJGbWFja2VuemllLWJ1c2luZXNzLWFsbGlhbmNlJTNGX2FjY3QlM0R1MTYxMzYyMTItNDY0MTYxMi02ZjJiMDNlODM4OTQ5MjE4Y2IyYTFmOGQwJTI2Y191cGRhdGVkJTNEZWViOThkM2ViZjQ1YTAwJnU9JTNDZjdmMjEwNGYtOTcwZC00YWZhLTg0ZTctNWNkN2JiZmQ4NTgxJTQwZW1haWxzLmFsaWduYWJsZS5jb20lM0U= )
+
+John
+from Mackenzie Business Alliance
+in Vallejo, CA sent you a Connection Request recently and is
+waiting for your reply.
+
+View Request
+
+View Request 
+( https://emails.alignable.com/c/bD0lMkZiaXolMkZteV9uZXR3b3JrJTJGY29ubmVjdGlvbl9yZXF1ZXN0cyUzRl9hY2N0JTNEdTE2MTM2MjEyLTQ2NDE2MTItNmYyYjAzZTgzODk0OTIxOGNiMmExZjhkMCUyNmNfdXBkYXRlZCUzRGVlYjk4ZDNlYmY0NWEwMCZ1PSUzQ2Y3ZjIxMDRmLTk3MGQtNGFmYS04NGU3LTVjZDdiYmZkODU4MSU0MGVtYWlscy5hbGlnbmFibGUuY29tJTNF )
+
+Help Center 
+( https://emails.alignable.com/c/bD0lMkZzdXBwb3J0JTJGZW1haWxfZm9vdGVyJTNGX2FjY3QlM0R1MTYxMzYyMTItNDY0MTYxMi02ZjJiMDNlODM4OTQ5MjE4Y2IyYTFmOGQwJTI2Y191cGRhdGVkJTNEZWViOThkM2ViZjQ1YTAwJnU9JTNDZjdmMjEwNGYtOTcwZC00YWZhLTg0ZTctNWNkN2JiZmQ4NTgxJTQwZW1haWxzLmFsaWduYWJsZS5jb20lM0U= )
+
+|
+
+Download the iOS App 
+( https://emails.alignable.com/c/bD0lMkZyJTJGaW9zYXBwLWRlYzIwMTklM0ZfYWNjdCUzRHUxNjEzNjIxMi00NjQxNjEyLTZmMmIwM2U4Mzg5NDkyMThjYjJhMWY4ZDAlMjZjX3VwZGF0ZWQlM0RlZWI5OGQzZWJmNDVhMDAmdT0lM0NmN2YyMTA0Zi05NzBkLTRhZmEtODRlNy01Y2Q3YmJmZDg1ODElNDBlbWFpbHMuYWxpZ25hYmxlLmNvbSUzRQ== )
+
+You are receiving reminders of pending connection requests and
+unread messages
+
+This email was intended for brady@doromind.com.
+Unsubscribe 
+( https://emails.alignable.com/c/bD0lMkZlbWFpbF91bnN1YnNjcmliZXMlM0Z1dWlkJTNEdTE2MTM2MjEyLTQ2NDE2MTItNmYyYjAzZTgzODk0OTIxOGNiMmExZjhkMCZ1PSUzQ2Y3ZjIxMDRmLTk3MGQtNGFmYS04NGU3LTVjZDdiYmZkODU4MSU0MGVtYWlscy5hbGlnbmFibGUuY29tJTNF )
+
+Made with
+Love
+from Alignable.
+
+PO Box 1666, North Falmouth MA 02556","Alignable connection request reminder from John at Mackenzie Business Alliance.",N,"automated marketing reminder, no actionable ask","","","",""
+https://doromind.slack.com/archives/C0718QNJQER/p1778846441030909,2026-05-15T12:00:41.030909+00:00,slack_doromind_slack_com,#out-of-office,1778846441.030909,inbound,work,Mimi,"Brady: NAMIcon 2026 (Wed 5/27-Sat 5/30) ","Mimi posts that Brady will be at NAMIcon 5/27-5/30.",N,"OOO FYI announcement, no ask","","","",""
+https://mail.google.com/mail/u/0/#all/19e2b6683c596469,2026-05-15T11:29:57+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2b6683c596469,inbound,work,Rippling,"( https://rippling.com )
+
+Hi Brady,
+
+You have *1 upcoming tasks* for Doro Mind Inc., 0 of which are new. Here's when everything is due.
+
+Due this week •   Showing 1 of 1 Task Due date Your upcoming payroll run, May 02 - May 15: Biweekly - Hourly, is not yet approved and has a deadline of May 18, 2026 at 5:30:00 PM EDT ( https://app.rippling.com/inbox/dashboard/tasks/pending ) 2026-05-18
+
+View tasks ( https://app.rippling.com/inbox/dashboard/tasks/pending )
+
+© 2026 Rippling.com
+430 California St, 11th Floor, SF, CA 94104
+
+About Us ( https://www.rippling.com/about ) • Help Center ( https://help.rippling.com ) • Terms of Service ( https://app.rippling.com/legal/user ) • Privacy ( https://app.rippling.com/legal/privacy ) • Unsubscribe ( https://app.rippling.com/unsubscribe/po8pne3k0jxbdpwo )
+
+Addressed to *Doro Mind Inc.*","Rippling: approve payroll run May 02-15 by May 18 5:30pm EDT.",Y,"explicit ask: approve payroll by deadline",N,"no later same-thread reply",N,"no later same-thread reply"
 https://mail.google.com/mail/u/0/#all/19e2b4fb9e505ef7,2026-05-15T11:05:04+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2b4fb9e505ef7,inbound,work,"Leslie Pollak @ NAMIWalks Westchester","namiwalks - DonorDrive®                              Dear Doro,
 
  Thank you for participating in NAMIWalks. There’s one more way to show
@@ -76,7 +273,7 @@ View all 50 tasks due soon (https://app.asana.com/-/my_tasks)
 Don't want a daily email about tasks assigned to you? Change what Asana sends you (https://app.asana.com/-/confirm_change_notification_category_setting?domain=1205801040312777&key=2901a9050739c6dec3164bb973c952a4¬ification_category=email%3Adigest_my_tasks_due).
 
 633 Folsom St San Francisco, CA 94107","Asana daily digest listing my tasks due soon.",N,"automated digest from Asana, not an ask","","","",""
-https://doromind.slack.com/archives/C0B3UG042P4/p1778841495482939,2026-05-15T10:38:15.482939+00:00,slack_doromind_slack_com,#geo-new-york,1778841495.482939,inbound,work,"Hannah Bock","Brady I could reserve a spot at the union square industrious (mine is annoying to get to) or is it easier to do your wework? ","Hannah asks whether to reserve Union Square Industrious or use my WeWork for meeting.",Y,"inbound question addressed to me by name",N,"no later message in thread",N,"no later message in thread"
+https://doromind.slack.com/archives/C0B3UG042P4/p1778841495482939,2026-05-15T10:38:15.482939+00:00,slack_doromind_slack_com,#geo-new-york,1778841495.482939,inbound,work,"Hannah Bock","Brady I could reserve a spot at the union square industrious (mine is annoying to get to) or is it easier to do your wework? ","Hannah asks whether to book Union Square Industrious or use my WeWork.",Y,"addresses me by name with binary question",N,"no later message from me in thread",N,"no later message from me in thread"
 https://mail.google.com/mail/u/0/#all/19e2ab76792806b7,2026-05-15T08:18:42+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2ab76792806b7,inbound,work,"xMatters Free Tier Support","[image]  
   
 Hi Brady‍,
@@ -772,7 +969,7 @@ For any further questions, please visit our [help center](https://url8792.mail.a
 [Anthropic]  
   
 [Claude.ai](https://url8792.mail.anthropic.com/ls/click?upn=u001.rFcAmKXLOm9u6wLRWHIUYR2OTiBaouKIQ6GV-2FPwmu34-3Dl_aE_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38N6-2FMGW8ay5jIJNPpP6wMWQB2QQzS69FEn48hxEpCLOnNqZnGBXUTZjfZjeXt6ZXPyY6-2B91IhO7mh88PujX4yYnAa3GfOl-2BNQcrLai1tLX4li22tQEsVQ6bY6u3C57WlllKLRp5ErxZa7PR3O7usHKfA24WKNJZDCnKtoZ-2BgGuVrZYO2z5EcCLoRnu7OkpgVuJyRL3g12QL-2FNJ8U9srcDTPTG0JTRexSI9UAf4HlUGdhV-2FZCz7DiKrSuGs3rQQns1M-3D) · [Research](https://url8792.mail.anthropic.com/ls/click?upn=u001.rFcAmKXLOm9u6wLRWHIUYSKRKJAmcPTW126jLsjaGDdpWUMe1rPQqsdTGhEZEUSP1Y6v_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38N6-2FMGW8ay5jIJNPpP6wMWQhdeghgzUMuW7yednX-2B7j4CURjC0IaY8UxgW42MqoE5nYolP3iX8vD8uI4akpo49taNnAkwqIxdPc5H3td-2BmWcTwAMNcUBhFz7EfbrBWq77e8fldKQ1B-2B48qxSiG-2Bh1Do3p3bDXD4rHOHnMO9TI38W414-2Bur5jmaVW0S-2FRoQ5JHI640pUt1GwZfuIcC20OJmjX0vfIy-2Ff04AiucT4KXMKC8zlNPjTfusALM-2FrHoM8oYc-3D) · [Products](https://url8792.mail.anthropic.com/ls/click?upn=u001.rFcAmKXLOm9u6wLRWHIUYdjm06hTZNgr9QoLOKdEJWibHpXIMsfRA-2FkzEr0qCie3Onfk_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38N6-2FMGW8ay5jIJNPpP6wMWQKka4IBEswF8g3UqkLJevISp68ajWtRZXpdXiBews6OBnFy0y4J2a8EQ6MozYfz46V-2FFMAK4BMVMT5n6EfbBeRQ9QNYK9YnTUmgNi8Gs0-2FfyYPWjJ-2FYyuOaGlP0ZATsjeEkoP4Gh-2F2irzhEnH-2BCrgECGKkaEfSVrPd7SBGSqZT5fOTjuwHoS9ixn6zfQqng7zuPZX96AmibYJfKO5ODyGEsyBpOyDL98JuO8RBslYokk-3D) · [Company](https://url8792.mail.anthropic.com/ls/click?upn=u001.rFcAmKXLOm9u6wLRWHIUYVkNF9ETxjhvx66ue5S9R9UnlB8E2k-2FYvarmPfGHl-2BuKtlkx_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38N6-2FMGW8ay5jIJNPpP6wMWQfXdjpaXZCCvtdmbRvDm2Y3pN3QaC6Tqut0v7KdEJMWnt9VnIJnoQrn3VZApzDTSVATALA-2FM-2FFRCL0U6OrV50H5IU4mHspJJ6WRBlncn1rYYsMQKoPJ3E57t5MBs6-2FC1xg7xXCOAh89dQHjE04k-2BOv6-2FBjZPo54RwnRWa3-2BN3FFubkYtmKd4OAtZ-2BGUXfZ7eaSetRD64DGZj83zhuDlrgQxyqtC2t2-2F-2FVb1xw4gLW-2F8c-3D)","[Claude] Hello, Your access to the Claude API has been disabled because your organization ‘Doro Mind' is out of usage credits. Go to the [B…",N,"automated sender / system notification","","","",""
-messages://chat42546307063245870/r84553,2026-05-14T23:49:35.727238+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84553,inbound,personal,"Robert Laitman","Cardiologist tomorrow early but should have time later","Rob says cardiologist tomorrow early but should have time later.",N,"Rob replying to Mimi; FYI to chat, no ask to me","","","",""
+messages://chat42546307063245870/r84553,2026-05-14T23:49:35.727238+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84553,inbound,personal,"Robert Laitman","Cardiologist tomorrow early but should have time later","Rob: cardiologist appointment tomorrow early, available later.",N,"FYI availability update, not a direct ask","","","",""
 https://mail.google.com/mail/u/0/#all/19e28da773286cac,2026-05-14T23:37:04+00:00,gmail_brady_doromind_com,brady@doromind.com,19df52ee56238f34,inbound,work,"Stephanie Greer","Hi Cheryl,
 
 Thank you for joining the waitlist this week. I wanted to send you a quick
@@ -850,9 +1047,9 @@ the organizer, be added to the guest list, invite others regardless of
 their own invitation status, or modify your RSVP.
 
 Learn more https://support.google.com/calendar/answer/37135#forwarding","Brady / Mimi Friday May 15, 2026 ⋅ 12pm – 12:30pm Eastern Time - New York Join with Google Meet Join by phone (US) +1 929-249-4640 PIN: 360…",Y,"inbound direct to Brady",N,"no later message in conversation",N,"no later message in conversation"
-messages://+17608143153/r84552,2026-05-14T23:00:56.252576+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84550,inbound,personal,"Paloma Young","[Reaction: ❤️ Love]","[Reaction: Love] from Paloma.",N,"tapback reaction, no content","","","",""
-messages://chat42546307063245870/r84551,2026-05-14T22:56:29.735613+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84551,inbound,personal,"Mimi Liu","Rob - do you have a few mins to chat tomorrow? I’m flexible before 11 am, after 4","Mimi asks Rob if he has time to chat tomorrow.",N,"ask explicitly addressed to Rob, not me","","","",""
-messages://+17608143153/r84550,2026-05-14T22:44:13.398740+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84550,outbound,personal,"Paloma Young","Headed home","Headed home",N,"status FYI, no commitment language","","","",""
+messages://+17608143153/r84552,2026-05-14T23:00:56.252576+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84550,inbound,personal,"Paloma Young","[Reaction: ❤️ Love]","Paloma Loved my earlier message.",N,"tapback reaction, not work","","","",""
+messages://chat42546307063245870/r84551,2026-05-14T22:56:29.735613+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84551,inbound,personal,"Mimi Liu","Rob - do you have a few mins to chat tomorrow? I’m flexible before 11 am, after 4","Mimi to Rob: do you have a few minutes to chat tomorrow?",N,"ask addressed to Rob, not me","","","",""
+messages://+17608143153/r84550,2026-05-14T22:44:13.398740+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84550,outbound,personal,"Paloma Young","Headed home","Headed home",N,"outbound status update, no commitment","","","",""
 https://mail.google.com/mail/u/0/#all/19e289ecb94596ac,2026-05-14T22:34:38+00:00,gmail_brady_doromind_com,guides@doromind.com,19e289ecb94596ac,outbound,work,"mznikpoor@gmail.com, guides@doromind.com","Hi Maryam,
 
 Thank you for reaching out to learn more about Doro Mind. Based on your
@@ -936,7 +1133,7 @@ Pao Rizo
 Doro Mind Enrollment Team
 
  https://qr.doromind.com/","Hi Maryam, Thank you for reaching out to learn more about Doro Mind. Based on your location and needs you would be the best fit for our Dor…",N,"guides@ outbound; not Brady's personal commitment","","","",""
-https://doromind.slack.com/archives/C0741FBFJQ0/p1778797283996539?thread_ts=1778785031.010529,2026-05-14T22:21:23.996539+00:00,slack_doromind_slack_com,#how-we-work,1778785031.010529,inbound,work,Stephanie,"Brady was already an admin I just shifted his role to owner. hoping that will help. If I add others it will require seats but feel free to use my credentials if its helpful: <https://share.1password.com/s#93paxKZrwRclXtM_nyPaZ4n-D0mMSpRvoakLZkptAPo>","Stephanie made Brady owner of MailChimp account and offers shared credentials for others.",N,"FYI update; original ask was to Stephanie","","","",""
+https://doromind.slack.com/archives/C0741FBFJQ0/p1778797283996539?thread_ts=1778785031.010529,2026-05-14T22:21:23.996539+00:00,slack_doromind_slack_com,#how-we-work,1778785031.010529,inbound,work,Stephanie,"Brady was already an admin I just shifted his role to owner. hoping that will help. If I add others it will require seats but feel free to use my credentials if its helpful: <https://share.1password.com/s#93paxKZrwRclXtM_nyPaZ4n-D0mMSpRvoakLZkptAPo>","Stephanie: shifted Brady to MailChimp owner; offers shared credentials.",N,"informational update, no ask of me","","","",""
 https://mail.google.com/mail/u/0/#all/19e29e058250455d,2026-05-14T22:07:49+00:00,gmail_brady_doromind_com,guides@doromind.com,19e29e058250455d,outbound,work,guides@doromind.com,"Can't remember everything your provider said?
 
 Alexander Sones MD  
@@ -998,7 +1195,7 @@ notify the sender via return message.
 [chain history truncated]","That works for Kate too. Thanks! Bhavani Rose Walker CADC-II, ICADC, CCDS | Pronouns: She/her/hers Walker Care Management, LLC M: 641 451 7…",Y,"inbound to Brady with ask",N,"no later message in conversation",N,"no later message in conversation"
 https://doromind.slack.com/archives/C077WESE8S2/p1778795463898229?thread_ts=1778795350.770389,2026-05-14T21:51:03.898229+00:00,slack_doromind_slack_com,#guiding-members,1778795350.770389,inbound,work,Stephanie,"Switch options:
 option 1: Brady 5/26-5/31 &lt;&gt; Stephanie 6/8-6/14
-option 2:  Minna 6/1-6/7 &lt;&gt; Stephanie 6/8-6/14","Stephanie lists two on-call swap options between Brady/Minna and herself for 6/8-6/14.",Y,"follow-up offering options on swap ask directed at me",N,"no later message from me in thread",N,"no later message from me in thread"
+option 2:  Minna 6/1-6/7 &lt;&gt; Stephanie 6/8-6/14","Stephanie offers two on-call switch options involving Brady and Minna.",Y,"small-group thread, options directed at me to choose",N,"no later message from me in thread",N,"no later message from me in thread"
 https://mail.google.com/mail/u/0/#all/19e287769124affe,2026-05-14T21:49:17+00:00,gmail_brady_doromind_com,brady@doromind.com,19e283a198f4ac6b,inbound,work,"Brittany Troupe","Monday 6/1 at 1:30 would be great for Clare if that works for Kate. I can
 send an invite, but if we need to coordinate a different time, we can
 always change it.
@@ -1060,7 +1257,7 @@ bhavani.walker@gmail.com> wrote:
 > prohibited. If you have received this email in error, please immediately
 > notify the sender via return message.
 >","Monday 6/1 at 1:30 would be great for Clare if that works for Kate. I can send an invite, but if we need to coordinate a different time, we…",Y,"inbound direct to Brady",N,"no follow-up from me",N,"no fulfillment signal"
-https://doromind.slack.com/archives/C077WESE8S2/p1778795350770389?thread_ts=1778795350.770389,2026-05-14T21:49:10.770389+00:00,slack_doromind_slack_com,#guiding-members,1778795350.770389,inbound,work,Stephanie,"Brady and Minna -- would it be possible to switch on call weeks with one of you? I can't do the 6/13 weekend (although I would be fine during the week). It looks like Brady you are assigned 5/26-5/31 but I think you're also going to NAMIcon that week/weekend so might be a good one to switch.","Stephanie asks Brady or Minna to swap on-call weeks because she cannot cover 6/13 weekend.",Y,"inbound ask addressed to me by name in small thread",N,"no later message from me in thread",N,"no later message from me in thread"
+https://doromind.slack.com/archives/C077WESE8S2/p1778795350770389?thread_ts=1778795350.770389,2026-05-14T21:49:10.770389+00:00,slack_doromind_slack_com,#guiding-members,1778795350.770389,inbound,work,Stephanie,"Brady and Minna -- would it be possible to switch on call weeks with one of you? I can't do the 6/13 weekend (although I would be fine during the week). It looks like Brady you are assigned 5/26-5/31 but I think you're also going to NAMIcon that week/weekend so might be a good one to switch.","Stephanie asks Brady or Minna to swap on-call weeks since she cant do 6/13.",Y,"directly addresses me by name with ask",N,"no later message from me in thread",N,"no later message from me in thread"
 https://mail.google.com/mail/u/0/#all/19e2875db08f9e97,2026-05-14T21:47:37+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2875db08f9e97,inbound,work,"Brittany Troupe","Excellent! Thank you!
 
 On Thu, May 14, 2026 at 2:52 PM Bhavani Rose Walker <
@@ -1270,8 +1467,8 @@ the organizer, be added to the guest list, invite others regardless of
 their own invitation status, or modify your RSVP.
 
 Learn more https://support.google.com/calendar/answer/37135#forwarding","Lindsey Schupp has accepted this invitation. Welcome to Doro Mind, Lindsey! Monday May 18, 2026 ⋅ 1pm – 1:30pm Eastern Time - New York Join…",N,"automated sender / system notification","","","",""
-https://doromind.slack.com/archives/C0AB86YJ7EU/p1778792407400649?thread_ts=1778792407.400649,2026-05-14T21:00:07.400649+00:00,slack_doromind_slack_com,#-provider-experience-care,1778792407.400649,inbound,work,Mimi,"To follow up on today's firm health discussion around guide-on call, for awareness, I'm guide on call for evenings and weekends this week through 5/26, and Brady from then until 6/1. We're excited to pilot the flags for on call. Jon Jessica Romeo Kate Douglas Stephanie Minna Hannah Bock","Mimi announces guide-on-call coverage: she covers through 5/26, Brady covers until 6/1; piloting flags.",N,"FYI announcement to channel, no ask","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778791869795109?thread_ts=1778786560.651899,2026-05-14T20:51:09.795109+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Jessica Romeo","Another thing that jumps out - even though we have more compass members the majority of flags are for care members ","Jessica notes that despite more Compass members, majority of flags are for Care members.",N,"observation in group thread, not addressed to me","","","",""
+https://doromind.slack.com/archives/C0AB86YJ7EU/p1778792407400649?thread_ts=1778792407.400649,2026-05-14T21:00:07.400649+00:00,slack_doromind_slack_com,#-provider-experience-care,1778792407.400649,inbound,work,Mimi,"To follow up on today's firm health discussion around guide-on call, for awareness, I'm guide on call for evenings and weekends this week through 5/26, and Brady from then until 6/1. We're excited to pilot the flags for on call. Jon Jessica Romeo Kate Douglas Stephanie Minna Hannah Bock","Mimi FYI: guide-on-call schedule, Brady covers from 5/26-6/1.",N,"FYI broadcast to channel, names me but no ask","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778791869795109?thread_ts=1778786560.651899,2026-05-14T20:51:09.795109+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Jessica Romeo","Another thing that jumps out - even though we have more compass members the majority of flags are for care members ","Jessica notes most flags are for care members despite more compass members.",N,"thread discussion not directed at me","","","",""
 https://mail.google.com/mail/u/0/#all/19e2841aadfb4513,2026-05-14T20:50:37+00:00,gmail_brady_doromind_com,brady@doromind.com,19e283a198f4ac6b,inbound,work,"Bhavani Rose Walker","Hey Brittany,
 
 I can definitely coordinate another time for Clare and Kate. Perhaps Monday
@@ -1354,7 +1551,7 @@ Doro Mind Enrollment Team
 ----
 
 [chain history truncated]","Hi Lois, I just wanted to follow up and see if I could answer any questions for you. Did you have a chance to consider your interest in Dor…",N,"guides@ outbound; not Brady's personal commitment","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778790425146169?thread_ts=1778786560.651899,2026-05-14T20:27:05.146169+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Hannah Bock","This would be a dream. Also, RNs can send the med on behalf of the NP, so NP doesn't even need to sign/send.","Hannah agrees RNs could send meds on behalf of NP without NP signing.",N,"commentary in group thread, not addressed to me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778790425146169?thread_ts=1778786560.651899,2026-05-14T20:27:05.146169+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Hannah Bock","This would be a dream. Also, RNs can send the med on behalf of the NP, so NP doesn't even need to sign/send.","Hannah: RNs can send meds on behalf of NP, NP doesnt need to sign.",N,"thread discussion not directed at me","","","",""
 https://mail.google.com/mail/u/0/#all/19e28228d92cf272,2026-05-14T20:16:39+00:00,gmail_brady_doromind_com,brady@doromind.com,19e28228d92cf272,inbound,work,"Minna Chan","Kate,
 
 I will let you take the lead on the reply to Jenna as I believe you were
@@ -1380,7 +1577,7 @@ Thanks,
 Minna
 
 [chain history truncated]","Kate, I will let you take the lead on the reply to Jenna as I believe you were also working on an internal update on her case transitions.…",Y,"inbound direct to Brady",N,"no later message in conversation",N,"no later message in conversation"
-messages://77547/r84549,2026-05-14T20:15:55.991934+00:00,sms_unknown,77547,messages://77547/r84549,inbound,personal,77547,"Oxfam: Special virtual event with DRC Country Director on Mon. 5/18: Hear firsthand about the effects of US aid cuts: http://lil.ms/oymx/3kqzyd stop=end","Oxfam SMS promoting virtual event with DRC Country Director on 5/18.",N,"automated marketing SMS","","","",""
+messages://77547/r84549,2026-05-14T20:15:55.991934+00:00,sms_unknown,77547,messages://77547/r84549,inbound,personal,77547,"Oxfam: Special virtual event with DRC Country Director on Mon. 5/18: Hear firsthand about the effects of US aid cuts: http://lil.ms/oymx/3kqzyd stop=end","Oxfam: virtual event with DRC Country Director on Mon 5/18.",N,"marketing SMS broadcast","","","",""
 https://mail.google.com/mail/u/0/#all/19e2819a7de0f1c0,2026-05-14T20:06:53+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2819a7de0f1c0,inbound,work,"Heather Anderson","Hi Dr. Laitman,
 
 I am writing to request an update on several aspects of Sam’s visit today.
@@ -1407,15 +1604,15 @@ for all you do, Dr. L.
 Light & Lava,
 Doro Guide
 Heather Anderson","Hi Dr. Laitman, I am writing to request an update on several aspects of Sam’s visit today. Could you please provide the following informati…",Y,"inbound to Brady with ask",N,"no later message in conversation",N,"no later message in conversation"
-https://doromind.slack.com/archives/C0B010F73BR/p1778788748187359?thread_ts=1778786560.651899,2026-05-14T19:59:08.187359+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Jessica Romeo","I'm not sure how the flow works for us today.","Jessica says she is not sure how the flow works for us today.",N,"observation in group thread, not addressed to me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778788748187359?thread_ts=1778786560.651899,2026-05-14T19:59:08.187359+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Jessica Romeo","I'm not sure how the flow works for us today.","Jessica: not sure how the flow works for us today.",N,"channel thread discussion not directed at me","","","",""
 https://doromind.slack.com/archives/C0B010F73BR/p1778788621848619?thread_ts=1778786560.651899,2026-05-14T19:57:01.848619+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Jessica Romeo","I mean, that's my swag based on the categories. Does that sound right / look right to you? Maybe we can take each of these and map it out. I'm assuming some work could be delegated to AI (maybe not all).
 
 More tangibly, here's an example of what I've seen if we just take a look at refills
 Member: Requests refill / refill due
 RN: RN reviews request, reviews chart, decides if this is a low risk/standard refill,"" If yes, makes sure the pharmacy is accurate, drafts the the refill in EMR. If no, escalates to NP/MD.
-NP: Reviews and signs and sends","Jessica maps refill task example across Member/RN/NP roles and proposes AI delegation possibilities.",N,"analysis in group thread, not addressed to me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778788299417549?thread_ts=1778786560.651899,2026-05-14T19:51:39.417549+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Hannah Bock","Jessica Romeo It's fascinating that 60% of the clinical triage could be done by an RN. I'd recommend surfacing this in Firm Health (or elsewhere?), since this eats into efficiency for both guides and NPs. I am skeptical that AI could handle the nuances of our highly unique clinical model...so I'd advocate for an RN.","Hannah suggests surfacing 60% RN-doable clinical triage at Firm Health; skeptical of AI handling.",N,"commentary in group thread, not addressed to me","","","",""
-https://doromind.slack.com/archives/C0AJHT23SM8/p1778787757578209,2026-05-14T19:42:37.578209+00:00,slack_doromind_slack_com,#sempervirens,1778787757.578209,inbound,work,Raquel,"Hi <!here> - we have a meeting with SVA advisors on Monday, so wanted to ask if there are specific ""best practices"" that you'd like us to communicate based on your experience so far? We're putting together a list to start, but figured you would all have the best perspective.","Raquel asks SV portfolio for best-practice input ahead of Monday SVA advisor meeting.",N,"<!here> broadcast to large group, no by-name ask to me","","","",""
+NP: Reviews and signs and sends","Jessica maps out refill workflow: member→RN triage→NP signs/sends.",N,"channel thread discussion not directed at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778788299417549?thread_ts=1778786560.651899,2026-05-14T19:51:39.417549+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Hannah Bock","Jessica Romeo It's fascinating that 60% of the clinical triage could be done by an RN. I'd recommend surfacing this in Firm Health (or elsewhere?), since this eats into efficiency for both guides and NPs. I am skeptical that AI could handle the nuances of our highly unique clinical model...so I'd advocate for an RN.","Hannah suggests surfacing 60% RN-doable triage to Firm Health; advocates RN over AI.",N,"channel thread discussion not directed at me","","","",""
+https://doromind.slack.com/archives/C0AJHT23SM8/p1778787757578209,2026-05-14T19:42:37.578209+00:00,slack_doromind_slack_com,#sempervirens,1778787757.578209,inbound,work,Raquel,"Hi <!here> - we have a meeting with SVA advisors on Monday, so wanted to ask if there are specific ""best practices"" that you'd like us to communicate based on your experience so far? We're putting together a list to start, but figured you would all have the best perspective.","Raquel asks for SVA best practices to share with advisors Monday.",N,"<!here> broadcast in channel, not addressed to me specifically","","","",""
 https://mail.google.com/mail/u/0/#all/19e2802819998a24,2026-05-14T19:41:52+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2802819998a24,inbound,work,"Client Service at Rho","Rho
 
 Hi Francis,
@@ -1435,14 +1632,14 @@ The Rho Team
 © 2019–2026 Under Technologies, Inc. DBA Rho.
 
 Privacy Policy ( https://u25257436.ct.sendgrid.net/ls/click?upn=u001.BVAWmtemvhskCSTa0tl3aQrLQiVWvfdzwLBBssG3raD6mJcFbPFbZIMhPhz6sA5qnEjkWm-2B9t3IP4q9828d3aA-3D-3DjfHg_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38PJDKG8jqd84JKqy6vvMlSE1bhW9Umt-2BePllzfQkWZcRAJYfbcTg-2Bo8R8iBhodiKg4cE3-2B8CKbBR-2FsaulQQneKmIPm6uAq8QMPRgESb9Ij6YfdJIuI6gQ5R5vcWAFn9PM1linX-2B6th5W-2FmvA5ftmTrTwpvgII5-2BmZ8TBso-2F-2B0C340sWeJeqrcfwphtC3L3wBDl1hfDjujZrtigzYwrB4hJrHlNvofp-2FjmYznKDluiHMEP8s8YNXx7eljYgrYYzeXdQ-3D ) · Terms of Service ( https://u25257436.ct.sendgrid.net/ls/click?upn=u001.BVAWmtemvhskCSTa0tl3aQrLQiVWvfdzwLBBssG3raDz8HBIKfHgTBRnl5wWsx71RqufRPm43UqV7gK-2BNKSd8A-3D-3D_wTN_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38PJDKG8jqd84JKqy6vvMlSE1bhW9Umt-2BePllzfQkWZcRAJYfbcTg-2Bo8R8iBhodiKg4cE3-2B8CKbBR-2FsaulQQneKmIPm6uAq8QMPRgESb9Ij6YfLCAH85Jd2MSqGWjL7IaEzlyBOiQspPBRaLHDhrp8wnGIQdgmlNZsCeYTdjcnpP1ol4BzS-2Fi3QZ28-2FHwG8Q1Vxarcx6FnllTTZCZMJjOhLFuhXspzxi6PD5AVDcGkUpD2NNviFimxB6QPl6GhtAttc-3D )","Rho Hi Francis, We want to give you a quick heads-up about a recent reinvestment in your Treasury account. Due to a system issue, some asse…",Y,"inbound direct to Brady",N,"no later message in conversation",N,"no later message in conversation"
-https://doromind.slack.com/archives/C0B010F73BR/p1778787613587129?thread_ts=1778786560.651899,2026-05-14T19:40:13.587129+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Jessica Romeo","So from a cost to serve standpoint - if we aren't able to hire an RN, are we able to streamline/automate/ AI-ify the 60% of the clinical triage (review, evaluate the severity, decide next steps, queue things up for NP)?","Jessica asks if 60% of clinical triage could be automated/AI-ified absent RN hire.",N,"open question to thread, not addressed to me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778787613587129?thread_ts=1778786560.651899,2026-05-14T19:40:13.587129+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Jessica Romeo","So from a cost to serve standpoint - if we aren't able to hire an RN, are we able to streamline/automate/ AI-ify the 60% of the clinical triage (review, evaluate the severity, decide next steps, queue things up for NP)?","Jessica asks if anything else stands out, CC'ing Hannah, Jon, Brittany, Kate.",N,"asks others by name, not me","","","",""
 https://doromind.slack.com/archives/C0B010F73BR/p1778787572270669?thread_ts=1778786560.651899,2026-05-14T19:39:32.270669+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Jessica Romeo","If we were going to break down tasks by traditional ""role"" and how most practices might delegate to *make sure everyone is operating at the top of their license*, I took a swag at how these flagged messages might be typically divided across NP -- RN -- Guide
 
 NP - Titration Questions, Admin Letters/Forms - 20%
 RN triages first and esclates to NP  - Symptoms, Refills, Labs, Vitals, Transitions, Insurance - 62%
-Guide - Admin - 18%","Jessica proposes role-based split of flagged tasks: NP 20%, RN triage 62%, Guide 18%.",N,"analysis in group thread, not addressed to me","","","",""
+Guide - Admin - 18%","Jessica breaks out flag tasks by NP/RN/Guide role split (20/62/18%).",N,"channel thread discussion not directed at me","","","",""
 https://doromind.slack.com/archives/C09C950259B/p1778787257658949,2026-05-14T19:34:17.658949+00:00,slack_doromind_slack_com,#prospect-calls,1778787257.658949,inbound,work,Pao,"Welcome Call: Brady &amp; <https://workbench.doromind.com/member_groups/849a4206-6b38-4c2e-9db8-e8ea2e1a827d/tasks|BJ>
-Friday , May  15⋅ 10:30 AM -11:00 AM ET","Welcome Call: Brady & BJ scheduled Fri 5/15 10:30-11:00 AM ET.",N,"calendar notice posted by bot, no ask","","","",""
+Friday , May  15⋅ 10:30 AM -11:00 AM ET","Welcome call: Brady & BJ scheduled Friday May 15, 10:30-11am ET.",N,"calendar FYI, no ask requiring action","","","",""
 https://mail.google.com/mail/u/0/#all/19e27f704b58edaf,2026-05-14T19:31:24+00:00,gmail_brady_doromind_com,guides@doromind.com,19e27f704b58edaf,outbound,work,"bjones@nb.com, guides@doromind.com","Hi Brian
 
 Thank you for reaching out to learn more about Doro Mind. Based on your
@@ -1519,7 +1716,7 @@ Doro Mind Enrollment Team
 
  https://qr.doromind.com/","Hi Brian Thank you for reaching out to learn more about Doro Mind. Based on your location and needs you would be the best fit for our Doro…",N,"guides@ outbound; not Brady's personal commitment","","","",""
 https://mail.google.com/mail/u/0/#all/19e27f79d440a99e,2026-05-14T19:29:59+00:00,gmail_brady_doromind_com,brady@doromind.com,19e27f79d440a99e,inbound,work,"Brady Richards via Reclaim","A new meeting has been scheduled. Please enable HTML in your email client to view the details.","A new meeting has been scheduled. Please enable HTML in your email client to view the details.",Y,"inbound to Brady with ask",N,"no later message in conversation",N,"no later message in conversation"
-https://doromind.slack.com/archives/C0B010F73BR/p1778786703523299?thread_ts=1778786560.651899,2026-05-14T19:25:03.523299+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Jessica Romeo","Curious if anything else stands out / or is notable to people CC:Hannah Bock Jon Brittany Troupe Kate Douglas","Jessica asks Hannah, Jon, Brittany and Kate if anything else stands out from the flag data.",N,"CCs named others; I am not addressed","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778786703523299?thread_ts=1778786560.651899,2026-05-14T19:25:03.523299+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778786560.651899,inbound,work,"Jessica Romeo","Curious if anything else stands out / or is notable to people CC:Hannah Bock Jon Brittany Troupe Kate Douglas","Jessica asks Hannah, Jon, Brittany, Kate what else is notable.",N,"addresses others by name, not me","","","",""
 https://mail.google.com/mail/u/0/#all/19e27f348d9493fc,2026-05-14T19:24:52+00:00,gmail_brady_doromind_com,brady@doromind.com,19e27f348d9493fc,inbound,work,"Paige Ragan","Hello Doro Mind Team,
 
 My name is Paige Ragan, and I was recently introduced to Doro health by a
@@ -1590,14 +1787,14 @@ Insurance / Pre-Auth / Billing - 3% (22) - _Typically an RN would do first level
 Admin Letters / Forms - 2% (12)
 Tech Support / Link Access - 2% (19)
 
-<https://docs.google.com/document/d/1J2qjNn10IUJAXSeaspDfCwHAoSCClVOZXzXk6PMvSVY/edit?tab=t.0#heading=h.3mczxejja27s|https://docs.google.com/document/d/1J2qjNn10IUJAXSeaspDfCwHAoSCClVOZXzXk6PMvSVY/edit?tab=t.0#heading=h.3mczxejja27s>","Jessica shares 30-day flag breakdown: 69% clinical, mostly data collection/triage; details task categories.",N,"FYI data share to channel, no ask to me","","","",""
+<https://docs.google.com/document/d/1J2qjNn10IUJAXSeaspDfCwHAoSCClVOZXzXk6PMvSVY/edit?tab=t.0#heading=h.3mczxejja27s|https://docs.google.com/document/d/1J2qjNn10IUJAXSeaspDfCwHAoSCClVOZXzXk6PMvSVY/edit?tab=t.0#heading=h.3mczxejja27s>","Jessica shares flag data: 69% clinical, 65% care members; task breakdown by role.",N,"channel data broadcast, no ask of me","","","",""
 https://doromind.slack.com/archives/C0741FBFJQ0/p1778785031010529?thread_ts=1778785031.010529,2026-05-14T18:57:11.010529+00:00,slack_doromind_slack_com,#how-we-work,1778785031.010529,inbound,work,Dhanica,"Hi Stephanie  — could you please add Mimi ,  Brady and/or me as users/admins to the MailChimp account (hopefully without extra cost)?
 
 Right now it looks like the account is only under your access, and I’ll need direct access as well for vendor management and account coordination purposes (payment method change, etc.).
 
 Thank you!
 
-PS: not sure if this is the correct channel, but it's the closest, I think? :rolling_on_the_floor_laughing:","Dhanica asks Stephanie to add Mimi, Brady, or her as MailChimp admins.",N,"ask addressed to Stephanie; I am only named as possible recipient","","","",""
+PS: not sure if this is the correct channel, but it's the closest, I think? :rolling_on_the_floor_laughing:","Dhanica asks Stephanie to add Mimi, Brady, and/or her as MailChimp admins.",N,"ask directed at Stephanie, not me","","","",""
 https://mail.google.com/mail/u/0/#all/19e27cf5f128780a,2026-05-14T18:45:56+00:00,gmail_brady_doromind_com,guides@doromind.com,19e27cf5f128780a,outbound,work,guides@doromind.com,"""Has anyone else faced unexpected billing issues with health &
 wellness services lately? 💳  Many c...""
 in Health & Wellness Consultant
@@ -2333,8 +2530,8 @@ Please stay in touch or contact us to receive more information.
 hello@thedorm.com (mailto:hello@thedorm.com)  /  (877) 996-2326 (tel:+1-877-996-2326)  /  www.thedorm.com (https://thedorm.us17.list-manage.com/track/click?u=9eb27dacabcaa6eeb4250a148&id=22f48a79d2&e=1e245e3cdf)
 
 Unsubscribe (https://thedorm.us17.list-manage.com/unsubscribe?u=9eb27dacabcaa6eeb4250a148&id=340b93f0dc&t=b&e=1e245e3cdf&c=ead0be6175) / Privacy Policy (https://thedorm.us17.list-manage.com/track/click?u=9eb27dacabcaa6eeb4250a148&id=a1fc469e14&e=1e245e3cdf) / Forward This Email (https://us17.forward-to-friend.com/forward?u=9eb27dacabcaa6eeb4250a148&id=ead0be6175&e=1e245e3cdf)","Happy Pride! 🏳️‍🌈 ** Having trouble viewing this email? Click Here. ( ------------------------------------------------------------",Y,"inbound direct to Brady",N,"no later message in conversation",N,"no later message in conversation"
-https://doromind.slack.com/archives/C0B010F73BR/p1778780320715879?thread_ts=1778766999.479609,2026-05-14T17:38:40.715879+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","Always happy to share!","Hannah: always happy to share.",N,"acknowledgement in group thread, not to me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778780312757579?thread_ts=1778766999.479609,2026-05-14T17:38:32.757579+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","Jessica Romeo Yes, does feel done when it disappears for sure.","Hannah confirms that flags feel done when they disappear from view.",N,"reply to Jessica in group thread, not to me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778780320715879?thread_ts=1778766999.479609,2026-05-14T17:38:40.715879+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","Always happy to share!","Hannah: always happy to share!",N,"casual reply in thread not directed at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778780312757579?thread_ts=1778766999.479609,2026-05-14T17:38:32.757579+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","Jessica Romeo Yes, does feel done when it disappears for sure.","Hannah confirms to Jessica it feels done when flag disappears.",N,"thread discussion not directed at me","","","",""
 https://mail.google.com/mail/u/0/#all/19e278a8b5f24ef0,2026-05-14T17:30:21+00:00,gmail_brady_doromind_com,brady@doromind.com,19c91779f3ee564d,inbound,work,"Mimi Liu","Are we official yet? We're looking to do our board approvals of equity
 soon, so please sign if you haven't already, Mina. Thanks!
 
@@ -2351,7 +2548,7 @@ strong evidence anchor for our care model, particularly given how clozapine
 is viewed as off-label for bipolar.
 
 [chain history truncated]","Are we official yet? We're looking to do our board approvals of equity soon, so please sign if you haven't already, Mina. Thanks! Also, her…",Y,"inbound to Brady with ask",N,"no later message in conversation",N,"no later message in conversation"
-https://doromind.slack.com/archives/C07082PQ132/p1778779264908329?thread_ts=1778774824.175279,2026-05-14T17:21:04.908329+00:00,slack_doromind_slack_com,#ai,1778774824.175279,inbound,work,Mimi,"In terms of disputing, I'd try opening a ticket as we don't have an account manager we've been interfacing with. If the ticket gets stuck, we can try the person Brady and I have chatted w/ about the BAA.","Mimi suggests opening a support ticket for Claude overage dispute, fallback to BAA contact.",N,"Mimi replying to David, not asking me","","","",""
+https://doromind.slack.com/archives/C07082PQ132/p1778779264908329?thread_ts=1778774824.175279,2026-05-14T17:21:04.908329+00:00,slack_doromind_slack_com,#ai,1778774824.175279,inbound,work,Mimi,"In terms of disputing, I'd try opening a ticket as we don't have an account manager we've been interfacing with. If the ticket gets stuck, we can try the person Brady and I have chatted w/ about the BAA.","Mimi: try opening a ticket; can escalate via BAA contact if stuck.",N,"suggestion to David, not an ask of me","","","",""
 https://mail.google.com/mail/u/0/#all/19e27785e2e9c341,2026-05-14T17:12:51+00:00,gmail_brady_doromind_com,guides@doromind.com,19d2091bb5b48b48,outbound,work,"Leslie Fellman, guides@doromind.com","Hi Leslie,
 
 I hope you’ve had a great month!
@@ -2497,7 +2694,7 @@ For any further questions, please visit our [help center](https://url8792.mail.a
 Anthropic PBC, 548 Market St, PMB 90375, San Francisco, CA 94104","[Claude] Hi, Your organization has reached its extra usage limit for the month. To keep your team working without interruption, you can inc…",N,"automated sender / system notification","","","",""
 https://doromind.slack.com/archives/C07082PQ132/p1778774824175279?thread_ts=1778774824.175279,2026-05-14T16:07:04.175279+00:00,slack_doromind_slack_com,#ai,1778774824.175279,inbound,work,"David Chang","Mimi Brady I want to raise a cost concern that I've noticed since switching over from the Personal Claude Max 20x plan ($200/month) to the Team Claude Premium plan ($125/month). When I was using the personal plan, I rarely ran into overage charges. Now that I'm on the team plan, I'm seeing a significantly lower ceiling of usage before I start accruing overage charges. I hit my personal weekly limit after just a day and a half of usage requiring me to purchase extra usage to continue my work. It's only been another two and a half days and I've already accrued $205.76 of overage charges. Extrapolating out, this could end up being ~$1800/month ($400/week of overage charges + $125/month/seat rounding up).
 
-The team plan gives us the BAA and collaboration (e.g. Claude Design) so I don't think we should move off, but I guess I'm wondering if it makes sense for me to move back to the Personal Claude Max 20x plan for the heavy dev work that I do and keep my seat on the team plan for collaboration and anything accessing sensitive data. Thoughts?","David flags Claude Team plan overage costs and asks Mimi/Brady whether to move heavy dev back to Personal Max.",Y,"inbound ask addressed to Mimi Brady by name",N,"no later message from me in thread",N,"no later message from me in thread"
+The team plan gives us the BAA and collaboration (e.g. Claude Design) so I don't think we should move off, but I guess I'm wondering if it makes sense for me to move back to the Personal Claude Max 20x plan for the heavy dev work that I do and keep my seat on the team plan for collaboration and anything accessing sensitive data. Thoughts?","David asks Mimi and Brady whether he should move heavy-dev usage back to personal Claude Max plan.",Y,"addresses me by name with explicit question",N,"no later message from me in thread",N,"no later message from me in thread"
 https://mail.google.com/mail/u/0/#all/19e272d4724f26cf,2026-05-14T15:51:02+00:00,gmail_brady_doromind_com,guides@doromind.com,19e27057d55aca90,outbound,work,"Akiko Gaffney, guides@doromind.com","Hi Akiko,
 
 Thanks for getting back to me!
@@ -2581,17 +2778,17 @@ Akiko
 
   
 [chain history truncated]","Thank you. My husband is in asia for business trip until next Tuesday. We will talk abiut which day fits better to talk to you via zoom and…",N,"guides@ outbound; not Brady's personal commitment","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778772358976649?thread_ts=1778766999.479609,2026-05-14T15:25:58.976649+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","Thanks Hannah Bock! Digging in here is really helpful feedback","Jessica thanks Hannah for the feedback.",N,"thanks in group thread, not to me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778772307909559?thread_ts=1778766999.479609,2026-05-14T15:25:07.909559+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","That's totally fine! It makes sense. I just want to make sure there isn't any bugs and was surprised if you weren't seeing the flags. I'm guessing once you click any flag from your notification panel it disappears so it feels ""done"" there even if it's still open in the chat","Jessica says the flag-handling pattern is fine and guesses clicking from notif panel makes it feel done.",N,"reply in group thread, not to me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778772224380829?thread_ts=1778766999.479609,2026-05-14T15:23:44.380829+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","It's there. Honestly, I think I don't use the star panel because there are so many different panels to view chats, because you have to click the arrow to see the message and I can't see when the message came in.","Hannah says she does not use the star panel because of too many views and missing timestamps.",N,"reply in group thread, not to me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771851585679?thread_ts=1778766999.479609,2026-05-14T15:17:31.585679+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","What about this one? <https://workbench.doromind.com/member_groups/fb06637b-6de3-4133-8682-a13980bd012e/messaging/sendbird_group_channel_297699309_b6093047a6aa3e0c8f17ee5be7bee6b68e359c7b?message=10157239964>","Jessica asks Hannah about another specific flagged message link.",N,"addressed to Hannah, not me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771838647889?thread_ts=1778766999.479609,2026-05-14T15:17:18.647889+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,Jon,ok,"Jon: ok.",N,"acknowledgement in group thread, not to me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771825711649?thread_ts=1778766999.479609,2026-05-14T15:17:05.711649+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","I am not sure whether it showed or not in the star panel, but I am 90 percent it did not show in my notifs.","Hannah is 90% sure the flag did not show in her notifications.",N,"reply to Jon, not to me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771736984279?thread_ts=1778766999.479609,2026-05-14T15:15:36.984279+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,Jon,"Hannah Bock can we ""unhandle"" the flag and see your star panel? are you sure it wasn't showing there?","Jon asks Hannah if they can unhandle the flag and check her star panel.",N,"addressed to Hannah, not me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771624324699?thread_ts=1778766999.479609,2026-05-14T15:13:44.324699+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,Jon,"flags were not impacted","Jon: flags were not impacted.",N,"reply in group thread, not to me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771615379999?thread_ts=1778766999.479609,2026-05-14T15:13:35.379999+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","Jon I just saw your message re: @mentions not showing up in the inbox. Can you double check that flags werent also impacted?","Jessica asks Jon whether flags were also impacted alongside @-mentions.",N,"addressed to Jon, not me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771350079879?thread_ts=1778766999.479609,2026-05-14T15:09:10.079879+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","I'll find time with you at some point to look at another example together - nothing urgent, just want to make sure there aren't any issues here","Jessica offers to find time to look at another example with Hannah; not urgent.",N,"addressed to Hannah, not me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771272635029?thread_ts=1778766999.479609,2026-05-14T15:07:52.635029+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","Okay, I'm just concerned if it's not showing up at all, or if it's just getting buried in your inbox","Jessica is concerned the flag might not be showing at all or just getting buried.",N,"reply to Hannah in group thread, not to me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778772358976649?thread_ts=1778766999.479609,2026-05-14T15:25:58.976649+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","Thanks Hannah Bock! Digging in here is really helpful feedback","Jessica thanks Hannah for the feedback.",N,"thread thanks, not directed at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778772307909559?thread_ts=1778766999.479609,2026-05-14T15:25:07.909559+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","That's totally fine! It makes sense. I just want to make sure there isn't any bugs and was surprised if you weren't seeing the flags. I'm guessing once you click any flag from your notification panel it disappears so it feels ""done"" there even if it's still open in the chat","Jessica wonders if clicking flag from notification panel makes it feel done.",N,"thread discussion not directed at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778772224380829?thread_ts=1778766999.479609,2026-05-14T15:23:44.380829+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","It's there. Honestly, I think I don't use the star panel because there are so many different panels to view chats, because you have to click the arrow to see the message and I can't see when the message came in.","Hannah: star panel exists but she doesnt use it; too many panels.",N,"thread discussion not directed at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771851585679?thread_ts=1778766999.479609,2026-05-14T15:17:31.585679+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","What about this one? <https://workbench.doromind.com/member_groups/fb06637b-6de3-4133-8682-a13980bd012e/messaging/sendbird_group_channel_297699309_b6093047a6aa3e0c8f17ee5be7bee6b68e359c7b?message=10157239964>","Jessica shares another workbench flag link for review.",N,"thread discussion not directed at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771838647889?thread_ts=1778766999.479609,2026-05-14T15:17:18.647889+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,Jon,ok,"Jon: ok",N,"one-word reply in thread, not at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771825711649?thread_ts=1778766999.479609,2026-05-14T15:17:05.711649+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","I am not sure whether it showed or not in the star panel, but I am 90 percent it did not show in my notifs.","Hannah 90% sure flag didnt show in notifs.",N,"thread discussion not directed at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771736984279?thread_ts=1778766999.479609,2026-05-14T15:15:36.984279+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,Jon,"Hannah Bock can we ""unhandle"" the flag and see your star panel? are you sure it wasn't showing there?","Jon asks Hannah to unhandle the flag and check the star panel.",N,"addresses Hannah, not me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771624324699?thread_ts=1778766999.479609,2026-05-14T15:13:44.324699+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,Jon,"flags were not impacted","Jon: flags were not impacted.",N,"thread discussion not directed at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771615379999?thread_ts=1778766999.479609,2026-05-14T15:13:35.379999+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","Jon I just saw your message re: @mentions not showing up in the inbox. Can you double check that flags werent also impacted?","Jessica asks Jon if flags were impacted by mentions issue.",N,"addresses Jon, not me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771350079879?thread_ts=1778766999.479609,2026-05-14T15:09:10.079879+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","I'll find time with you at some point to look at another example together - nothing urgent, just want to make sure there aren't any issues here","Jessica wants to find time with Hannah to review another example.",N,"addresses Hannah, not me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771272635029?thread_ts=1778766999.479609,2026-05-14T15:07:52.635029+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","Okay, I'm just concerned if it's not showing up at all, or if it's just getting buried in your inbox","Jessica concerned flag isnt showing or is getting buried.",N,"thread discussion not directed at me","","","",""
 https://mail.google.com/mail/u/0/#all/19e27057d55aca90,2026-05-14T15:07:32+00:00,gmail_brady_doromind_com,guides@doromind.com,19e27057d55aca90,outbound,work,"akikogaffney@att.net, guides@doromind.com","Hi Akiko,
 
 Thank you for reaching out and for your connection through Dr. Laitman. He
@@ -2622,11 +2819,11 @@ Pao Rizo
 Doro Mind Enrollment Team
 
  https://qr.doromind.com/","Hi Akiko, Thank you for reaching out and for your connection through Dr. Laitman. He is our Medical Director at Doro Mind and closely invol…",N,"guides@ outbound; not Brady's personal commitment","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771228810669?thread_ts=1778766999.479609,2026-05-14T15:07:08.810669+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","But I just addressed it.","Hannah: but I just addressed it.",N,"reply in group thread, not to me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771219761339?thread_ts=1778766999.479609,2026-05-14T15:06:59.761339+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock",nope,"Hannah: nope.",N,"reply in group thread, not to me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771083441719?thread_ts=1778766999.479609,2026-05-14T15:04:43.441719+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","Are you able to see it in your starred panel for that family?","Jessica asks Hannah if the flag is visible in starred panel for that family.",N,"addressed to Hannah, not me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771048081899?thread_ts=1778766999.479609,2026-05-14T15:04:08.081899+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","I am not sure if it appeared in my inbox or not and it would take too much scrolling to figure that out.","Hannah is not sure if the flag appeared in her inbox; too much scrolling to check.",N,"reply in group thread, not to me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778771026494869?thread_ts=1778766999.479609,2026-05-14T15:03:46.494869+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","Didn't see it or saw it and forgot to respond.","Hannah: did not see it or saw it and forgot to respond.",N,"reply in group thread, not to me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771228810669?thread_ts=1778766999.479609,2026-05-14T15:07:08.810669+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","But I just addressed it.","Hannah: but I just addressed it.",N,"thread discussion not directed at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771219761339?thread_ts=1778766999.479609,2026-05-14T15:06:59.761339+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock",nope,"Hannah: nope.",N,"thread discussion not directed at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771083441719?thread_ts=1778766999.479609,2026-05-14T15:04:43.441719+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","Are you able to see it in your starred panel for that family?","Jessica asks Hannah if she can see it in starred panel.",N,"addresses Hannah, not me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771048081899?thread_ts=1778766999.479609,2026-05-14T15:04:08.081899+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","I am not sure if it appeared in my inbox or not and it would take too much scrolling to figure that out.","Hannah unsure if it appeared in inbox; would take too much scrolling.",N,"thread discussion not directed at me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778771026494869?thread_ts=1778766999.479609,2026-05-14T15:03:46.494869+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Hannah Bock","Didn't see it or saw it and forgot to respond.","Hannah: didnt see it or saw it and forgot to respond.",N,"thread discussion not directed at me","","","",""
 https://doromind.slack.com/archives/C0B1DAC93T7/p1778768616323399,2026-05-14T14:23:36.323399+00:00,slack_doromind_slack_com,#daily-news,1778768616.323399,inbound,work,"Ken Mages","*The 12-Million-Token Shield*
 While you were sleeping, AI got a massive memory upgrade and researchers confirmed a biological glitch that acts as a perfect shield against schizophrenia. It is a good day to be a Bayesian machine.
 
@@ -2660,7 +2857,7 @@ _*Doro Mind Connection:* This is the foundation for Pillar 3's ""Digital Care Ag
 The cost per 1M tokens for the new DeepSeek V4-Pro. At 1/18th the cost of GPT-4o, we are entering the era of ""Infinite Intelligence"" where cost is no longer a barrier to high-volume clinical analysis.
 kgm
 <http://KenMages.com|KenMages.com>
-Sent via Claude Code / Curation and summary by Doro Mind Engine","Ken Mages daily news: 12M-token context window, blindness-schizophrenia shield, J&J pipeline, agentic models.",N,"channel news broadcast, no ask","","","",""
+Sent via Claude Code / Curation and summary by Doro Mind Engine","Ken Mages: daily brief on subquadratic LLMs, blindness/schizophrenia, J&J pipeline.",N,"FYI broadcast to #daily-news, not addressed to me","","","",""
 https://mail.google.com/mail/u/0/#all/19e26dddd637583c,2026-05-14T14:22:14+00:00,gmail_brady_doromind_com,brady@doromind.com,19e26dddd637583c,inbound,work,Asana,"Avatar of Brady Richards
 
 You have an unsent comment
@@ -2678,12 +2875,12 @@ Don't want reminders to finish drafted comments? Change what Asana sends you (ht
 633 Folsom St San Francisco, CA 94107","Avatar of Brady Richards You have an unsent comment doromind.com ( Finish comment:",Y,"inbound direct to Brady",N,"no later message in conversation",N,"no later message in conversation"
 https://doromind.slack.com/archives/C0B010F73BR/p1778766999479609?thread_ts=1778766999.479609,2026-05-14T13:56:39.479609+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766999.479609,inbound,work,"Jessica Romeo","Hannah Bock Looking at some the unhandled clincial flags -- in this thread I'm seeing a few from May 11-- curious if these are showing up in your inbox? Are you keeping them open as a reminder, or do they not require a response?
 
-<https://workbench.doromind.com/member_groups/a99fefc4-6c0b-4c88-b868-021e20a3021d/messaging/sendbird_group_channel_298721855_f19d0c2637ab05b8ebb6d2690c0cbcf605672bae?message=10152705534>","Jessica asks Hannah about unhandled clinical flags from May 11 and whether they appear in her inbox.",N,"addressed to Hannah, not me","","","",""
-https://doromind.slack.com/archives/C0B010F73BR/p1778766784801519?thread_ts=1778766456.201919,2026-05-14T13:53:04.801519+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766456.201919,inbound,work,"Hannah Bock","Stephanie was the one who designed those AI chat room flows, so she may want to weigh in. My preference (and I think one we have discussed) would be that we have automated emergency messages if there is safety or clinical content, BUT do not have any flagging for the team.","Hannah suggests automated emergency messages for safety/clinical content but no team flagging for AI chatrooms.",N,"opinion in group thread, not addressed to me","","","",""
+<https://workbench.doromind.com/member_groups/a99fefc4-6c0b-4c88-b868-021e20a3021d/messaging/sendbird_group_channel_298721855_f19d0c2637ab05b8ebb6d2690c0cbcf605672bae?message=10152705534>","Jessica asks Hannah about unhandled clinical flags from May 11.",N,"addresses Hannah, not me","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778766784801519?thread_ts=1778766456.201919,2026-05-14T13:53:04.801519+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766456.201919,inbound,work,"Hannah Bock","Stephanie was the one who designed those AI chat room flows, so she may want to weigh in. My preference (and I think one we have discussed) would be that we have automated emergency messages if there is safety or clinical content, BUT do not have any flagging for the team.","Hannah prefers automated emergency messages but no flagging for AI chatroom safety content.",N,"thread discussion not directed at me","","","",""
 https://doromind.slack.com/archives/C0B010F73BR/p1778766456201919?thread_ts=1778766456.201919,2026-05-14T13:47:36.201919+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778766456.201919,inbound,work,"Jessica Romeo","Looking at some of the unresolved flags and saw this flag for clinical review on a voices &amp; believes coach chat but there is no lead guide or lead clinician assigned. Hannah Bock Brittany Troupe Do we want messages in these ai chatrooms to be flagged? cc: Jon
 
-<https://workbench.doromind.com/member_groups/bb8b5262-1b95-4ee1-9ba8-a03244df5bc1/messaging/sendbird_group_channel_357087526_40364fe89748b18163465363203a3bd099282cbe?message=10152989117>","Jessica asks Hannah and Brittany whether AI chatroom messages should be flagged for clinical review.",N,"addressed to Hannah and Brittany by name, not me","","","",""
-https://doromind.slack.com/archives/C0B3UG042P4/p1778765926273169,2026-05-14T13:38:46.273169+00:00,slack_doromind_slack_com,#geo-new-york,1778765926.273169,outbound,work,"","Brady has joined the channel","Brady has joined #geo-new-york.",N,"system event, no content","","","",""
+<https://workbench.doromind.com/member_groups/bb8b5262-1b95-4ee1-9ba8-a03244df5bc1/messaging/sendbird_group_channel_357087526_40364fe89748b18163465363203a3bd099282cbe?message=10152989117>","Jessica asks Hannah and Brittany whether AI chatroom messages should be flagged.",N,"addresses Hannah and Brittany, not me","","","",""
+https://doromind.slack.com/archives/C0B3UG042P4/p1778765926273169,2026-05-14T13:38:46.273169+00:00,slack_doromind_slack_com,#geo-new-york,1778765926.273169,outbound,work,"","Brady has joined the channel","Brady has joined the channel.",N,"system channel-join event, no content","","","",""
 https://doromind.slack.com/archives/C0AJHT23SM8/p1778762564193439,2026-05-14T12:42:44.193439+00:00,slack_doromind_slack_com,#sempervirens,1778762564.193439,inbound,work,"Anisha Kalyani","Hi Team, just shared this update via Outlook but sharing here as well:
 
 _Unfortunately, Yashreeka (our lawyer partner leading today's session) is very ill today and cannot make this session. We will reschedule for May 26 from 12 to 1 p.m ET. You already have this slot on your calendars._
