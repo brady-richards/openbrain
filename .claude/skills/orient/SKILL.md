@@ -48,7 +48,7 @@ Three-phase pipeline that turns raw signals (Slack, email, Messages) into an ori
 4. **Phase 2 — refine.** Spawn a subagent:
    - `subagent_type`: `general-purpose`
    - `description`: "Refine captured work"
-   - `prompt`: "Run the `/refine-work` skill for $DATE. Input is `+ Inbox/orient/$DATE/capture.csv`. Output goes to `+ Inbox/orient/$DATE/refined.csv`. Report what was dropped, merged, or rewritten."
+   - `prompt`: "Run the `/refine-work` skill for $DATE. Input is `+ Inbox/orient/$DATE/capture.csv`. Output goes to `+ Inbox/orient/$DATE/refined.csv`. **Run all steps of the skill, including Step 10 (Fibonacci effort estimation on every unestimated open task assigned to Brady).** The CSV is one hand-off artifact; the DB write-back and the Asana effort estimation are required behavior, not optional. Report what was dropped, merged, or rewritten, and how many Effort estimates were set."
    Wait for completion.
 
 5. **Phase 3 — orient.** Spawn a subagent:
@@ -57,7 +57,9 @@ Three-phase pipeline that turns raw signals (Slack, email, Messages) into an ori
    - `prompt`: "Run the `/brief-me` skill for $DATE. Input is `+ Inbox/orient/$DATE/refined.csv`. Output goes to `+ Inbox/orient/$DATE/orientation.md`. Return the orientation summary."
    Wait for completion.
 
-6. **Report.** Echo the path to `orientation.md` and a one-paragraph summary drawn from the phase 3 subagent's return value. Do not re-summarize from the CSV — trust the phase 3 output.
+6. **Mirror to README.md.** Copy `+ Inbox/orient/$DATE/orientation.md` to `README.md` at the repo root (overwrite). This makes today's orientation the front-door view of the repo.
+
+7. **Report.** Echo the path to `orientation.md` and a one-paragraph summary drawn from the phase 3 subagent's return value. Do not re-summarize from the CSV — trust the phase 3 output.
 
 ## Notes
 
