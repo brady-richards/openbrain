@@ -1,0 +1,618 @@
+Ctrl-T to copy previous command as a csv.
+url,received,source,forum,thread,direction,work_or_personal,counterparty,body,summary,potential_work,potential_work_reason,acknowledged,acknowledged_reason,done,done_reason
+https://doromind.slack.com/archives/C08EU2RMU6P/p1778963977659819?thread_ts=1778963977.659819,2026-05-16T20:39:37.659819+00:00,slack_doromind_slack_com,#ceo,1778963977.659819,inbound,work,Mimi,"Brady I'm getting on the plane soon. Thanks for covering today from 5-8p.","Mimi thanks Brady for covering 5-8p today.",N,"Thanks message, no ask or commitment.","","","",""
+https://mail.google.com/mail/u/0/#all/19e3272c4cdd6da9,2026-05-16T20:20:13+00:00,gmail_brady_doromind_com,brady@doromind.com,19e3272c4cdd6da9,inbound,work,"Mimi Liu","Hi Rob and Ann,
+
+With the raise behind us, Brady and I have been focusing on growth. We see
+potential in building awareness of Doro Mind through data-driven insights.
+Along those lines, Eric and I have been kicking around an idea for an
+academic project, and I wanted to float it before we go further.
+
+Background: the existing clozapine cost effectiveness analysis (CEA)
+literature is rich but takes the ""treatment-resistant"" designation as a
+given. What's never been formally modeled is the harm of the TR-discovery
+process itself. Patients spend months-to-years on suboptimal antipsychotics
+before earning the label and getting escalated to clozapine, and the
+clinical literature is clear that this delay matters (Yoshimura's 2.8-year
+response window, Hatano on rehospitalization, Bhavsar on violence, Taipale
+on mortality). The new Li 2026 JAMA Psychiatry RCT supports starting
+clozapine after just one failed antipsychotic in first-episode psychosis.
+Eric ran a deep evidence search and confirmed the formal CEA hasn't been
+done.
+
+Eric's a trauma surgeon at Lahey but he's a CEA methodologist by training
+and runs these models himself in TreeAge. His proposal: build a CEA
+comparing early clozapine vs the standard TR-discovery pathway in
+first-episode psychosis, anchored on Li 2026. Target deliverable would be a
+peer-reviewed paper (JAMA Psych or similar) plus a companion translation
+piece for the policymaker/payor audience.
+
+A framing analogy we're playing with for the discussion section: imagine an
+oncologist saying ""let's start with the gentlest chemo first because real
+treatment has scary side effects, and if your tumors grow over the next
+year we'll escalate."" That's malpractice in oncology. The CEA argues it's
+effectively the same logic driving current first-line antipsychotic
+prescribing in early psychosis.
+
+Team we're sketching: Eric as first author and analyst; Rob in a
+middle-author role for clinical context (real prescribing pathway,
+prescriber-anxiety dynamics, what TR-discovery looks like in practice);
+Deanna Kelly as senior author candidate to anchor academic credibility. I'd
+be on acknowledgments with full Doro COI disclosure rather than the author
+line; cleaner reviewer optics that way.
+
+Would love your reactions. If we want to move forward, the natural next
+step is a kickoff call to talk through model scope.
+
+Mimi","Mimi pitches Eric's CEA project on early clozapine to Rob and Ann; asks for their reactions.",N,"Ask directed at Rob and Ann; Brady is co-sender.","","","",""
+https://mail.google.com/mail/u/0/#all/19e32398e0b1404a,2026-05-16T19:18:12+00:00,gmail_brady_doromind_com,brady@doromind.com,19e32398e0b1404a,inbound,work,"Alignable Groups","""Hi everyone! What is the true goal(s) of health and wellness?
+Thank you 💜""
+in Health & Wellness Consultant
+plus
+1 New Group Discussion
+
+Brady Richards
+
+Alignable 
+( https://emails.alignable.com/c/bD0lMkYlM0ZfYWNjdCUzRHUxNjEzNjIxMi00NjU1MTg0LTE2NTMyYjM4MTFhMmFiYjUyY2MzNmIxYTIlMjZjX3VwZGF0ZWQlM0RlZWI5OGQzZWJmNDVhMDAmdT0lM0MxN2RkNzJjOC1hNTFiLTQ3NWMtOWZhOC0yY2I3YWEzYzEzYjYlNDBlbWFpbHMuYWxpZ25hYmxlLmNvbSUzRQ== )
+
+********************
+New Group Discussion
+********************
+
+Group
+Health & Wellness Consultant
+
+( https://emails.alignable.com/c/bD0lMkZiaXolMkZncm91cHMlMkZoZWFsdGgtd2VsbG5lc3MtY29uc3VsdGFudCUzRl9hY2N0JTNEdTE2MTM2MjEyLTQ2NTUxODQtMTY1MzJiMzgxMWEyYWJiNTJjYzM2YjFhMiUyNmNfdXBkYXRlZCUzRGVlYjk4ZDNlYmY0NWEwMCZ1PSUzQzE3ZGQ3MmM4LWE1MWItNDc1Yy05ZmE4LTJjYjdhYTNjMTNiNiU0MGVtYWlscy5hbGlnbmFibGUuY29tJTNF )
+
+Roshni Sharma-Fleming //2024 & 2025 🍁Local Business Person of the
+Year Top 50 Women of Alignable❤️‍🔥♀️🙏🏽// from StillFire Healing
+Inc.
+
+Roshni Sharma-Fleming //2024 & 2025 🍁Local Business Person of the
+Year Top 50 Women of Alignable❤️‍🔥♀️🙏🏽// 
+( https://emails.alignable.com/c/bD0lMkZzY2FyYm9yb3VnaC1yb3VnZS1wYXJrLXRvcm9udG8tb24lMkZzdGlsbGZpcmUtaGVhbGluZy1pbmMlM0ZfYWNjdCUzRHUxNjEzNjIxMi00NjU1MTg0LTE2NTMyYjM4MTFhMmFiYjUyY2MzNmIxYTIlMjZjX3VwZGF0ZWQlM0RlZWI5OGQzZWJmNDVhMDAlMjZjY2glM0Q0MjgwZDk1YSZ1PSUzQzE3ZGQ3MmM4LWE1MWItNDc1Yy05ZmE4LTJjYjdhYTNjMTNiNiU0MGVtYWlscy5hbGlnbmFibGUuY29tJTNF )
+
+StillFire Healing Inc.,
+
+Toronto, ON
+
+( https://emails.alignable.com/c/bD0lMkZzY2FyYm9yb3VnaC1yb3VnZS1wYXJrLXRvcm9udG8tb24lMkZzdGlsbGZpcmUtaGVhbGluZy1pbmMlM0ZfYWNjdCUzRHUxNjEzNjIxMi00NjU1MTg0LTE2NTMyYjM4MTFhMmFiYjUyY2MzNmIxYTIlMjZjX3VwZGF0ZWQlM0RlZWI5OGQzZWJmNDVhMDAlMjZjY2glM0Q0MjgwZDk1YSZ1PSUzQzE3ZGQ3MmM4LWE1MWItNDc1Yy05ZmE4LTJjYjdhYTNjMTNiNiU0MGVtYWlscy5hbGlnbmFibGUuY29tJTNF )
+
+Hi everyone! What is the true goal(s) of health and
+wellness?  Thank you 💜
+
+Likes
+
+27 Likes
+
+Replies
+
+26 Replies
+
+View Discussion
+
+View Discussion 
+( https://emails.alignable.com/c/bD0lMkZiaXolMkZncm91cHMlM0ZfYWNjdCUzRHUxNjEzNjIxMi00NjU1MTg0LTE2NTMyYjM4MTFhMmFiYjUyY2MzNmIxYTIlMjZjX3VwZGF0ZWQlM0RlZWI5OGQzZWJmNDVhMDAlMjZjY2glM0Q4YWVjN2M0MyUyNnBpbm5lZF9pdGVtX2lkJTNEMzMzNzQxNCUyNnBpbm5lZF9pdGVtX3R5cGUlM0RkaXNjdXNzaW9uJnU9JTNDMTdkZDcyYzgtYTUxYi00NzVjLTlmYTgtMmNiN2FhM2MxM2I2JTQwZW1haWxzLmFsaWduYWJsZS5jb20lM0U= )
+
+Help Center 
+( https://emails.alignable.com/c/bD0lMkZzdXBwb3J0JTJGZW1haWxfZm9vdGVyJTNGX2FjY3QlM0R1MTYxMzYyMTItNDY1NTE4NC0xNjUzMmIzODExYTJhYmI1MmNjMzZiMWEyJTI2Y191cGRhdGVkJTNEZWViOThkM2ViZjQ1YTAwJnU9JTNDMTdkZDcyYzgtYTUxYi00NzVjLTlmYTgtMmNiN2FhM2MxM2I2JTQwZW1haWxzLmFsaWduYWJsZS5jb20lM0U= )
+
+|
+
+Download the iOS App 
+( https://emails.alignable.com/c/bD0lMkZyJTJGaW9zYXBwLWRlYzIwMTklM0ZfYWNjdCUzRHUxNjEzNjIxMi00NjU1MTg0LTE2NTMyYjM4MTFhMmFiYjUyY2MzNmIxYTIlMjZjX3VwZGF0ZWQlM0RlZWI5OGQzZWJmNDVhMDAmdT0lM0MxN2RkNzJjOC1hNTFiLTQ3NWMtOWZhOC0yY2I3YWEzYzEzYjYlNDBlbWFpbHMuYWxpZ25hYmxlLmNvbSUzRQ== )
+
+You are receiving new and trending discussions relevant to you
+
+This email was intended for brady@doromind.com.
+Unsubscribe 
+( https://emails.alignable.com/c/bD0lMkZlbWFpbF91bnN1YnNjcmliZXMlM0Z1dWlkJTNEdTE2MTM2MjEyLTQ2NTUxODQtMTY1MzJiMzgxMWEyYWJiNTJjYzM2YjFhMiZ1PSUzQzE3ZGQ3MmM4LWE1MWItNDc1Yy05ZmE4LTJjYjdhYTNjMTNiNiU0MGVtYWlscy5hbGlnbmFibGUuY29tJTNF )
+
+Made with
+Love
+from Alignable.
+
+PO Box 1666, North Falmouth MA 02556","Alignable new group discussion notification — Health & Wellness Consultant.",N,"Automated marketing newsletter.","","","",""
+https://doromind.slack.com/archives/C0AMB4BLR4P/p1778955492864659,2026-05-16T18:18:12.864659+00:00,slack_doromind_slack_com,#referral-forms,1778955492.864659,inbound,work,"","*New Patient Referral Received*
+*Provider:* pyqgWfWQAguhbQfnac — <mailto:edmund.steubing@oracle.com|edmund.steubing@oracle.com> — LuWTrkaCukphkTNDAUT
+*Practice:* MRRXmFKlsNaJtZkOif (bDTAwfNNKFgtQhhvVtrdoMKv)
+*Patient:* PdpfUqlMOaUAThTongOmUvsN
+*Diagnosis / Reason:* qHxZjeKnBDbLeoURZTu
+*Notes:* kAUMRndEpAgZZFFnM","New patient referral received bot post in #referral-forms.",N,"Automated bot post in channel.","","","",""
+https://doromind.slack.com/archives/C0AJKGALS6R/p1778954138634339,2026-05-16T17:55:38.634339+00:00,slack_doromind_slack_com,#sv-x-doromind,1778954138.634339,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0AJHT23SM8/p1778954130467359,2026-05-16T17:55:30.467359+00:00,slack_doromind_slack_com,#sempervirens,1778954130.467359,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0B3RL7G47K/p1778954128275669,2026-05-16T17:55:28.275669+00:00,slack_doromind_slack_com,#geo-sf,1778954128.275669,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0B1XQ2RSFN/p1778954112422099,2026-05-16T17:55:12.422099+00:00,slack_doromind_slack_com,#-product,1778954112.422099,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0B1QAF0KML/p1778954108229999,2026-05-16T17:55:08.229999+00:00,slack_doromind_slack_com,#event-glbl-26-05,1778954108.229999,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0B1DAC93T7/p1778954107025749,2026-05-16T17:55:07.025749+00:00,slack_doromind_slack_com,#daily-news,1778954107.025749,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0B010F73BR/p1778954101642589,2026-05-16T17:55:01.642589+00:00,slack_doromind_slack_com,#careteam-inbox-feedback,1778954101.642589,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0APN3KS9A9/p1778954058403839,2026-05-16T17:54:18.403839+00:00,slack_doromind_slack_com,#-member-app-golive,1778954058.403839,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0AMKR20P1U/p1778954012541659,2026-05-16T17:53:32.541659+00:00,slack_doromind_slack_com,#-member-app-support,1778954012.541659,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0AMB4BLR4P/p1778954010724539,2026-05-16T17:53:30.724539+00:00,slack_doromind_slack_com,#referral-forms,1778954010.724539,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0AHLPQPB1Q/p1778953906836829,2026-05-16T17:51:46.836829+00:00,slack_doromind_slack_com,#faq,1778953906.836829,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0AG32BPD5Z/p1778953706024519,2026-05-16T17:48:26.024519+00:00,slack_doromind_slack_com,#google-news-feeds,1778953706.024519,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C0A8NEZFZPA/p1778953531982189,2026-05-16T17:45:31.982189+00:00,slack_doromind_slack_com,#clinical-staff,1778953531.982189,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://doromind.slack.com/archives/C09G4DVVDFC/p1778953487296799,2026-05-16T17:44:47.296799+00:00,slack_doromind_slack_com,#-member-experience-onboarding,1778953487.296799,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+https://mail.google.com/mail/u/0/#all/19e3188f6ce03270,2026-05-16T16:05:06+00:00,gmail_brady_doromind_com,brady@doromind.com,19e3188f6ce03270,inbound,work,"Rajya Laxmi","Hello,
+
+Please find attached resume for the profile of medical coding.","Rajya Laxmi sends unsolicited resume for medical coding role.",N,"Unsolicited cold resume; no actionable ask.","","","",""
+https://mail.google.com/mail/u/0/#all/19e3188968427c0f,2026-05-16T16:04:11+00:00,gmail_brady_doromind_com,brady@doromind.com,19e238c270f9078a,inbound,work,"Michael Livshutz","Hi,
+
+I downloaded Doro Mind after hearing about it in a Schizophrenia and
+Psychosis caregiver support group. I read the book about the LEAP method (I
+am not sick, I don't need help).
+The group said that Doro Mind has study aids to help me become excellent at
+following the LEAP method when conversing with our 24-yo son who has
+schizoaffective disorder.
+
+I look forward to your suggestions.
+
+thanks,
+Michael
+
+[chain history truncated]","Michael Livshutz asks for suggestions on Doro Mind LEAP method study aids for use with his son.",Y,"Inbound user inquiry asks me for suggestions.",N,"No later message in conversation.",N,"No later message in conversation."
+https://mail.google.com/mail/u/0/#all/19e31751a78d7cc4,2026-05-16T15:43:24+00:00,gmail_brady_doromind_com,brady@doromind.com,19e31751a78d7cc4,inbound,work,"Laura Desrosiers","The link is broken and gives a 404. Check Mailchimp set up. I would love to
+join.
+
+Laura
+Laura Desrosiers
+aka Laura Curtis
+571-420-2017
+
+[chain history truncated]","Laura Desrosiers reports the Mailchimp link is broken (404) and asks to fix it.",Y,"Inbound ask to fix broken signup link.",N,"No later message in thread.",N,"No later message in thread."
+messages://+17608143153/r84599,2026-05-16T15:13:03.028287+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84599,outbound,personal,"Paloma Young","Sibley's  Rx Status
+
+
+- AMO: Ready for pickup
+- AMO: Too soon to refill
+
+
+Reply STOP to opt out of Walgreens prescription text alerts.  
+Reply HELP for help.","Forwarded Walgreens Rx status update to Paloma: Sibley AMO ready / too soon to refill.",N,"Forwarding automated Rx status; no commitment.","","","",""
+messages://walgreens-rx-alerts-kosoit@rbm.goog/r84598,2026-05-16T15:10:33+00:00,sms_unknown,"Walgreens Rx Alerts",messages://walgreens-rx-alerts-kosoit@rbm.goog/r84598,inbound,personal,walgreens-rx-alerts-kosoit@rbm.goog,"Sibley's  Rx Status
+
+
+- AMO: Ready for pickup
+- AMO: Too soon to refill
+
+
+Reply STOP to opt out of Walgreens prescription text alerts.  
+Reply HELP for help.￿","Walgreens Rx alert: Sibley AMO ready for pickup / too soon to refill.",N,"Automated Rx alert.","","","",""
+https://mail.google.com/mail/u/0/#all/19e3150dbdd97b03,2026-05-16T15:03:59+00:00,gmail_brady_doromind_com,finance@doromind.com,19e3150dbdd97b03,outbound,work,"finance@doromind.com, mimi@doromind.com","[](https://asana.com/?utm_term=logo)  
+  
+**Your invoice is past due**  
+Dear Asana Customer,  
+  
+We hope you are enjoying your Asana subscription! Your invoice INV05180361 has just recently become due for payment. Please let us know if there are any issues that may cause any delays with payment. We are happy to work with you to ensure any concerns are addressed right away. If you are not the correct person to contact for outstanding invoices, please let us know who we should work with (such as your AP team) and we will update your account accordingly.  
+  
+Invoice: INV05180361  
+Invoice Date: 2026-04-15  
+Invoice Due Date: 2026-05-15  
+Invoice Amount Due: $437.04  
+PO per Invoice (if any):   
+  
+We thank you for your business and look forward to partnering with you!  
+  
+Thank you in advance,  
+The Asana AR Team  
+.  
+[](https://play.google.com/store/apps/details?id=com.asana.app) [](https://itunes.apple.com/us/app/asana-mobile/id489969512)  
+This email was sent to . For more information about how we process data, please see our [Privacy Policy](https://asana.com/terms).  
+Asana - 633 Folsom Street - San Francisco, CA 94107","Asana invoice INV05180361 for $437.04 past due; payment reminder.",N,"Automated AR reminder forwarded to finance.","","","",""
+messages://+17608143153/r84597,2026-05-16T14:34:45.768765+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84597,inbound,personal,"Paloma Young","We’re getting some lunch and then her haircut is 12","Paloma: getting lunch then haircut is at 12.",N,"Personal status update, no ask.","","","",""
+messages://+17608143153/r84596,2026-05-16T14:34:06.447717+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84596,inbound,personal,"Paloma Young","Ear infection. Another round of antibiotics. You should get an alert from Duane Read down the block. We can pick up on the way home","Paloma: ear infection, another round of antibiotics; pick up Rx at Duane Reade on the way home.",N,"FYI status update; no I-will commitment language.","","","",""
+https://doromind.slack.com/archives/C06H10G094N/p1778941283244999,2026-05-16T14:21:23.244999+00:00,slack_doromind_slack_com,#tech-sandbox,1778941283.244999,inbound,work,Onyx,"Onyx has joined the channel","Onyx has joined the channel.",N,"Channel-join system message.","","","",""
+messages://walgreens-rx-alerts-kosoit@rbm.goog/r84595,2026-05-16T14:12:47.781151+00:00,sms_unknown,"Walgreens Rx Alerts",messages://walgreens-rx-alerts-kosoit@rbm.goog/r84595,inbound,personal,walgreens-rx-alerts-kosoit@rbm.goog,"Duane Reade: Sibley, we've received 1 Rx for you: 
+
+-AMO: Processing
+
+Don't need it now?
+Reply NO to put on file for later.
+
+Your estimated price: $5
+
+Rx status: wlgrn.com/IFRDQRR5KZ","Duane Reade: 1 Rx for Sibley processing; estimated price $5.",N,"Automated Rx alert.","","","",""
+https://doromind.slack.com/archives/C0B1DAC93T7/p1778939545279779,2026-05-16T13:52:25.279779+00:00,slack_doromind_slack_com,#daily-news,1778939545.279779,inbound,work,"Ken Mages","","Ken Mages posted an empty/attachment-only message in #daily-news.",N,"Large channel, no body, no @mention.","","","",""
+messages://chat42546307063245870/r84594,2026-05-16T13:34:32.575465+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84594,outbound,personal,"Mimi Liu, Robert Laitman","￼The scene a couple hours later. My car’s in the garage where the Park sign is","Brady sends photo of garage scene to Mimi and Rob.",N,"Casual photo share, no commitment.","","","",""
+https://mail.google.com/mail/u/0/#all/19e30c80e764ecdd,2026-05-16T12:34:23+00:00,gmail_brady_doromind_com,brady@doromind.com,19e30c80e764ecdd,inbound,work,"Mala Elhassan","CS - 5/15/2026
+Coach - Mala
+
+8am Knocked on her door. Last night she asked if I would wake her if she
+didn’t get up by 8am.
+8.30am got up.
+8.30-10am took time waking up and drinking tea.
+
+10.30-11.30am we did a YouTube workout together. Said tomorrow she wants to
+try getting back to yoga again.
+
+Walked to get coffee at Hyurialli. Good mood, very chatty. Ran into a girl
+she knew and I stepped away to let them talk. Afterwards she told me she
+felt bad because she commented that the girl looked tired and worried it
+came across wrong.
+
+11am-1.30pm made breakfast, got ready, and cleaned up.
+
+2pm therapy with Andrea.
+
+On the car ride she asked if we could make the summer rolls I planned for
+next week tomorrow instead.  So she could bring them to a potluck with her
+YTT friends. I reminded her about dinner at RB with Dana and Elizabeth  and
+asked if she called and cancelled?  She said she wanted to decide after
+therapy.
+
+She also shared that she wants to maximize her therapy time by role playing
+social situations and conversations. Said she feels awkward socially and
+often doesn’t know how to continue conversations beyond “yeah” or “oh
+cool.”
+She mentioned she recently started talking with her therapist about her
+past relationships after I had casually brought up dating in conversation.
+During the drive she said she’s glad she doesn’t currently have a boyfriend
+because she feels sharing a space or bed with someone would become
+irritating and that her paranoia would make it difficult to trust someone
+not to steal from her. I told her that’s why taking time to really get to
+know someone is important.
+
+She mentioned Polly has been texting with her and suggested getting
+professional photos done for Bumble and LinkedIn, even sending her two
+photographers. When she asked my opinion, I told her the more natural
+photos already on her phone would probably feel more authentic for dating
+profiles, but that doing a photoshoot could still be fun if she genuinely
+wanted to do it for herself. She asked if we could take some photos on the
+beach one day.
+
+3pm very quiet after therapy.
+
+Went to return another sports bra.
+
+She has been increasingly focused on shopping for clothes recently. Today
+she bought $200 jean shorts and mentioned spending around $700 on workout
+clothes, although she said she planned to return some of it. The focus
+continues on wanting things to feel “perfect.”
+
+5.30-6.30pm we made dinner together. Afterwards she decided she did want to
+attend the potluck and started making a bean salad to bring.
+
+Very quiet and deep in thought during the evening. I offered to go for a
+walk but she said she was tired, so I gave her some space.
+
+She was on the phone with her mum, who texted me privately saying she
+sounded down and asked me to check in with her. I went back into the living
+room and asked if she still wanted to try yoga tomorrow. She said she would
+rather do another YouTube workout because most of the yoga classes tomorrow
+looked too intense.
+
+She asked again if we could make the summer rolls for the potluck and asked
+if I wanted to come too, adding that she feels really nervous about talking
+to people. I asked whether therapy had helped with the social concerns she
+mentioned earlier. She said it helped a bit and read me some notes she
+wrote down with Andrea.
+
+I reassured her that I’ve seen her be social many times before and reminded
+her of the Quest event where she interacted well with people. I told her
+I’d be happy to come as a buffer like I did at Quest if that would help her
+feel more comfortable and included. She said yes. We then brainstormed some
+conversation starters together, like asking Eric how the photoshoot went
+that he had asked her to help with, asking people about their summer plans,
+or upcoming events etc
+
+She also said she wanted to hide the scars on her legs by wearing long
+pants. I told her to do whatever makes her feel most comfortable, but not
+to feel embarrassed about them. I mentioned that many people can relate to
+surgeries or injuries and that it could be a natural conversation starter
+and why she hasn’t been at yoga recently.
+
+She wrote these ideas down and began quietly rehearsing them to herself.
+
+Meds 8.30pm.  She asked for them.
+
+She lost her house key again and became fixated on the idea of someone
+finding it and breaking into the house. I reassured her it was most likely
+somewhere in the house and that even if someone found it, there was no
+identifying information attached. She argued that someone could still try
+every house. I joked that it would take months and most thieves are too
+impatient for that.
+She then said, “The problem with my paranoia is that I’m very creative in
+my head and can make up different scenarios to make it seem true.” She is
+showing increased insight into her paranoid thinking.
+ 
+ ----
+Secured by Paubox - HITRUST certified
+https://www.paubox.com
+----","Mala coach shift note for 5/15/2026 — detailed daily care log for a member.",N,"Clinical staff daily log; FYI, no ask.","","","",""
+https://doromind.slack.com/archives/C0AMB4BLR4P/p1778934249017939,2026-05-16T12:24:09.017939+00:00,slack_doromind_slack_com,#referral-forms,1778934249.017939,inbound,work,"","*New Patient Referral Received*
+*Provider:* XsfkltescvDItsOA — <mailto:abuse@hhs.gov|abuse@hhs.gov> — ERlXxoYHyVmLfHeYYnI
+*Practice:* QSGxhDTusYArArKJxCDULYz (tzxAMQUmecGjYYMEuT)
+*Patient:* jbaDyVOYzIUlUcqyUz
+*Diagnosis / Reason:* QuLvndzXAhYQngzMbBBlFe
+*Notes:* LKQQzogqIazjCUPMOpbFw","New patient referral received bot post in #referral-forms.",N,"Automated bot post in channel.","","","",""
+https://doromind.slack.com/archives/C0AMB4BLR4P/p1778930675461449,2026-05-16T11:24:35.461449+00:00,slack_doromind_slack_com,#referral-forms,1778930675.461449,inbound,work,"","*New Patient Referral Received*
+*Provider:* XCBbUDaiyNCHCZtaaD — <mailto:liam.shissler@co.snohomish.wa.us|liam.shissler@co.snohomish.wa.us> — enABZbtSwOGsSPpQlMU
+*Practice:* WermClpegCTNzwlmwMLiiEL (tAyIWaHqxMePHcmjJGaE)
+*Patient:* StOyeVRfmwSQBaCusuX
+*Diagnosis / Reason:* GkhCjCVNkXqvPriAbDEQMckR
+*Notes:* ExqwUXcBUgngPIonXJpbbBV","New patient referral received bot post in #referral-forms.",N,"Automated bot post in channel.","","","",""
+https://doromind.slack.com/archives/C0AMB4BLR4P/p1778929919181139,2026-05-16T11:11:59.181139+00:00,slack_doromind_slack_com,#referral-forms,1778929919.181139,inbound,work,"","*New Patient Referral Received*
+*Provider:* ofSgKpVBzrCXEdaxPfOF — <mailto:taabutler@zoominternet.net|taabutler@zoominternet.net> — QMKEgfEVsPbLdLlU
+*Practice:* pdrVLtpBnCdDldRxBS (WNKHrVYBFPTsizEmC)
+*Patient:* lGFEtveCyXGXerSjlb
+*Diagnosis / Reason:* PzFqpTXUTZpVlfZvW
+*Notes:* TdeseXGomHQwSuHOObuu","New patient referral received bot post in #referral-forms.",N,"Automated bot post in channel.","","","",""
+messages://chat42546307063245870/r84593,2026-05-16T09:57:30.754645+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84593,inbound,personal,"Robert Laitman","No worries get some rest","Rob: no worries, get some rest.",N,"Reassurance reply, no ask.","","","",""
+messages://chat42546307063245870/r84592,2026-05-16T09:17:55.399691+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84592,outbound,personal,"Mimi Liu, Robert Laitman","Long story short, I can’t get to the walk today. Sorry to miss it","Brady tells Mimi and Rob he can't make the walk today; sorry to miss it.",N,"Apology/cancellation, no commitment.","","","",""
+messages://chat42546307063245870/r84591,2026-05-16T09:17:33.751368+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84591,outbound,personal,"Mimi Liu, Robert Laitman","Well, got up at 4:50 to get out of the garage before street closures for the Brooklyn Half, which were scheduled to start at 6. And then they closed them at 5, about five minutes before I tried to pull out.","Brady recounts being trapped by Brooklyn Half street closures starting at 5am.",N,"Narrative status update, no commitment.","","","",""
+https://mail.google.com/mail/u/0/#all/19e2f25ad574e860,2026-05-16T04:57:30+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2f25ad574e860,inbound,work,do-not-reply@pbsnetaccess.com,"**Your GOTOpremiumfinance.com Account – Automatic Bill Payment Notification**  
+Dear Valued Customer:  
+  
+  
+We would like to remind you that your payment to GOTOpremiumfinance.com is scheduled to be processed from your credit card as follows:  
+  
+  
+Scheduled Payment Date: **5/22/2026**  
+Scheduled Payment Amount: **$2,222.37 (*)**  
+Account Number: Ending in 3445  
+  
+  
+If you have any questions about your account, please contact us at (888) 875-4000 or login online at www.gotopremiumfinance.com.  
+  
+  
+We appreciate your business.  
+  
+  
+Sincerely,  
+  
+  
+GOTOpremiumfinance.com Customer Care Team  
+  
+  
+* Card processing provided by DigiPaySvcs and includes a 3.000% convenience fee which has been added to your payment amount.","GOTOpremiumfinance.com automatic bill payment scheduled 5/22/2026 for $2,222.37.",N,"Automated billing notification.","","","",""
+https://mail.google.com/mail/u/0/#all/19e2e6f87114d2d0,2026-05-16T01:38:33+00:00,gmail_brady_doromind_com,finance@doromind.com,19e2e6f87114d2d0,outbound,work,minna@doromind.com,"Congratulations, Doro Mind!
+
+You've just received a payment through Stripe.
+
+-
+Payment
+
+$180.00  (https://dashboard.stripe.com/b/acct_1OqithD444r4Q7QA?destination=%2Fpayments%2Fpi_3TXXA9D444r4Q7QA1YWIXWkI) — Subscription update
+
+-
+Customer
+
+zafar.khaqan@gmail.com —  cus_SJpipiY1L8Ltas
+
+-
+View in Dashboard : https://dashboard.stripe.com/b/acct_1OqithD444r4Q7QA?destination=%2Fpayments%2Fpi_3TXXA9D444r4Q7QA1YWIXWkI
+
+-
+Payment ID
+
+pi_3TXXA9D444r4Q7QA1YWIXWkI
+
+We are here to help. Visit our support website (https://support.stripe.com/) for answers to most questions and to get in touch with us.
+
+===
+This email relates to your Doro Mind Stripe account.
+Account ID: acct_1OqithD444r4Q7QA
+
+Need to refer to this message? Use this ID: em_nvxtutndgyzpw0ufpscq6luwuy5nmz
+
+Stripe, 354 Oyster Point Blvd, South San Francisco, CA 94080
+
+You are subscribed to Successful payments emails. Manage your communication preferences here: https://dashboard.stripe.com/b/acct_1OqithD444r4Q7QA?destination=%2Fsettings%2Fcommunication-preferences%23successful_payment_emails 
+ ----
+Secured by Paubox - HITRUST certified
+https://www.paubox.com
+----","Stripe: Doro Mind received $180.00 subscription payment from zafar.khaqan@gmail.com.",N,"Automated Stripe payment notification.","","","",""
+messages://+19299551466/r84590,2026-05-16T00:55:05.779944+00:00,sms_unknown,"Text To Request your Vehicle To Parkside Garage LLC",messages://+19299551466/r84590,inbound,personal,"Text To Request your Vehicle To Parkside Garage LLC","Your summon request for monthly #89 on May 16 at 5:00 AM EDT is approved!","Parkside Garage: summon request for monthly #89 on May 16 at 5:00 AM EDT approved.",N,"Automated garage confirmation.","","","",""
+messages://+19299551466/r84589,2026-05-16T00:55:04.120969+00:00,sms_unknown,"Text To Request your Vehicle To Parkside Garage LLC",messages://+19299551466/r84589,outbound,personal,"Text To Request your Vehicle To Parkside Garage LLC","89 5/16 5:00am","Brady texts garage: 89 5/16 5:00am.",N,"Garage request input, no commitment.","","","",""
+messages://+19299551466/r84588,2026-05-16T00:54:30.949685+00:00,sms_unknown,"Text To Request your Vehicle To Parkside Garage LLC",messages://+19299551466/r84588,inbound,personal,"Text To Request your Vehicle To Parkside Garage LLC","I'm sorry, we didn't quite get that. Please respond with your monthly number, followed by the time and date you would like your vehicle to be available at. If you would like your vehicle as soon as possible, respond with your monthly number and the word NOW.","Parkside Garage error reply: didn't understand input.",N,"Automated error response.","","","",""
+messages://+19299551466/r84587,2026-05-16T00:54:27.755727+00:00,sms_unknown,"Text To Request your Vehicle To Parkside Garage LLC",messages://+19299551466/r84587,outbound,personal,"Text To Request your Vehicle To Parkside Garage LLC","89 5/15 5:00","Brady texts garage: 89 5/15 5:00.",N,"Garage request input, no commitment.","","","",""
+messages://+19299551466/r84586,2026-05-16T00:54:18.517493+00:00,sms_unknown,"Text To Request your Vehicle To Parkside Garage LLC",messages://+19299551466/r84586,inbound,personal,"Text To Request your Vehicle To Parkside Garage LLC","I'm sorry, we didn't quite get that. Please respond with your monthly number, followed by the time and date you would like your vehicle to be available at. If you would like your vehicle as soon as possible, respond with your monthly number and the word NOW.","Parkside Garage error reply: didn't understand input.",N,"Automated error response.","","","",""
+messages://+19299551466/r84585,2026-05-16T00:54:14.874707+00:00,sms_unknown,"Text To Request your Vehicle To Parkside Garage LLC",messages://+19299551466/r84585,outbound,personal,"Text To Request your Vehicle To Parkside Garage LLC","89 5/15 5am","Brady texts garage: 89 5/15 5am.",N,"Garage request input, no commitment.","","","",""
+messages://+19299551466/r84584,2026-05-16T00:53:52.064149+00:00,sms_unknown,"Text To Request your Vehicle To Parkside Garage LLC",messages://+19299551466/r84584,inbound,personal,"Text To Request your Vehicle To Parkside Garage LLC","I'm sorry, we didn't quite get that. Please respond with your monthly number, followed by the time and date you would like your vehicle to be available at. If you would like your vehicle as soon as possible, respond with your monthly number and the word NOW.","Parkside Garage error reply: didn't understand input.",N,"Automated error response.","","","",""
+messages://+19299551466/r84583,2026-05-16T00:53:48.371136+00:00,sms_unknown,"Text To Request your Vehicle To Parkside Garage LLC",messages://+19299551466/r84583,outbound,personal,"Text To Request your Vehicle To Parkside Garage LLC","89 5/15 5:00am","Brady texts garage: 89 5/15 5:00am.",N,"Garage request input, no commitment.","","","",""
+https://mail.google.com/mail/u/0/#all/19e2e2e63f682938,2026-05-16T00:27:17+00:00,gmail_brady_doromind_com,brady@doromind.com,19e08c9dce61b498,inbound,work,"Kate Douglas","Sounds great, thanks for the update!
+
+Kate
+
+[chain history truncated]","Kate: sounds great, thanks for the update.",N,"Thanks reply, no ask.","","","",""
+https://mail.google.com/mail/u/0/#all/19e2e2465743561c,2026-05-16T00:16:36+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2e2465743561c,inbound,work,PayPal,"Francis Richards - Your April account statement is available.                                  View Online                      PayPal (https://www.paypal.com/us/home?utm_content=Paypal_logo)  
+Your April account statement is available.
+Hi Francis Richards,
+ 
+Access your account statements quickly and easily. Log in to your account and select the monthly statement you’d like to view. View Statement  (https://www.paypal.com/myaccount/statements/monthly&utm_content=View_Statement)  
+Forgot your email or password? Recover them here (https://www.paypal.com/authflow/password-recovery/?utm_content=Password_recovery) . 
+Get the PayPal app
+Track your account activity and find ways to earn rewards.Download on the App Store (https://apps.apple.com/us/app/paypal-pay-send-save/id283646709?utm_content=Download_on_the_App_Store) GET IT on Google Play (https://play.google.com/store/apps/details?id=com.paypal.android.p2pmobile&utm_content=Get_it_on_GooglePay)  PayPal (https://www.paypal.com/us/home?utm_content=en_US_FTR_PayPal_Logo)                      Help & Contact (https://www.paypal.com/us/cshelp/personal?utm_content=Help_and_Contact)             |            Security (https://www.paypal.com/us/digital-wallet/security-and-protection?utm_content=Security)             |            Download App (https://www.paypal.com/us/digital-wallet?utm_content=Download_App)              Facebook (https://www.paypal.com/cgi-bin/webscr?cmd=_pp-redir&id=M7JNFUHU8ZRVEGRN&utm_content=en_US_FTR_Facebook_Link) Twitter (https://www.paypal.com/cgi-bin/webscr?cmd=_pp-redir&id=M42YCVJ9DMW66SWJ&utm_content=en_US_FTR_Twitter_Link) Linkedin (https://www.paypal.com/cgi-bin/webscr?cmd=_pp-redir&id=MYDBU6BWJV5V6EHW&utm_content=en_US_FTR_LinkedIN_Link) Instagram (https://www.instagram.com/paypal/?utm_content=FTR_Instagram) Please do not reply to this email. We are unable to respond to inquiries sent to this address. For immediate answers to your questions, visit our Help Center by clicking ""Help"" located on any PayPal page or email.
+ 
+PayPal, Inc. is Licensed as a Money Transmitter by the New York State Department of Financial Services. PayPal, Inc., NMLS #910457, License #FT3345, Massachusetts Foreign Transmittal License. PayPal, Inc., Transmit Money By Check, Draft or Money Order By The Department of Banking, Commonwealth of Pennsylvania. PayPal, Inc. Rhode Island Licensed Money Transferor. PAYPAL, INC., NMLS #910457, LICENSE #34967, IS LICENSED BY THE GEORGIA DEPARTMENT OF BANKING AND FINANCE. PayPal, Inc. is Licensed by the State of Connecticut Department of Banking to perform Money Transmission, NMLS #910457, License Number MT-910457.
+ 
+PayPal is committed to your Privacy and the responsible handling of all personal data. To learn more, read our Privacy Statement (https://www.paypal.com/us/legalhub/paypal/privacy-full?locale.x=en_US&utm_content=en_US_Privacy_Statement) .
+ 
+Copyright © 2026 PayPal, Inc. All rights reserved. PayPal is located at 2211 N. First St., San Jose, CA 95131.
+f3f094fa-e081-4225-af3b-df06629810e8","PayPal: April account statement is available.",N,"Automated statement notification.","","","",""
+https://mail.google.com/mail/u/0/#all/19e2e164269cafa1,2026-05-16T00:01:02+00:00,gmail_brady_doromind_com,finance@doromind.com,19e2e164269cafa1,outbound,work,minna@doromind.com,"Congratulations, Doro Mind!
+
+You've just received a payment through Stripe.
+
+-
+Payment
+
+$540.00  (https://dashboard.stripe.com/b/acct_1OqithD444r4Q7QA?destination=%2Fpayments%2Fpi_3TXVdjD444r4Q7QA07YgL3AW) — Subscription update
+
+-
+Customer
+
+kpmbresolin@gmail.com —  cus_RarEMp8dricRRM
+
+-
+View in Dashboard : https://dashboard.stripe.com/b/acct_1OqithD444r4Q7QA?destination=%2Fpayments%2Fpi_3TXVdjD444r4Q7QA07YgL3AW
+
+-
+Payment ID
+
+pi_3TXVdjD444r4Q7QA07YgL3AW
+
+We are here to help. Visit our support website (https://support.stripe.com/) for answers to most questions and to get in touch with us.
+
+===
+This email relates to your Doro Mind Stripe account.
+Account ID: acct_1OqithD444r4Q7QA
+
+Need to refer to this message? Use this ID: em_ma9h3kgspc16bhhvg5uruzupq6tahk
+
+Stripe, 354 Oyster Point Blvd, South San Francisco, CA 94080
+
+You are subscribed to Successful payments emails. Manage your communication preferences here: https://dashboard.stripe.com/b/acct_1OqithD444r4Q7QA?destination=%2Fsettings%2Fcommunication-preferences%23successful_payment_emails 
+ ----
+Secured by Paubox - HITRUST certified
+https://www.paubox.com
+----","Stripe: Doro Mind received $540.00 subscription payment from kpmbresolin@gmail.com.",N,"Automated Stripe payment notification.","","","",""
+https://mail.google.com/mail/u/0/#all/19e2df01942be7dd,2026-05-15T23:19:17+00:00,gmail_brady_doromind_com,brady@doromind.com,19e08c9dce61b498,inbound,work,"Magdiel Matos","Hi Kate,
+
+I've asked the team to submit these ASAP; they should be done by EOD
+Monday. I'll follow up with you on Monday.
+
+Have a nice weekend!
+
+[chain history truncated]","Magdiel tells Kate the team will submit by EOD Monday and he'll follow up.",N,"Reply addressed to Kate; Brady is CC observer.","","","",""
+https://mail.google.com/mail/u/0/#all/19e2dcfb5f2b952a,2026-05-15T22:43:53+00:00,gmail_brady_doromind_com,brady@doromind.com,19e08c9dce61b498,inbound,work,"Kate Douglas","Thanks, Magdiel. You should have approval from us (through the portal) for
+all three NJ RN applications, all three CT RN applications, and all three
+CT APRN applications.  Please let us know if that is not the case.
+
+Assuming the provisional licenses for CT are < $200/request, we would like
+you to request provisional licensing at the time of application submission
+for our three clinicians as well.
+
+Please submit ASAP (I assume this will be done by Monday at the latest
+unless we hear otherwise from you) and please let us know if you have any
+questions or concerns.
+
+Thanks so much and have a great weekend.
+
+Kate
+
+[chain history truncated]","Kate to Magdiel: NJ and CT applications approved; submit ASAP and request CT provisional licensing if under $200.",N,"Directed at Magdiel; Brady is CC observer.","","","",""
+messages://6a3f439033c64758bcbcd9e3a43c398b/r84582,2026-05-15T22:04:31.495064+00:00,sms_unknown,"+12039476400, Mimi Liu, Robert Laitman",messages://6a3f439033c64758bcbcd9e3a43c398b/r84582,inbound,personal,"Mimi Liu",https://meet.google.com/hua-hwav-gix?authuser=0,"Mimi shares Google Meet link in iMessage group with Rob.",N,"Logistics link share, no ask.","","","",""
+messages://6a3f439033c64758bcbcd9e3a43c398b/r84581,2026-05-15T22:04:18.035635+00:00,sms_unknown,"+12039476400, Mimi Liu, Robert Laitman",messages://6a3f439033c64758bcbcd9e3a43c398b/r84581,inbound,personal,"Robert Laitman","How we doing this.  Is there a link?","Rob asks how the call works and if there is a link.",N,"Group ask; Mimi answered with the link.","","","",""
+messages://+17608143153/r84580,2026-05-15T22:01:18.721000+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84576,outbound,personal,"Paloma Young","[Reaction: ❤️ Love]","Brady Love tapback on Paloma message.",N,"Tapback reaction, no content.","","","",""
+https://mail.google.com/mail/u/0/#all/19e2da42d6be3b18,2026-05-15T21:56:29+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2da42d6be3b18,inbound,work,"Bortniker, Alexis Finkelberg","I will be out of the office the afternoon of Friday, May 15. My response may be delayed but I will get back to you as soon as I can.
+
+________________________________
+
+This email message is for the sole use of the intended recipient(s) and may contain confidential and privileged information. Any unauthorized review, use, disclosure or distribution is prohibited. If you are not the intended recipient, please contact the sender by reply email and destroy all copies of the original message. If you are the intended recipient, please be advised that the content of this message is subject to access, review and disclosure by the sender's Email System Administrator.","Alexis Bortniker out-of-office auto-reply for Friday May 15 afternoon.",N,"Automated OOO reply.","","","",""
+https://mail.google.com/mail/u/0/#all/19e2da37bbda1573,2026-05-15T21:55:49+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2d9f69611fa7b,outbound,work,"Nick Jurkowitz, Jake Feldman, Alexis Bortniker, Mimi Liu","Hi Nick,
+
+I'll take a look and confirm. I'll also give you access to the consulting agreement you asked for access to.
+
+Cheers,
+
+Brady
+
+[chain history truncated]","Brady tells Nick he'll review the docs and confirm, and grant Drive access to the consulting agreement.",Y,"Outbound commitment to review docs and grant access.",N,"No later reply from Nick in thread.",N,"No later message confirming review or access grant."
+https://mail.google.com/mail/u/0/#all/19e2d9f69611fa7b,2026-05-15T21:50:39+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2d9f69611fa7b,inbound,work,"Nick Jurkowitz","Hi Everyone,
+I am attaching all the documents we have that we understand to be reviewed.  Can  you please confirm that this is everything.  My undertsadnig from speaking with Alexis was that we were waiting for updated or new versions of documents.
+
+Thanks,
+Nick
+
+Nick Jurkowitz
+Much Shelist, P.C.
+1801 Century Park East, Suite 800
+Los Angeles, California 90067
+Main Number: 310.894.8288
+Direct: 310.894.8251 | njurkowitz@muchlaw.com | www.muchlaw.com
+
+Chicago Office:
+191 North Wacker Drive, Suite 1800
+Chicago, IL 60606
+Main Number: 312.521.2000
+
+Member of Ally Law
+
+[chain history truncated]","Nick asks Brady to confirm the attached documents are the complete set to review.",Y,"Inbound ask to confirm document completeness.",Y,"Brady replied 21:55 same thread saying he will review and confirm.",N,"Reply is a commitment; confirmation not yet sent."
+https://mail.google.com/mail/u/0/#all/19e2d972d8db1d9d,2026-05-15T21:42:22+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2d972d8db1d9d,inbound,work,"Nick Jurkowitz (via Google Drive)","njurkowitz@gmail.com requests access to an item:
+
+Jacob Feldman-Doro Mind Inc., Consulting Agreement, May 14, 2026
+https://drive.google.com/file/d/1onNyNtvukvQ2SxIZcqeHrBFmGbr9x-h3/view?usp=sharing&userstoinvite=njurkowitz@gmail.com&sharingaction=manageaccess&role=reader&ts=6a07933e
+
+You are the owner of this document. To give this user access, click the  
+link above and add them as a collaborator or viewer.","Nick Jurkowitz requests access to Jacob Feldman consulting agreement on Drive.",N,"Automated Drive access-request notification.","","","",""
+messages://chat42546307063245870/r84579,2026-05-15T21:40:06.006671+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84579,inbound,personal,"Mimi Liu","Lost you, Rob","Mimi: lost you, Rob.",N,"Casual chat, no ask to me.","","","",""
+messages://chat42546307063245870/r84578,2026-05-15T21:38:18.207616+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84578,inbound,personal,"Mimi Liu",Y,"Mimi: Y.",N,"One-letter acknowledgement, no ask.","","","",""
+messages://chat42546307063245870/r84577,2026-05-15T21:37:58.630281+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84577,inbound,personal,"Robert Laitman","Ok ready?","Rob: ok ready?",N,"Group check-in, not addressed to me.","","","",""
+messages://+17608143153/r84576,2026-05-15T21:20:23.911157+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84576,inbound,personal,"Paloma Young","My pedicure technician really took her time. Heading home in about 10 minutes.","Paloma: pedicure took a while, heading home in 10 minutes.",N,"Status update, no ask.","","","",""
+https://doromind.slack.com/archives/C06KPV9SYD6/p1778879738847109,2026-05-15T21:15:38.847109+00:00,slack_doromind_slack_com,#care-team-experience,1778879738.847109,inbound,work,"Kate Douglas","*A BIG THANK YOU + NEWSLETTER*
+<!subteam^S08SCMXLWQH> <!subteam^S08QRJ3TX42> Hey team! As my second week here wraps up, I wanted to take a second to say thanks for making me feel so welcome at DoroMind. Our chats over the last couple of weeks have really shown me three things:
+1. _*This is a really special group of people*_.  Small but mighty, this team is doing some incredible work, and I couldn’t be more proud to call DoroMind my new home.
+2. _*The work we do results in positive outcomes*_.  I’ve only just begun to get exposure to our members, their families, and their stories, but it’s clear that the impact we are having on these individuals is real and meaningful. 
+3. _*We need to figure out how best to grow*_. We have some big goals, but I’m excited about it. I love your energy and how much you care about the mission. I’m sure we’ll crush it as we work together over the next month or two to get a solid plan in place.
+I’m so excited to be part of this movement! It’s definitely felt a bit like drinking from a firehose while I learn all the acronyms and workflows, but I can’t wait to see what we build together. Thanks again for the warm welcome.  Have an awesome weekend and thanks for everything you do!
+
+***
+
+To help keep us organized, I’m starting up a *weekly newsletter*! Going forward, I’ll try to get these out earlier in the day or maybe move them to Mondays. I promise to keep them short and sweet, so I’m counting on everyone to give them a quick read. TY!
+<https://docs.google.com/document/d/1GiYOCcknJg_cdB8z6JTKF0PoeThtKptSJp5qSDfRVHI/edit?tab=t.pi4oz39388ev>
+
+cc: Brady Mimi Minna","Kate Slack thank-you post and weekly newsletter intro in #care-team-experience; cc Brady, Mimi, Minna.",N,"Large-channel announcement; no ask.","","","",""
+https://doromind.slack.com/archives/C0AT7AG80RM/p1778879285793319?thread_ts=1778876948.997539,2026-05-15T21:08:05.793319+00:00,slack_doromind_slack_com,#proj-licensing,1778876948.997539,inbound,work,"Kate Douglas","Brady Mimi on this Q, we got (another) non answer from Magdiel on the cost for the provisional license in CT, indicating that the team wouldn't know until the time of submission, but my quick internet search (which admittedly I should have started with) indicates that it's $150-$200 (so certainly not ""not insignificant"" like Magdiel told me earlier in the week).
+
+I'm inclined to give them the green light to apply for the provisional licenses assuming they are $200 or less at the time of submission.  Let me know if you disagree. Thanks.","Kate asks Brady and Mimi to confirm green-light for CT provisional licenses up to $200.",Y,"Addresses Brady by name; asks for approval/disagree input.",N,"No later message from Brady in thread.",N,"No later message from Brady in thread."
+messages://+17608143153/r84575,2026-05-15T21:07:05.687420+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84575,inbound,personal,"Paloma Young","￼Oh! Well, guess what mom ordered—I was wondering why they had sent the wrong color","Paloma: oh, guess what mom ordered — wondering why wrong color sent.",N,"Casual chat, no ask.","","","",""
+messages://chat42546307063245870/r84574,2026-05-15T21:06:14.124552+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84574,inbound,personal,"Robert Laitman","Let’s get going still in the middle of a photo shoot","Rob: let's get going; still in middle of photo shoot.",N,"Logistics chat, no ask to me.","","","",""
+messages://+17608143153/r84573,2026-05-15T21:06:11.677648+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84573,outbound,personal,"Paloma Young","Yeah, school said they were helping and that we could borrow them","Brady to Paloma: yeah, school said they were helping and we could borrow them.",N,"Status reply, no commitment.","","","",""
+messages://+17608143153/r84572,2026-05-15T21:05:51.062473+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84572,inbound,personal,"Paloma Young","Are those the noise protection headphones?","Paloma asks if those are the noise protection headphones.",N,"Personal question answered in chat.","","","",""
+messages://+17608143153/r84571,2026-05-15T21:05:43.876671+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84571,outbound,personal,"Paloma Young","Just wanted to get home to bed.","Brady: just wanted to get home to bed.",N,"Status comment, no commitment.","","","",""
+messages://+17608143153/r84570,2026-05-15T21:05:22.836844+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84570,outbound,personal,"Paloma Young","No, just ears.","Brady: no, just ears.",N,"Status reply, no commitment.","","","",""
+messages://+17608143153/r84569,2026-05-15T21:05:07.668654+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84569,inbound,personal,"Paloma Young","Awwww. Fell smell. Was she crying because I said I was going to pick her up?","Paloma asks if Sibley was crying because Brady said he would pick her up.",N,"Personal question, answered in chat.","","","",""
+messages://+17608143153/r84568,2026-05-15T21:04:26.895221+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84568,outbound,personal,"Paloma Young","Cried all the way home, then fell smell immediately","Brady: Sibley cried all the way home then fell asleep immediately.",N,"Status update, no commitment.","","","",""
+messages://+17608143153/r84567,2026-05-15T21:04:00.724568+00:00,sms_unknown,"Paloma Young",messages://+17608143153/r84567,outbound,personal,"Paloma Young","￼","Brady sends a photo to Paloma.",N,"Photo share, no commitment.","","","",""
+https://mail.google.com/mail/u/0/#all/19e2d721459c5c51,2026-05-15T21:01:51+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2d721459c5c51,inbound,work,"Rho Notifications","Expense approvals summary
+
+Hello Francis,
+
+Here’s your daily summary of expenses needing your approval in Rho.
+
+ 
+
+ 
+
+ ( https://u33523225.ct.sendgrid.net/ls/click?upn=u001.rNNhpXch5nwvxaiCPnUNvLl0gJ2o4gpMy4RZDv2MHQoBNaQUNVTseBBXBjpUZB-2BxSqFVSJZamKedkvGcZItk1w-3D-3DjFeA_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38Mft0hW5cV-2FY7donK5siiwq59EFz-2FvtguknD86DV-2BvclVtenGZyJAPH4zEORGwOljg3DBeTL1HQvdQRGlis3V6LEm-2BX-2Btq-2FTRGUIJhq3qassooNUUNFmvbh4zNOtwvtD-2FcSjFOtX0VF7RwW8p3v19wQC-2FLFEVvOnC5LV8duUbX69ZVlt2k1KwlkXfWvUgT9DNYgUI6cyOiSsxxfqPYxIenZEci7aVZTRdXYeOqhv2K-2Bu-2BmATVGYPJMVoF6MGM9BbOakUPFungeNY2QsN5HJDGBb2xwNpuaHNwOD8JZmIRv3ey-2FsmQb9lYnuP-2BnyVxtizQe8yyYjlUsvMiGQb8ZP-2FKWvh0Jrps7Y4-2Bf6iqRd05gkZw-3D-3D )
+
+For more details, please view your expenses ( https://u33523225.ct.sendgrid.net/ls/click?upn=u001.rNNhpXch5nwvxaiCPnUNvLl0gJ2o4gpMy4RZDv2MHQoiyrn2neRuCxqM9dXcQJMkAylgcwhlbviQo2-2BaItpjfIzBP4ht8nZwltoiZCUB9TaSFzkwxkKniSGdH8Y1smrrNfKK_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38Mft0hW5cV-2FY7donK5siiwq59EFz-2FvtguknD86DV-2BvclVtenGZyJAPH4zEORGwOljg3DBeTL1HQvdQRGlis3V6LEm-2BX-2Btq-2FTRGUIJhq3qassooNUUNFmvbh4zNOtwvtD-2FcSjFOtX0VF7RwW8p3v19wQC-2FLFEVvOnC5LV8duUbX69ZVlt2k1KwlkXfWvUgT9DNYgUI6cyOiSsxxfqPYxIenZDuEqsxr77M9aZIWj4uFiGbttSZh2GdYDj1-2FdoJ-2FSug07BcmQrKTWRMHDU9ngaJ-2BVoIWUyKW9QgY9zDyqnMSwYuMGJjIBdo4sfdh2QbB0D0BzE1Cs7SewAAQkDq-2Fhl-2FFRSimoabO2TFep2Cc6XHNL-2Fg-3D-3D ).
+
+Manage notifications preferences here ( https://u33523225.ct.sendgrid.net/ls/click?upn=u001.rNNhpXch5nwvxaiCPnUNvKQRVa5-2FV5k4igBFuJVSLg-2F8wGW2OtiuLrS5gRJmkLZEwpF4kci-2F8LAOU3v1U7gye-2BzIPkazMRiU2JEW-2FP6gZUwlkPkDmIbyv54-2FLM5KmOZn8UN1_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38Mft0hW5cV-2FY7donK5siiwq59EFz-2FvtguknD86DV-2BvclVtenGZyJAPH4zEORGwOljg3DBeTL1HQvdQRGlis3V6LEm-2BX-2Btq-2FTRGUIJhq3qassooNUUNFmvbh4zNOtwvtD-2FcSjFOtX0VF7RwW8p3v19wQC-2FLFEVvOnC5LV8duUbX69ZVlt2k1KwlkXfWvUgT9DNYgUI6cyOiSsxxfqPYxIenZ1n7ux2k-2BblKDSy2rkmxMWh5Z5a-2FOtLL5gnVJwuZtW0Mqsqc-2F6ks5HlhtI6cDPayAp6n5-2FgbDIIwzCNS10f7tzD9CYmIPl9hWm8dg7jsRxsNdOc6J7XxLADDdAN6yCVECTJC4TSogE4wsqG-2FMirPitQ-3D-3D ).
+
+Our Client Service team is available 24/7
+
+1-855-743-8746 ( tel:+18557438746 ) clientservice@rho.co
+
+Update your email preferences ( https://u33523225.ct.sendgrid.net/ls/click?upn=u001.rNNhpXch5nwvxaiCPnUNvKQRVa5-2FV5k4igBFuJVSLg-2F8wGW2OtiuLrS5gRJmkLZEJLNV-2BNLGl5e4vNY6GMmE2NaYKOFlVR44uKwZTEaQaYYkvFi-2FQ4VBzaiFWfU0A2ny07UzvX1Bqj9nYpudqDKirQ-3D-3D8w_S_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38Mft0hW5cV-2FY7donK5siiwq59EFz-2FvtguknD86DV-2BvclVtenGZyJAPH4zEORGwOljg3DBeTL1HQvdQRGlis3V6LEm-2BX-2Btq-2FTRGUIJhq3qassooNUUNFmvbh4zNOtwvtD-2FcSjFOtX0VF7RwW8p3v19wQC-2FLFEVvOnC5LV8duUbX69ZVlt2k1KwlkXfWvUgT9DNYgUI6cyOiSsxxfqPYxIenZA-2BMP3iW5miorzCWJAnwN1XcseH1-2FAG8QDoFSz058pfBFvS6Vu5veaxIgZbnnRe18qyfZ4pjAL2NWy-2B17-2F33du-2BT1dKa6jyM5dd6CiMgXr8vc0LWji4M1mO8dTXyxPhjGFx87hbo0A-2FPTHs2CVibzRA-3D-3D ).
+
+Rho is a fintech company, not a bank. Checking services provided and cards issued by Webster Bank, N.A., member FDIC. Savings account services provided by The American Deposit Management Co. and its partner banks. ( https://u33523225.ct.sendgrid.net/ls/click?upn=u001.rNNhpXch5nwvxaiCPnUNvEEYephCyFFthBIVqmrMOs-2FYHa2zoWxs71PpxTxr1ETgq0dSX6mgPf7BbEe0xPSjzg-3D-3D-bxH_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38Mft0hW5cV-2FY7donK5siiwq59EFz-2FvtguknD86DV-2BvclVtenGZyJAPH4zEORGwOljg3DBeTL1HQvdQRGlis3V6LEm-2BX-2Btq-2FTRGUIJhq3qassooNUUNFmvbh4zNOtwvtD-2FcSjFOtX0VF7RwW8p3v19wQC-2FLFEVvOnC5LV8duUbX69ZVlt2k1KwlkXfWvUgT9DNYgUI6cyOiSsxxfqPYxIenZitgk6pJsW7lcqBzzmLqh5e37SF32t5W-2FSt05eUbgx27kwJuGXdRpeBT2u6alarJ-2BWeJylwp4I4-2FoHD3VNSGyD-2F3d3QQ7GVeM3-2FMrsBZBVsL4UKcCKVhCs-2FoRcUoJ4Y9eD3mFklyVIH2n-2FWklt7ABjg-3D-3D ) International and foreign currency payments services provided by Wise US, Inc. All services are subject to approval.
+
+Please do not send your SSN, account number, ID, or any personal information via email.
+
+All Rights reserved. © 2019-2026 Under Technologies, Inc. DBA Rho Technologies. Rho is a trademark of Under Technologies, Inc.
+
+Terms of Service ( https://u33523225.ct.sendgrid.net/ls/click?upn=u001.rNNhpXch5nwvxaiCPnUNvHEfQnewbat2JpJ5okSdhcOAf1SO3sWB0XUBGhMCCmYG8-2B5-2FzYsWd6qJa2qd0dxgpA-3D-3DM42j_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38Mft0hW5cV-2FY7donK5siiwq59EFz-2FvtguknD86DV-2BvclVtenGZyJAPH4zEORGwOljg3DBeTL1HQvdQRGlis3V6LEm-2BX-2Btq-2FTRGUIJhq3qassooNUUNFmvbh4zNOtwvtD-2FcSjFOtX0VF7RwW8p3v19wQC-2FLFEVvOnC5LV8duUbX69ZVlt2k1KwlkXfWvUgT9DNYgUI6cyOiSsxxfqPYxIenZ9k0TkL-2B-2B-2FskdIhCPDjtw7dcbjP0QY9GySkguWceuH6o1CzeLtti-2FXWrzSibDDvgpQ1OE-2FUg46G-2FRT0r-2BDlZ2jYB3Ig5yh8yD04681UDzRF-2BxWOWjrHI-2FXUAxZEcKu0AmuQcYj-2BDQQuAxurbFB4M9ag-3D-3D ) * Privacy Policy ( https://u33523225.ct.sendgrid.net/ls/click?upn=u001.rNNhpXch5nwvxaiCPnUNvHEfQnewbat2JpJ5okSdhcMW76zas36vlhLM6mLkPsxayXUU9JkWGQ-2FTxaR7O0cvCg-3D-3DqXHP_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38Mft0hW5cV-2FY7donK5siiwq59EFz-2FvtguknD86DV-2BvclVtenGZyJAPH4zEORGwOljg3DBeTL1HQvdQRGlis3V6LEm-2BX-2Btq-2FTRGUIJhq3qassooNUUNFmvbh4zNOtwvtD-2FcSjFOtX0VF7RwW8p3v19wQC-2FLFEVvOnC5LV8duUbX69ZVlt2k1KwlkXfWvUgT9DNYgUI6cyOiSsxxfqPYxIenZZRVCkJFVi9fipBWQSD5NOIW5R9aI-2F8KwmtkKiM4mJLMgFkpXP4hVwjJ1WNrlr4culcmMTt2PngBYwQ7Yj3WLj5AtQ9TCakvcbfg1T7MvrPKO7oN2iaKwvGO4h0Irtcz7JcQuTuPqX6WsqtfD9em8Ng-3D-3D ) * Rewards Terms ( https://u33523225.ct.sendgrid.net/ls/click?upn=u001.rNNhpXch5nwvxaiCPnUNvHEfQnewbat2JpJ5okSdhcON69grIMbnaslBDHXzs2yLPuiU2n5teSHTuVKua-2Bfg8w-3D-3Dx2-Y_kN15hyRdVd8Wm3ifZ3VqlCjKgiXzEEjboleqA4pK38Mft0hW5cV-2FY7donK5siiwq59EFz-2FvtguknD86DV-2BvclVtenGZyJAPH4zEORGwOljg3DBeTL1HQvdQRGlis3V6LEm-2BX-2Btq-2FTRGUIJhq3qassooNUUNFmvbh4zNOtwvtD-2FcSjFOtX0VF7RwW8p3v19wQC-2FLFEVvOnC5LV8duUbX69ZVlt2k1KwlkXfWvUgT9DNYgUI6cyOiSsxxfqPYxIenZfpcD20U1jTD1tnAPbl7s14Adb-2FkOY7KbZYigFADZ69mjtLL3nzePfKTGI0sWY-2FPLF1h9OZUdgSkJZPtQofMYyMnMGtrUiUVOqYCfjnAtxr4KY0K8ovvq6QOctq9kmhEfkomRCW3qwiKbCVsxCMXjyw-3D-3D )","Rho daily summary of expenses needing Brady's approval.",N,"Automated daily digest notification.","","","",""
+messages://chat42546307063245870/r84566,2026-05-15T20:57:37.907178+00:00,sms_unknown,"Mimi Liu",messages://chat42546307063245870/r84566,inbound,personal,"Mimi Liu","Rob - Let’s start 5 after","Mimi: Rob, let's start 5 after.",N,"Logistics aimed at Rob.","","","",""
+https://mail.google.com/mail/u/0/#all/19e2d6badd711d7b,2026-05-15T20:54:49+00:00,gmail_brady_doromind_com,brady@doromind.com,19e2961e98e39503,inbound,work,"Beth Crothers","Hi Brady!
+
+We can certainly allocate the pay raises from Jan-Mar; can you advise the amounts that should be amortized? 
+
+It looks like we do not have a connection with Apex Treasury. Could you please send us PDF and csv statements for the life of the account? We will set up a monthly request for this moving forward!
+
+Thank you,
+
+—
+
+Beth Crothers
+
+Senior Account Manager
+
+www.pilot.com 
+
+--- original message ---
+
+[chain history truncated]","Beth (Pilot) asks Brady for pay raise amortization amounts and Apex Treasury PDF/CSV statements.",Y,"Inbound ask to me for amounts and statements.",N,"No later message in thread.",N,"No later message in thread."
