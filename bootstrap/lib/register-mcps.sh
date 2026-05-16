@@ -34,6 +34,10 @@ for f in "$REPO_ROOT/.openbrain/lib/"*.sh; do
     chmod 755 "$dest"
   fi
 done
+# Legacy per-service Google launchers — removed from .openbrain/lib; delete stale copies.
+for legacy in gmail-mcp.sh gcal-mcp.sh gmeet-mcp.sh gdrive-mcp.sh; do
+  rm -f "$LIB_DIR/$legacy"
+done
 ok "launcher scripts installed at $LIB_DIR"
 
 # -----------------------------------------------------------------------------
@@ -125,7 +129,15 @@ def stdio(name, script, *args):
     }
 
 # Remove any openbrain-managed entries before re-writing
-managed_prefixes = ("asana_", "gmail_", "gcal_", "gmeet_", "gdrive_", "slack_")
+managed_prefixes = (
+    "asana_",
+    "gmail_",
+    "gcal_",
+    "gmeet_",
+    "gdrive_",
+    "google_",
+    "slack_",
+)
 for k in list(servers.keys()):
     v = servers[k]
     cmd = v.get("command", "") if isinstance(v, dict) else ""
@@ -138,12 +150,10 @@ if plan["has_asana_personal"]:
 if plan["has_asana_work"]:
     stdio("asana_work", "asana-mcp.sh", "work")
 
+# One consolidated Google MCP stdio server per account (tools: gmail_*, calendar_*, …).
 for slug in plan["google_slugs"]:
     key = slug.replace("-", "_")
-    stdio(f"gmail_{key}",  "gmail-mcp.sh",  slug)
-    stdio(f"gcal_{key}",   "gcal-mcp.sh",   slug)
-    stdio(f"gmeet_{key}",  "gmeet-mcp.sh",  slug)
-    stdio(f"gdrive_{key}", "gdrive-mcp.sh", slug)
+    stdio(f"google_{key}", "google-mcp.sh", slug)
 
 for slug in plan["slack_slugs"]:
     key = slug.replace("-", "_")

@@ -146,7 +146,16 @@ For each remaining actionable item:
 
 Track drafts in a list to surface in step 6 — one entry per draft: `(channel, person-or-counterparty, subject-or-gist, draft-id, account-slug, source-task-gid-if-any)`.
 
-### 6. Assemble `orientation.md`
+### 6. Read the weekly focus doc
+
+Brady and Mimi maintain a shared weekly focus doc that anchors what matters this week. **Read it before composing the orientation** — the Focus suggestion in step 7 must be grounded in this doc, not invented from task churn alone.
+
+- Doc: https://docs.google.com/document/d/1nYFN1nTPGl12EqILjf5Z4GJJA7KNwD3gzqYnSgwSX_8/edit
+- Doc ID: `1nYFN1nTPGl12EqILjf5Z4GJJA7KNwD3gzqYnSgwSX_8`
+- Fetch via `mcp__google_brady_doromind_com__docs_read_document` (work account). If that fails with a permission error, retry on the other configured `google_*` accounts.
+- Extract: this week's stated focus for Brady and for Mimi, plus any explicit goals, deadlines, or carve-outs. Keep a short structured note (Brady's focus / Mimi's focus / shared priorities) in working memory for step 7. Do not paste the doc body into the orientation; reference it.
+
+### 7. Assemble `orientation.md`
 
 Write `+ Inbox/orient/$DATE/orientation.md` with this structure (omit sections that are empty):
 
@@ -227,7 +236,9 @@ _(Review and send from Gmail / Slack. Drafts are not sent automatically.)_
 
 ## Focus suggestion
 
-<single line drawing on new tasks + meeting load — what one thing matters most today>
+_Anchored to [this week's focus doc](https://docs.google.com/document/d/1nYFN1nTPGl12EqILjf5Z4GJJA7KNwD3gzqYnSgwSX_8/edit) — Brady: <one-line restatement> · Mimi: <one-line restatement>._
+
+<single line drawing on the weekly focus + new tasks + meeting load — what one thing matters most today, consistent with the week's stated focus. Apply the carry-forward rule from memory `feedback_focus_carryforward`.>
 
 ---
 
@@ -237,7 +248,7 @@ _(Review and send from Gmail / Slack. Drafts are not sent automatically.)_
 - The "yesterday's orientation" link is omitted if `+ Inbox/orient/$LAST_BIZ/orientation.md` does not exist.
 - Paths in the header and footer are written relative to the repo root so they resolve correctly in the mirrored `README.md` (the canonical front-door view).
 
-### 7. Report
+### 8. Report
 
 Echo the path to the written file and a one-paragraph summary: total new tasks, net effort delta, number of meetings prepped. Do not paste the file body back into chat.
 
