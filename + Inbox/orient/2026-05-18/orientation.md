@@ -11,30 +11,36 @@ _(Compared against 2026-05-15 — Friday)_ · [← Friday's orientation](+ Inbox
 ## What landed since 2026-05-15
 
 ### New tasks (11)
-- [Lead venture-debt process: review NDAs, prep financial review, lead SVP mtg](https://app.asana.com/0/0/1214908261078727) — Effort **13** · _(Founders Backlog)_ · created `2026-05-18 11:36`
-- [Early exercise Dec grants](https://app.asana.com/0/0/1214900431303097) — Effort **5** · _Founders Backlog_ · created `2026-05-18 08:35`
-- [Doro Mind books — April 2026](https://app.asana.com/0/0/1214815593022461) — Effort **5** · _Finances Backlog_ · created `2026-05-15 10:29`
-- [Re: Unresolved Balance Placed for Collections – MyStartUpCFO 2026-0906](https://app.asana.com/0/0/1214911509669244) — Effort **3** · _Founders Backlog_ · created `2026-05-18 13:13`
-- [eNPS](https://app.asana.com/0/0/1214838445692846) — Effort **3** · _(no project)_ · created `2026-05-15 10:27`
-- [Email Brian Jones overview of Doro Care + Doro Compass](https://app.asana.com/0/0/1214843376146686) — Effort **2** · _(no project)_ · created `2026-05-15 11:06`
-- [Pause Rob time-tracking rollout; notify Danica](https://app.asana.com/0/0/1214847034378559) — Effort **2** · _(no project)_ · created `2026-05-15 12:50`
-- [Review Sophia–Rob recording before 1:1 w/ Mimi](https://app.asana.com/0/0/1214908107498529) — Effort **2** · _(no project)_ · created `2026-05-18 11:36`
-- [Email Debbie re: clinical review; request records if needed; update in ~24h](https://app.asana.com/0/0/1214909139988421) — Effort **2** · _(no project)_ · created `2026-05-18 12:01`
-- [Update Rippling approver to Kate for Lindsey S](https://app.asana.com/0/0/1214910730452615) — Effort **1** · _(no project)_ · created `2026-05-18 12:38`
-- [Doro Mind, Mental Health Advocacy Starts with Your Support](https://app.asana.com/0/0/1214901585049506) — Effort **1** · _Founders Backlog_ · created `2026-05-18 09:05`
+- [eNPS](https://app.asana.com/1/1205801040312777/task/1214838445692846) — Effort **3** · created Fri `14:27`
+- [Doro Mind books — April 2026](https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1214815593022461) — Effort **5** · _Doro Mind Books_ · created Fri `14:29`
+- [Email Brian Jones overview of Doro Care + Doro Compass](https://app.asana.com/1/1205801040312777/task/1214843376146686) — Effort **2** · created Fri `15:06`
+- [Pause Rob time-tracking rollout; notify Danica](https://app.asana.com/1/1205801040312777/task/1214847034378559) — Effort **2** · created Fri `16:50`
+- [Early exercise Dec grants](https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214900431303097) — Effort **5** · _Founders Backlog_ · created today `12:35`
+- [Doro Mind, Mental Health Advocacy Starts with Your Support](https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214901585049506) — Effort **1** · _Founders Backlog_ · created today `13:05`
+- [Lead venture-debt process: review NDAs, prep financial review, lead SVP mtg](https://app.asana.com/1/1205801040312777/task/1214908261078727) — Effort **13** · created today `15:36`
+- [Review Sophia–Rob recording before 1:1 w/ Mimi](https://app.asana.com/1/1205801040312777/task/1214908107498529) — Effort **2** · created today `15:36`
+- [Email Debbie re: clinical review; request records if needed; update in ~24h](https://app.asana.com/1/1205801040312777/task/1214909139988421) — Effort **2** · created today `16:01`
+- [Update Rippling approver to Kate for Lindsey S](https://app.asana.com/1/1205801040312777/task/1214910730452615) — Effort **1** · created today `16:38`
+- [Re: Unresolved Balance Placed for Collections - MyStartUpCFO 2026-0906](https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214911509669244) — Effort **3** · _Founders Backlog_ · created today `17:13`
 
 ### Closed since 2026-05-15 (32)
-_High-volume Friday close-down — 22 of these are Founders Backlog items closed in a single 5/15 13:20 batch (admin/email churn), plus 6 onboarding items for Lindsey Schupp and 4 finance/options follow-ups._
+**Friday batch (28)** — most are 5/14 Founders Backlog items captured + closed Friday afternoon via the Fathom→Asana pipeline. Highlights:
+- [Update option grants](https://app.asana.com/1/1205801040312777/project/1214620179420182/task/1214643522308618) — Effort **3** · closed Fri `14:17`
+- [Run board mtg; prep options approval; send CARTA checklist; coordinate w/ Mike](https://app.asana.com/1/1205801040312777/task/1214500830467117) — Effort **5** · closed Fri `14:05`
+- [Check w/ Kate re: licensing transition](https://app.asana.com/1/1205801040312777/task/1214501127546118) — Effort **2** · closed Fri `14:02`
+- [Doro Mind books — March 2026](https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1214064154358419) — Effort **3** · closed Fri `14:29`
+- [Email Jake: request CA PC formation docs; target Jun 1; decide Amy contract](https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214818489121730) — Effort **3** · closed Fri `14:07`
+- [Update Rippling: switch hourly managers to Kate; keep Beth under Minna](https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214818489219226) — Effort **3** · closed Fri `14:07`
+- [Make CA launch board public; share w/ Milestone Jam; ask pre-read](https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214818475405508) — Effort **5** · closed Fri `13:20`
+- [Email Alexis re: Medicare/superbill guidance; then update Pam w/ plan + timeline](https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214818760649449) — Effort **3** · closed Fri `13:18`
+- [Enroll in mailing service for CA PC](https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214816087170567) — Effort **3** · closed Fri `13:16`
+- _+19 more 5/14-captured Founders Backlog items closed Fri 13:20–14:10 (full list in Asana)._
 
-Notable closures:
-- [Doro Mind books — March 2026](https://app.asana.com/0/0/1214064154358419) — Effort **3** · completed `2026-05-15 10:29`
-- [Run board mtg; prep options approval; send CARTA checklist; coordinate w/ Mike](https://app.asana.com/0/0/1214500830467117) — Effort **5** · completed `2026-05-15 10:05`
-- [Update option grants](https://app.asana.com/0/0/1214643522308618) — Effort **3** · completed `2026-05-15 10:17`
-- [Make CA launch board public; share w/ Milestone Jam; ask pre-read; set June limited/July GA; start waitlist](https://app.asana.com/0/0/1214818475405508) — Effort **5** · completed `2026-05-15 09:20`
-- [Email Jake: request CA PC formation docs; target Jun 1; decide Amy contract](https://app.asana.com/0/0/1214818489121730) — Effort **3** · completed `2026-05-15 10:07`
-- [Update Rippling: switch hourly managers to Kate; keep Beth under Minna; verify May 8](https://app.asana.com/0/0/1214818489219226) — Effort **3** · completed `2026-05-15 10:07`
-- [Email Alexis re: Medicare/superbill guidance; then update Pam w/ plan + timeline](https://app.asana.com/0/0/1214818760649449) — Effort **3** · completed `2026-05-15 09:18`
-- [Provide a computer](https://app.asana.com/0/0/1214716053769103) · [Send welcome package](https://app.asana.com/0/0/1214716053769110) · [Check in on computer](https://app.asana.com/0/0/1214715791338812) — Lindsey Schupp onboarding (Effort 5 total) · completed `2026-05-18`
+**Today (4)**
+- [Send welcome package](https://app.asana.com/1/1205801040312777/project/1214716051135933/task/1214716053769110) — Effort **2** · closed `12:32`
+- [Moderator's spam report for undeliverable@doromind.com](https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214850108075304) — Effort **2** · closed `12:32`
+- [Check in on computer](https://app.asana.com/1/1205801040312777/task/1214715791338812) — Effort **1** · closed `12:36`
+- [Provide a computer](https://app.asana.com/1/1205801040312777/project/1207450518818752/task/1214716053769103) — Effort **2** · closed `15:00`
 
 ## Stock & flow
 
@@ -45,144 +51,147 @@ Notable closures:
 | Completed    | -32   | -73    |
 | **Net**      | -21   | -34    |
 
-_(0 of 123 stock tasks have unestimated Effort — fully measured. Friday close-down + Lindsey onboarding completion drove the large negative flow; most closures were Founders Backlog admin items, not strategic deliverables.)_
+_All 123 open stock tasks have Effort estimates — fully measured. The big closed pile is Friday's Fathom→Asana sweep clearing the 5/14 Founders Backlog. The +13-effort venture-debt task created today at 15:36 is by itself larger than any single item added Friday._
 
 ## Missed since 2026-05-15
 
-### Doro Mind <> Sophia · `2026-05-15 18:00` · 41 min
-**Attendees:** [[Mimi]], Sophia Walker (Silver Hill, child/adolescent psychiatrist), Rob Brown, Hannah, Stephanie Greer
-**Why missed:** declined (Mimi/Rob running)
-**Summary**
-- Sophia (clozapine expert, leaving Silver Hill) seeking 15–20 hrs/wk part-time role; afternoon/evening availability; CT/NY/FL licensed and willing to add CA.
-- Doro Mind needs psychiatrist for NP supervision + small patient panel — strong fit; Rob would mentor her into supervision.
-- Compensation: below her $625/hr private rate (necessary for payer contracts), with equity to align — Sophia open to that trade.
-- She'll keep her private practice (no new patients to avoid conflict).
-- Follow-up booked for next Fri 3 PM to discuss formal on-ramp.
+### Rob + Doro Mind · `2026-05-15 17:00–17:30` · 30 min
+**Attendees:** [[Mimi]], Robert Laitman (rslaitman@aol.com — no person note)
+**Why missed:** declined (Friday afternoon; Mimi ran it solo with Rob)
+**Summary** — Plan to transition Jenna's three Massachusetts care families before her June 1 departure:
+- **Sydney (Eric & Sherry):** chronic suicidality, needs ~1–2+ hrs/wk = Tier 3. Mimi to propose Tier 3 upgrade; if family declines, Rob trials a 1 hr/wk cap.
+- **Michael (Beth, 80% grant):** prescription-only support, capped 1 hr/mo to bridge care. Lead transitions to Hannah (no person note). If untenable, prep MA transition.
+- **Shana case:** straightforward — family moves to Shana at Compass.
+- **Rob licensing:** will use EMT compact to gain MA licensure (required for Medicaid Rx). For Medicaid patients, route scripts to Cost Plus Drugs ($10–15/mo).
+- **Tooling:** Doro to build a custom digital time-tracking/billing tool for Rob — current platforms drag his efficiency.
 
 **Action items**
-- Sophia: send resume to Mimi.
-- Mimi: discuss on-ramp plan w/ Doro team; send calendar invite for follow-up.
-- All: attend follow-up Fri 3 PM.
-
-**Source:** `gs://com-doromind-brichards/fathom-inputs/673882434_4790ab5f5db9af01.json` · [Fathom share](https://fathom.video/share/cttuQxzD-oPdSXhxqk-6XNRo3W2mPpyz)
-
----
-
-### Rob + Doro Mind · `2026-05-15 17:00` · ~35 min
-**Attendees:** [[Mimi]], Rob Brown, Hannah
-**Why missed:** declined
-**Summary**
-- Finalized transition plan for Jenna's 3 MA care families ahead of her June 1 departure. Rob will use EMT compact for MA licensure; Medicaid scripts route via Cost Plus Drugs.
-- **Sydney (Eric & Sherry):** Tier 3 upgrade proposal — clinical need (chronic suicidality) requires 1–2+ hrs/wk; if declined, Rob trials 1 hr/wk cap with Hannah covering gaps.
-- **Michael (Beth):** Rx-only support from Rob capped at 1 hr/mo (family on 80% grant); Hannah primary; month-to-month with authority to transition if untenable.
-- **Shana family:** straightforward move to Compass.
-- **Coordination:** Doro will build a custom time-tracking tool for Rob (Phase 1) → later integrate his documentation into Doro systems. _(This is why Brady created [Pause Rob time-tracking rollout; notify Danica](https://app.asana.com/0/0/1214847034378559) and the time-tracking tool is part of [Lead venture-debt process / new infra work](https://app.asana.com/0/0/1214908261078727)'s adjacency — confirm scope with Mimi.)_
-
-**Action items**
-- Mimi & Brady: prep Tier 3 proposal for Eric & Sherry; build custom time-tracking tool for Rob; schedule integration follow-up.
-- Hannah: communicate Sydney plan to family; manage Michael as primary clinician; transition Shana family to Compass.
+- Mimi: Confirm MA Medicaid for Sydney/Michael; route Medicaid scripts to Cost Plus Drugs.
+- Mimi: Schedule Sydney office visit w/ Rob for Fri; propose Tier 3 to family; fall back to 1h/wk cap.
+- Mimi: Transition Michael lead to Hannah; cap Rob 1h/mo; inform Beth.
+- Brady + Mimi: Build digital time-tracking/billing tool for Rob; schedule shadow/working session.
 
 **Source:** `gs://com-doromind-brichards/fathom-inputs/676098853_d9fa973c26a3f59a.json` · [Fathom share](https://fathom.video/share/n_xdCMNJs7bZ1sD59ydvLL6yQ6WoGna6)
 
 ---
 
-### Family Time · `2026-05-17 19:00` · 30 min
-**Attendees:** Rick Richards (father, organizer), brady.and.paloma@gmail.com
-**Why missed:** no-response (`needsAction`) — Zoom family call hosted by Rick
+### Doro Mind <> Sophia · `2026-05-15 18:00–18:45` · 45 min
+**Attendees:** [[Mimi]], Robert Laitman, Sophia Walker MD (sophiawalkermd@gmail.com — no person note)
+**Why missed:** declined (optional; Mimi/Rob ran it). **Note:** today's new task [Review Sophia–Rob recording before 1:1 w/ Mimi](https://app.asana.com/1/1205801040312777/task/1214908107498529) is the follow-up — review this transcript before tomorrow.
 **Summary**
-- _No transcript available_ — personal Zoom outside Fathom coverage.
-- Worth a quick check-in text to Rick today acknowledging the miss.
+- **Sophia** is a child & adolescent psychiatrist specializing in treatment-resistant psychosis and **clozapine** (built at Silver Hill). Recently left Silver Hill due to unmanageable hours (childcare) and a shift toward inpatient/non-clozapine populations.
+- Seeking a **part-time role (15–20 hrs/wk)** to maintain clinical skills. Currently in full-time private practice; can't do a 9–5 hospital schedule.
+- **Doro Mind fit:** she could provide **NP clinical supervision** + carry a patient panel — both are open needs.
+- **Comp:** open to a lower salary than her private practice rate ($625/hr) in exchange for equity + mission alignment (scaling high-quality SMI care).
+- Brady's open commitment with Jake on clinical supervision now has a real candidate behind it.
 
-**Source:** no transcript available
+**Action items**
+- Sophia: email resume to Mimi.
+- Mimi: send calendar invite to Sophia + Rob for follow-up **Fri 3 pm**.
+
+**Source:** `gs://com-doromind-brichards/fathom-inputs/673882434_4790ab5f5db9af01.json` · [Fathom share](https://fathom.video/share/cttuQxzD-oPdSXhxqk-6XNRo3W2mPpyz)
 
 ## Today's meetings
 
 ### `10:00–10:45` Brady + Mimi · `brady-doromind-com`
 **Attendees:** [[Mimi]]
 
-**Recent context:** Standing 1:1 ([1:1 doc](https://docs.google.com/document/d/1nYFN1nTPGl12EqILjf5Z4GJJA7KNwD3gzqYnSgwSX_8/edit)). Last touch: Friday's `Brady / Mimi` 12:00. This is the first 1:1 since the Friday Sophia + Rob meetings Brady missed — those are the most important inputs to today's agenda. Mimi's last_contact: 2026-05-12 (vault stale).
+**Recent context:** Weekly 1:1. Friday closed the option grants update, board meeting, CA PC mailing service, and the Email-Alexis-re-Medicare action. Sat/Sun the Sendbird/WB outage caught attention (David fixed it). Mimi covered the missed Rob meeting and the Sophia clozapine intake (above) — these are the top items to surface.
 
 **Open commitments**
-- Mine → Mimi: Revise OKR narrative (3 financial levers → Obj 2/3) · Clarify Karen's role w/ Mina re: licensing · Share working financial model w/ Kate · Confirm w/ counsel re: Medicare opt-out + group NPI; update Jake · Close out skip-level / 360s comms
-- Mimi → me: Healthfirst rate sheet (open since Apr 13) · Confirm Courtney retainer + fwd Anthropic emails · EA support structure for Kate · Connect strategy clarity · Medi-Cal readiness timeline · OKR narrative feedback
+- Mine → Mimi: Revise OKR narrative · Clarify Karen's role with Mina re: licensing · Share working financial model with Kate · Confirm with counsel re: Medicare opt-out + group NPI; update Jake · Close out skip-level / 360s comms
+- Mimi → me: Healthfirst rate sheet · Courtney retainer + Anthropic emails · EA support structure for Kate · Connect strategy clarity · Medi-Cal readiness timeline · OKR narrative feedback
 
-**Likely topics:**
-- **Sophia on-ramp** — Brady should be ready to weigh in on psychiatrist comp/equity split, supervision structure, and whether to slot her into the venture-debt-funded hiring plan.
-- **Rob MA transition + time-tracking tool** — Brady's [pause Rob time-tracking](https://app.asana.com/0/0/1214847034378559) task suggests he wants to re-scope the tool before Danica builds it. Tier 3 proposal for Eric & Sherry is jointly assigned.
-- **Venture debt** — Brady picked up Banc of Cal NDA + financials request from Roger Klarmann 5/13; this week's weekly focus has it as an open loop.
-- **Clinical supervision / Jake comp offer** — open loop from the weekly focus doc.
-
-**Related projects** — Doro Health California (CA PC formation now closed); venture debt; clinical supervision (Jake/Sophia); MA transition (Jenna → Rob).
+**Likely topics**
+- **Sophia (clozapine MD candidate)** — Mimi's Friday meeting. New task: [Review Sophia–Rob recording before 1:1 w/ Mimi](https://app.asana.com/1/1205801040312777/task/1214908107498529). She wants 15–20 hrs/wk, open to equity-heavy comp, could supervise NPs + carry a panel. Decide on next step (Mimi's Fri 3pm follow-up + a Brady touch).
+- **Rob/Jenna MA transitions** — Friday plan locked (Sydney Tier 3 ask, Michael 1 hr/mo cap with Hannah lead, Shana to Compass). Brady to commit to scoping the Rob time-tracking tool with engineering.
+- **Venture debt** — new today: [Lead venture-debt process](https://app.asana.com/1/1205801040312777/task/1214908261078727) (effort 13). NDA review + SVB prep is now formally Brady's lane (per weekly focus doc).
+- **CA PC** — Brady's weekly focus is "CA PC — clear path, assume yes." Friday touch with Jake closed; expecting Alexis filing docs imminent.
+- **Skip-level/360 comms** — still open; small effort, worth closing today.
 
 ---
 
 ### `11:30–12:00` Welcome Call: Brady Richards and Deb Stone · `brady-doromind-com`
-**Attendees:** Deb Stone <dstone@popearth.org> (no person note), Minna Chan (optional)
+**Attendees:** Deb Stone <dstone@popearth.org> (unknown — no person note), Minna Chan (optional, not yet responded)
 
-**Context from event:** NY parent. Seeking support for her child — son with ASD + ADHD having behavioral difficulties. Heard about Doro from another parent. Phone: 516-468-5443.
+**Context from event:**
+- Seeking support for **her child**.
+- State: **New York**.
+- Services interested: "Help for my asd ad/HD son who is having behavioral difficulties."
+- How heard about Doro Mind: **Parent referral**.
+- Callback: 516-468-5443.
 
-**Recent threads** — Brady already created [Email Debbie re: clinical review; request records if needed; update in ~24h](https://app.asana.com/0/0/1214909139988421) at 8:01 AM today, which means the welcome call must have already happened or a prior intake step occurred — verify whether this is a fresh call or a follow-up. Fathom recap from `Pop.Earth` already exists in inbox 5/18 12:00 (`Recap of your meeting with Pop.Earth` — Action: "Brady: Refer Dylan's case to the clinical team for a formal assessment of potential psychosis"). _Note: that recap references Dylan, not Deb's son — this may be a different family or a labeling artifact. Verify before the call._
-
-**Preparation notes:**
-- Doro Compass (waitlist) likely the right fit for ASD+ADHD + behaviors in a child; not psychosis (so distinct from Brian Jones's case Friday).
-- Lead with empathy; understand whether behaviors are escalating to safety concerns.
+**Preparation notes**
+- ASD + ADHD with behavioral difficulties — different presentation than the SMI/psychosis cases Doro Mind typically takes. Listen first; clarify whether they want psychiatric medication management or behavioral coaching/family support.
+- Doro Mind angle: Compass (parent coaching + family supports) is likely the right fit; Care (NP-led psychiatric mgmt) a possible secondary.
+- Pop Earth email domain — light check before the call; not a known referral partner in vault.
 - Add Deb Stone to `+ Atlas/People/` after the call.
+
+**Related threads** — No prior Gmail history; Reclaim auto-scheduled this from her intake form.
 
 ---
 
 ### `13:00–13:30` Mimi Liu + Tawni Cranz · `brady-doromind-com`
-**Attendees:** [[Mimi]], Tawni Cranz <tawni@signalfire.com> (SignalFire — no person note)
+**Attendees:** [[Mimi]], Tawni Cranz <tawni@signalfire.com> (unknown — no person note; SignalFire's well-known talent partner)
 
-**Recent context:** Rescheduled by Mimi 5/15 "to accommodate an urgent in-person mtg." Tawni is at SignalFire (VC) — this is likely a fundraise/relationship touchpoint, with Mimi leading.
+**Context:** Mimi-organized; Brady is a guest. Per event description, Mimi adjusted this meeting "to accommodate an urgent in-person mtg." SignalFire's Tawni Cranz works people/talent — likely a hiring/people-strategy conversation (EA structure for Kate, Courtney retainer, Sophia, ongoing org design).
 
-**Preparation notes:**
-- Brady is the +1 here, not the lead. Mimi will frame; Brady should be ready with the most current revenue + CA-launch numbers (Q1 $1.2M / Q2 $1.4M / Q3 $1.8M / Q4 $2.7M targets per OKR narrative) and the venture-debt context (Banc of Cal NDA in flight, SVP meeting coming).
-- No prior thread from Tawni on `brady@doromind.com`. Add her to `+ Atlas/People/` after.
+**Open commitments relevant**
+- Mimi → Brady: Define EA support structure for Kate (long-standing open item; possible Tawni topic).
+- Brady → Mimi: Close skip-level/360s comms (people-process adjacent).
+
+**Approach:** Mimi's room — Brady listens, contributes where SignalFire's people network could plug into Doro Mind's open hiring needs (clinical supervisor, EA, NP capacity).
 
 ---
 
 ### `13:30–14:30` Eng Huddle · `brady-doromind-com`
-**Attendees:** Michael, Dhanica (declined optional), engineering@ alias
-**Notes doc:** [Team Engineering Notes](https://docs.google.com/document/d/18lvgjNNFxzz6OVNP_9SimljcyorzoPmB6wzyr3J7tzg/edit)
+**Attendees:** engineering@ list, michael@doromind.com (no response), Dhanica (declined; optional)
 
-**Open commitments tied to eng**
-- Rob time-tracking tool (just paused by Brady — bring scope clarity from this morning's 1:1 w/ Mimi).
-- [Review consolidated message schema and align to email work](https://app.asana.com/0/0/1214818312661142) — open from Thursday's capture.
-- [Share GCP CLI access w/ Mimi; then Mimi migrate OOO hack](https://app.asana.com/0/0/1214818680378251) — open.
+**Context:** Brady is organizer. Weekly engineering sync. Standing notes doc: [Team Engineering Notes](https://docs.google.com/document/d/18lvgjNNFxzz6OVNP_9SimljcyorzoPmB6wzyr3J7tzg/edit).
 
-_(13:30 also has an optional `Workgroup: Consents` with Kate, Hannah, Brittany, Jessica — Brady RSVP'd accepted as optional; Eng Huddle is the higher-priority overlap. If Brady wants to attend Consents, defer Eng Huddle to Michael.)_
+**Topics to raise**
+- **Rob time-tracking tool** (action item from Friday's Rob+Doro Mind meeting). Scope a digital billing/time-tracking tool — Brady committed jointly with Mimi. Today's task [Pause Rob time-tracking rollout; notify Danica](https://app.asana.com/1/1205801040312777/task/1214847034378559) is the prerequisite cleanup.
+- **Sendbird/WB token resilience** — David's weekend incident (token cleared; David repopulated). Worth a quick retro: who watches credentials, alerting plan.
+- **Consolidated message schema** — Brady's open commitment to align this to email work (carried from 5/14).
 
----
-
-### `13:30–14:00` Workgroup: Consents · `brady-doromind-com` _(optional, conflicts w/ Eng Huddle)_
-**Attendees:** [[Kate Slemp Douglas]], Hannah, Brittany, Jessica
-**Decision:** Conflict with Eng Huddle. Brady is `optional` here; defaults to Eng Huddle unless Kate flagged a specific need.
+**Conflict note:** Workgroup: Consents (Kate organizing, Brady optional) runs 13:30–14:00 same slot. RSVP is accepted/optional — skip in favor of Eng Huddle unless something specific needs Brady on consents.
 
 ---
 
 ### `14:00–14:30` Welcome to Doro Mind, Lindsey! · `brady-doromind-com`
-**Attendees:** Lindsey Schupp (new hire — onboarding closed out today: welcome package sent, computer provided, Rippling approver pending → Brady's open task [Update Rippling approver to Kate for Lindsey S](https://app.asana.com/0/0/1214910730452615))
-**Deck:** [Welcome Deck, May 4, 2026](https://docs.google.com/presentation/d/1XeNISQNtdnBFkdVJ8OEjivz-xJZzKHtz2PECq_8zPsY/edit)
+**Attendees:** lindsey@doromind.com (no person note — new hire)
 
-**Preparation notes:**
-- Brady leads the welcome (he's the organizer). Standard onboarding deck.
-- Loop back: Magdiel sent instructions to Kate at 15:23 today on how to add Lindsey via platform Add Provider Profile flow — confirm with Lindsey that account access is functional.
+**Context:** New-hire welcome session. Materials: [Welcome Deck, May 4, 2026](https://docs.google.com/presentation/d/1XeNISQNtdnBFkdVJ8OEjivz-xJZzKHtz2PECq_8zPsY/edit?usp=sharing). Lindsey accepted Friday and today's task [Update Rippling approver to Kate for Lindsey S](https://app.asana.com/1/1205801040312777/task/1214910730452615) is the operational follow-up (Minna's Slack ask). Magdiel was told Friday to add Lindsey via the Add Provider Profile flow — already in motion.
+
+**Conflict note:** Overlaps last 30 min of Eng Huddle. Brady is organizer for both — excuse from Huddle at 14:00 for Lindsey (her welcome experience is the higher-trust commitment).
+
+---
+
+### Skipped / informational
+- `09:15–09:30 📧 Morning Catch Up` — Reclaim habit, solo block.
+- `11:00–11:30 🍱 Lunch` — Reclaim, solo.
+- `13:30–14:00 Workgroup: Consents` (Kate organizing, Brady optional) — conflicts with Eng Huddle; skip.
+- `17:00–17:25 🆓 📧 Afternoon Catch Up` — Reclaim, free/not committed.
 
 ## Drafted replies & next-step emails
 
-_No drafts written this run._ Today's inbox triage already routed clear actions into Asana (see "What landed since 2026-05-15"). Items worth flagging:
+_No drafts written this run._ Carry-forward and rationale:
 
-- ✉️ **Mimi — NYC Tech Week happy hour June 3** (Healthworx/Flare/Fusion/Primary) — refined.csv tagged this as `probable_new_work`. Brady to decide attendance and reply Zuzanna/Soo. Not drafted; Brady should respond in his own voice.
-- 📄 **Ken Mages — "Personal Pivot" doc shared via Google Docs** — refined.csv tagged this as `probable_new_work`. Read before responding; weekly focus doc has Ken in "outreach done, need to contract" status — keep that frame.
-- ✉️ **Rippling — off-cycle payroll for Jenna DelSordo (9h)** — refined.csv flagged as `probable_new_work`. Quick approve/review; coordinate with Minna.
-- 💬 **Dhanica — payroll approvals + Courtney/Matt hours setup** (Slack thread 16:18) — Brady needs to confirm with Mimi this morning before responding.
-- ✉️ **Shaun Zetlin SMS — "how did the workout feel?"** — casual reply when time permits; not urgent.
+- **Brian Jones** — Friday's [Welcome Call](https://app.asana.com/1/1205801040312777/task/1214843376146686) generated a new task to send him a Doro Care + Doro Compass overview email. Hold until after today's Brady/Mimi 1:1 in case the Sophia conversation reshapes the clinical-supervision pitch.
+- **Beth (Pilot)** — Friday's Beth pay-raise amortization request and Brady's Pilot bookkeeping notes both need a reply; tied to in-progress April books task.
+- **Cindy Gutierrez-Fasolino (NAMI Westchester)** — Friday ask about table sharing for 5/16 walk; the walk already happened (Brady rained out per Mimi/Rob group chat). Reply with thank-you/recap.
+- **Nick Jurkowitz consulting docs review** — Friday email; open task to review + grant Drive access. Likely a quick yes once docs read.
+- **Ken Mages "Personal Pivot" doc** — shared Friday with an offer to discuss; needs a 10-min read + a reply or call.
+- **NYC Tech Week happy hour June 3** — Mimi looped Brady in; needs a yes/no by tomorrow at the latest.
+- **Keren payroll question (Slack)** — Brady tagged Friday; Keren needs guidance on responding to Jenna; surfaces in Eng Huddle / Mimi 1:1 window.
+
+Drafting these reactively from this orientation would be premature without the Sophia/Mimi conversation context. Park for `/follow-up-draft` after the 10:00 1:1.
 
 ## Focus suggestion
 
-_Anchored to [this week's focus doc](https://docs.google.com/document/d/1nYFN1nTPGl12EqILjf5Z4GJJA7KNwD3gzqYnSgwSX_8/edit) — Brady: **Finalizing Doro Health California + financial modeling / month-end close**. Mimi: **follow up on CA retreat + "how we work" philosophy doc + guide-on-call practice**. Shared open loops: venture debt (Brady leads NDAs + SVB), clinical supervision (Jake comp offer), retreat budget, Medicare billing._
+_Anchored to [this week's focus doc](https://docs.google.com/document/d/1nYFN1nTPGl12EqILjf5Z4GJJA7KNwD3gzqYnSgwSX_8/edit) — **Brady: CA PC (clear path, assume yes) + push P&L discussion fwd · Mimi: pushing on CA BD + secondary/data on growth**._
 
-↩ Carry-forward from Friday: the **CA PC + venture-debt + Kate-licensing trio** — CA PC formation tasks closed Friday, but venture debt is now Brady's named focus item this week and just spawned the 13-effort `Lead venture-debt process` task today. Use the 10:00 Brady + Mimi 1:1 to (a) align on the Sophia on-ramp and Rob MA transition Brady missed Friday, (b) lock the venture-debt SVB outreach plan, and (c) confirm the Jake clinical-supervision comp offer is moving. Today's one thing: **leave the Brady + Mimi 1:1 with a concrete venture-debt next step (Banc of Cal NDA signed, SVB outreach scheduled) and a decision on Sophia's on-ramp** — the rest of the day (welcome calls, Tawni, Eng Huddle, Lindsey onboarding) is execution.
+↩ **Carry from Friday:** the CA-PC + venture-debt-NDA + Kate-licensing trio compounded into this week. Today the new task [Lead venture-debt process](https://app.asana.com/1/1205801040312777/task/1214908261078727) (effort 13) makes the SVB lane explicit; Brady's name is on it. The single most important thing today is to **start the venture-debt NDA review + scope the SVB conversation in the 10:00 Mimi 1:1**, then use the rest of the morning to advance CA PC (Alexis docs) and the P&L discussion (April books, eNPS, financial-model staffing). The afternoon is a sequence of people moments — Deb Stone welcome, Tawni Cranz (people network), Lindsey welcome — none of which require pre-reads but all of which benefit from Brady showing up present rather than mid-task.
 
 ---
 
