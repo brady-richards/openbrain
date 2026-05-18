@@ -84,7 +84,7 @@ python3 ~/repos/fathom-asana-sync/scripts/transcripts_gcs_map.py --interval 7d
 
 Output is `meeting title<TAB>gs://bucket/path/to/archive.json` (one row per recording in the rolling 7-day window). Parse into a dict keyed by meeting title.
 
-**Step C — match invites to transcripts.** For each missed invite from Step A, find the best matching transcript by title (exact match preferred; fall back to case-insensitive substring match on the meaningful portion of the title — e.g. "Mimi <> Brady 1:1" should match "Mimi / Brady 1:1"). If no match, note the meeting under a "no transcript available" subsection.
+**Step C — match invites to transcripts.** For each missed invite from Step A, find the best matching transcript by title (exact match preferred; fall back to case-insensitive substring match on the meaningful portion of the title — e.g. "Mimi <> Brady 1:1" should match "Mimi / Brady 1:1"). **If no matching transcript exists, drop the entry entirely — do not emit a "no transcript available" stub.** Rationale: without a transcript there's nothing to summarize, and family/personal/social invites Brady didn't RSVP to are not worth listing. A missed meeting only earns a place in the orientation if there's substantive content to convey.
 
 **Step D — summarize each matched transcript.** For each match, pull the JSON from GCS:
 
