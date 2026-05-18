@@ -84,6 +84,17 @@ _(0 of 123 stock tasks have unestimated Effort — fully measured. Friday close-
 
 **Source:** `gs://com-doromind-brichards/fathom-inputs/676098853_d9fa973c26a3f59a.json` · [Fathom share](https://fathom.video/share/n_xdCMNJs7bZ1sD59ydvLL6yQ6WoGna6)
 
+---
+
+### Family Time · `2026-05-17 19:00` · 30 min
+**Attendees:** Rick Richards (father, organizer), brady.and.paloma@gmail.com
+**Why missed:** no-response (`needsAction`) — Zoom family call hosted by Rick
+**Summary**
+- _No transcript available_ — personal Zoom outside Fathom coverage.
+- Worth a quick check-in text to Rick today acknowledging the miss.
+
+**Source:** no transcript available
+
 ## Today's meetings
 
 ### `10:00–10:45` Brady + Mimi · `brady-doromind-com`
