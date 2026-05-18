@@ -70,6 +70,8 @@ Identify meetings Brady was invited to in the `[$WINDOW_START, $NOW]` window whe
 - `responseStatus` is `declined`, `tentative`, or `needsAction`, AND
 - the event's end time is in the past.
 
+**The `optional: true` flag is irrelevant — optional invites Brady did not accept are still missed meetings and must be summarized.** Treat optional-declined the same as required-declined.
+
 Also keep events where `responseStatus` is `accepted` but Brady's calendar shows a conflicting block (out-of-office, overlapping accepted meeting on a different account) — he RSVP'd yes but couldn't be in two places.
 
 Skip: solo blocks, transit buffers (🚇), DND/focus, and personal anchors (gym, school pickup, etc.).
