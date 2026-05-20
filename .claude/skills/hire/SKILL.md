@@ -247,6 +247,15 @@ Check if a person note exists at `+ Atlas/People/[Full Name].md`.
 
 ### 11. Report
 
+**Before writing the report, re-read each contract doc and grep for any remaining `\{\{[^}]+\}\}` placeholders.** Do not trust your in-memory list of what you filled — the doc is the source of truth. After steps 6 (variable fill) and the equity snippet insertion, new placeholders may have been introduced (e.g. `{{Party}}`, `{{Equity Award Shares}}` from the snippet), and stray instances of fields without defaults (e.g. multiple `{{Supervisor}}` not all caught on first pass) may still exist.
+
+For each contract:
+1. `mcp__google_brady_doromind_com__docs_read_document` (format=text).
+2. Extract all matches of `\{\{[^}]+\}\}`.
+3. The report's "Left for you" section must list **exactly** the placeholders the grep found, no more and no less.
+
+If the grep finds placeholders you thought you filled, attempt to fill them now (per the table in step 6); only list as unfilled the ones that genuinely require user judgment.
+
 Output a summary:
 
 ```
