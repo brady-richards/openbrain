@@ -182,7 +182,24 @@ If equity_pct is set, open [Doro Mind Option Stock Grants](https://docs.google.c
 
 Verify after write: read `Grants!A<n+1>:Q<n+1>` and confirm Status + Agreement render as chips in the UI.
 
-**Known caveat on $B$5**: K and G formulas reference `Outstanding Shares!$B$5` directly, which is a fixed cell — not necessarily the row with the most-recent `As Of` date in that tab. If the convention changes to "use most-recent As Of row", update the canonical G formula here.
+**Outstanding Shares freshness check (required before write):**
+
+The G/K formulas reference a fixed cell like `'Outstanding Shares'!$B$5`. That cell is supposed to point at the most recent "As Of" row in the **Outstanding Shares** tab (sheetId `925107379`). It's a fixed reference, so it goes stale silently when a new row is added below it.
+
+Before writing the new hire's row:
+
+1. Read the formula in row N's G or K column to extract the referenced cell (e.g. `$B$5`).
+2. Read the Outstanding Shares tab (`sheets_read` on the relevant As Of / share-count columns).
+3. Identify the row in Outstanding Shares with the most recent `As Of` date that has a populated share count.
+4. **If that row is below the row the formula references**, warn the user before writing:
+
+   > ⚠️ The equity formula references `'Outstanding Shares'!$B$<n>` (As Of: <date>), but a newer row exists at `$B$<m>` (As Of: <newer-date>). The share-count calculation will use the stale value. Proceed anyway, or update the formula first?
+
+   Do NOT silently change the formula — share counts in already-granted rows depend on it being stable. Surface, let user decide.
+
+5. If the referenced row IS the most recent, proceed silently.
+
+Keep using the existing formula (`=IF(F<row>="","",ROUND(F<row>*'Outstanding Shares'!$B$<n>,-2))`) — substitute the same `$B$<n>` reference as the prior row uses, so all rows in a vintage point at the same denominator.
 
 ### 8. eSignature
 
