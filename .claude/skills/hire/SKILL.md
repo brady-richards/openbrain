@@ -105,10 +105,18 @@ Using `mcp__gdrive_brady_doromind_com__searchDriveFiles`, search inside the Empl
 
 ### 5. Drive — copy contract template
 
-In the Contract Templates folder (`1702O7tprYUOZSECU9m1a8UZNKvSK6-Nm`), find the correct template:
-- W-2: search for "employment agreement" (or "W-2 agreement")
-- 1099: search for "consulting agreement" (or "1099 agreement")
-- Clinician with equity: copy both the hourly and equity agreements
+In the Contract Templates folder (`1702O7tprYUOZSECU9m1a8UZNKvSK6-Nm`), find the correct template. Known templates as of 2026-05-20:
+- **Employment Agreement** (W-2) — id `1iIE-i8KTKmtf65jfF9u-yuoYioQ8efcCW8NOKCOYLHA`
+- **Consulting Agreement** (1099 generic) — id `1xNQi6wJnx2PYOU9TnvPB2ETxphUS1XbXFbuLxhwMKMI`
+- **Advisory Agreement** (advisors, equity-only) — id `1E3LPnxZAdxj20fn0KNQFCaj3Dq7D2U8WAdhM9o6Lhbs`
+- **Nurse Practitioner Independent Contractor Agreement** (clinicians) — id `1OZcatJWZImGCZXvqD4sh2aiiWk8S7QNusTPsFet30X4`
+- **Medical Director Agreement** — id `1h6ov7o7Bzxp1HVSlVx37pg1o0pIKw9gNG0ziJ0hiFqo`
+
+Choose by title:
+- Advisor → Advisory Agreement
+- W-2 employee → Employment Agreement
+- 1099 consultant → Consulting Agreement
+- Clinician → Nurse Practitioner Independent Contractor Agreement (+ equity agreement if applicable)
 
 Use `mcp__gdrive_brady_doromind_com__copyFile` to copy the template(s) into the employee's folder. Name each copy: `[Employee Name] — [Agreement Type] Agreement`.
 
