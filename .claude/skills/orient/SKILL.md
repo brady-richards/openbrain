@@ -59,7 +59,9 @@ Three-phase pipeline that turns raw signals (Slack, email, Messages) into an ori
 
 6. **Mirror to README.md.** Copy `+ Inbox/orient/$DATE/orientation.md` to `README.md` at the repo root (overwrite). This makes today's orientation the front-door view of the repo.
 
-7. **Report.** Echo the path to `orientation.md` and a one-paragraph summary drawn from the phase 3 subagent's return value. Do not re-summarize from the CSV — trust the phase 3 output.
+7. **Commit and push.** Stage `README.md` and the new `+ Inbox/orient/$DATE/` directory, commit with message `docs: mirror $DATE orientation to README`, and `git push`. This is standing authorization — do not ask first. GitHub only reflects pushed commits, so without this step the front-door view stays stale. Do not pass `--no-verify` or skip hooks; if the pre-commit linter fails, fix the underlying issue and retry.
+
+8. **Report.** Echo the path to `orientation.md` and a one-paragraph summary drawn from the phase 3 subagent's return value. Do not re-summarize from the CSV — trust the phase 3 output.
 
 ## Notes
 
