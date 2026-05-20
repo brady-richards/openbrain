@@ -160,6 +160,8 @@ In a single transaction, `UPDATE` each survivor and collapsed row with its `buck
 
 ### Step 9 — Interactive Asana push
 
+> **Skip this step when running as a subagent.** `AskUserQuestion` is not available inside subagents. When `/refine-work` is invoked from `/orient`, the parent skill picks up this step and runs it in its own context. When `/refine-work` is invoked directly by Brady, run this step normally.
+
 After verdicts are written, surface candidate work to Brady via `AskUserQuestion` and let him pick which items to push to Asana.
 
 Constraints of `AskUserQuestion`:
