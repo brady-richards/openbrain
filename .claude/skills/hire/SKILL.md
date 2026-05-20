@@ -154,15 +154,35 @@ Report back any placeholders left unfilled so the user can complete them before 
 
 ### 7. Equity spreadsheet (if applicable)
 
-If equity_pct is set, open [Doro Mind Option Stock Grants](https://docs.google.com/spreadsheets/d/1bI8Lo69cXOM72p1EXnWlY-EMteYT2Zzg5oUfCyFZHwc/edit) with `mcp__gdrive_brady_doromind_com__readSpreadsheet`. Find the next empty row. Append a new row with:
-- Employee name
-- Title
-- Grant date (= start date or today)
-- Equity % / share count
-- Status: **Offered**
-- Reference % (if translating from % → shares, note the conversion)
+If equity_pct is set, open [Doro Mind Option Stock Grants](https://docs.google.com/spreadsheets/d/1bI8Lo69cXOM72p1EXnWlY-EMteYT2Zzg5oUfCyFZHwc/edit) (spreadsheetId `1bI8Lo69cXOM72p1EXnWlY-EMteYT2Zzg5oUfCyFZHwc`, `Grants` tab, sheetId `467999115`).
 
-Use `mcp__gdrive_brady_doromind_com__appendRows` to write the row.
+**Do NOT use `sheets_append_rows`** — it scans for table boundaries and can place rows far below the actual data when validation/formatting extends down. Also loses chip rendering on Status (col A) and Agreement (col N) because new rows don't inherit column data validation. Use the **duplicate-and-overwrite** pattern instead:
+
+1. **Find last data row** via `sheets_read` on `Grants!B:B` (Name column) — last non-empty index = `N`. New row = `N+1`.
+2. **Read formulas** in row `N` via `sheets_read` with `valueRenderOption=FORMULA` so you know which columns are formula-driven (currently G `# of Stock Options` and K `Ownership` are formulas). Note row `N`'s G formula — if it's hardcoded (e.g. an older row), use the canonical formula instead: `=IF(F<row>="","",ROUND(F<row>*'Outstanding Shares'!$B$5,-2))`.
+3. **Copy row N → row N+1** via `sheets_copy_range` (`sheetId=467999115`, `sourceStartRow=N-1`, `sourceEndRow=N`, `destStartRow=N`, `pasteType=PASTE_NORMAL`). This inherits chips, data validation, and adjusts relative formulas.
+4. **Overwrite with the new hire's values** via `sheets_batch_write` (USER_ENTERED), **skipping K** (let the copied Ownership formula stay) and re-asserting the canonical G formula for the new row. Columns to write:
+
+| Col | Field | Value |
+|---|---|---|
+| A | Status | `Proposed` (or `Offered` if past board approval) |
+| B | Name | Full legal name |
+| C | Personal Email | resolved personal email |
+| D | State of Residence | resolved state, or `""` |
+| E | ISO or NSO? | `NSO` for advisors/1099, `ISO` for W-2 employees |
+| F | Reference % | e.g. `0.025%` (USER_ENTERED parses to decimal) |
+| G | # of Stock Options | formula: `=IF(F<row>="","",ROUND(F<row>*'Outstanding Shares'!$B$5,-2))` |
+| H, I, J | Pool Impact / New Policy / Advantage | `""` (clear inherited) |
+| K | Ownership | **skip** — preserve copied formula `=G<row>/'Outstanding Shares'!$B$5` |
+| L | Vesting Start Date | start date (YYYY-MM-DD) |
+| M | Vesting Schedule | e.g. `4 years: 1 year cliff, monthly after` or `6 months; monthly, no cliff` (advisor) |
+| N | Agreement | **paste the contract Doc URL** — auto-renders as a Doc smart chip |
+| O, P | Vesting End Date / Termination Agreement | `""` |
+| Q | Notes | free text, e.g. "6-month advisory, ~50 hrs, 0.025% anchored to $30M post-money" |
+
+Verify after write: read `Grants!A<n+1>:Q<n+1>` and confirm Status + Agreement render as chips in the UI.
+
+**Known caveat on $B$5**: K and G formulas reference `Outstanding Shares!$B$5` directly, which is a fixed cell — not necessarily the row with the most-recent `As Of` date in that tab. If the convention changes to "use most-recent As Of row", update the canonical G formula here.
 
 ### 8. eSignature
 
