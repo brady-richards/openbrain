@@ -32,13 +32,13 @@ cur.execute(f"""SELECT url, bucket, asana_gid, asana_match_reason, next_action
                 FROM stuff WHERE url IN ({qmarks})""", urls)
 verdicts = {row['url']: dict(row) for row in cur.fetchall()}
 
-fields = list(cap_rows[0].keys()) + ['bucket', 'asana_gid', 'asana_match_reason', 'next_action']
+fields = [k for k in cap_rows[0].keys() if k != 'body'] + ['bucket', 'asana_gid', 'asana_match_reason', 'next_action']
 with open(OUT, 'w', newline='') as f:
     w = csv.DictWriter(f, fieldnames=fields)
     w.writeheader()
     for r in cap_rows:
         v = verdicts.get(r['url'], {})
-        out = dict(r)
+        out = {k: r.get(k, '') for k in fields if k not in ('bucket','asana_gid','asana_match_reason','next_action')}
         out['bucket'] = v.get('bucket') or ''
         out['asana_gid'] = v.get('asana_gid') or ''
         out['asana_match_reason'] = v.get('asana_match_reason') or ''

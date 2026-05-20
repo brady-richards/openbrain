@@ -1,4 +1,4 @@
-workspace_gid,workspace_name,category,gid,name,resource_subtype,completed,completed_at,due_on,permalink_url,assignee_name,assigned_by_name,assignee_section,modified_at,created_at,projects,sections,tags,notes,Effort,Accountable (RACI),Assigned Clinician,Assigned Doro Guide,Cancellation date,Care Evaluation date,Consulted (RACI),Dept/Team,Email,email,Email Address,Estimated value,External due date,Family Relationship,Family Support Guide,Fathom Link,Fathom Meeting Title,Geographic,Geography,Gmail Thread Id,Health Plan,Health Plan Type,Hours Remaining,Informed (RACI),Initiative,Inquiry received date,Intake date,Last updated by AI,Lever,Likely to convert if...,Linked artifacts,members,Membership start date,Partner Stage,Pause membership date,Phase,Phone Number,Priority (custom),Product (Global),Product Workstream,Project,Project Type,Prospect Source,Prospect Type,Prospects reached,Reason for Close,Referred contacts,Referrer,Responsible (RACI),Responsible Unit,Risk (1206697121362510),Risk (1208194005440633),Role,Sliding Scale Doro Grant,Source,Source URLs,Source-of-truth links,Stage,State,Status (custom),Status (Global),Task Type (Members),Texting Consent?,Transition Appt Date (Dr L),Type,Welcome Call date,Why it matters,Workstream (1205847959825609),Workstream (1208194005440610)
+workspace_gid,workspace_name,category,gid,name,resource_subtype,completed,completed_at,due_on,permalink_url,assignee_name,assigned_by_name,assignee_section,modified_at,created_at,projects,sections,tags,notes,Effort,Accountable (RACI),Assigned Clinician,Assigned Doro Guide,Cancellation date,Care Evaluation date,Consulted (RACI),Dept/Team,email,Email,Email Address,Estimated value,External due date,Family Relationship,Family Support Guide,Fathom Link,Fathom Meeting Title,Geographic,Geography,Gmail Thread Id,Health Plan,Health Plan Type,Hours Remaining,Informed (RACI),Initiative,Inquiry received date,Intake date,Last updated by AI,Lever,Likely to convert if...,Linked artifacts,members,Membership start date,Partner Stage,Pause membership date,Phase,Phone Number,Priority (custom),Product (Global),Product Workstream,Project,Project Type,Prospect Source,Prospect Type,Prospects reached,Reason for Close,Referred contacts,Referrer,Responsible (RACI),Responsible Unit,Risk (1206697121362510),Risk (1208194005440633),Role,Sliding Scale Doro Grant,Source,Source URLs,Source-of-truth links,Stage,State,Status (custom),Status (Global),Task Type (Members),Texting Consent?,Transition Appt Date (Dr L),Type,Welcome Call date,Why it matters,Workstream (1205847959825609),Workstream (1208194005440610)
 1205801040312777,doromind.com,inbox,1213422294315440,Accrual -> cash bridge,default_task,false,,2026-05-23,https://app.asana.com/1/1205801040312777/project/1210790210220910/task/1213422294315440,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:47.483Z,2026-02-24T15:49:06.342Z,Financial Model,Longer Term,,,8,,,,,,,,,,,,,,,,,,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1213402983318287,Add $100/person/month social budget,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/project/1205896396814582/task/1213402983318287,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:28.843Z,2026-02-28T02:23:19.166Z,Policies,(no section),,"https://fathom.video/share/6ywAcgMF12xcs2zAeF_ErxNq8Pk7BtLr?timestamp=1696.9999
 
@@ -7,6 +7,10 @@ Add to policy and financial models
 
 ",2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1213880434698407,Add cohorting to growth dashboards,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/task/1213880434698407,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:30.916Z,2026-03-30T20:00:52.267Z,,,,Meeting: https://fathom.video/calls/619291618,5,,,,,,,,,,,,,,,https://fathom.video/calls/619291618,Mimi / Brady,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,inbox,1214974826586672,Add Dhanica to engineering vault for Cursor plan,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214974826586672,Brady Richards,Brady Richards,Recently assigned,2026-05-20T15:42:27.355Z,2026-05-20T15:42:11.643Z,Founders Backlog,All,,"Dhanica waiting on 1Password engineering vault access for Cursor plan; mentions it might help with fixing the cursor plan we plan on subscribing.
+
+Source: Slack #ceo, 2026-05-20 12:50 UTC
+URL: https://doromind.slack.com/archives/C08EU2RMU6P/p1779281405545179",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,,,,,,
 1205801040312777,doromind.com,inbox,1205896396814577,Add SCA revenue,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1210790210220910/task/1205896396814577,Brady Richards,Brady Richards,Recently assigned,2026-04-24T12:55:36.562Z,2025-09-28T12:46:41.268Z,Financial Model,Longer Term,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,,,,,,
 1205801040312777,doromind.com,inbox,1214619298530335,Add Tier 3 packaging/criteria to next week’s Milestone Jam agenda,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/task/1214619298530335,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:29.161Z,2026-05-07T18:56:28.257Z,,,fathom,Meeting: https://fathom.video/calls/665356510?timestamp=0.0,2,,,,,,,,,,,,,,,https://fathom.video/calls/665356510?timestamp=0.0,Milestones Jam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1213995127542637,Align w/ care team on adult privacy process; then draft and circulate how-to,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/task/1213995127542637,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:30.256Z,2026-04-09T15:05:14.751Z,,,fathom,Meeting: https://fathom.video/calls/629607935?timestamp=291.9999,5,,,,,,,,,,,,,,,https://fathom.video/calls/629607935?timestamp=291.9999,Brady + Mimi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
@@ -265,6 +269,7 @@ Approval was for $1031.51 per week x 7 (1 week waiting period)
 Next steps:
 Call MA PFML to clarify if they paid 7 or 8 weeks to finalize how much to adjust payroll by.
 Huddle with Brady to figure out how to adjust payroll or clarify with Rippling support/SignalFire HR support",3,,,,,,,,,,,,,,,,,,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,inbox,1214980471854355,Deb Adler › Deb Adler Offer,default_task,false,,2026-05-20,https://app.asana.com/1/1205801040312777/task/1214980471854355,Brady Richards,Brady Richards,Recently assigned,2026-05-20T21:19:30.519Z,2026-05-20T21:19:08.216Z,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
 1205801040312777,doromind.com,inbox,1214204855520375,Debug Laitman/Rob supervision classification w/ Danica; update Tier 3 COGS,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/task/1214204855520375,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:30.008Z,2026-04-22T21:37:09.216Z,,,fathom,Meeting: https://fathom.video/calls/647671602?timestamp=951.9999,3,,,,,,,,,,,,,,,https://fathom.video/calls/647671602?timestamp=951.9999,Revisit Strategy Tracks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1214931238508968,Decide NYC Tech Week happy hour June 3; reply Zuzanna/Soo,default_task,false,,2026-05-19,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214931238508968,Brady Richards,Brady Richards,Recently assigned,2026-05-19T15:45:16.451Z,2026-05-19T11:18:41.510Z,Founders Backlog,All,,"Mimi looped Brady into Healthworx/Flare/Fusion/Primary NYC Tech Week happy hour on June 3.
 
@@ -293,9 +298,9 @@ Various notes are https://docs.google.com/document/d/1yO_tBR_FVodiZ-zHoGY0CkbKu_
 1205801040312777,doromind.com,inbox,1214900431303097,Early exercise Dec grants,default_task,false,,2026-05-23,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214900431303097,Brady Richards,Brady Richards,Recently assigned,2026-05-19T14:01:05.401Z,2026-05-18T12:35:30.228Z,Founders Backlog,All,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Blocked,,,,,,,,
 1205801040312777,doromind.com,inbox,1214936583625980,Early exercise Dec grants › Brady early exercise,default_task,false,,2026-05-23,https://app.asana.com/1/1205801040312777/task/1214936583625980,Brady Richards,Brady Richards,Recently assigned,2026-05-20T10:53:30.071Z,2026-05-19T14:00:35.469Z,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1208333125270980,Elevator pitch for Co-CEOs,default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1208333125270980,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:39:48.776Z,2024-09-17T15:09:00.654Z,Founders Backlog,All,,Important for Company / Series A / SignalFire.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,,,,,,
-1205801040312777,doromind.com,inbox,1214843376146686,Email Brian Jones overview of Doro Care + Doro Compass,default_task,false,,2026-05-19,https://app.asana.com/1/1205801040312777/task/1214843376146686,Brady Richards,Brady Richards,Recently assigned,2026-05-19T15:36:49.094Z,2026-05-15T15:06:53.460Z,,,fathom,Meeting: https://fathom.video/calls/674581824?timestamp=1788.9999,2,,,,,,,,,,,,,,,https://fathom.video/calls/674581824?timestamp=1788.9999,Welcome Call: Brady Richards and Brian Jones,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1214242123300833,Email Dr. Laitman re: requested items; reference Keren's list,default_task,false,,2026-05-19,https://app.asana.com/1/1205801040312777/task/1214242123300833,Brady Richards,Brady Richards,Recently assigned,2026-05-19T17:08:05.922Z,2026-04-23T21:06:47.466Z,,,fathom,Meeting: https://fathom.video/calls/648645943?timestamp=5.9999,1,,,,,,,,,,,,,,,https://fathom.video/calls/648645943?timestamp=5.9999,Keren + Brady : Licensing Task ff ups,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1214818397628351,Email hiring team: require NY/CA licensure for new guide role,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214818397628351,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:27.702Z,2026-05-14T21:17:43.556Z,Founders Backlog,All,fathom,Meeting: https://fathom.video/calls/667161635?timestamp=714.9999,1,,,,,,,,,,,,,,,https://fathom.video/calls/667161635?timestamp=714.9999,Brady + Mimi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,inbox,1214983346953414,"Email Pam Levin letter draft to Kate, Meena, Mimi for review",default_task,false,,,https://app.asana.com/1/1205801040312777/task/1214983346953414,Brady Richards,Brady Richards,Recently assigned,2026-05-20T20:58:04.686Z,2026-05-20T20:58:02.397Z,,,fathom,Meeting: https://fathom.video/calls/681360410?timestamp=2212.9999,,,,,,,,,,,,,,,,https://fathom.video/calls/681360410?timestamp=2212.9999,Kate + BM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
 1205801040312777,doromind.com,inbox,1214583864042020,Email Pam re: Medicare/superbill; CC Kate + Minna; PCC Heather + Brittany; note ownership change + EOW update,default_task,false,,2026-05-19,https://app.asana.com/1/1205801040312777/task/1214583864042020,Brady Richards,Brady Richards,Recently assigned,2026-05-19T15:46:15.891Z,2026-05-06T17:11:41.756Z,,,fathom,Meeting: https://fathom.video/calls/664235980?timestamp=1374.9999,2,,,,,,,,,,,,,,,https://fathom.video/calls/664235980?timestamp=1374.9999,Superbill touch base,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
 1205801040312777,doromind.com,inbox,1213888030028701,Email Rob re: half-in panel risk and next steps,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/task/1213888030028701,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:30.717Z,2026-03-31T18:58:52.801Z,,,,Meeting: https://fathom.video/calls/618885103,2,,,,,,,,,,,,,,,https://fathom.video/calls/618885103,Milestones Jam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1214450187035938,Email Stephanie re: retreat wrap-up notes; then Brady to pull Fathom recordings,default_task,false,,2026-05-23,https://app.asana.com/1/1205801040312777/task/1214450187035938,Brady Richards,Brady Richards,Recently assigned,2026-05-19T23:17:20.232Z,2026-05-01T14:35:35.511Z,,,fathom,Meeting: https://fathom.video/calls/658446467?timestamp=270.9999,2,,,,,,,,,,,,,,,https://fathom.video/calls/658446467?timestamp=270.9999,Retreat debrief,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
@@ -361,7 +366,7 @@ To: Brady Richards <brady@doromind.com>, Dhanica Urbano <dhanica@doromind.com>
 We need to reimplement the chat functionality to introduce thread functionality if we don't want to wait. https://app.asana.com/0/profile/1205800805645689 has done so in feature/advanced-chat .",3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,,,,,,
 1205801040312777,doromind.com,inbox,1213808500824579,Jacob Feldman,default_task,false,,2026-05-23,https://app.asana.com/1/1205801040312777/project/1207358508153084/task/1213808500824579,Brady Richards,Mimi Liu,Recently assigned,2026-05-18T12:33:46.753Z,2026-03-26T14:15:41.463Z,Hiring Funnel; Open California,All; Launch Care,,"Apr 3 - Jacob, Brady, Mimi met. Jacob wants to move forward.
 
-Next steps - paperwork. Compensation - Give offer with larger equity component.",5,,,,,,,,,j1feldma@gmail.com,,,,,,,,CA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 Moms,,,,,MD,,,,,Offer,,,To Do,,,,,,,,
+Next steps - paperwork. Compensation - Give offer with larger equity component.",5,,,,,,,,j1feldma@gmail.com,,,,,,,,,CA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3 Moms,,,,,MD,,,,,Offer,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1213994849506246,Jacob Feldman › Jacob comp offer,default_task,false,,2026-05-19,https://app.asana.com/1/1205801040312777/task/1213994849506246,Brady Richards,Mimi Liu,Recently assigned,2026-05-19T11:49:01.010Z,2026-04-09T15:01:17.716Z,,,fathom,"Email Jacob re: 1h/mo MVP, $150 + 0.1% equity; cash/equity mix revisitable",2,,,,,,,,,,,,,,,,,,,19d975ba5eea9636 19e2974dc9028e1b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Blocked,,,,,,,,
 1205801040312777,doromind.com,inbox,1214908261078727,"Lead venture-debt process: review NDAs, prep financial review, lead SVP mtg",default_task,false,,2026-05-19,https://app.asana.com/1/1205801040312777/task/1214908261078727,Brady Richards,Brady Richards,Recently assigned,2026-05-19T19:51:07.125Z,2026-05-18T15:36:28.592Z,,,fathom,Meeting: https://fathom.video/calls/675135392?timestamp=737.9999,13,,,,,,,,,,,,,,,https://fathom.video/calls/675135392?timestamp=737.9999,Brady + Mimi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
 1205801040312777,doromind.com,inbox,1211470084657544,Learn about HARP,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1211470084657544,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:29.813Z,2025-09-25T17:14:08.113Z,Doro Backlog,All,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
@@ -489,6 +494,17 @@ Subtasks:
 Deadline: Within 45 days after quarter-end",2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Doro,,,,,,,,,Finance Close & Investor Reporting,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1212699156866514,Re-establish Chase account for Bedford Road Medical,default_task,false,,2026-05-20,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1212699156866514,Brady Richards,Dhanica Urbano,Recently assigned,2026-05-20T04:39:36.120Z,2026-01-07T18:15:24.591Z,Founders Backlog; Bill through BRM,All; Untitled section,,,3,,,,,,,,,,,,,,,,,,,1967dce9e0f4fde3,,,0.3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
 1205801040312777,doromind.com,inbox,1213821506335890,Re-issue older grants,default_task,false,,2026-05-23,https://app.asana.com/1/1205801040312777/project/1205896396814580/task/1213821506335890,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:37:08.383Z,2026-03-26T17:01:10.779Z,Post-Close Seed,(no section),,"Basically, there were a few grants that we committed to but didn't issue before we signed our term sheet. This makes issuing the options complicated, so we're working through it with counsel.",8,,,,,,,,,,,,,,,,,,,19cb4988f7ee737a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Blocked,,,,,,,,
+1205801040312777,doromind.com,inbox,1214984001464424,Re: Request for Email to Send eTranscripts – NJ RN & APRN License,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214984001464424,Brady Richards,Brady Richards,Recently assigned,2026-05-20T21:07:22.465Z,2026-05-20T21:07:20.528Z,Founders Backlog,All,email; licensing,"https://mail.google.com/mail/#inbox/19e473680bb32d58
+
+From: ""’’Diane Scott’ via Hannah Bock-Brownstein APRN’ via Licensing"" <licensing@doromind.com>
+To: Hannah Bock-Brownstein <HBockBrownstein2025@outlook.com>, DCA Licensing <licensing@dca.njoag.gov>
+
+APN@dca.oag.gov
+
+
+________________________________
+
+[chain history truncated]",,,,,,,,,,,,,,,,,,,,19e473680bb32d58,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
 1205801040312777,doromind.com,inbox,1214931344027164,Read Ken Mages 'Personal Pivot' doc; schedule call or send feedback,default_task,false,,2026-05-19,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214931344027164,Brady Richards,Brady Richards,Recently assigned,2026-05-19T15:45:16.393Z,2026-05-19T11:18:43.257Z,Founders Backlog,All,,"Ken Mages shared 'Personal Pivot' doc via Google Docs and offered to discuss or adjust on the call.
 
 Source: https://mail.google.com/mail/u/0/#all/19e3be01bdd9d409
@@ -505,11 +521,19 @@ At some future point, it’ll be queued up by Orrick for the board to officially
 
 Source: https://mail.google.com/mail/u/0/#all/19e091dbeebcee04
 Received: 2026-05-08",2,,,,,,,,,,,,,,,,,,,19e091dbeebcee04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,inbox,1214974325425492,Review and shape Mimi GTD+automation proposal in Milestones group,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214974325425492,Brady Richards,Brady Richards,Recently assigned,2026-05-20T15:42:29.029Z,2026-05-20T15:42:15.946Z,Founders Backlog,All,,"Mimi asked the Milestones group to review and shape her GTD+automation proposal.
+
+Source: Slack #milestones, 2026-05-19 19:18 UTC
+URL: https://doromind.slack.com/archives/C096DSV35DK/p1779218312460469",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,,,,,,
 1205801040312777,doromind.com,inbox,1213647785858368,Review CA prescribing paperwork; finalize Amy–John contract,default_task,false,,2026-05-23,https://app.asana.com/1/1205801040312777/task/1213647785858368,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:44.637Z,2026-03-12T18:42:08.071Z,,,,"Meeting: Milestones Jam
 Link: https://fathom.video/calls/596797439?timestamp=589.9999",3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1214818312661142,Review consolidated message schema and align to email work,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214818312661142,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:27.900Z,2026-05-14T21:17:25.724Z,Founders Backlog,All,fathom,Meeting: https://fathom.video/calls/667091491?timestamp=472.9999,3,,,,,,,,,,,,,,,https://fathom.video/calls/667091491?timestamp=472.9999,Eng Huddle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1213802525181199,Review Miguel's Feb/Mar Rippling payroll; correct over/underpayments,default_task,false,,2026-05-23,https://app.asana.com/1/1205801040312777/project/1213818661314260/task/1213802525181199,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:43.960Z,2026-03-24T23:23:31.934Z,Employees,Untitled section,fathom,Meeting: https://fathom.video/calls/610256805,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1213832307935989,Review quarterly update + DRI sheet; add missing Asana projects/tasks,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/task/1213832307935989,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:32.015Z,2026-03-27T15:30:45.450Z,,,,Meeting: https://fathom.video/calls/615762516,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,inbox,1214974542081557,Review R/A and fill C/I on Product Backlog v6 before Tuesday,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214974542081557,Brady Richards,Brady Richards,Recently assigned,2026-05-20T15:42:28.423Z,2026-05-20T15:42:14.341Z,Founders Backlog,All,,"David Chang announced Product Backlog v6 with structural changes and unassigned milestones; needs RACI input before Tuesday.
+
+Source: Slack #-product, 2026-05-19 22:01 UTC
+URL: https://doromind.slack.com/archives/C0B1XQ2RSFN/p1779228072699269",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,,,,,,
 1205801040312777,doromind.com,inbox,1214089567618727,Revise Q2 plan: add Catalyst; clarify service-design hypothesis; share w/ team,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/task/1214089567618727,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:30.158Z,2026-04-16T19:04:58.704Z,,,fathom,Meeting: https://fathom.video/calls/638626662?timestamp=263.9999,8,,,,,,,,,,,,,,,https://fathom.video/calls/638626662?timestamp=263.9999,Milestones Jam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1209057271988399,"Revisit patient eligibility criteria, approach and strategy",default_task,false,,2027-01-01,https://app.asana.com/1/1205801040312777/project/1205800803236052/task/1209057271988399,Brady Richards,Brady Richards,Recently assigned,2026-04-23T12:39:30.241Z,2024-12-30T08:39:23.572Z,Doro Backlog; Policies,All; (no section),,"From https://fathom.video/calls/202294299?tab=summary&timestamp=557.0 conversation:
 
@@ -517,11 +541,9 @@ Tension between Dr. Laban's strict approach (clozapine-focused) vs. Doro Mind's 
 
 Potential trade-offs: higher access rates but increased churn and lower conversion with stricter approach.",8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Backlog,,,,,,,,
 1205801040312777,doromind.com,inbox,1211030145295008,Rollup vs. projection product line modeling,default_task,false,,2026-05-23,https://app.asana.com/1/1205801040312777/project/1210790210220910/task/1211030145295008,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:47.262Z,2025-08-12T13:51:43.244Z,Financial Model,Longer Term,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
-1205801040312777,doromind.com,inbox,1214512553089598,Sandra Clarke (Blue Cross CA COO) › Send advisory agreement to Sandra Clarke (SDF Advisory),default_task,false,,2026-05-19,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214512553089598,Brady Richards,Mimi Liu,Recently assigned,2026-05-20T10:55:16.621Z,2026-05-04T21:29:42.754Z,Founders Backlog,All,Pinky,"Fathom recording: https://fathom.video/share/j8NTwAF6XYSLmm5ozKTr3_X31tDsWKTs
-
-Prepare and send advisory agreement details (6 months, ~50 hrs, 0.025% equity anchored to $30M post-money) to Sandra Clarke. Get board approval. Move quickly.
-
-Source: Mimi + Sandra Clarke SDF Advisory kickoff 2026-05-04",2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,inbox,1214977352098400,"Scan driver's license (front/back, high-res); upload to Drive for Stephanie",default_task,false,,2026-05-19,https://app.asana.com/1/1205801040312777/task/1214977352098400,Brady Richards,Brady Richards,Recently assigned,2026-05-20T19:10:38.424Z,2026-05-20T16:59:28.577Z,,,fathom,Meeting: https://fathom.video/calls/680165144?timestamp=1141.9999,,,,,,,,,,,,,,,,https://fathom.video/calls/680165144?timestamp=1141.9999,Brady / Stephanie google ads setup sync,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,inbox,1214983385713640,Schedule 30-min ThoughtFit review w/ Kate,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1214983385713640,Brady Richards,Brady Richards,Recently assigned,2026-05-20T20:58:07.050Z,2026-05-20T20:58:05.098Z,,,fathom,Meeting: https://fathom.video/calls/681360410?timestamp=2212.9999,,,,,,,,,,,,,,,,https://fathom.video/calls/681360410?timestamp=2212.9999,Kate + BM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
+1205801040312777,doromind.com,inbox,1214983346564902,Schedule budget/staffing review w/ Kate + Mimi,default_task,false,,,https://app.asana.com/1/1205801040312777/task/1214983346564902,Brady Richards,Brady Richards,Recently assigned,2026-05-20T20:58:09.768Z,2026-05-20T20:58:07.867Z,,,fathom,Meeting: https://fathom.video/calls/681360410?timestamp=2212.9999,,,,,,,,,,,,,,,,https://fathom.video/calls/681360410?timestamp=2212.9999,Kate + BM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
 1205801040312777,doromind.com,inbox,1214818475395473,Schedule call w/ Pam re: Medicare super bills; include Mina,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214818475395473,Brady Richards,Brady Richards,Recently assigned,2026-05-18T12:33:27.836Z,2026-05-14T21:17:32.854Z,Founders Backlog,All,fathom,Meeting: https://fathom.video/calls/667161635?timestamp=714.9999,1,,,,,,,,,,,,,,,https://fathom.video/calls/667161635?timestamp=714.9999,Brady + Mimi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,inbox,1213743877869037,Schedule follow-up w/ Rob re: notes-to-system integration; draft pain points/solutions,default_task,false,,2026-05-23,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1213743877869037,Brady Richards,Mimi Liu,Recently assigned,2026-05-18T12:33:45.785Z,2026-03-20T14:21:20.554Z,Founders Backlog,All,Fathom,"From meeting: Rob + Ann + Doro Mind  (https://fathom.video/calls/606761995)
 Meeting time: 2026-03-20T12:30:00Z
@@ -666,17 +688,51 @@ We have funnel stages but don't measure value per stage. Without that, prioritiz
 
 —
 Source: Growth Backlog (Brady): ""Make a dashboard to value the current funnel"".",5,Brady Richards,,,,,,,,,,,,,,,,,,,,,,,Prospect Conversion,,,2026-05-13T00:00:00.000Z,Growth,,,,,,,Shape,,,,Prospect Experience,,Workflow Update,,,,,,,Brady Richards,,,,,,,,Growth Backlog: 'Make a dashboard to value the current funnel' (Brady),,,,To Do,,,,,,"Brady-owned. Without a $ value on the funnel, prioritization debates lack a common denominator.",,
-1205801040312777,doromind.com,closed,1214587058836554,Compile contracted NP minimum hours; share w/ Kate,default_task,true,2026-05-19T15:44:27.294Z,2026-05-23,https://app.asana.com/1/1205801040312777/task/1214587058836554,Brady Richards,Brady Richards,Recently assigned,2026-05-19T15:44:27.381Z,2026-05-06T19:15:58.981Z,,,fathom,Meeting: https://fathom.video/calls/661579463?timestamp=649.9999,3,,,,,,,,,,,,,,,https://fathom.video/calls/661579463?timestamp=649.9999,Brady / Kate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
-1205801040312777,doromind.com,closed,1214938159129689,Post NAMI parking guidance in Dynamicon; ask Clare for cost-effectiveness,default_task,true,2026-05-19T17:17:56.891Z,2026-05-19,https://app.asana.com/1/1205801040312777/task/1214938159129689,Brady Richards,Brady Richards,Recently assigned,2026-05-19T17:17:56.965Z,2026-05-19T14:25:41.888Z,,,fathom,Meeting: https://fathom.video/calls/677110010?timestamp=109.9999,,,,,,,,,,,,,,,,https://fathom.video/calls/677110010?timestamp=109.9999,BM + Dhanica | Daily Stand-Up,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
-1205801040312777,doromind.com,closed,1214775915609870,Review OOO Policy/SOP,default_task,true,2026-05-19T17:20:17.247Z,2026-05-19,https://app.asana.com/1/1205801040312777/task/1214775915609870,Brady Richards,Kate Douglas,Recently assigned,2026-05-19T17:26:46.189Z,2026-05-13T14:36:25.153Z,,,,"Before I ""finalize"" this and share with the team, https://app.asana.com/1/1205801040312777/profile/1205800805645689wondering if you'd like to review (no need but wanted to give you the opportunity if you did want to take a look) - see first ""updated"" tab. Looking to circulate with team by end of this week if possible (5/15).  Thanks
-https://docs.google.com/document/d/1jSYo2MNxnTI5PakEjocBlucVQO4XdwFZ-Xz8Y5msoPk/edit?tab=t.lp3wr5iui95f#heading=h.n1bpqvqmmb6b",1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214157317595799,Add Shayna to the Assured platform,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1213438864431752/task/1214157317595799,Keren Policarpio,Kate Douglas,,2026-05-19T15:19:00.312Z,2026-04-20T19:19:22.328Z,Licensing / Credentialing,Untitled section,email,"Add Shayna to the platform; I created her entry, now the ask is for Shanya to put her CAQH login information into 1password and share it with us, so we can share it with Assured. If she doesn't have CAQH info, we'll work with her to set one up.
+1205801040312777,doromind.com,closed,1214843376146686,Email overview of Doro Care + Doro Compass,default_task,true,2026-05-20T16:08:41.042Z,2026-05-19,https://app.asana.com/1/1205801040312777/task/1214843376146686,Brady Richards,Brady Richards,Recently assigned,2026-05-20T16:08:46.489Z,2026-05-15T15:06:53.460Z,,,fathom,Meeting: https://fathom.video/calls/674581824?timestamp=1788.9999,2,,,,,,,,,,,,,,,https://fathom.video/calls/674581824?timestamp=1788.9999,Welcome Call: Brady Richards and Brian Jones,,,19e4624fee5e4836,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,reassigned,1214157317595799,Add Shayna to the Assured platform,default_task,false,,,https://app.asana.com/1/1205801040312777/project/1213438864431752/task/1214157317595799,Keren Policarpio,Kate Douglas,,2026-05-20T14:35:58.230Z,2026-04-20T19:19:22.328Z,Licensing / Credentialing,Untitled section,email,"Add Shayna to the platform; I created her entry, now the ask is for Shanya to put her CAQH login information into 1password and share it with us, so we can share it with Assured. If she doesn't have CAQH info, we'll work with her to set one up.
 
 https://platform.withassured.com/admin/providers/dc562dd7-5c94-435c-b1eb-dfbb521645e0/profile/summary
 
-External Accounts → CAQH, enter the login info, then on Summary → Import from CAQH",,,,,,,,,,,,,,,,,,,,19d96a6d143436a8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
-1205801040312777,doromind.com,reassigned,1213917902612171,Add user to Carta,default_task,false,,2026-05-20,https://app.asana.com/1/1205801040312777/project/1213917275125467/task/1213917902612171,Dhanica Urbano,Brady Richards,,2026-05-19T20:47:52.789Z,2026-04-03T17:22:54.034Z,Brittany Zenner - Onboarding Tasks,Doro Admin,,https://scribehow.com/viewer/Sync_employee_data_from_Rippling_to_Carta__87FUrBHTQ4Sqt1uqktauJA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
-1205801040312777,doromind.com,reassigned,1213917902453741,Improve onboarding for the next person!,default_task,true,2026-05-19T14:14:23.512Z,2026-05-15,https://app.asana.com/1/1205801040312777/project/1207450518818752/task/1213917902453741,Kate Douglas,Brady Richards,,2026-05-19T14:14:24.743Z,2026-04-03T17:21:00.869Z,New Hire Onboarding Funnel; Kate Douglas - Onboarding Tasks,💡Begin contributing!; Completed,,"You’re our current expert on how it feels to join Doro Mind! We'd love comments and suggestions on what that experience feels like, and how it could be improved. Your first work product is to take notes on your first week; we’ll ask you to share them at the end of the week. We suggest using a Google Doc - you can create one at https://docs.new!",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+External Accounts → CAQH, enter the login info, then on Summary → Import from CAQH",,,,,,,,,,,,,,,,,,,,19d96a6d143436a8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,reassigned,1213917902612171,Add user to Carta,default_task,false,,2026-05-21,https://app.asana.com/1/1205801040312777/project/1213917275125467/task/1213917902612171,Dhanica Urbano,Brady Richards,,2026-05-20T21:03:59.497Z,2026-04-03T17:22:54.034Z,Brittany Zenner - Onboarding Tasks,Doro Admin,,https://scribehow.com/viewer/Sync_employee_data_from_Rippling_to_Carta__87FUrBHTQ4Sqt1uqktauJA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,reassigned,1214974316925114,"CA EDD, Notice of Amount Due",default_task,false,,2026-05-23,https://app.asana.com/1/1205801040312777/project/1212878948060004/task/1214974316925114,Dhanica Urbano,Brady Richards,,2026-05-20T15:43:32.485Z,2026-05-20T15:28:52.665Z,Finances Backlog,Untitled section,,"Can you check if there's action required here or if this is Rippling?
+
+https://drive.google.com/open?id=1sGgUzTRkUhUUS1T43dXTiUbPdwVL3q-z&usp=drive_fs",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,California,,To Do,,,,,,,,
+1205801040312777,doromind.com,reassigned,1214046887718124,"Clare Jibb: NJ, APRN: Application Review",default_task,true,2026-05-20T14:33:31.886Z,2026-05-19,https://app.asana.com/1/1205801040312777/project/1213438864431752/task/1214046887718124,Keren Policarpio,Keren Policarpio,,2026-05-20T14:34:15.680Z,2026-04-13T09:55:19.096Z,Licensing / Credentialing,Untitled section,email; credentialing,"https://mail.google.com/mail/#inbox/19d8643beca4bdfe
+
+From: ""’Airtable Automations’ via Licensing"" <licensing@doromind.com>
+To: credentialing@doromind.com
+CC: licensing@doromind.com, credentialing@doromind.com
+
+A new provider task has been opened. Please see our dashboard to resolve this task.
+
+**License:** Clare Jibb | APRN, New Jersey (Permanent)
+**Requirement:** 
+**Details:** Application Review
+
+-- 
+You received this message because you are subscribed to the Google Groups ""Licensing"" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to licensing+unsubscribe@doromind.com.
+To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/20260413095437.cd076aee959f95e6%40airtableemail.com.
+For more options, visit https://groups.google.com/a/doromind.com/d/optout.
+",,,,,,,,,,,,,,,,,,,,19d8643beca4bdfe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done,,,,,,,,
+1205801040312777,doromind.com,reassigned,1213987652055851,"Hannah Bock-Brownstein: PA, RN: Copy of ANCC certificate",default_task,false,,2026-06-01,https://app.asana.com/1/1205801040312777/project/1213438864431752/task/1213987652055851,Keren Policarpio,Kate Douglas,,2026-05-20T14:36:10.801Z,2026-04-08T21:55:19.099Z,Licensing / Credentialing,Untitled section,email; credentialing,"https://mail.google.com/mail/#inbox/19d6f16f6ea8340f
+
+From: ""’Airtable Automations’ via Licensing"" <licensing@doromind.com>
+To: credentialing@doromind.com
+
+A new provider task has been opened. Please see our dashboard to resolve this task.
+
+**License:** Hannah Bock-Brownstein | RN, Pennsylvania (Permanent)
+**Requirement:** 
+**Details:** a Copy of Board/specialty certificate by ANCC
+
+-- 
+You received this message because you are subscribed to the Google Groups ""Licensing"" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to licensing+unsubscribe@doromind.com.
+To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/20260408162400.75f0cf4cf31e0149%40airtableemail.com.
+For more options, visit https://groups.google.com/a/doromind.com/d/optout.
+",,,,,,,,,,,,,,,,,,,,19d6f16f6ea8340f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,reassigned,1209357778913664,"Jared Mimms: Family (Care, Tier 1L)",default_task,true,2025-05-06T00:13:59.165Z,,https://app.asana.com/1/1205801040312777/project/1207030712029124/task/1209357778913664,Stephanie Greer,Brady Richards,,2026-05-19T22:58:51.373Z,2025-02-08T17:19:04.959Z,🙌 Members Funnel,Closed,,"https://hipaa-submit.jotform.com/inbox/6148443432135602577
 
 IOC NAME: Jared Mimms
@@ -686,11 +742,6 @@ CURRENT RATE: $400
 
 Dad requested email or phone call only, no texting",,,,,,,,,,,"jaredmimms@gmail.com [Jared, IOC],
 lmimms@cox.net [Larry, Dad]",900,,Parent,,,,CA,,,BCBS Anthem,Commercial / Private,,,,2025-02-08T14:19:03.000Z,,,,,,,,,,,(858) 848-4288,,Care (Tier 1: Recovery),,,,Laitman Panel,Family,,Prospect declined offer,,,,,,,,,,,,,,"Waiting on member, Closed prospect",In Progress,Process: Parent Task,"No, I do not wish to receive text messages. Please use email or phone call.",2025-03-31T00:00:00.000Z,,,,,
-1205801040312777,doromind.com,reassigned,1214947591064042,Launch: Blog,default_task,false,,2026-07-14,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947591064042,Patrick Menard,Brady Richards,,2026-05-19T19:08:33.463Z,2026-05-19T19:06:48.627Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947591064044,Launch: CA Partners,default_task,false,,2026-07-14,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947591064044,Patrick Menard,Brady Richards,,2026-05-19T19:08:33.379Z,2026-05-19T19:06:48.737Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947591064036,Launch: Email (waitlist),default_task,false,,2026-07-01,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947591064036,Patrick Menard,Brady Richards,,2026-05-19T19:08:33.728Z,2026-05-19T19:06:47.515Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947591064038,Launch: LinkedIn + Instagram,default_task,false,,2026-07-01,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947591064038,Patrick Menard,Brady Richards,,2026-05-19T19:08:33.645Z,2026-05-19T19:06:48.437Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947591064040,Launch: YouTube,default_task,false,,2026-07-14,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947591064040,Patrick Menard,Brady Richards,,2026-05-19T19:08:33.552Z,2026-05-19T19:06:48.534Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 1205801040312777,doromind.com,reassigned,1209413980519045,"Monica/(Madelyn) Grace Schultz: Family (Compass, Tier 2)",default_task,false,,,https://app.asana.com/1/1205801040312777/project/1207030712029124/task/1209413980519045,Brittany Troupe,Minna C,,2026-05-20T02:51:16.415Z,2025-02-14T22:26:00.616Z,🙌 Members Funnel,Members (Paused subscriptions),,"https://hipaa-submit.jotform.com/inbox/6153811599168267046
 
 IOC NAME: ""Grace"", Madelyn Grace Schultz (she goes by her middle name, Grace)
@@ -698,81 +749,83 @@ LOCATION: Minneapolis, MN
 ADDT'L INFO: Grace also has an ultra-rare genetic disorder caused by a pathogenic variant in the TANC2 gene. She is also autistic (PDD-NOS). We are guardians for her.
 
 ",,,,Brittany Troupe,,,,,,,monicamschultz@msn.com,2100,,Parent,,,,MN,,,"BCBS-MN, Medicaid (state)",Commercial / Private,,,,2025-02-14T19:25:59.000Z,,,,,,,2025-02-28T00:00:00.000Z,,2025-04-22T00:00:00.000Z,,(952) 818-1323,,Compass (Tier 2: Alliance Support),,,,Dr Laitman/Team Daniel referral,Family,,,,,,,,,,0.00,,,,,,Transferred to Workbench,,Process: Parent Task,"Yes, I approve receiving text messages.",,,2025-03-04T00:00:00.000Z,,,
-1205801040312777,doromind.com,reassigned,1214720269568785,Outline clinical supervision (state requirements),default_task,false,,,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214720269568785,Kate Douglas,Brady Richards,,2026-05-19T19:21:42.393Z,2026-05-12T14:32:31.403Z,Open California,Launch Care,,Research what structures / documentation are entailed per CA state regulations,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947671093427,Pre-launch: CA Partners,default_task,false,,2026-05-25,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947671093427,Patrick Menard,Brady Richards,,2026-05-19T19:08:35.563Z,2026-05-19T18:57:29.995Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947671093419,Pre-launch: Email (CA segment),default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947671093419,Patrick Menard,Brady Richards,,2026-05-19T19:08:36.397Z,2026-05-19T18:57:28.171Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947671093442,Pre-launch: Email (CA segment),default_task,false,,2026-06-15,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947671093442,Patrick Menard,Brady Richards,,2026-05-19T19:08:35.329Z,2026-05-19T19:01:17.535Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947671093423,Pre-launch: Instagram,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947671093423,Patrick Menard,Brady Richards,,2026-05-19T19:08:36.009Z,2026-05-19T18:57:29.849Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947671093421,Pre-launch: LinkedIn,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947671093421,Patrick Menard,Brady Richards,,2026-05-19T19:08:36.195Z,2026-05-19T18:57:29.765Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947671093425,Pre-launch: YouTube,default_task,false,,2026-05-30,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947671093425,Patrick Menard,Brady Richards,,2026-05-19T19:08:35.784Z,2026-05-19T18:57:29.925Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214122548731048,"Robert Laitman: NJ, MD: College courses in Biology, Chemistry, Physics",default_task,false,,2026-06-01,https://app.asana.com/1/1205801040312777/project/1213438864431752/task/1214122548731048,Keren Policarpio,Kate Douglas,,2026-05-19T15:11:19.581Z,2026-04-17T14:48:46.899Z,Licensing / Credentialing,Untitled section,email; credentialing,"https://mail.google.com/mail/#inbox/19d6ef5b496c9822
+1205801040312777,doromind.com,reassigned,1214720269568785,Outline clinical supervision (state requirements),default_task,false,,,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214720269568785,Kate Douglas,Brady Richards,,2026-05-20T19:34:19.472Z,2026-05-12T14:32:31.403Z,Open California,Launch Care,,Research what structures / documentation are entailed per CA state regulations,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1205801040312777,doromind.com,reassigned,1214512553089598,Sandra Clarke (Blue Cross CA COO) › Send advisory agreement to Sandra Clarke (SDF Advisory),default_task,false,,2026-05-19,https://app.asana.com/1/1205801040312777/project/1208193100268936/task/1214512553089598,Mimi Liu,Brady Richards,,2026-05-20T18:55:47.537Z,2026-05-04T21:29:42.754Z,Founders Backlog,All,Pinky,"Fathom recording: https://fathom.video/share/j8NTwAF6XYSLmm5ozKTr3_X31tDsWKTs
+
+Prepare and send advisory agreement details (6 months, ~50 hrs, 0.025% equity anchored to $30M post-money) to Sandra Clarke. Get board approval. Move quickly.
+
+Source: Mimi + Sandra Clarke SDF Advisory kickoff 2026-05-04",2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,reassigned,1213987318851907,"Shayna Feuer: NJ, APRN: Application review",default_task,true,2026-05-20T14:34:07.254Z,2026-05-19,https://app.asana.com/1/1205801040312777/project/1213438864431752/task/1213987318851907,Keren Policarpio,Keren Policarpio,,2026-05-20T14:34:20.570Z,2026-04-08T21:31:18.927Z,Licensing / Credentialing,Untitled section,email; credentialing,"https://mail.google.com/mail/#inbox/19d6f00efded743e
 
 From: ""’Airtable Automations’ via Licensing"" <licensing@doromind.com>
 To: credentialing@doromind.com
+CC: hello@doromind.com, credentialing@doromind.com
 
 A new provider task has been opened. Please see our dashboard to resolve this task.
 
-**License:** Robert Laitman | MD, New Jersey (Permanent)
+**License:** Shayna Feuer | APRN, New Jersey (Permanent)
 **Requirement:** 
-**Details:** Did you pass at least one college-level course in each of the subject areas listed below-
-Biology, Chemistry, Physics
+**Details:** Application review
 
 -- 
 You received this message because you are subscribed to the Google Groups ""Licensing"" group.
 To unsubscribe from this group and stop receiving emails from it, send an email to licensing+unsubscribe@doromind.com.
-To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/20260408162343.0e4ca9b5fc1288be%40airtableemail.com.
+To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/20260408162404.00749503e5fbebca%40airtableemail.com.
 For more options, visit https://groups.google.com/a/doromind.com/d/optout.
-",,,,,,,,,,,,,,,,,,,,19d6ef5b496c9822:19d6efb38a0955f9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214122549076085,"Robert Laitman: NJ, MD: MD school dates (Washington Univ)",default_task,false,,2026-06-01,https://app.asana.com/1/1205801040312777/project/1213438864431752/task/1214122549076085,Keren Policarpio,Kate Douglas,,2026-05-19T15:21:44.333Z,2026-04-17T14:48:53.077Z,Licensing / Credentialing,Untitled section,email; credentialing,"https://mail.google.com/mail/#inbox/19d6ef5b496c9822
+",,,,,,,,,,,,,,,,,,,,19d6f00efded743e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done,,,,,,,,
+1205801040312777,doromind.com,reassigned,1214124577566251,"Shayna Feuer: NJ, RN: Birth place",default_task,true,2026-05-06T20:00:22.919Z,2026-05-06,https://app.asana.com/1/1205801040312777/project/1213438864431752/task/1214124577566251,Keren Policarpio,Keren Policarpio,,2026-05-20T14:36:06.521Z,2026-04-17T14:46:39.422Z,Licensing / Credentialing,Untitled section,email; credentialing,"https://mail.google.com/mail/#inbox/19d6f07867ffffa9
 
 From: ""’Airtable Automations’ via Licensing"" <licensing@doromind.com>
 To: credentialing@doromind.com
+CC: hello@doromind.com, credentialing@doromind.com
 
 A new provider task has been opened. Please see our dashboard to resolve this task.
 
-**License:** Robert Laitman | MD, New Jersey (Permanent)
-**Requirement:** 
-**Details:** MD school Washington Univ start and end dates in mm/dd/yyyy format
-start date
-end date
+**License:** Shayna Feuer | RN, New Jersey (Permanent)
+**Requirement:** Info Needed
+**Details:** Birth Place-
+City
+State
+Country
 
 -- 
 You received this message because you are subscribed to the Google Groups ""Licensing"" group.
 To unsubscribe from this group and stop receiving emails from it, send an email to licensing+unsubscribe@doromind.com.
-To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/20260408162346.d9e7e283cd8f8794%40airtableemail.com.
+To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/20260408162401.9533e92405c4d951%40airtableemail.com.
 For more options, visit https://groups.google.com/a/doromind.com/d/optout.
-",,,,,,,,,,,,,,,,,,,,19d6ef5b496c9822:19d6efd7af099a07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214127869140947,"Robert Laitman: NJ, MD: PGT dates (internship/residency/fellowship)",default_task,false,,2026-06-01,https://app.asana.com/1/1205801040312777/project/1213438864431752/task/1214127869140947,Keren Policarpio,Kate Douglas,,2026-05-19T15:28:23.814Z,2026-04-17T14:48:56.050Z,Licensing / Credentialing,Untitled section,email; credentialing,"https://mail.google.com/mail/#inbox/19d6ef5b496c9822
+",,,,,,,,,,,,,,,,,,,,19d6f07867ffffa9:19d6f0d6764f25cf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done,,,,,,,,
+1205801040312777,doromind.com,reassigned,1213987568299582,"Shayna Feuer: NJ, RN: MSN/DNP program dates",default_task,true,2026-05-06T20:05:50.853Z,2026-05-06,https://app.asana.com/1/1205801040312777/project/1213438864431752/task/1213987568299582,Keren Policarpio,Keren Policarpio,,2026-05-20T14:36:13.956Z,2026-04-08T21:38:19.586Z,Licensing / Credentialing,Untitled section,email; credentialing,"https://mail.google.com/mail/#inbox/19d6f07867ffffa9
 
 From: ""’Airtable Automations’ via Licensing"" <licensing@doromind.com>
 To: credentialing@doromind.com
+CC: hello@doromind.com, credentialing@doromind.com
 
 A new provider task has been opened. Please see our dashboard to resolve this task.
 
-**License:** Robert Laitman | MD, New Jersey (Permanent)
-**Requirement:** 
-**Details:** PGT start and end dates for below in mm/dd/yyyy format
+**License:** Shayna Feuer | RN, New Jersey (Permanent)
+**Requirement:** Info Needed
+**Details:** MSN dates-
+start date- mm/dd/yyyy
+end date- mm/dd/yyyy
+grad date- mm/dd/yyyy
 
-Internship- Jacobi Medical Center
-Residency- Jacobi Medical Center
-Fellowship- Montefiore Medical Center
+DNP dates-
+start date- mm/dd/yyyy
+end date- mm/dd/yyyy
+grad date- mm/dd/yyyy
 
 -- 
 You received this message because you are subscribed to the Google Groups ""Licensing"" group.
 To unsubscribe from this group and stop receiving emails from it, send an email to licensing+unsubscribe@doromind.com.
-To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/20260408162347.52a39275bdd3521f%40airtableemail.com.
+To view this discussion visit https://groups.google.com/a/doromind.com/d/msgid/licensing/20260408162403.9fbffb597ff398f4%40airtableemail.com.
 For more options, visit https://groups.google.com/a/doromind.com/d/optout.
-",,,,,,,,,,,,,,,,,,,,19d6ef5b496c9822:19d6f1d8da79f598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947591064032,Soft Launch: CA Partners,default_task,false,,2026-06-30,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947591064032,Patrick Menard,Brady Richards,,2026-05-19T19:08:33.810Z,2026-05-19T19:01:19.102Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947671093446,Soft Launch: Instagram,default_task,false,,2026-06-30,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947671093446,Patrick Menard,Brady Richards,,2026-05-19T19:08:34.897Z,2026-05-19T19:01:18.972Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947671093444,Soft Launch: LinkedIn,default_task,false,,2026-06-30,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947671093444,Patrick Menard,Brady Richards,,2026-05-19T19:08:35.107Z,2026-05-19T19:01:18.889Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214947671093448,Soft Launch: YouTube,default_task,false,,2026-06-30,https://app.asana.com/1/1205801040312777/project/1213924097303445/task/1214947671093448,Patrick Menard,Brady Richards,,2026-05-19T19:08:34.702Z,2026-05-19T19:01:19.037Z,Open California,Launch Care,marketing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+",,,,,,,,,,,,,,,,,,,,19d6f07867ffffa9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done,,,,,,,,
+1205801040312777,doromind.com,reassigned,1213917913047716,Validate W-9,default_task,false,,2026-05-21,https://app.asana.com/1/1205801040312777/project/1207450518818752/task/1213917913047716,Dhanica Urbano,Brady Richards,,2026-05-20T21:04:02.839Z,2026-04-03T17:22:56.555Z,New Hire Onboarding Funnel; Brittany Zenner - Onboarding Tasks,Doro Admin; Untitled section,1099 only,"If you contract with Doro Mind (that is, you'll file a 1099 for your Doro earnings), you'll need to upload an IRS form W-9 to Rippling so we can properly report your earnings to you and the IRS at the end of the year. 
+
+Double-check that things are in order: https://scribehow.com/viewer/Validate_a_W-9_Form__WfewajiBTaiDIcDloHK2uQ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
+1205801040312777,doromind.com,reassigned,1214474318528381,Validate W-9,default_task,false,,2026-05-21,https://app.asana.com/1/1205801040312777/project/1207450518818752/task/1214474318528381,Dhanica Urbano,Brady Richards,,2026-05-20T21:04:01.688Z,2026-05-04T03:52:15.515Z,New Hire Onboarding Funnel; Courtney DeWolfe: Onboarding Tasks,Doro Admin; Untitled section,1099 only,"If you contract with Doro Mind (that is, you'll file a 1099 for your Doro earnings), you'll need to upload an IRS form W-9 to Rippling so we can properly report your earnings to you and the IRS at the end of the year. 
+
+Double-check that things are in order: https://scribehow.com/viewer/Validate_a_W-9_Form__WfewajiBTaiDIcDloHK2uQ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
 1205801040312777,doromind.com,reassigned,1214716290377045,Validate W-9,default_task,false,,2026-05-20,https://app.asana.com/1/1205801040312777/project/1207450518818752/task/1214716290377045,Dhanica Urbano,Brady Richards,,2026-05-20T04:08:18.411Z,2026-05-11T18:10:48.124Z,New Hire Onboarding Funnel; Onboarding Task [Lindsey Schupp],Doro Admin; Completed,1099 only,"If you contract with Doro Mind (that is, you'll file a 1099 for your Doro earnings), you'll need to upload an IRS form W-9 to Rippling so we can properly report your earnings to you and the IRS at the end of the year. 
 
 Double-check that things are in order: https://scribehow.com/viewer/Validate_a_W-9_Form__WfewajiBTaiDIcDloHK2uQ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Done,,,,,,,,
-1205801040312777,doromind.com,reassigned,1214474318528381,Validate W-9,default_task,false,,2026-05-20,https://app.asana.com/1/1205801040312777/project/1207450518818752/task/1214474318528381,Dhanica Urbano,Brady Richards,,2026-05-19T20:47:50.558Z,2026-05-04T03:52:15.515Z,New Hire Onboarding Funnel; Courtney DeWolfe: Onboarding Tasks,Doro Admin; Untitled section,1099 only,"If you contract with Doro Mind (that is, you'll file a 1099 for your Doro earnings), you'll need to upload an IRS form W-9 to Rippling so we can properly report your earnings to you and the IRS at the end of the year. 
-
-Double-check that things are in order: https://scribehow.com/viewer/Validate_a_W-9_Form__WfewajiBTaiDIcDloHK2uQ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
-1205801040312777,doromind.com,reassigned,1213917913047716,Validate W-9,default_task,false,,2026-05-20,https://app.asana.com/1/1205801040312777/project/1207450518818752/task/1213917913047716,Dhanica Urbano,Brady Richards,,2026-05-19T20:47:47.931Z,2026-04-03T17:22:56.555Z,New Hire Onboarding Funnel; Brittany Zenner - Onboarding Tasks,Doro Admin; Untitled section,1099 only,"If you contract with Doro Mind (that is, you'll file a 1099 for your Doro earnings), you'll need to upload an IRS form W-9 to Rippling so we can properly report your earnings to you and the IRS at the end of the year. 
-
-Double-check that things are in order: https://scribehow.com/viewer/Validate_a_W-9_Form__WfewajiBTaiDIcDloHK2uQ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,,,,,,,,
