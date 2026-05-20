@@ -207,8 +207,13 @@ Equity sheet:    [link to row] (status: Offered) [or: N/A]
 Asana task:      [link] — "[New Hire] Pre-prep — [Name]"
 Person note:     + Atlas/People/[Name].md [or: staged in + Inbox/people-candidates/]
 
+Contract URL(s) (raw, for paste):
+  https://docs.google.com/document/d/<docId>/edit
+
 Next step: send eSignature from Google Docs, then mark the Asana task "Contract sent".
 ```
+
+**Always print the contract URL(s) as raw `https://...` strings** in addition to any markdown links — Brady often needs to copy/paste the URL directly, and markdown links don't survive that.
 
 ## Notes
 
