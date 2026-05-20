@@ -45,6 +45,16 @@ Three-phase pipeline that turns raw signals (Slack, email, Messages) into an ori
    - `prompt`: "Run the `/gather-work` skill for $DATE. Output goes to `+ Inbox/orient/$DATE/capture.csv`. Report the row count and any channels that returned zero results when you finish."
    Wait for completion before proceeding.
 
+   **After it returns, verify the puller actually ran.** Subagents can silently skip Step 0 of `/gather-work` (the `pull.py` invocation), causing classification of stale data. Check the mtime of `data/stuff.db` against the time the subagent started:
+   ```bash
+   stat -f "%m" data/stuff.db
+   ```
+   If the mtime predates phase 1 by more than a couple of minutes, the puller did not run. Run it from the parent and re-spawn phase 1:
+   ```bash
+   cd ~/repos/puller && dotenv run -- ./pull.py --after 1d --sqlite ../openbrain/data/stuff.db && dotenv run -- ./asana_pull.py --since 1d --csv >! ../openbrain/data/asana.csv
+   ```
+   Then re-spawn the phase 1 subagent. Do not proceed to phase 2 with stale inputs.
+
 4. **Phase 2 — refine.** Spawn a subagent:
    - `subagent_type`: `general-purpose`
    - `description`: "Refine captured work"
