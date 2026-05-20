@@ -122,18 +122,35 @@ Use `mcp__gdrive_brady_doromind_com__copyFile` to copy the template(s) into the 
 
 ### 6. Draft — fill in variables
 
-Read the copied contract(s) with `mcp__gdrive_brady_doromind_com__readDocument`. Identify all variable fields (typically wrapped in `{{` `}}` or highlighted). Use `mcp__gdrive_brady_doromind_com__replaceDocumentWithMarkdown` (or `findAndReplace`) to substitute:
+Templates use the **`{{Placeholder Name|default value}}`** convention (the `|default` is optional). Read the copied contract with `mcp__google_brady_doromind_com__docs_read_document` (format=text), then grep the content for `\{\{[^}]+\}\}` to inventory placeholders.
 
-| Variable | Value |
+For each placeholder, use `mcp__google_brady_doromind_com__docs_find_and_replace` (match the **full literal**, including the default if present):
+- **If you have a confident value**: replace `{{X|default}}` (or `{{X}}`) with the actual value.
+- **If you don't have a value but a default exists**: replace `{{X|default}}` → `default` to keep the default text and remove the braces.
+- **If you don't have a value and no default exists**: leave the placeholder in the doc and flag it in the final report — do not guess substantive terms.
+
+#### Known placeholders + default fill logic
+
+| Placeholder | Strategy |
 |---|---|
-| `{{Employee Name}}` | Full legal name (ask if not known) |
-| `{{Title}}` | Resolved title |
-| `{{Salary}}` / `{{Rate}}` | Resolved compensation |
+| `{{Advisor Name}}` / `{{Employee Name}}` | Resolved full legal name |
+| `{{Company Description\|...}}` | Keep default |
+| `{{Company Name\|...}}` | Keep default |
+| `{{Supervisor\|Co-CEO}}` | Keep default |
+| `{{Expense Approver}}` | Mirror Supervisor (`Co-CEO`) unless otherwise specified |
+| `{{Pre-Approved Expenses\|None.}}` | Keep default |
+| `{{Termination Period\|...}}` | Keep default |
+| `{{Time to Cure Breach\|...}}` | Keep default |
+| `{{Time Commitment}}` | Compose from term + hours (e.g. "Advisor will commit approximately fifty (50) hours over the six (6) month term of this Agreement.") |
+| `{{Title}}` | Resolved title (employment / NP agreements) |
+| `{{Salary}}` / `{{Rate}}` | Resolved compensation (employment / consulting) |
 | `{{Start Date}}` | Resolved start date |
 | `{{Equity}}` / `{{Shares}}` | Equity if applicable |
 | `{{Personal Email}}` | Personal email |
+| **`{{Compensation Terms}}`** | **Leave for user** — Exhibit B / equity share count needs the current FD share count and vesting schedule |
+| **`{{Services To Be Provided}}`** | **Leave for user** — Exhibit A scope is substantive, don't draft |
 
-Report back any variables that couldn't be resolved automatically.
+Report back any placeholders left unfilled so the user can complete them before eSignature.
 
 ### 7. Equity spreadsheet (if applicable)
 
