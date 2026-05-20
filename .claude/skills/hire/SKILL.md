@@ -152,6 +152,20 @@ For each placeholder, use `mcp__google_brady_doromind_com__docs_find_and_replace
 
 Report back any placeholders left unfilled so the user can complete them before eSignature.
 
+#### Equity snippet insertion (if equity component)
+
+Equity terms aren't part of the base contract template — they're maintained as separate snippet docs in [Equity Agreement Snippets](https://drive.google.com/drive/folders/1tdDFKn2BxJg8kgwOekgHvuBGuo1LbXHe) (folder id `1tdDFKn2BxJg8kgwOekgHvuBGuo1LbXHe`).
+
+When `equity_pct` is set:
+
+1. **List the snippet folder** via `drive_list_folder_contents` and pick the snippet that matches the engagement type (e.g. advisor equity grant vs employee equity grant). If you can't tell which to use, surface and ask before continuing.
+2. **Read the snippet** via `docs_read_document`.
+3. **Insert into the contract's Compensation section, *after* any cash compensation paragraphs.** The Compensation section is typically Exhibit B or the "Fees" / "Compensation" section in the body — locate it by section heading.
+4. Carry placeholders forward: the snippet may use the same `{{Placeholder|default}}` convention. After insertion, re-run the placeholder grep on the contract and fill new placeholders per the table above.
+5. If the contract has no Compensation section yet (or the snippet supplies the whole section), append the snippet at the end of the Fees paragraph or as a new Exhibit B.
+
+Note in the final report which snippet was inserted and at what location.
+
 ### 7. Equity spreadsheet (if applicable)
 
 If equity_pct is set, open [Doro Mind Option Stock Grants](https://docs.google.com/spreadsheets/d/1bI8Lo69cXOM72p1EXnWlY-EMteYT2Zzg5oUfCyFZHwc/edit) (spreadsheetId `1bI8Lo69cXOM72p1EXnWlY-EMteYT2Zzg5oUfCyFZHwc`, `Grants` tab, sheetId `467999115`).
