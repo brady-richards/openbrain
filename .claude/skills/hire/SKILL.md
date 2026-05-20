@@ -169,7 +169,7 @@ If equity_pct is set, open [Doro Mind Option Stock Grants](https://docs.google.c
 | B | Name | Full legal name |
 | C | Personal Email | resolved personal email |
 | D | State of Residence | resolved state, or `""` |
-| E | ISO or NSO? | `NSO` for advisors/1099, `ISO` for W-2 employees |
+| E | ISO or NSO? | **leave blank** — counsel decides |
 | F | Reference % | e.g. `0.025%` (USER_ENTERED parses to decimal) |
 | G | # of Stock Options | formula: `=IF(F<row>="","",ROUND(F<row>*'Outstanding Shares'!$B$5,-2))` |
 | H, I, J | Pool Impact / New Policy / Advantage | `""` (clear inherited) |
