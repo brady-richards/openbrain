@@ -161,7 +161,9 @@ When `equity_pct` is set:
 1. **List the snippet folder** via `drive_list_folder_contents` and pick the snippet that matches the engagement type (e.g. advisor equity grant vs employee equity grant). If you can't tell which to use, surface and ask before continuing.
 2. **Read the snippet** via `docs_read_document`.
 3. **Insert into the contract's Compensation section, *after* any cash compensation paragraphs.** The Compensation section is typically Exhibit B or the "Fees" / "Compensation" section in the body — locate it by section heading.
-4. Carry placeholders forward: the snippet may use the same `{{Placeholder|default}}` convention. After insertion, re-run the placeholder grep on the contract and fill new placeholders per the table above.
+4. Carry placeholders forward: the snippet may use the same `{{Placeholder|default}}` convention. After insertion, re-run the placeholder grep on the contract and fill new placeholders. Common snippet placeholders:
+   - `{{Party}}` → `the Advisor` / `the Employee` / `the Consultant` (match the contract type)
+   - `{{Equity Award Shares}}` → **fill with the computed share count** from the equity sheet's G column formula (e.g. 4,200 for 0.025% × 16,806,522). The contract already says "Subject to the approval of the Company's Board of Directors..." so writing the proposed number is correct — board approval governs the final grant. Do not leave this blank.
 5. If the contract has no Compensation section yet (or the snippet supplies the whole section), append the snippet at the end of the Fees paragraph or as a new Exhibit B.
 
 Note in the final report which snippet was inserted and at what location.
