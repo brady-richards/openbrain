@@ -149,6 +149,8 @@ Report to the user:
 
 ### 9. Asana — "[New Hire] Pre-prep" template
 
+**Skip this entire step if the title is Advisor** — advisors don't go through the employee onboarding flow. Note "Asana onboarding: skipped (Advisor)" in the final report.
+
 Search for the onboarding project using `mcp__asana_work__asana_search_projects` (query: "onboarding" or "new hire"). Once found, get its sections via `mcp__asana_work__asana_get_project_sections`.
 
 Find the **"[New Hire] Pre-prep"** task template. If a task template API is available, instantiate it; otherwise create a task titled `[New Hire] Pre-prep — [Employee Name]` in the onboarding project with notes summarizing:
