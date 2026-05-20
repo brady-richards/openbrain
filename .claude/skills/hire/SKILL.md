@@ -118,7 +118,18 @@ Choose by title:
 - 1099 consultant → Consulting Agreement
 - Clinician → Nurse Practitioner Independent Contractor Agreement (+ equity agreement if applicable)
 
-Use `mcp__gdrive_brady_doromind_com__copyFile` to copy the template(s) into the employee's folder. Name each copy: `[Employee Name] — [Agreement Type] Agreement`.
+Use `mcp__google_brady_doromind_com__drive_copy_file` to copy the template(s) into the employee's folder. Name each copy using this exact format:
+
+```
+[Full Name]-Doro Mind Inc., [Template Name], [MMM D, YYYY]
+```
+
+- `[Template Name]` matches the source template's title (e.g. `Advisory Agreement`, `Consulting Agreement`, `Employment Agreement`, `Nurse Practitioner Independent Contractor Agreement`).
+- `[MMM D, YYYY]` is today's date in US long format (e.g. `May 20, 2026`, `Apr 29, 2026`). The month abbreviation has no trailing period and no internal comma.
+- Note: the separator between name and "Doro Mind Inc." is a literal hyphen `-` (no spaces). Everything after is comma-separated.
+- Examples: `Sandra Clarke-Doro Mind Inc., Advisory Agreement, May 20, 2026` · `Duaa Bia-Doro Mind Inc., Consulting Agreement (Equity), Apr 29, 2026`.
+
+For clinicians or anyone receiving multiple agreements, append a parenthetical disambiguator to `[Template Name]` (e.g. `Consulting Agreement (Equity)` vs `Consulting Agreement (Hourly)`).
 
 ### 6. Draft — fill in variables
 
