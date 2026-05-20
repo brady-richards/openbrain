@@ -71,7 +71,9 @@ Fan out simultaneously:
 - Existing hiring funnel task (may contain agreed terms in notes/comments)
 - Any onboarding tasks already created (check for duplicate before proceeding)
 
-**2d. People vault** — grep `+ Atlas/People/` for a note matching the candidate name. If found, read it for `emails`, `relationship`, and open commitments.
+**2d. Google Calendar** — search `mcp__google_brady_doromind_com__calendar_search_events` for the candidate name. Attendee email addresses on past events are often the fastest way to find a personal/contact email.
+
+**2e. People vault** — grep `+ Atlas/People/` for a note matching the candidate name. If found, read it for `emails`, `relationship`, and open commitments.
 
 ### 3. Resolve missing fields
 
